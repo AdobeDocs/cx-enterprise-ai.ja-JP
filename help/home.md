@@ -2,9 +2,19 @@
 title: Experience Cloud アプリケーションの AI
 description: Experience Cloud アプリケーションで生成 AI（GenAI）、AI アシスタント、エージェント型 AI がどのように使用されるかについて説明します。
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
 workflow-type: tm+mt
 source-wordcount: 846
@@ -20,7 +30,7 @@ Adobe Experience Cloud アプリケーション全体のAI能力に関する包�
 
 ### AI アシスタント
 
-[AI アシスタント ](./ai-assistant/ai-assistant-ui.md)は、Adobe Experience Platform ベースのアプリケーションの生産性を向上させ、作業を再定義する、インテリジェントな会話型の生成AI ツールです。 ユーザーは、自然言語プロンプトを通じて、製品知識を得たり、問題のトラブルシューティングを行ったり、業務インサイトを得たりすることができます。 また、AI アシスタントを使用して、Adobe Experience Platform Agentsやその他のAI機能にアクセスすることもできます。
+[AI アシスタント &#x200B;](./ai-assistant/ai-assistant-ui.md)は、Adobe Experience Platform ベースのアプリケーションの生産性を向上させ、作業を再定義する、インテリジェントな会話型の生成AI ツールです。 ユーザーは、自然言語プロンプトを通じて、製品知識を得たり、問題のトラブルシューティングを行ったり、業務インサイトを得たりすることができます。 また、AI アシスタントを使用して、Adobe Experience Platform Agentsやその他のAI機能にアクセスすることもできます。
 
 **主な機能：**
 
@@ -52,7 +62,7 @@ Audience Agentは、次のようなオーディエンスに関するインサイ
 - オーディエンスのインベントリを調べる：
 - オーディエンスサイズの取得。
 
-詳しくは、[Audience Agent ドキュメント ](./agents/audience.md)を参照してください。
+詳しくは、[Audience Agent ドキュメント &#x200B;](./agents/audience.md)を参照してください。
 
 #### Data Insights Agent
 
@@ -70,7 +80,7 @@ Customer Journey AnalyticsのData Insights Agentで利用できます。
 - スケジュールやオーディエンスの競合を検出して解決。
 - パフォーマンスと離脱ポイントを分析：
 
-詳しくは、[Journey Agent ドキュメント ](./agents/ajo-agent.md)を参照してください。
+詳しくは、[Journey Agent ドキュメント &#x200B;](./agents/ajo-agent.md)を参照してください。
 
 #### 製品サポート担当者
 
@@ -80,7 +90,7 @@ Customer Journey AnalyticsのData Insights Agentで利用できます。
 - AI アシスタントとのやり取りのコンテキストに基づいてサポートチケットを作成します。
 - AI アシスタントを通じてチケットの更新を確認します。
 
-詳しくは、[製品サポートエージェントのドキュメント ](./agents/product-support.md)を参照してください。
+詳しくは、[製品サポートエージェントのドキュメント &#x200B;](./agents/product-support.md)を参照してください。
 
 <!--
 #### Adobe Marketing Agent for [!DNL Microsoft 365 Copilot]

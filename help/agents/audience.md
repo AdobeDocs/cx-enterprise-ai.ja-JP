@@ -2,9 +2,16 @@
 title: Audience Agent
 description: Audience Agentを使用して、オーディエンスの作成、オーディエンスの変更の表示、重複オーディエンスの検出、オーディエンスインサイトの表示を行う方法について説明します。
 TQID: https://experienceleague.adobe.com/574QhqKI0YDoPHD9BFmB6jl-HET3zVom3eD4cJQABSE
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
 workflow-type: tm+mt
 source-wordcount: 1242
@@ -205,13 +212,13 @@ Audience Agentでオーディエンスを構築する場合、AI アシスタン
 
 #### オーディエンス特性の特定 {#identify}
 
-![ オーディエンスの特徴を特定するための計画の手順1。](./images/audience/plan-step-1.png){align="center" width="80%"}
+![&#x200B; オーディエンスの特徴を特定するための計画の手順1。](./images/audience/plan-step-1.png){align="center" width="80%"}
 
 プランを承認すると、AI アシスタントは、最初のクエリにもとづいてオーディエンスの特徴を取得します。
 
 +++ 応答
 
-![ ユーザークエリに基づくオーディエンス定義。](./images/audience/audience-create-definition.png)
+![&#x200B; ユーザークエリに基づくオーディエンス定義。](./images/audience/audience-create-definition.png)
 
 このクエリでは、AI Assistantがカリフォルニア州に住む人物を探す関連するProfile Query Language（PQL）を生成します。 このユースケースでは、PQL クエリは次のようになります。
 
@@ -241,7 +248,7 @@ AI アシスタントのオーディエンス定義が正しい場合は、承�
 
 #### 新しいオーディエンスの作成と維持 {#create}
 
-![ オーディエンスの作成を完了するプランの手順3。](./images/audience/plan-step-3.png){align="center" width="80%"}
+![&#x200B; オーディエンスの作成を完了するプランの手順3。](./images/audience/plan-step-3.png){align="center" width="80%"}
 
 最後に、オーディエンスの特徴とサイズが正しく見える場合は、オーディエンスの作成を承認または却下できます。
 
@@ -249,17 +256,17 @@ AI アシスタントのオーディエンス定義が正しい場合は、承�
 
 まず、提供されたデータグリッドを通じて、提案されたオーディエンスを確認できます。
 
-![ レビュー画面が表示されます。](./images/audience/audience-create-review.png)
+![&#x200B; レビュー画面が表示されます。](./images/audience/audience-create-review.png)
 
 オーディエンスが正しく見える場合は、**[!UICONTROL 作成]**&#x200B;を選択して提案を承認し、オーディエンスの作成を完了できます。
 
-![ オーディエンスに対する完全な提案が表示されます。](./images/audience/audience-create-proposal.png)
+![&#x200B; オーディエンスに対する完全な提案が表示されます。](./images/audience/audience-create-proposal.png)
 
 +++
 
 これでオーディエンスが作成されました。
 
-![ オーディエンスの提案が承認され、オーディエンスが作成されました。](./images/audience/audience-finish-create.png){align="center" width="80%"}
+![&#x200B; オーディエンスの提案が承認され、オーディエンスが作成されました。](./images/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## 次の手順
 

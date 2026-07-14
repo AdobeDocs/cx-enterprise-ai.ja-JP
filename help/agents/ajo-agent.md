@@ -5,11 +5,30 @@ solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
 workflow-type: tm+mt
 source-wordcount: 3361
@@ -34,7 +53,7 @@ Journey Agentは、次の4つの主要な作業で構成されています。
 - **チャネルコンテンツの作成**:AIを活用したコンテンツ生成を使用して、ジャーニー用のチャネル固有のコンテンツ（電子メール、プッシュ通知、SMS）を生成、編集、管理します
 - **ジャーニー分析**: ジャーニーを分析し、問題を検出し、インサイトを明らかにして、顧客エンゲージメントを最適化します
 
-さらに、**ジャーニーシミュレーション**&#x200B;は、[製品シミュレート ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)を含むJourney Optimizer機能です。これは、非会話型の製品内エージェント型スキルで、次の3つの機能を備えています。
+さらに、**ジャーニーシミュレーション**&#x200B;は、[製品シミュレート &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)を含むJourney Optimizer機能です。これは、非会話型の製品内エージェント型スキルで、次の3つの機能を備えています。
 
 - シミュレートされたユーザーの生成
 - イベント値の生成
@@ -278,7 +297,7 @@ Journey Agentなら、Journey Optimizerのユーザーは、自然言語のイ�
 >
 >**セグメントの管理**：権限を使用すると、AI アシスタントで新しいオーディエンスを直接作成できます。
 
-AJO Agent](./images/ajo-agent/ajo-agent-sample.png)の![ サンプル
+AJO Agent![&#128279;](./images/ajo-agent/ajo-agent-sample.png)の サンプル
 
 ## ユースケース
 
@@ -420,7 +439,7 @@ AJO Agent](./images/ajo-agent/ajo-agent-sample.png)の![ サンプル
 
 - **ジャーニーの承認と公開**：組織が承認ワークフローを使用する場合は、ジャーニーを承認して公開します。
 
-**[!UICONTROL シミュレーション]** （**[!UICONTROL クイックシミュレーション]**、AIを使用したシミュレートされたユーザーの生成、**[!UICONTROL イベント値の生成]**）でAIを使用するには、ユーザーは&#x200B;**[!UICONTROL AI アシスタント]**&#x200B;機能から&#x200B;]**コンテンツを生成**[!UICONTROL &#x200B;する権限が必要です。
+**[!UICONTROL シミュレーション]** （**[!UICONTROL クイックシミュレーション]**、AIを使用したシミュレートされたユーザーの生成、**[!UICONTROL イベント値の生成]**）でAIを使用するには、ユーザーは&#x200B;**[!UICONTROL AI アシスタント]**&#x200B;機能から&#x200B;**コンテンツを生成**&#x200B;する権限が必要です。
 
 [詳しくは、権限を参照してください](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions)。
 
@@ -484,4 +503,4 @@ AJO Agent](./images/ajo-agent/ajo-agent-sample.png)の![ サンプル
 
 シミュレーションは、テストモードまたはライブジャーニーがサポートするあらゆるアクティビティ、チャネル、または統合をサポートしているわけではなく、機能の成熟度に応じて動作が変化する場合があります。
 
-➡️ [ シミュレーションの制限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)について詳しくは、Journey Optimizer ドキュメントを参照してください。
+➡️ [&#x200B; シミュレーションの制限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)について詳しくは、Journey Optimizer ドキュメントを参照してください。
