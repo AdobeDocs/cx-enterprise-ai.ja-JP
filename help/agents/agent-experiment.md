@@ -1,18 +1,10 @@
 ---
 title: Experimentation Agent
 description: Experimentation Agentについて詳しく見る
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
 workflow-type: tm+mt
 source-wordcount: 555
 ht-degree: 5%
@@ -22,7 +14,7 @@ ht-degree: 5%
 # Experimentation Agent
 
 <!--
-TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+TQID: https://experienceleague.adobe.com/ARh16ylmUDrp%2D%2D%2Dg8KuYNyewIv54IQ53pxoE2g700o0
 -->
 
 >[!AVAILABILITY]
@@ -41,7 +33,7 @@ Experimentation Agentの機能を完全に使用するには、次の権限が�
 
 * **実験メタデータの管理**：この権限を持つユーザーは、Experimentation Agentを使用して、AI アシスタントで新しい実験を直接作成できます。
 
-➡️ [詳しくは、Journey Optimizer Experimentation Accelerator ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)を参照してください
+➡️ [詳しくは、Journey Optimizer Experimentation Accelerator ドキュメント ](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)を参照してください
 
 Experimentation Accelerator機能の一部として、Agentは次の機能を提供します。
 
@@ -51,7 +43,7 @@ Experimentation Accelerator機能の一部として、Agentは次の機能を提
 
 * **商談**：次に実行するアクションに関するガイダンス
 
-![Experimentation Agentのサンプル &#x200B;](./images/experiment/experiment-agent.png)
+![Experimentation Agentのサンプル ](./images/experiment/experiment-agent.png)
 
 ## ユースケース
 
