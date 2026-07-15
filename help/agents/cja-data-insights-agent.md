@@ -4,11 +4,24 @@ title: Customer Journey AnalyticsのData Insights Agentでデータを視覚化�
 role: User, Admin
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
 workflow-type: tm+mt
 source-wordcount: 2693
@@ -22,7 +35,7 @@ ht-degree: 4%
 >
 >Data Insights Agentは、対象となるお客様が期間限定で利用できます。 Data Insights Agentへのアクセスは、2026年3月31日（PT）まで可能です。 この日付以降も引き続きData Insights Agentを使用する場合は、Adobeのライセンスについて詳しくは、Adobe Experience Platform Agent Orchestratorの担当者にお問い合わせください。
 
-[AI アシスタント ](/help/ai-assistant/ai-assistant-ui.md)からアクセス可能なData Insights Agentは、生成AI会話型エージェントで、データに関する質問に迅速かつ効率的に回答します。 データビューと実際のデータからのコンポーネントを使用して、Analysis Workspaceに関連するビジュアライゼーションを構築します。
+[AI アシスタント &#x200B;](/help/ai-assistant/ai-assistant-ui.md)からアクセス可能なData Insights Agentは、生成AI会話型エージェントで、データに関する質問に迅速かつ効率的に回答します。 データビューと実際のデータからのコンポーネントを使用して、Analysis Workspaceに関連するビジュアライゼーションを構築します。
 
 Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問に回答することで、Analysis Workspaceで手動でビジュアライゼーションを作成したり、データビューコンポーネントに慣れたりするのに費やす時間を大幅に節約できます。
 
@@ -61,10 +74,10 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
   権限を付与するには、[製品プロファイル管理者](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html)が[!UICONTROL Admin Console]で次の手順を実行する必要があります。
    1. **[!UICONTROL Admin Console]**&#x200B;で、**[!UICONTROL 製品]** タブを選択して、**[!UICONTROL すべての製品とサービス]** ページを表示します。
    1. **[!UICONTROL Customer Journey Analytics]**&#x200B;を選択します。
-   1. **[!UICONTROL 製品プロファイル]** タブで、[!UICONTROL AI アシスタント：製品ナレッジ ]にアクセスする製品プロファイルのタイトルを選択します。
+   1. **[!UICONTROL 製品プロファイル]** タブで、[!UICONTROL AI アシスタント：製品ナレッジ &#x200B;]にアクセスする製品プロファイルのタイトルを選択します。
    1. 特定の製品プロファイルで、「**[!UICONTROL 権限]**」タブを選択します。
 
-      Admin Console](/help/agents/images/cja-agent/ai-assistant-permissions-tab.png)の「![権限」タブ
+      Admin Console![&#128279;](/help/agents/images/cja-agent/ai-assistant-permissions-tab.png)の「権限」タブ
 
    1. 指定されたテーブルの&#x200B;**[!UICONTROL レポートツール]**&#x200B;行で、編集アイコン ![編集](/help/agents/images/cja-agent/Edit.svg)を選択します。
    1. **[!UICONTROL AI アシスタント：製品ナレッジ]**&#x200B;までスクロールするか検索し、この権限の横にあるプラスアイコン ![AddCircle](/help/agents/images/cja-agent/AddCircle.svg)を選択します。
@@ -76,7 +89,7 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
 
    1. **[!UICONTROL 保存]**&#x200B;を選択して、権限を保存します。
 
-  アクセス制御の詳細については、[ アクセス制御](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control)を参照してください。
+  アクセス制御の詳細については、[&#x200B; アクセス制御](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control)を参照してください。
 
 * **データビューへのアクセス**: Data Insights Agentでデータビューを有効にする必要があります。
 
@@ -84,7 +97,7 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
   >
   >データビューを有効にする際には、次の点を考慮してください。
   >* IMS組織ごとに最大50個のデータビューを有効にできます。 特定の組織のすべての製品プロファイルで50以上のデータビューを有効にすると、Data Insights Agentで最も使用される50のデータビューが使用されます。
-  >  データビュー](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)のData Insights Agent列の[情報を使用して、IMS組織内でData Insights Agentに対して有効になっているデータビューの数を表示できます。
+  >  データビュー[&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)のData Insights Agent列の情報を使用して、IMS組織内でData Insights Agentに対して有効になっているデータビューの数を表示できます。
   >* Data Insights Agentでは、含まれるデータビューを、有効にするのと同じ日の任意の時点で参照できます。
 
   Data Insights Agentのデータビューを有効にするには：
@@ -95,7 +108,7 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
 
       ![Data Insights Agentのデータビューを有効にする](/help/agents/images/cja-agent/data-view-enable-dia.png)
 
-      Data Insights Agentのデータビューを有効にする方法について詳しくは、「[ データビューのAI設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md#ai-settings)」を参照してください。
+      Data Insights Agentのデータビューを有効にする方法について詳しくは、「[&#x200B; データビューのAI設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md#ai-settings)」を参照してください。
 
   IMS組織内でData Insights Agentに対して有効になっているデータビューの数を表示するには：
 
@@ -103,7 +116,7 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
 
    1. **[!UICONTROL Data Insights Agent]**&#x200B;列の上部にある情報アイコンを選択します。
 
-      ![Data Insights Agent情報アイコン ](/help/agents/images/cja-agent/data-insights-agent-tooltip.png)
+      ![Data Insights Agent情報アイコン &#x200B;](/help/agents/images/cja-agent/data-insights-agent-tooltip.png)
 
 
 ## AI アシスタントでのData Insights Agentへのアクセス
@@ -126,7 +139,7 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
 
    詳細については、[Customer Journey AnalyticsでのData Insights Agentへのアクセスの管理](#manage-access-to-data-insights-agent-in-customer-journey-analytics)を参照してください。
 
-   ![AI アシスタント アイコン ](/help/agents/images/cja-agent/ai-asst-icon.png)
+   ![AI アシスタント アイコン &#x200B;](/help/agents/images/cja-agent/ai-asst-icon.png)
 
 6. ページ下部の「**[!UICONTROL Customer Journey Analyticsについて質問]**」ダイアログで、Data Insights Agentを使用してデータビジュアライゼーションに関する質問を行います。
 
@@ -138,13 +151,13 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
 
 **プロンプト：** 「*」 7月のトレンド注文を入力します。&quot;*
 
-![AI プロンプト ](/help/agents/images/cja-agent/ai-asst-prompt1.png)
+![AI プロンプト &#x200B;](/help/agents/images/cja-agent/ai-asst-prompt1.png)
 
 **応答：** Data Insights Agentは、指標とコンポーネントを含むデータビュー内のデータを調べることでインサイトを収集します。 プロンプトをデータ範囲内の適切なディメンションや指標に変換します。
 
 ご覧のとおり、7月の注文を表示するために、折れ線グラフとフリーフォームテーブルが自動的に生成されました。
 
-![ プロンプトへの回答 – 折れ線グラフとフリーフォームテーブル ](/help/agents/images/cja-agent/ai-asst-result.png)
+![&#x200B; プロンプトへの回答 – 折れ線グラフとフリーフォームテーブル &#x200B;](/help/agents/images/cja-agent/ai-asst-result.png)
 
 ### 例 2
 
@@ -154,7 +167,7 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
 
 **回答：** Data Insights Agentは、「地域」とは「お客様の地域」を意味することをインテリジェントに理解しています。 地域ごとの売上を最もよく表示する棒グラフが表示されます。
 
-![棒グラフ ](/help/agents/images/cja-agent/ai-asst-result2.png)
+![棒グラフ &#x200B;](/help/agents/images/cja-agent/ai-asst-result2.png)
 
 ### 例 3
 
@@ -164,7 +177,7 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
 
 **応答：** **[!UICONTROL 棒グラフ]**&#x200B;は、依然として最も簡潔な回答を提供しますが、利益指標はフリーフォームテーブルの列として追加されています。
 
-![棒グラフ ](/help/agents/images/cja-agent/ai-asst-result4.png)
+![棒グラフ &#x200B;](/help/agents/images/cja-agent/ai-asst-result4.png)
 
 ### 例 4
 
@@ -272,7 +285,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 >[!MORELIKETHIS]
 >
->[ コンポーネント設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[&#x200B; コンポーネント設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
 >[データ辞書](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
 >[計算指標を承認](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
 >[セグメントの共有](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
