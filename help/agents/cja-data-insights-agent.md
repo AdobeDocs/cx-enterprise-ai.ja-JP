@@ -24,7 +24,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
 workflow-type: tm+mt
-source-wordcount: 2690
+source-wordcount: 2693
 ht-degree: 4%
 
 ---
@@ -96,7 +96,8 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
   >[!IMPORTANT]
   >
   >データビューを有効にする際には、次の点を考慮してください。
-  >* IMS組織ごとに最大50個のデータビューを有効にできます。 特定の組織のすべての製品プロファイルで50以上のデータビューを有効にすると、Data Insights Agentで最も使用される50のデータビューが使用されます。  >  データビュー[&#128279;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)のData Insights Agent列の情報を使用して、IMS組織内でData Insights Agentに対して有効になっているデータビューの数を表示できます。
+  >* IMS組織ごとに最大50個のデータビューを有効にできます。 特定の組織のすべての製品プロファイルで50以上のデータビューを有効にすると、Data Insights Agentで最も使用される50のデータビューが使用されます。
+  >  データビュー[&#128279;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)のData Insights Agent列の情報を使用して、IMS組織内でData Insights Agentに対して有効になっているデータビューの数を表示できます。
   >* Data Insights Agentでは、含まれるデータビューを、有効にするのと同じ日の任意の時点で参照できます。
 
   Data Insights Agentのデータビューを有効にするには：
@@ -284,5 +285,8 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 >[!MORELIKETHIS]
 >
->[&#x200B; コンポーネント設定データ辞書計算指標を承認セグメントの共有](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[&#x200B; コンポーネント設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[データ辞書](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[計算指標を承認](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[セグメントの共有](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/segments/seg-share)
 
