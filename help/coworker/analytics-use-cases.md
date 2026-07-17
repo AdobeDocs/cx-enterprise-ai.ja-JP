@@ -2,9 +2,9 @@
 title: Customer Journey Analytics Data Analysis with Coworker
 description: Adobe Customer Journey Analyticsのデータ分析をCoworkerで実行する方法を説明します。
 hold: true
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1865'
 ht-degree: 5%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->この記事で説明する機能は、リリースの限定的なテスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般公開された時点で削除されます。 Customer Journey Analytics リリースプロセスについて詳しくは、[Customer Journey Analytics機能リリース &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/releases/latest)を参照してください。
+>この記事で説明する機能は、リリースの限定的なテスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般公開された時点で削除されます。 Customer Journey Analytics リリースプロセスについて詳しくは、[Customer Journey Analytics機能リリース ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/releases/latest)を参照してください。
 
-Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できます。 同僚とのチャットでは、Customer Journey Analyticsのデータビューからデータにアクセスし、そのデータを検索して、自然言語プロンプトに対する回答を得ることができます。
+Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できます。 Coworker Chatは、Customer Journey Analyticsのデータビューからデータにアクセスし、そのデータを検索して、自然言語プロンプトに対する回答を得ることができます。
 
-分析を開始する前に、CX Enterprise アカウントにログインしてCoworker チャットにアクセスし、Customer Journey Analytics MCP サーバーが接続されていることを確認します。
+分析を開始する前に、CX Enterprise アカウントにログインしてCoworker Chatにアクセスし、Customer Journey Analytics MCP サーバーが接続されていることを確認します。
 
 ## 同僚とのチャット
 
@@ -25,29 +25,25 @@ Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ�
 
 1. Adobe IDの資格情報を使用して[Adobe CX Enterprise](https://experience.adobe.com)にログインします。
 
-1. では？
+1. CX Enterprise製品セレクターから&#x200B;[!UICONTROL **Coworker**]&#x200B;を選択します。<!--not sure what this step should say-->
 
-## Customer Journey Analytics MCP サーバーへの接続
+1. Coworkerで、CoworkerがCustomer Journey Analyticsに接続されていることを確認します。
 
-1. Coworkerで、左側のパネルのMCP アイコンを選択します。
+   1. 左側のパネルで「MCP」アイコンを選択し、接続されているMCP サーバーのリストで&#x200B;[!UICONTROL **cja-mcp**]&#x200B;が使用可能であることを確認します。
 
-   ![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](images/data-validation-aa-cja/coworker-mcp.png)
+      ![同僚の左側のパネルで強調表示されたMCP アイコン ](images/data-validation-aa-cja/coworker-mcp-cja.png)
 
-1. 接続されているMCP サーバーのリストで&#x200B;[!UICONTROL **cja-mcp**]&#x200B;が使用可能であることを確認します。
-
-   ![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](images/data-validation-aa-cja/coworker-mcp-cja.png)
-
-1. （条件付き） [!UICONTROL **cja-mcp**]&#x200B;がまだ接続されていない場合は、[!UICONTROL **MCP Server**]&#x200B;を追加を選択し、[!UICONTROL **サーバー名**] フィールドにcjaを指定して、表示されたら選択し、[!UICONTROL **サーバー**]&#x200B;を追加を選択します。
+   1. （条件付き） [!UICONTROL **cja-mcp**]&#x200B;がまだ接続されていない場合は、[!UICONTROL **MCP Server**]&#x200B;を追加を選択し、[!UICONTROL **サーバー名**] フィールドにcjaを指定して、表示されたら選択し、[!UICONTROL **サーバー**]&#x200B;を追加を選択します。
 
 ## 適切なデータビューへの接続
-
-<!--I did this. Do users need to?-->
 
 データビューとは、データの解釈方法を決定するCustomer Journey Analyticsのコンテナです。
 
 Customer Journey Analyticsでは、さまざまなデータビューにアクセスでき、それぞれに異なるディメンションと指標が含まれており、データを分析する際に利用することができます。
 
-同僚に、回答したい質問の種類を伝え、その情報を提供するのに最適なデータビューにアクセスできるかどうかを尋ねます。
+### 使用するデータビューを決める
+
+同僚に、回答したい質問の種類を伝え、その情報を提供するのに最適なデータビューにアクセスできるかどうかを尋ねます。 また、[ データビューをメモリ ](#add-a-data-view-preference-in-memory)の環境設定として設定することもできます。
 
 **あなた：**
 
@@ -80,6 +76,16 @@ Customer Journey Analyticsでは、さまざまなデータビューにアクセ
 さて、このチャットセッションでの今後の質問に答えるために`Customer lifecycle` データビューを使用します。
 
 >[!ENDSHADEBOX]
+
+### メモリにデータビューの環境設定を追加する
+
+Coworker Chatには、すべてのチャットにまたがる情報へのアクセスを提供できるメモリ機能が含まれています。 同僚のメモリに、好みのデータビューをプリファレンスとして追加することをお勧めします。
+
+1. Coworker Chatの左側のナビゲーションで、「メモリ」アイコンを選択します。
+
+1. メモリーページの「保存された環境設定」セクションで、Coworker Chatでチャットで使用する1つ以上のデータビューを指定します。
+
+   ![左側のパネルのメモリ セクション ](images/data-validation-aa-cja/coworker-memory.png)
 
 ## ユースケース：顧客が脱落する場所を特定する
 
@@ -119,7 +125,7 @@ Customer Journey Analyticsでは、さまざまなデータビューにアクセ
 
 >[!BEGINSHADEBOX]
 
-![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](images/data-validation-aa-cja/coworker-funnel-response.png)
+![同僚の左側のパネルで強調表示されたMCP アイコン ](images/data-validation-aa-cja/coworker-funnel-response.png)
 
 これはfunnelの質問です。funnelでコンバージョンを実行し、購入に至るまでの過程で離脱がどこで発生するかを確認します。
 
@@ -170,7 +176,7 @@ Customer Journey Analyticsでは、さまざまなデータビューにアクセ
 
 >[!BEGINSHADEBOX]
 
-![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](images/data-validation-aa-cja/coworker-funnel-response2.png)
+![同僚の左側のパネルで強調表示されたMCP アイコン ](images/data-validation-aa-cja/coworker-funnel-response2.png)
 
 カスタム **マーケティングチャネル** ディメンションがあります。 ここでfunnelを引き出して、チャネルごとのコンバージョン率を計算し、各チャネルがリークする場所を特定します。
 
@@ -221,7 +227,7 @@ Customer Journey Analyticsでは、さまざまなデータビューにアクセ
 
 >[!BEGINSHADEBOX]
 
-![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](images/data-validation-aa-cja/coworker-funnel-response3.png)
+![同僚の左側のパネルで強調表示されたMCP アイコン ](images/data-validation-aa-cja/coworker-funnel-response3.png)
 
 **見つかりました：モバイル チェックアウトが壊れています**
 
