@@ -13,7 +13,7 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->この記事で説明する機能は、リリースの限定的なテスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般公開された時点で削除されます。 Customer Journey Analytics リリースプロセスについて詳しくは、[Customer Journey Analytics機能リリース ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/releases/latest)を参照してください。
+>この記事で説明する機能は、リリースの限定的なテスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般公開された時点で削除されます。 Customer Journey Analytics リリースプロセスについて詳しくは、[Customer Journey Analytics機能リリース &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/releases/latest)を参照してください。
 
 Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できます。 同僚とのチャットでは、Customer Journey Analyticsのデータビューからデータにアクセスし、そのデータを検索して、自然言語プロンプトに対する回答を得ることができます。
 
@@ -31,11 +31,11 @@ Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ�
 
 1. Coworkerで、左側のパネルのMCP アイコンを選択します。
 
-   ![同僚の左側のパネルで強調表示されたMCP アイコン ](images/data-validation-aa-cja/coworker-mcp.png)
+   ![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](images/data-validation-aa-cja/coworker-mcp.png)
 
 1. 接続されているMCP サーバーのリストで&#x200B;[!UICONTROL **cja-mcp**]&#x200B;が使用可能であることを確認します。
 
-   ![同僚の左側のパネルで強調表示されたMCP アイコン ](images/data-validation-aa-cja/coworker-mcp-cja.png)
+   ![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](images/data-validation-aa-cja/coworker-mcp-cja.png)
 
 1. （条件付き） [!UICONTROL **cja-mcp**]&#x200B;がまだ接続されていない場合は、[!UICONTROL **MCP Server**]&#x200B;を追加を選択し、[!UICONTROL **サーバー名**] フィールドにcjaを指定して、表示されたら選択し、[!UICONTROL **サーバー**]&#x200B;を追加を選択します。
 
@@ -119,7 +119,7 @@ Customer Journey Analyticsでは、さまざまなデータビューにアクセ
 
 >[!BEGINSHADEBOX]
 
-![同僚の左側のパネルで強調表示されたMCP アイコン ](images/data-validation-aa-cja/coworker-funnel-response.png)
+![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](images/data-validation-aa-cja/coworker-funnel-response.png)
 
 これはfunnelの質問です。funnelでコンバージョンを実行し、購入に至るまでの過程で離脱がどこで発生するかを確認します。
 
@@ -170,7 +170,7 @@ Customer Journey Analyticsでは、さまざまなデータビューにアクセ
 
 >[!BEGINSHADEBOX]
 
-![同僚の左側のパネルで強調表示されたMCP アイコン ](images/data-validation-aa-cja/coworker-funnel-response2.png)
+![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](images/data-validation-aa-cja/coworker-funnel-response2.png)
 
 カスタム **マーケティングチャネル** ディメンションがあります。 ここでfunnelを引き出して、チャネルごとのコンバージョン率を計算し、各チャネルがリークする場所を特定します。
 
@@ -221,7 +221,7 @@ Customer Journey Analyticsでは、さまざまなデータビューにアクセ
 
 >[!BEGINSHADEBOX]
 
-![同僚の左側のパネルで強調表示されたMCP アイコン ](images/data-validation-aa-cja/coworker-funnel-response3.png)
+![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](images/data-validation-aa-cja/coworker-funnel-response3.png)
 
 **見つかりました：モバイル チェックアウトが壊れています**
 
