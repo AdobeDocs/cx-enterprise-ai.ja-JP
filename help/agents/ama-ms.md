@@ -1,9 +1,9 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: Adobe Marketing Agent for Microsoft 365 Copilotの活用方法を学びましょう。
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1832'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 - [!DNL Microsoft 365] （[!DNL Microsoft Teams]または[!DNL Microsoft Copilot Chat]）。
 - Experience Platformと、Real-Time CDP、Adobe Journey Optimizer、Customer Journey Analyticsのいずれか少なくとも1つ。
 - Experience Platform Agent Orchestratorとエージェントの使用権限。
-- 使用するソリューションとデータに対する組織のAdobe Experience Cloud アカウント（ログインと製品の使用権限）へのアクセス。 Adobeへのアクセス権がない場合は、Adobe管理者にお問い合わせください。
+- 使用するソリューションとデータに対する組織のAdobe CX Enterprise アカウントへのアクセス（ログインと製品の使用権限）。 Adobeへのアクセス権がない場合は、Adobe管理者にお問い合わせください。
 
 ## 組織のエージェントを有効にする {#enable-the-agent-for-your-organization}
 
@@ -67,45 +67,45 @@ ht-degree: 0%
 
 組織がエージェントを有効にした後（[組織のエージェントを有効にする](#enable-the-agent-for-your-organization)を参照）、選択したアプリケーションの[!DNL Microsoft 365 Copilot]に移動し、左側のナビゲーションを使用して&#x200B;**[!DNL All Agents]**&#x200B;を選択します。
 
-![Microsoft 365 コパイロットの左側のナビゲーションで、すべてのエージェントが選択されています。](../agents/images/ama/all-agents.png)
+![Microsoft 365 コパイロットの左側のナビゲーションで、すべてのエージェントが選択されています。](../agents/assets/ama/all-agents.png)
 
 [!DNL Adobe Marketing Agent]のカードを探すか、検索バーを使用してエージェントを手動で検索します。 担当者が決まったら、カードを選択します。
 
-エージェント ギャラリーの![Adobe Marketing Agent カードまたは検索結果。](../agents/images/ama/select-ama.png)
+エージェント ギャラリーの![Adobe Marketing Agent カードまたは検索結果。](../agents/assets/ama/select-ama.png)
 
 エージェントの詳細を確認するには、ポップアップウィンドウを使用します。 準備ができたら、**[!DNL Add]**&#x200B;を選択します。
 
-![Adobe Marketing Agentの詳細ポップアップと「追加」ボタンの表示](../agents/images/ama/add-ama.png)
+![Adobe Marketing Agentの詳細ポップアップと「追加」ボタンの表示](../agents/assets/ama/add-ama.png)
 
 [!DNL Microsoft 365 Copilot] ダッシュボードは、メインページの[!DNL Adobe Marketing Agent] ブランディングで更新されます。
 
-![&#x200B; メインダッシュボードにAdobe Marketing Agentが表示されているMicrosoft 365 Copilot ホームページ。](../agents/images/ama/home.png)
+![ メインダッシュボードにAdobe Marketing Agentが表示されているMicrosoft 365 Copilot ホームページ。](../agents/assets/ama/home.png)
 
 ### ログインしてコンテキストを設定します
 
 次に、エージェントにサインインするよう促し、アカウントの認証に必要な手順に従います。 この手順では、エージェントが返す数値コードをコピーしてから、Adobe組織にログインする必要があります。 ログインを完了できない場合、または組織のAdobe ソリューションへのアクセス権がない場合は、**Adobe管理者**&#x200B;にお問い合わせください。
 
-![Adobe ログイン手順で、コピーする数値コードと、Adobe組織で認証する手順が表示されます。](../agents/images/ama/sign-in.png)
+![Adobe ログイン手順で、コピーする数値コードと、Adobe組織で認証する手順が表示されます。](../agents/assets/ama/sign-in.png)
 
 成功したら、コンテキストセッターを使用して、クエリに使用するドキュメントソース、サンドボックス、データビューを確立します。
 
-![&#x200B; コンテキストセッターUIで、クエリのドキュメントソース、サンドボックス、データビューを選択します。](../agents/images/ama/context.png)
+![ コンテキストセッターUIで、クエリのドキュメントソース、サンドボックス、データビューを選択します。](../agents/assets/ama/context.png)
 
 ### エージェントを使用して運用上のインサイトを取得します
 
 ログインしたら、メインページのプロンプトを使用して開始できます。 また、スタータープロンプトを活用して、マーケティングオーディエンスの分析、キャンペーンのパフォーマンスの確認、キャンペーンジャーニーの監視などに分岐することもできます。 例えば、「**[!DNL Review campaign performance]**」を選択してから「**[!DNL Analyze engagement - Show web visitors for top 10 products last week]**」を選択します。
 
-エージェントのホームページに![&#x200B; スタータープロンプトが表示され、キャンペーンのパフォーマンスのレビューとエンゲージメントの分析オプションが表示されます。](../agents/images/ama/starter-guide.png)
+エージェントのホームページに![ スタータープロンプトが表示され、キャンペーンのパフォーマンスのレビューとエンゲージメントの分析オプションが表示されます。](../agents/assets/ama/starter-guide.png)
 
 担当者がすぐに計算を行い、データを視覚化して回答します。 表示された棒グラフを使用するか、**[!DNL View data]**&#x200B;を選択してテーブルのデータを表示できます。
 
-![上位の製品のweb訪問者を可視化し、データを表示するオプションを示す棒グラフ付きのエージェントの応答](../agents/images/ama/response.png)
+![上位の製品のweb訪問者を可視化し、データを表示するオプションを示す棒グラフ付きのエージェントの応答](../agents/assets/ama/response.png)
 
-![&#x200B; データを表示を選択した後、同じインサイトがデータテーブルとして表示されます。](../agents/images/ama/tables.png)
+![ データを表示を選択した後、同じインサイトがデータテーブルとして表示されます。](../agents/assets/ama/tables.png)
 
 担当者が推奨するフォローアップの質問を選択して、さらに調査することができます。 別の方法として、別のスタータープロンプトをピボットして試したり、エージェントが参照した情報ソースを確認したり、フィードバックメカニズムを使用してフィードバックを提供したりすることもできます。
 
-![詳しい調査のために、担当者の回答の下にフォローアップの質問を提案しました。](../agents/images/ama/follow-up.png)
+![詳しい調査のために、担当者の回答の下にフォローアップの質問を提案しました。](../agents/assets/ama/follow-up.png)
 
 AI アシスタント UI機能について詳しくは、[AI アシスタントの使用](../ai-assistant/ai-assistant-ui.md)に関するガイドを参照してください。
 
@@ -125,7 +125,7 @@ Adobe Marketing Agentは、Experience Platformと[!DNL Microsoft 365]に適用�
 
 >[!IMPORTANT]
 >
->Adobe Marketing Agentは、送信されたプロンプトに応じて、様々なAdobe エージェントとジョブを呼び出します。 この基になるAdobe エージェントは、[Adobe Experience Platform エージェントジョブとAI クレジットの使用](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/ai-credit-consumption) ページに示されているAI クレジットを使用します。
+>Adobe Marketing Agentは、送信されたプロンプトに応じて、様々なAdobe エージェントとジョブを呼び出します。 この基になるAdobe エージェントは、[Adobe Experience Platform エージェントジョブとAI クレジットの使用](../overview/ai-credit-consumption.md) ページに示されているAI クレジットを使用します。
 
 ## 付録
 
@@ -145,14 +145,14 @@ Adobe Marketing Agentは、Experience Platformと[!DNL Microsoft 365]に適用�
 
 >[!IMPORTANT]
 >
->この設定が無効になっている場合、ユーザーの[&#x200B; エージェントストア &#x200B;](https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/)に外部エージェントは表示されません。
+>この設定が無効になっている場合、ユーザーの[ エージェントストア ](https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/)に外部エージェントは表示されません。
 
 #### エージェントの取得と承認
 
 通常、[[!DNL Microsoft Commercial Marketplace]](https://appsource.microsoft.com/)で外部エージェントを見つけることができます。
 
 - **マーケットプレイスから**：必要なエージェントを見つけて、**今すぐ入手**&#x200B;を選択します。 これは、多くの場合、管理者センターの&#x200B;**統合アプリ** ページにリダイレクトされます。
-- **権限を確認**: [統合アプリ &#x200B;](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide) リストで、外部エージェントを選択します。
+- **権限を確認**: [統合アプリ ](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide) リストで、外部エージェントを選択します。
 - **データとツール**&#x200B;と&#x200B;**セキュリティとコンプライアンス**&#x200B;のタブを確認して、外部プロバイダーがどのデータにアクセスするかを確認します。
 - 「**承認**」または「**アクティブ化**」を選択して、組織のインベントリに移動します。
 

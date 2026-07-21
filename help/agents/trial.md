@@ -2,20 +2,13 @@
 title: CX Enterprise Collaborker体験版
 description: CX Enterprise Coworkerの無償体験版についてご確認ください。
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: 1483
-ht-degree: 4%
+source-wordcount: 1432
+ht-degree: 0%
 
 ---
 
@@ -29,9 +22,9 @@ Adobeの裁量により、体験版のお客様は、AI アシスタントの会
 
 対象となるすべてのお客様は、AI アシスタントおよびAdobe Experience Platform AgentsからCoworker Chatにローリングベースで移行されます。 また、一部のお客様は、Coworker Chatが有効になるまで、AI アシスタントおよびExperience Platform Agentsへのアクセスを保持する場合があります。 Coworker Campaignsはこの体験版の対象外です。
 
-**AI アシスタント**: Agent Orchestratorを活用したフルページの没入感のある会話型インターフェイスで、製品をまたいで機能し、有効なExperience Cloud製品を使用して実務担当者が生成AIとエージェント型AIの機能を活用できるようにします。 詳しくは、[AI アシスタント UI ガイド &#x200B;](../ai-assistant/ai-assistant-ui.md)を参照してください。
+**AI アシスタント**: Agent Orchestratorを活用したフルページの没入感のある会話型インターフェイスで、製品をまたいで機能し、有効なCX Enterprise製品を使用して実務担当者が生成AIとエージェント型AIの機能を活用できるようにします。 詳しくは、[AI アシスタント UI ガイド ](../ai-assistant/ai-assistant-ui.md)を参照してください。
 
-**Adobe Experience Platform Agents**：顧客体験の領域カテゴリ全体で共通のジョブを提供するスキルを持つ、専用AI エージェント。 エージェントを活用することで、エクスペリエンスをより迅速かつ効果的に構築、提供する能力を拡大し、次のレベルの生産性と効率性を引き出すことができます。 各Experience Cloud アプリケーションで利用できるエージェントについては、[Experience CloudのAgentic AI](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/agentic-ai)に関するドキュメントをご覧ください。
+**Adobe Experience Platform Agents**：顧客体験の領域カテゴリ全体で共通のジョブを提供するスキルを持つ、専用AI エージェント。 エージェントを活用することで、エクスペリエンスをより迅速かつ効果的に構築、提供する能力を拡大し、次のレベルの生産性と効率性を引き出すことができます。 各CX Enterprise アプリケーションで利用できるエージェントについては、[CX EnterpriseのAgentic AI](../overview/agentic-ai.md)に関するドキュメントをご覧ください。
 
 ## 体験版プログラムの詳細
 
@@ -40,11 +33,11 @@ Adobeの裁量により、体験版のお客様は、AI アシスタントの会
 対象となるお客様には、以下に使用する最大10,000個のAI クレジットの最初の1回限りの使用権限が付与されます。
 
 - 同僚チャット：同僚チャットに入力された入力。 導入期間が限られている場合、入力は1入力あたり25件のAI クレジットの割合でAI クレジットを使用します。 この料金は期間限定で、変更される場合があります。
-- Experience Platform Agents: [AI クレジット消費量テーブル &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/ai-credit-consumption)に記載されているExperience Platform Agentsを使用して実行されたジョブの組み合わせ（CX Enterprise アプリケーションへの既存のライセンスに応じて）。
+- Experience Platform Agents: [AI クレジット消費量テーブル ](../overview/ai-credit-consumption.md)に記載されているExperience Platform Agentsを使用して実行されたジョブの組み合わせ（CX Enterprise アプリケーションへの既存のライセンスに応じて）。
 
-Adobe Experience Platform UIのライセンス使用状況ダッシュボードを使用して、AI クレジットを追跡できます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage)を参照してください。
+Adobe Experience Platform UIのライセンス使用状況ダッシュボードを使用して、AI クレジットを追跡できます。 詳しくは、[ ライセンス使用状況ダッシュボードのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)を参照してください。
 
-エージェンティック AI モニタリングダッシュボードは、エージェンティック AIがどのように導入され、組織全体でどのように使用されているかを明確に可視化します。 許可されたユーザーは、エンゲージメントの追跡、フィードバックの収集、AI クレジットの使用状況のモニタリング、主要指標のレビューを簡単に行うことができます。 こうしたインサイトは、最適化の機会を明らかにし、ガバナンスや導入の取り組みをサポートするのに役立ちます。 詳しくは、[Agentic AI利用状況モニタリング ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/monitoring)を参照してください。
+エージェンティック AI モニタリングダッシュボードは、エージェンティック AIがどのように導入され、組織全体でどのように使用されているかを明確に可視化します。 許可されたユーザーは、エンゲージメントの追跡、フィードバックの収集、AI クレジットの使用状況のモニタリング、主要指標のレビューを簡単に行うことができます。 こうしたインサイトは、最適化の機会を明らかにし、ガバナンスや導入の取り組みをサポートするのに役立ちます。 詳しくは、[Agentic AI利用状況モニタリング ガイド ](../overview/monitoring.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -60,7 +53,7 @@ Adobe Experience Platform UIのライセンス使用状況ダッシュボード�
 
 ユーザーは、CX Enterpriseの上部ヘッダーのアプリケーションセレクターからCoworkerを選択してアクセスできます。
 
-![同僚がいるアプリケーション セレクター。](../agents/images/coworker.png)
+![同僚がいるアプリケーション セレクター。](../agents/assets/coworker.png)
 
 お客様が組織の&#x200B;**同僚チャット**&#x200B;へのアクセス権を取り消したり、**AI アシスタント**&#x200B;および&#x200B;**Experience Platform Agents**&#x200B;に戻したりする場合は、[cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com)にリクエストを送信して検討してください。
 
@@ -70,7 +63,7 @@ Coworker Chatに移行していないお客様：
 
 対象となる顧客のユーザーは、体験版の一部としてAI アシスタントとエージェントにデフォルトでアクセスできるため、操作は必要ありません。 Experience Platform Agentsは、ユーザー入力と監視によって導かれます。 また、エージェントは事前に定義された製品レベルのアクセス制御を尊重するため、ユーザーは該当するCX Enterprise製品内で権限を持つジョブのみを実行したり、アクションを実行したりできます。
 
-アクセスできたら、Adobe Experience Cloudのホームページに移動して、AI アシスタントの利用を開始します。 [検出プロンプト &#x200B;](../ai-assistant/ai-assistant-ui.md#discovery-prompts)を使用して、プロンプトおよび一般的なワークフローの候補を表示できます。 この機能は、AI アシスタントによるオンボーディングの高速化に役立ちます。 さらに、様々なエージェントで使用できる様々なプロンプトについては、[&#x200B; プロンプトライブラリ &#x200B;](../ai-assistant/prompt-library.md)を参照してください。 詳しくは、[AI アシスタント UI ガイド &#x200B;](../ai-assistant/ai-assistant-ui.md)を参照してください。
+アクセスできたら、Adobe CX Enterpriseのホームページに移動して、AI アシスタントを使い始めます。 [検出プロンプト ](../ai-assistant/ai-assistant-ui.md#discovery-prompts)を使用して、プロンプトおよび一般的なワークフローの候補を表示できます。 この機能は、AI アシスタントによるオンボーディングの高速化に役立ちます。 さらに、様々なエージェントで使用できる様々なプロンプトについては、[ プロンプトライブラリ ](../ai-assistant/prompt-library.md)を参照してください。 詳しくは、[AI アシスタント UI ガイド ](../ai-assistant/ai-assistant-ui.md)を参照してください。
 
 お客様がこれらのエージェント機能へのアクセスをオプトアウトし、体験版アクセスを無効にする場合は、[cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com)にリクエストを送信してください。
 
@@ -82,7 +75,7 @@ Workfront、Agent Orchestrator、AI アシスタントの詳細については�
 - [Agent Orchestratorの概要](agent-orchestrator.md)
 - [AI アシスタント UI ガイド](../ai-assistant/ai-assistant-ui.md)
 - [AI アシスタントプロンプトライブラリ](../ai-assistant/prompt-library.md)
-- [Experience Cloud の AI](../home.md)
+- [CX Enterprise の AI](../home.md)
 
 ## よくある質問 {#faq}
 
@@ -94,15 +87,15 @@ Agentic利用制限トライアルでは、対象となるお客様はCoworker C
 
 ### この体験版にはどのエージェントが含まれていますか？
 
-体験版に含まれるエージェントの完全なリストについては、[Experience CloudのAgentic AI](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/agentic-ai)に関するガイドをご覧ください。
+体験版に含まれるエージェントの完全なリストについては、[Agentic AI in CX Enterprise](../overview/agentic-ai.md)に関するガイドをご覧ください。
 
 ### 誰がこのトライアルに参加できますか？
 
-Adobeで適切なサポートを提供できるように、一部のAdobe Experience Cloud対象顧客に体験版を段階的にロールアウトしています。 ご興味のある方は、Adobe アカウントチームまでお問い合わせください。
+Adobeが適切なサポートを提供できるように、一部の対象となるAdobe CX Enterpriseのお客様に体験版を段階的に展開しています。 ご興味のある方は、Adobe アカウントチームまでお問い合わせください。
 
 ### AI クレジットを取得し、そのAI クレジットを使用するとどうなりますか？
 
-対象となるお客様には、試用版で最大10,000件のAI クレジットが付与されます。このAI クレジットは、共同作業チャット（またはExperience Platform Agents）がタスクを実行する際に使用されます。 これらのAI クレジットは体験版の期間のみ存在し、10,000個のAI クレジットを使用する前に追加のAI クレジットをライセンス購入した場合はロールオーバーされないことに注意してください。 AI クレジット消費について詳しくは、[&#x200B; エージェントジョブとAI クレジット消費ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/ai-credit-consumption)を参照してください。
+対象となるお客様には、試用版で最大10,000件のAI クレジットが付与されます。このAI クレジットは、共同作業チャット（またはExperience Platform Agents）がタスクを実行する際に使用されます。 これらのAI クレジットは体験版の期間のみ存在し、10,000個のAI クレジットを使用する前に追加のAI クレジットをライセンス購入した場合はロールオーバーされないことに注意してください。 AI クレジット消費について詳しくは、[ エージェントジョブとAI クレジット消費ガイド ](../overview/ai-credit-consumption.md)を参照してください。
 
 ### これには何か費用がかかりますか。
 
@@ -110,7 +103,7 @@ Adobeで適切なサポートを提供できるように、一部のAdobe Experi
 
 ### 誰が使用状況と方法を確認できますか？
 
-Adobe Experience Platform UIのライセンス使用状況ダッシュボードを使用して、AI クレジットを追跡できます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage)を参照してください。 ダッシュボードを使用して、AI クレジットの使用状況とレポートを表示します。 適切な権限を持つ管理者とユーザーのみが、使用状況に関する情報を表示できます。
+Adobe Experience Platform UIのライセンス使用状況ダッシュボードを使用して、AI クレジットを追跡できます。 詳しくは、[ ライセンス使用状況ダッシュボードのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)を参照してください。 ダッシュボードを使用して、AI クレジットの使用状況とレポートを表示します。 適切な権限を持つ管理者とユーザーのみが、使用状況に関する情報を表示できます。
 
 顧客は引き続き、誰が使用状況やレポートを確認できるかを管理できます。 この情報を表示できるのは、適切な権限を持つ管理者とユーザーのみです。
 
