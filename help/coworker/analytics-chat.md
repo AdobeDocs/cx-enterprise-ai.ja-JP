@@ -12,7 +12,7 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->この記事で説明する機能は、リリースの限定的なテスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般公開された時点で削除されます。 Customer Journey Analytics リリースプロセスについて詳しくは、[Customer Journey Analytics機能リリース ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/releases/latest)を参照してください。
+>この記事で説明する機能は、リリースの限定的なテスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般公開された時点で削除されます。 Customer Journey Analytics リリースプロセスについて詳しくは、[Customer Journey Analytics機能リリース &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/releases/latest)を参照してください。
 
 Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できます。 Coworker Chatは、Customer Journey Analyticsのデータビューからデータにアクセスし、そのデータを検索して、自然言語プロンプトに対する回答を得ることができます。
 
@@ -40,13 +40,13 @@ Customer Journey Analytics データでCoworker Chatを使用する前に、ロ�
 
 * その他
 
-詳しくは、[同僚チャット UI ガイド ](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
+詳しくは、[同僚チャット UI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
 
 ### Customer Journey Analyticsのユースケース
 
 Adobe CX Enterprise Coworker Chatでは、Customer Journey Analyticsのユースケースと、実務担当者が使用しているサンプルプロンプトを確認できます。 各プロンプトは、コピーできるように構築され、独自のデータやコンテキストに適応させ、会話を通じて洗練させられます。
 
-詳しくは、[ ユースケース ](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/use-cases)を参照してください。
+詳しくは、[&#x200B; ユースケース &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/use-cases)を参照してください。
 
 ## Workfront ChatがCustomer Journey Analyticsに接続されていることを確認します
 
@@ -54,7 +54,7 @@ Adobe CX Enterprise Coworker Chatでは、Customer Journey Analyticsのユース
 
 1. 左側のパネルで「MCP」アイコンを選択し、接続されているMCP サーバーのリストで&#x200B;[!UICONTROL **cja-mcp**]&#x200B;が使用可能であることを確認します。
 
-   ![同僚の左側のパネルで強調表示されたMCP アイコン ](assets/data-validation-aa-cja/coworker-mcp-cja.png)
+   ![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](assets/data-validation-aa-cja/coworker-mcp-cja.png)
 
 1. （条件付き） [!UICONTROL **cja-mcp**]&#x200B;がまだ接続されていない場合は、[!UICONTROL **MCP Server**]&#x200B;を追加を選択し、[!UICONTROL **サーバー名**] フィールドにcjaを指定して、表示されたら選択し、[!UICONTROL **サーバー**]&#x200B;を追加を選択します。
 
@@ -66,7 +66,7 @@ Customer Journey Analyticsでは、さまざまなデータビューにアクセ
 
 ### 使用するデータビューを決める
 
-同僚に、回答したい質問の種類を伝え、その情報を提供するのに最適なデータビューにアクセスできるかどうかを尋ねます。 また、[ データビューをメモリ ](#add-a-data-view-preference-in-memory)の環境設定として設定することもできます。
+同僚に、回答したい質問の種類を伝え、その情報を提供するのに最適なデータビューにアクセスできるかどうかを尋ねます。 また、[&#x200B; データビューをメモリ &#x200B;](#add-a-data-view-preference-in-memory)の環境設定として設定することもできます。
 
 **あなた：**
 
@@ -108,7 +108,7 @@ Coworker Chatには、すべてのチャットにまたがる情報へのアク�
 
 1. メモリーページの「保存された環境設定」セクションで、Coworker Chatでチャットで使用する1つ以上のデータビューを指定します。
 
-   ![左側のパネルのメモリ セクション ](assets/data-validation-aa-cja/coworker-memory.png)
+   ![左側のパネルのメモリ セクション &#x200B;](assets/data-validation-aa-cja/coworker-memory.png)
 
 ## Customer Journey Analytics での分析
 
