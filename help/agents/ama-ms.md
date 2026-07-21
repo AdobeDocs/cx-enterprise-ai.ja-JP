@@ -79,7 +79,7 @@ ht-degree: 0%
 
 [!DNL Microsoft 365 Copilot] ダッシュボードは、メインページの[!DNL Adobe Marketing Agent] ブランディングで更新されます。
 
-![ メインダッシュボードにAdobe Marketing Agentが表示されているMicrosoft 365 Copilot ホームページ。](../agents/assets/ama/home.png)
+![&#x200B; メインダッシュボードにAdobe Marketing Agentが表示されているMicrosoft 365 Copilot ホームページ。](../agents/assets/ama/home.png)
 
 ### ログインしてコンテキストを設定します
 
@@ -89,19 +89,19 @@ ht-degree: 0%
 
 成功したら、コンテキストセッターを使用して、クエリに使用するドキュメントソース、サンドボックス、データビューを確立します。
 
-![ コンテキストセッターUIで、クエリのドキュメントソース、サンドボックス、データビューを選択します。](../agents/assets/ama/context.png)
+![&#x200B; コンテキストセッターUIで、クエリのドキュメントソース、サンドボックス、データビューを選択します。](../agents/assets/ama/context.png)
 
 ### エージェントを使用して運用上のインサイトを取得します
 
 ログインしたら、メインページのプロンプトを使用して開始できます。 また、スタータープロンプトを活用して、マーケティングオーディエンスの分析、キャンペーンのパフォーマンスの確認、キャンペーンジャーニーの監視などに分岐することもできます。 例えば、「**[!DNL Review campaign performance]**」を選択してから「**[!DNL Analyze engagement - Show web visitors for top 10 products last week]**」を選択します。
 
-エージェントのホームページに![ スタータープロンプトが表示され、キャンペーンのパフォーマンスのレビューとエンゲージメントの分析オプションが表示されます。](../agents/assets/ama/starter-guide.png)
+エージェントのホームページに![&#x200B; スタータープロンプトが表示され、キャンペーンのパフォーマンスのレビューとエンゲージメントの分析オプションが表示されます。](../agents/assets/ama/starter-guide.png)
 
 担当者がすぐに計算を行い、データを視覚化して回答します。 表示された棒グラフを使用するか、**[!DNL View data]**&#x200B;を選択してテーブルのデータを表示できます。
 
 ![上位の製品のweb訪問者を可視化し、データを表示するオプションを示す棒グラフ付きのエージェントの応答](../agents/assets/ama/response.png)
 
-![ データを表示を選択した後、同じインサイトがデータテーブルとして表示されます。](../agents/assets/ama/tables.png)
+![&#x200B; データを表示を選択した後、同じインサイトがデータテーブルとして表示されます。](../agents/assets/ama/tables.png)
 
 担当者が推奨するフォローアップの質問を選択して、さらに調査することができます。 別の方法として、別のスタータープロンプトをピボットして試したり、エージェントが参照した情報ソースを確認したり、フィードバックメカニズムを使用してフィードバックを提供したりすることもできます。
 
@@ -145,14 +145,14 @@ Adobe Marketing Agentは、Experience Platformと[!DNL Microsoft 365]に適用�
 
 >[!IMPORTANT]
 >
->この設定が無効になっている場合、ユーザーの[ エージェントストア ](https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/)に外部エージェントは表示されません。
+>この設定が無効になっている場合、ユーザーの[&#x200B; エージェントストア &#x200B;](https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/)に外部エージェントは表示されません。
 
 #### エージェントの取得と承認
 
 通常、[[!DNL Microsoft Commercial Marketplace]](https://appsource.microsoft.com/)で外部エージェントを見つけることができます。
 
 - **マーケットプレイスから**：必要なエージェントを見つけて、**今すぐ入手**&#x200B;を選択します。 これは、多くの場合、管理者センターの&#x200B;**統合アプリ** ページにリダイレクトされます。
-- **権限を確認**: [統合アプリ ](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide) リストで、外部エージェントを選択します。
+- **権限を確認**: [統合アプリ &#x200B;](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide) リストで、外部エージェントを選択します。
 - **データとツール**&#x200B;と&#x200B;**セキュリティとコンプライアンス**&#x200B;のタブを確認して、外部プロバイダーがどのデータにアクセスするかを確認します。
 - 「**承認**」または「**アクティブ化**」を選択して、組織のインベントリに移動します。
 
