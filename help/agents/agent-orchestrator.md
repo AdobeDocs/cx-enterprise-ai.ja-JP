@@ -41,7 +41,7 @@ Agent Orchestratorは、AI アシスタントの会話インターフェイス�
 
 ### AI アシスタントの会話型インターフェイス {#ai-assistant}
 
-AI アシスタントは、インテリジェントかつ自然言語による会話体験を提供します。これにより、実務担当者は、優れたCX エンタープライズアプリケーションを使用して、生成AIとエージェンティック AIの機能を活用できます。これらの機能の幅広さは、顧客からライセンスを受けたCX エンタープライズアプリケーションに依存します。 アクセスを解除するには、[AI アシスタントへのアクセスに関するガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)を参照してください。
+AI アシスタントは、インテリジェントかつ自然言語による会話体験を提供します。これにより、実務担当者は、優れたCX エンタープライズアプリケーションを使用して、生成AIとエージェンティック AIの機能を活用できます。これらの機能の幅広さは、顧客からライセンスを受けたCX エンタープライズアプリケーションに依存します。 アクセスを解除するには、[AI アシスタントへのアクセスに関するガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/access)を参照してください。
 
 詳しくは、[AI アシスタント UI ガイド &#x200B;](../ai-assistant/ai-assistant-ui.md)を参照してください。
 

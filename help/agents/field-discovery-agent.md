@@ -31,7 +31,7 @@ Field Discovery Agentを使用するには、次の条件を満たしている�
 - 正しい組織とサンドボックス
 - クエリ対象のスキーマとデータセットへのアクセス
 
-XDM スキーマに関する基本的な知識と、セグメント化またはデータワークフローでのフィールドの使用方法を理解することで、より効果的に結果を解釈できます。 詳しくは、[XDMの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)および[&#x200B; スキーマエディターのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui)を参照してください。
+XDM スキーマに関する基本的な知識と、セグメント化またはデータワークフローでのフィールドの使用方法を理解することで、より効果的に結果を解釈できます。 詳しくは、[XDMの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)および[&#x200B; スキーマエディターのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/create-schema-ui)を参照してください。
 
 AI アシスタントのアクセスを有効にし、必要な権限を付与する方法については、[Agent Orchestrator アクセス ガイド &#x200B;](./agent-orchestrator.md#access)を参照してください。
 

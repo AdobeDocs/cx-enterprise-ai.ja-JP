@@ -89,7 +89,7 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
 
   1. **[!UICONTROL 保存]**&#x200B;を選択して、権限を保存します。
 
-  アクセス制御の詳細については、[&#x200B; アクセス制御](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control)を参照してください。
+  アクセス制御の詳細については、[&#x200B; アクセス制御](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/access-control#access-control)を参照してください。
 
 * **データビューへのアクセス**: Data Insights Agentでデータビューを有効にする必要があります。
 
@@ -97,7 +97,7 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
   >
   >データビューを有効にする際には、次の点を考慮してください。
   >* IMS組織ごとに最大50個のデータビューを有効にできます。特定の組織のすべての製品プロファイルで50以上のデータビューを有効にすると、Data Insights Agentで最も使用される50のデータビューが使用されます。
-  >  データビュー[&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)のData Insights Agent列の情報を使用して、IMS組織内でData Insights Agentに対して有効になっているデータビューの数を表示できます。
+  >  データビュー[&#128279;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)のData Insights Agent列の情報を使用して、IMS組織内でData Insights Agentに対して有効になっているデータビューの数を表示できます。
   >* Data Insights Agentでは、含まれるデータビューを、有効にするのと同じ日の任意の時点で参照できます。
 
   Data Insights Agentのデータビューを有効にするには：
@@ -108,7 +108,7 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
 
      ![Data Insights Agentのデータビューを有効にする](/help/agents/assets/cja-agent/data-view-enable-dia.png)
 
-     Data Insights Agentのデータビューを有効にする方法について詳しくは、「[&#x200B; データビューのAI設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md#ai-settings)」を参照してください。
+     Data Insights Agentのデータビューを有効にする方法について詳しくは、「[&#x200B; データビューのAI設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md#ai-settings)」を参照してください。
 
   IMS組織内でData Insights Agentに対して有効になっているデータビューの数を表示するには：
 
@@ -195,7 +195,7 @@ Adobe Experience Platform Agent Orchestratorを使用すると、Adobe Journey O
 
 Agent Orchestratorを利用すれば、顧客のリクエストを解釈し、必要な専門エージェントを特定して、適切な対応を提供できます。 マルチターンのインタラクションをまたいでコンテキストを追跡できるため、以前のクエリをもとに自然に構築することができます。
 
-詳しくは、[Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html)を参照してください。
+詳しくは、[Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/jp/products/experience-platform/agent-orchestrator.html)を参照してください。
 
 ## データビジュアライゼーションプロンプトの例
 
@@ -285,8 +285,8 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 >[!MORELIKETHIS]
 >
->[&#x200B; コンポーネント設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[&#x200B; データディクショナリ &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[計算指標を承認](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[&#x200B; セグメントの共有](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[&#x200B; コンポーネント設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[&#x200B; データディクショナリ &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[計算指標を承認](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[&#x200B; セグメントの共有](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/segments/seg-share)
 
