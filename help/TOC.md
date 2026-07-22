@@ -59,6 +59,6 @@ ht-degree: 17%
 - 同僚 {#coworker}
   - [共同作業者キャンペーン](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)
   - [共同作業者チャット](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)
-  - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
   - [CJAデータの分析](./coworker/analytics-chat.md)
