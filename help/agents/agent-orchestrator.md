@@ -16,10 +16,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: 966
-ht-degree: 11%
+source-wordcount: 956
+ht-degree: 12%
 
 ---
 
@@ -37,11 +37,11 @@ Agent Orchestratorについて詳しくは、このドキュメントを参照�
 
 Agent Orchestratorは、AI アシスタントの会話インターフェイス、意思決定と計画の推論エンジン、Adobe Experience Platformのエージェント、関連情報へのアクセスを提供するナレッジベースなど、いくつかの重要な要素で構成されています。
 
-![Agent Orchestratorのマーケティングアーキテクチャ。](./images/agent-orchestrator/agentic-architecture.png)
+![Agent Orchestratorのマーケティングアーキテクチャ。](./assets/agent-orchestrator/agentic-architecture.png)
 
 ### AI アシスタントの会話型インターフェイス {#ai-assistant}
 
-AI アシスタントは、インテリジェントな自然言語による会話体験であり、有効なExperience Cloud アプリケーションを使用して、実務担当者が生成AIとエージェンティック AIの機能を活用できるようにします。この機能の幅広さは、顧客がライセンスを取得したExperience Cloud アプリケーションに依存します。 アクセスを解除するには、[AI アシスタントへのアクセスに関するガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/access)を参照してください。
+AI アシスタントは、インテリジェントかつ自然言語による会話体験を提供します。これにより、実務担当者は、優れたCX エンタープライズアプリケーションを使用して、生成AIとエージェンティック AIの機能を活用できます。これらの機能の幅広さは、顧客からライセンスを受けたCX エンタープライズアプリケーションに依存します。 アクセスを解除するには、[AI アシスタントへのアクセスに関するガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/access)を参照してください。
 
 詳しくは、[AI アシスタント UI ガイド &#x200B;](../ai-assistant/ai-assistant-ui.md)を参照してください。
 
@@ -51,7 +51,7 @@ AI アシスタントは、インテリジェントな自然言語による会�
 
 ### Adobe Experience Platform Agents {#agents}
 
-Adobe Experience Platform Agentsは、顧客体験の領域をまたいで共通のジョブを提供するスキルを持つ、AI エージェントの専用グループです。 以下は、Experience Cloud アプリケーションで現在利用可能なAdobe Experience Platform Agentsのリストです。
+Adobe Experience Platform Agentsは、顧客体験の領域をまたいで共通のジョブを提供するスキルを持つ、AI エージェントの専用グループです。 以下は、CX Enterprise アプリケーションで現在利用可能なAdobe Experience Platform Agentsのリストです。
 
 | エージェント | 詳細 | サポートされているアプリケーション |
 | --- | --- | --- |
@@ -61,7 +61,7 @@ Adobe Experience Platform Agentsは、顧客体験の領域をまたいで共通
 | [Journey Agent](./ajo-agent.md) | Journey Agentなら、自然言語のインターフェイスを利用して、カスタマージャーニーを構築、分析、最適化できます。 Journey Agentなら、ジャーニーの迅速な構築、スケジュールやオーディエンスの競合の検出と解決、パフォーマンスと離脱ポイントの分析などを実現し、今後のキャンペーンに向けて再現する最もパフォーマンスの高いジャーニーを特定できます。 データにもとづく意思決定、顧客エンゲージメントの向上、ジャーニーオーケストレーションの合理化に役立ちます。 | Adobe Journey Optimizer |
 | [製品サポートエージェント &#x200B;](product-support.md) | Product Support Agentは、セルフサービス型のデバッグおよびトラブルシューティング機能で、ワークフローから離れることなくAdobe Experience Platformの機能とアプリケーションをトラブルシューティングするのに役立ちます。 サポート管理者は、AI アシスタントとのやり取りのコンテキストからカスタマーサポートチケットを作成でき、AI アシスタントを通じてチケットの更新を確認することができます。 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
-Experience Cloud アプリケーションでのエージェントの利用について詳しくは、「[Experience CloudのAgentic AI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/agentic-ai)」を参照してください。
+CX Enterprise アプリケーションでのエージェントの利用について詳しくは、[CX Enterprise ドキュメントのAgentic AIを参照してください](../overview/agentic-ai.md)。
 
 ### ナレッジベース {#knowledge-base}
 

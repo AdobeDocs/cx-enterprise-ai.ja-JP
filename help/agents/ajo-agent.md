@@ -29,7 +29,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 3361
 ht-degree: 12%
@@ -297,7 +297,7 @@ Journey Agentなら、Journey Optimizerのユーザーは、自然言語のイ�
 >
 >**セグメントの管理**：権限を使用すると、AI アシスタントで新しいオーディエンスを直接作成できます。
 
-AJO Agent![&#128279;](./images/ajo-agent/ajo-agent-sample.png)の サンプル
+AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 
 ## ユースケース
 

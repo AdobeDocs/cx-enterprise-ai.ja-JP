@@ -1,21 +1,28 @@
 ---
 audience: user
-user-guide-title: Adobe Experience CloudのAI アシスタント
-user-guide-description: Adobe Experience Platform と Real-Time Customer Data Platform で AI アシスタントを使用して、ワークフローを迅速化する方法を説明します。
-description: Experience Cloud の AI アシスタントについて説明します。 Experience Cloud の AI を使用して、製品知識を向上させ、運用上のインサイトを得ます。
+user-guide-title: ADOBE CX EnterpriseのAI アシスタント
+user-guide-description: Adobe Experience Platform と Real-Time Customer Data Platform で AI アシスタントを使用して、ワークフローを迅速化する方法について説明します。
+description: 顧客体験エンタープライズ版AI アシスタントについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+dummy: true
+source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 32%
+source-wordcount: '211'
+ht-degree: 19%
 
 ---
 
 
-# Experience Cloud の AI {#experience-cloud-ai}
+# CX Enterprise の AI {#experience-cloud-ai}
 
-- [Experience Cloud アプリケーションの AI](home.md)
+- [CX エンタープライズアプリケーションにおけるAI](home.md)
+- CX エンタープライズにおけるAIについて {#overview}
+  - [生成 AI](./overview/generative-ai.md)
+  - [エージェント型 AI](./overview/agentic-ai.md)
+  - [エージェント型AI モニタリング](./overview/monitoring.md)
+  - [担当者の業務とAIのクレジット消費](./overview/ai-credit-consumption.md)
+  - [エージェント型ツール](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)
 - AI アシスタント {#ai-assistant}
   - [AI アシスタント UI ガイド](./ai-assistant/ai-assistant-ui.md)
   - [プロンプトライブラリ](./ai-assistant/prompt-library.md)
@@ -52,4 +59,4 @@ ht-degree: 32%
 - 同僚 {#coworker}
   - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
-  - {hide-from-toc}[&#x200B; コンバージョンドロップオフの分析](./coworker/analytics-use-cases.md)
+  - [CJAデータの分析](./coworker/analytics-chat.md)

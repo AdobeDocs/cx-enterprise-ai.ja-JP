@@ -1,6 +1,6 @@
 ---
-title: Experience Cloud アプリケーションの AI
-description: Experience Cloud アプリケーションで生成 AI（GenAI）、AI アシスタント、エージェント型 AI がどのように使用されるかについて説明します。
+title: CX エンタープライズアプリケーションにおけるAI
+description: CX エンタープライズアプリケーションで生成AI （GenAI）、AI アシスタント、エージェンティック AI、CX エンタープライズパートナー、MCP ツールをどのように使用するかをご確認ください。
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,125 +15,84 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: d8daade8bb7d0259cd18fe7c8f957955dd97b2a0
 workflow-type: tm+mt
-source-wordcount: 846
-ht-degree: 4%
+source-wordcount: 766
+ht-degree: 2%
 
 ---
 
-# Experience Cloud の AI
+# CX Enterprise の AI
 
-Adobe Experience Cloud アプリケーション全体のAI能力に関する包括的なガイドへようこそ。 このドキュメントでは、生成AI、AI アシスタント、AdobeエージェントをAdobe Experience Cloud ワークフローに統合し、生産性を高め、意思決定を強化する方法を解説します。
+このガイドでは、Adobe CX Enterprise アプリケーション全体で利用できるAI機能について説明します。製品情報と運用上のインサイトのための生成AIとAI アシスタント、業務を自動化するためのAgent OrchestratorとExperience Platform Agents、完全会話型でエージェントファーストのエクスペリエンスを実現するCX Enterprise Coworker、独自のAI ツールをCX Enterprise データに接続するためのMCPです。
 
-## このガイドの内容
+## CX エンタープライズにおけるAIについて
 
-### AI アシスタント
+CX Enterpriseのどこで、どのようにAIが使用されているかについては、こちらをご覧ください。
 
-[AI アシスタント &#x200B;](./ai-assistant/ai-assistant-ui.md)は、Adobe Experience Platform ベースのアプリケーションの生産性を向上させ、作業を再定義する、インテリジェントな会話型の生成AI ツールです。 ユーザーは、自然言語プロンプトを通じて、製品知識を得たり、問題のトラブルシューティングを行ったり、業務インサイトを得たりすることができます。 また、AI アシスタントを使用して、Adobe Experience Platform Agentsやその他のAI機能にアクセスすることもできます。
+- [生成AI](./overview/generative-ai.md)は、生成AIとAI アシスタントをサポートするCX エンタープライズ アプリケーションと、それらの比較方法について説明します。
+- [Agentic AI](./overview/agentic-ai.md)は、Experience Platform Agentsが既存のCX Enterprise アプリケーションとAI ファースト アプリケーションの両方でどのように機能するかを説明し、それぞれに使用可能なエージェントを一覧表示します。
+- [&#x200B; エージェンティック AI モニタリング &#x200B;](./overview/monitoring.md)では、エージェントの導入、使用、フィードバック、AI クレジット消費を追跡するダッシュボードについて説明します。
+- [&#x200B; エージェントのジョブとAI クレジットの消費](./overview/ai-credit-consumption.md)は、AI クレジットがエージェントのジョブによって消費される仕組みを説明し、エージェントとジョブのタイプ別の推定消費率を示します。
 
-**主な機能：**
+## AI アシスタント
 
-- **対話型インターフェイス**: ワークフローの環境設定に合わせて、フルスクリーンとパネル表示のインターフェイスのいずれかを選択できます。
-- **検出プロンプト**: AI アシスタントは、学習、分析、最適化などのカテゴリ別に整理された、事前設定済みのプロンプトを提供します。
-- **コンテキスト設定**: アプリケーション、サンドボックス、データビューの設定を設定して、ニーズに合わせた応答を受信できます。
-- **データの可視化**：このツールは、インタラクティブなチャートとグラフを提供し、データからインサイトを得ることができます。
-- **応答検証**：すべての応答には、ソースの引用、AI推論の説明、フィードバックを提供するためのメカニズムが含まれます。
+[AI アシスタント &#x200B;](./ai-assistant/ai-assistant-ui.md)は、Adobe Experience Platform ベースのアプリケーションで利用できる会話型の生成AI ツールです。 フルスクリーンまたはレールビューのインターフェイスで自然言語プロンプトを使用し、製品情報の取得、問題のトラブルシューティング、運用上のインサイトの取得、Experience Platform Agentsへのアクセスに使用できます。
 
+[AI アシスタント UI ガイド &#x200B;](./ai-assistant/ai-assistant-ui.md)を読んで、インターフェイスのナビゲーション方法と、エージェントによるプロンプト例の[&#x200B; プロンプトライブラリ &#x200B;](./ai-assistant/prompt-library.md)を確認してください。
 
-### Agent Orchestrator
+## Agent OrchestratorおよびExperience Platform agents
 
-[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md)は、Adobe Experience Platformの新しいエージェント レイヤーです。 このプラットフォームの豊富なデータとカスタマーナレッジを活用するように設計されたExperience Platform Agent Orchestratorは、専用に構築されたエキスパートであるAdobe Experience Platform Agentsの背後にあるインテリジェンスと推論を支援します。これにより、人間の監視下で、複雑な意思決定と問題解決のタスクを迅速かつ大規模に実行できます。 AI アシスタントのような会話型インターフェイスを利用して、自然言語で質問したり、サポートを求めたりすると、Agent Orchestratorは専門の担当者を自動的に呼び出して適切な回答を提供します。 Agent Orchestratorは、会話履歴を記憶するため、コンテキストを繰り返すことなく自然に以前の質問を作成でき、複数の担当者からのインサイトを組み合わせて、明確で統一された回答を提供します。
+[Agent Orchestrator](./agents/agent-orchestrator.md)は、Experience Platform Agentsを強化するエージェント型レイヤーです。 AI アシスタントに質問すると、Agent Orchestratorが作業を計画し、その回答に必要な専門スタッフを呼び出し、人間の監視下で一元的な回答を返します。
 
-**コアコンポーネント：**
+このガイドでは、次のExperience Platform Agentsについて説明します。
 
-- **推論エンジン**：段階的な計画を作成し、必要に応じてアプローチを調整します
-- **専用エージェント**：特定のタスクとドメイン用に構築された専用エージェント
-- **ナレッジベース**：ビジネスインテリジェンスとドキュメントへの安全なアクセス
+- [Audience Agent](./agents/audience.md)
+- [Data Insights Agent](./agents/cja-data-insights-agent.md)
+- [Experimentation Agent](./agents/agent-experiment.md)
+- [Field Discovery エージェント](./agents/field-discovery-agent.md)
+- [Journey Agent](./agents/ajo-agent.md)
+- [Notifications エージェント](./agents/notifications.md)
+- [製品サポート担当者](./agents/product-support.md)
+- [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
 
-### 専門エージェント
+エージェントの完全なリスト、各アプリケーションがサポートするアプリケーション、および適格要件については、「[Agentic AI in CX Enterprise](./overview/agentic-ai.md)」を参照してください。
 
-#### Audience Agent
+## CX Enterprise Coworker
 
-Audience Agentは、次のようなオーディエンスに関するインサイトを提供します。
+CX Enterprise Coworkerは、AI アシスタントのエージェントファーストの進化です。 自然言語で目標を説明します。Coworkerは、一度に1つの質問をする代わりに、作業を計画し、Adobeと接続されたシステムをまたいで実行し、結果を検証し、完成した作業を承認のために返します。 チームメンバーは次の通りです。
 
-- オーディエンスサイズの大幅な変更を検出。
-- 重複したオーディエンスの特定：
-- オーディエンスのインベントリを調べる：
-- オーディエンスサイズの取得。
+- **同僚チャット**: データを探索し、オーディエンスとジャーニーを検証し、CX エンタープライズ アプリケーション全体でマルチステップのタスクを完了するための会話型インターフェイスです。
+- **同僚キャンペーン**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。
 
-詳しくは、[Audience Agent ドキュメント &#x200B;](./agents/audience.md)を参照してください。
+適格な顧客は、AI アシスタントやExperience Platform AgentsからCoworker Chatへ徐々に移行しています。 体験版の利用条件、AI クレジットの使用状況、アクセス方法については、[CX Enterprise Coworker Trial](./agents/trial.md)を参照してください。
 
-#### Data Insights Agent
+Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)や[&#x200B; コンバージョンのドロップオフの分析](./coworker/analytics-chat.md)などの実際のユースケースを読んでください。
 
-Customer Journey AnalyticsのData Insights Agentで利用できます。
+## MCP
 
-- 自然言語を使って、データに関する疑問の答えを提供します。
-- Analysis Workspaceで関連するビジュアライゼーションを作成：
-- は、データビューと実際のデータのコンポーネントを使用します。
+[Adobe CX Coworker Gateway](./mcp/overview.md)は、CX Enterpriseの統合モデル コンテキスト プロトコル （MCP） エンドポイントです。 [!DNL Claude]、[!DNL ChatGPT]、[!DNL Cursor]などのMCP対応クライアントを使用できます。これらのクライアントは、Real-Time CDP、Experience Platform、Journey Optimizer、Customer Journey Analytics、Adobe Analyticsなど、組織が使用する権限を持つ製品ツールへの1つの管理された接続です。
 
-#### ジャーニー分析エージェント
-
-ジャーニー分析エージェントを使用すると、Adobe Journey Optimizer ユーザーは次のことが可能になります。
-
-- 自然言語を使用して、カスタマージャーニーを分析、最適化します。
-- スケジュールやオーディエンスの競合を検出して解決。
-- パフォーマンスと離脱ポイントを分析：
-
-詳しくは、[Journey Agent ドキュメント &#x200B;](./agents/ajo-agent.md)を参照してください。
-
-#### 製品サポート担当者
-
-セルフサービスのデバッグとトラブルシューティングには、次の製品サポートエージェントを使用します。
-
-- ワークフローから離れることなく、Adobe Experience Platformの機能をトラブルシューティング。
-- AI アシスタントとのやり取りのコンテキストに基づいてサポートチケットを作成します。
-- AI アシスタントを通じてチケットの更新を確認します。
-
-詳しくは、[製品サポートエージェントのドキュメント &#x200B;](./agents/product-support.md)を参照してください。
-
-<!--
-#### Adobe Marketing Agent for [!DNL Microsoft 365 Copilot]
-
-Use the Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] to retrieve marketing insights from Experience Platform in [!DNL Microsoft 365] apps like [!DNL Teams], [!DNL Word], [!DNL Powerpoint], and [!DNL Excel]. With this agent, you can:
-
-- Make faster, data-driven marketing decisions.
-- Reduce time spent switching between tools.
-- Simplify access to audience and journey insights across teams.
-
-Read the [Adobe Marketing Agent documentation](./agents/ama-ms.md) for more information.
--->
-
-## はじめに
+## 基本を学ぶ
 
 ### アクセス要件
 
-AI アシスタントとExperience Platform Agentsを使用するには、Adobe管理者が適切な権限を設定する必要があります。
-
-- Real-Time CDPおよびAdobe Journey Optimizer内でAI アシスタントを使用するには、運用上の質問にアクセスするための「AI アシスタントを有効にする」権限と「運用上のインサイトを表示する」権限が必要です。
-- Customer Journey AnalyticsのAI アシスタントへのアクセスは、Customer Journey Analytics Access Controlを通じて管理され、製品情報とデータインサイトの両方に質問することができます。
-- Adobe Experience Managerの場合は、Adobe Admin Consoleで設定した権限を使用して、AI アシスタントにアクセスできます。
+AI アシスタントとExperience Platform Agentsを使用する前に、Adobe管理者が適切な権限を付与する必要があります。 要件はアプリケーションによって異なります。詳しくは、Agent Orchestrator ガイドの[&#x200B; アクセス &#x200B;](./agents/agent-orchestrator.md#access)を参照してください。
 
 ### プライバシーとセキュリティ
 
-AI アシスタントは、プライバシー、セキュリティ、ガバナンスを最前線に据えて構築されています。
-
-- トレーニングに個人データは使用されません。
-- 既存のすべてのアクセス制御ポリシーが尊重されます。
-- ADOBE EXPERIENCE PLATFORM Healthcare ShieldでHIPAAに対応。
-- インタラクションログの30日間保持ポリシー。
-- サンドボックス固有のデータの分離：
+AI アシスタントとExperience Platform Agentsは、サンドボックスに特化したデータ分離や既存のアクセス制御ポリシーの遵守など、プライバシー、セキュリティ、ガバナンスを最優先事項として構築されています。 詳しくは、[AI アシスタントのプライバシー、セキュリティ、ガバナンス &#x200B;](./ai-assistant/privacy.md)を参照してください。
 
 ## ベストプラクティス
 
-AI アシスタントのエクスペリエンスから最大限の価値を引き出すには、次のベストプラクティスに従ってください。
+AI アシスタントや共同作業者の体験から最大限の価値を引き出すには、次のベストプラクティスに従ってください。
 
-- AI アシスタントからターゲットを絞った関連性の高いインサイトを取得するには、プロンプトに&#x200B;**具体的な**&#x200B;を入力します。
-- **AI アシスタントが提供するソースの引用と説明の理由を確認して、回答**&#x200B;を検証します。
-- **コンテキスト設定**&#x200B;を使用して、最も関連性の高いデータソースが質問に使用されるようにします。
-- **フィードバック**&#x200B;を提供して、AI アシスタントのパフォーマンスと精度を長期的に向上させることができます。
-- **複数のエージェントからのインサイト**&#x200B;を組み合わせて、より包括的で全体的な分析を実現します。
+- ターゲットを絞った適切なインサイトを取得するには、プロンプトに&#x200B;**具体的な**&#x200B;を入力します。
+- **提供されたソースの引用と説明を確認して、応答**&#x200B;を検証します。
+- **コンテキスト設定**&#x200B;を使用して、最も関連性の高いデータソースを質問に使用します。
+- **パフォーマンスと精度を長期的に改善するためにフィードバック**&#x200B;を提供します。
+- **複数のエージェントからのインサイト**&#x200B;を組み合わせて、より包括的な分析を実行します。
 
 ## 法的考慮事項
 
-AI アシスタントを利用する際には、重要な法的および実践的な考慮事項を認識することが重要です。 現在、AI アシスタントは英語での回答のみをサポートしています。 言語モデルが誤りを犯す可能性があるため、提供される情報を常に検証するように注意してください。 回答に含まれる論理的な手順と説明を活用して、回答をより深く理解します。 問題や不正確さが発生した場合は、フィードバックを送信して、AI アシスタントを長期的に改善できるようにしてください。
+現在、AI アシスタントは英語のみで回答をサポートしており、言語モデルが間違いを犯すこともあります。 提供された情報を必ず検証し、各回答に含まれる推論手順に従って、どのように生成されたかを把握します。 詳しくは、[法的免責事項](./ai-assistant/legal-disclaimer.md)を参照してください。
