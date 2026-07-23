@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d8daade8bb7d0259cd18fe7c8f957955dd97b2a0
+source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 881
 ht-degree: 2%
 
 ---
@@ -60,14 +60,17 @@ CX Enterpriseのどこで、どのようにAIが使用されているかにつ�
 
 ## CX Enterprise Coworker
 
-CX Enterprise Coworkerは、AI アシスタントのエージェントファーストの進化です。 自然言語で目標を説明します。Coworkerは、一度に1つの質問をする代わりに、作業を計画し、Adobeと接続されたシステムをまたいで実行し、結果を検証し、完成した作業を承認のために返します。 チームメンバーは次の通りです。
+CX Enterprise Coworkerは、顧客体験とマーケティングのワークフローを自動化するAI アシスタントのエージェント第一の進化であり、日常的な実行ではなくビジネス目標に集中することができます。 自然言語で目標を説明します。Coworkerは、一度に1つの質問をする代わりに、作業を計画し、Adobeと接続されたシステムをまたいで実行し、結果を検証し、完成した作業を承認のために返します。 チームメンバーは次の通りです。
 
-- **同僚チャット**: データを探索し、オーディエンスとジャーニーを検証し、CX エンタープライズ アプリケーション全体でマルチステップのタスクを完了するための会話型インターフェイスです。
-- **同僚キャンペーン**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。
+- **[同僚チャット &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)**: データを探索し、オーディエンスとジャーニーを検証し、CX エンタープライズ アプリケーション全体でマルチステップのタスクを完了するための会話型インターフェイスです。
+- **[同僚キャンペーン &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)**：組み込みのテンプレート、ベストプラクティス、プロンプトによるガイダンスを使用して、キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニーデザイン、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションで、小規模なアジャイルチームでも素早くキャンペーンを開始できます。
+- **同僚プロジェクト** （近日リリース予定）: エンドツーエンドの顧客体験オーケストレーションワークフローを自動化し、チームがタスク、承認、実行を調整して、戦略から納品までの成果を促進するための統合ワークスペースです。 プロジェクトのドキュメントは近日公開予定です。
 
 適格な顧客は、AI アシスタントやExperience Platform AgentsからCoworker Chatへ徐々に移行しています。 体験版の利用条件、AI クレジットの使用状況、アクセス方法については、[CX Enterprise Coworker Trial](./agents/trial.md)を参照してください。
 
-Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)や[&#x200B; コンバージョンのドロップオフの分析](./coworker/analytics-chat.md)などの実際のユースケースを読んでください。
+Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)や[Analyze CJA data](./coworker/analytics-chat.md)などの実際のユースケースを読んでください。
+
+共同作業者チャット、キャンペーン、プロジェクトに関する完全な製品ドキュメントについては、[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)を参照してください。
 
 ## MCP
 

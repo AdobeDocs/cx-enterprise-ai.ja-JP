@@ -5,11 +5,10 @@ user-guide-description: Adobe Experience Platform と Real-Time Customer Data Pl
 description: 顧客体験エンタープライズ版AI アシスタントについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-dummy: true
-source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
+source-git-commit: db9cc53acf4631273b7dab96c503d5c174fe106c
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 19%
+source-wordcount: '235'
+ht-degree: 17%
 
 ---
 
@@ -57,6 +56,8 @@ ht-degree: 19%
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同僚 {#coworker}
+  - [共同作業者キャンペーン](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)
+  - [共同作業者チャット](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)
   - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
   - [CJAデータの分析](./coworker/analytics-chat.md)
