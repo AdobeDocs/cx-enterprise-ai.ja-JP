@@ -21,7 +21,7 @@ ht-degree: 18%
   - [エージェント型 AI](./overview/agentic-ai.md)
   - [エージェント型AI モニタリング](./overview/monitoring.md)
   - [担当者の業務とAIのクレジット消費](./overview/ai-credit-consumption.md)
-  - [エージェント型ツール](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
+  - [エージェント型ツール](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)
 - AI アシスタント {#ai-assistant}
   - [AI アシスタント UI ガイド](./ai-assistant/ai-assistant-ui.md)
   - [プロンプトライブラリ](./ai-assistant/prompt-library.md)
@@ -54,7 +54,7 @@ ht-degree: 18%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同僚のヘルプ {#coworker}
   - [同僚のヘルプ](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
