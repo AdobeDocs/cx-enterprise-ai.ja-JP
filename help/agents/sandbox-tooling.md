@@ -1,7 +1,7 @@
 ---
 title: サンドボックスツールのエージェント型スキル
 description: サンドボックスツールのエージェント型スキルを使用して、サンドボックス環境全体でオブジェクトメタデータをレプリケートする方法を説明します。
-source-git-commit: 1fec24983eff50e6d0215c576049d9a80105bfc0
+source-git-commit: 7790447877fa20321321ce5561d8ff61b28c572e
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 - 検出または移行するオブジェクトへのアクセス。
 - CX CoworkerにインストールされたAdobe CXO プラグイン。
 
-プラグインのインストール手順については、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
+プラグインのインストール手順については、[Coworker UI ガイド ](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
 
 ## エージェント型スキルのサンドボックスツールの使用 {#use-sandbox-tooling-agentic-skills}
 
@@ -42,27 +42,27 @@ ht-degree: 1%
 サンドボックスツールのエージェント型スキルを使用するには：
 
 1. **[!UICONTROL CX Coworker]**&#x200B;に移動します。
-2. 達成したい目標を明確に記述します。 次に例を示します。
+1. 達成したい目標を明確に記述します。 次に例を示します。
 
    *&quot;スキーマ ロイヤルティ メンバーのプラチナを現在のサンドボックスからAcme デモ サンドボックスに移動します。&quot;*
 
-3. 結果テーブルを確認して、ソースとターゲットのサンドボックスを表示します。 続行する準備ができたら、**[!UICONTROL 続行]**&#x200B;を選択し、**[!UICONTROL 送信]**&#x200B;を選択して確認します。
+1. 結果テーブルを確認して、ソースとターゲットのサンドボックスを表示します。 続行する準備ができたら、**[!UICONTROL 続行]**&#x200B;を選択し、**[!UICONTROL 送信]**&#x200B;を選択して確認します。
 
-![処理中のリクエスト結果が選択され、送信が強調表示されます。](./assets/sandbox-tooling/results-proceed.png)
+   ![処理中のリクエスト結果が選択され、送信が強調表示されます。](./assets/sandbox-tooling/results-proceed.png)
 
-&#x200B;4. 移行する1つ以上のオブジェクトを選択し、**[!UICONTROL 送信]**&#x200B;を選択します。
+1. 移行する1つ以上のオブジェクトを選択し、**[!UICONTROL 送信]**&#x200B;を選択します。
 
-送信を強調表示する![&#x200B; オブジェクト選択ページ。](./assets/sandbox-tooling/object-selection.png)
+   送信を強調表示する![ オブジェクト選択ページ。](./assets/sandbox-tooling/object-selection.png)
 
-&#x200B;5. エージェントが操作アクションを識別するオブジェクトと依存関係を確認し、*新規作成*&#x200B;または&#x200B;*既存の*&#x200B;を使用します。 移行を開始する準備ができたら、**[!UICONTROL 続行]**&#x200B;を選択し、**[!UICONTROL 送信]**&#x200B;を選択して確認します。 移行が完了するまでに数分かかる場合があります。
+1. エージェントが操作アクションを識別するオブジェクトと依存関係を確認し、*新規作成*&#x200B;または&#x200B;*既存の*&#x200B;を使用します。 移行を開始する準備ができたら、**[!UICONTROL 続行]**&#x200B;を選択し、**[!UICONTROL 送信]**&#x200B;を選択して確認します。 移行が完了するまでに数分かかる場合があります。
 
-![送信を強調表示するアクションプランページを確認します。](./assets/sandbox-tooling/action-plan.png)
+   ![送信を強調表示するアクションプランページを確認します。](./assets/sandbox-tooling/action-plan.png)
 
-&#x200B;6. 移行が完了すると、選択したオブジェクトがターゲットサンドボックスで使用できるようになります。
+1. 移行が完了すると、選択したオブジェクトがターゲットサンドボックスで使用できるようになります。
 
-![&#x200B; リクエストの状態を示す転送の完了ページ。](./assets/sandbox-tooling/transfer-complete.png)
+![ リクエストの状態を示す転送の完了ページ。](./assets/sandbox-tooling/transfer-complete.png)
 
-CX Coworkerの使用について詳しくは、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
+CX Coworkerの使用について詳しくは、[Coworker UI ガイド ](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
 
 ## サポートされるユースケース {#supported-use-cases}
 
@@ -108,4 +108,4 @@ CX Coworkerを使用すると、自然言語で移行を説明することで、
 
 このガイドでは、サンドボックスツールのエージェント型スキルを使用して、サポートされているオブジェクトをサンドボックス間で検索、パッケージ化、移行する方法を説明します。
 
-サンドボックスツールについて詳しくは、[&#x200B; サンドボックスツールガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。
+サンドボックスツールについて詳しくは、[ サンドボックスツールガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。
