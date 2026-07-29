@@ -5,7 +5,7 @@ user-guide-description: Adobe Experience Platform と Real-Time Customer Data Pl
 description: 顧客体験エンタープライズ版AI アシスタントについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: c4d93fc0c799e8bb73cb355a53ae8d8167f7659d
+source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 22%
@@ -21,7 +21,7 @@ ht-degree: 22%
   - [エージェント型 AI](./overview/agentic-ai.md)
   - [エージェント型AI モニタリング](./overview/monitoring.md)
   - [担当者の業務とAIのクレジット消費](./overview/ai-credit-consumption.md)
-  - [エージェント型ツール](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)
+  - [エージェント型ツール](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - AI アシスタント {#ai-assistant}
   - [AI アシスタント UI ガイド](./ai-assistant/ai-assistant-ui.md)
   - [プロンプトライブラリ](./ai-assistant/prompt-library.md)
@@ -54,21 +54,21 @@ ht-degree: 22%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同僚 {#coworker}
   - [Cowakerについて](./coworker/overview.md)
-  - キャンペーン {#coworker-campaigns}
+  - キャンペーン {#campaigns}
     - [概要](./coworker/campaigns/overview.md)
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
     - [ユースケース](./coworker/campaigns/use-cases.md)
     - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
     - [コネクタ](./coworker/campaigns/connectors.md)
     - [リリースノート](./coworker/campaigns/release-notes.md)
-  - チャット {#coworker-chat}
+  - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [ユースケース](./coworker/chat/use-cases.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
     - [CJAデータの分析](./coworker/chat/analytics-chat.md)
-  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
   - [サンドボックスツールのエージェント型スキル](./agents/sandbox-tooling.md)
