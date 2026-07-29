@@ -69,6 +69,6 @@ ht-degree: 22%
     - [ユースケース](./coworker/chat/use-cases.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
     - [CJAデータの分析](./coworker/chat/analytics-chat.md)
-  - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
   - [サンドボックスツールのエージェント型スキル](./agents/sandbox-tooling.md)
