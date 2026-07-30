@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
+source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: 872
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ CX Enterprise Coworkerは、顧客体験とマーケティングのワークフ�
 
 Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)や[Analyze CJA data](./coworker/analytics-chat.md)などの実際のユースケースを読んでください。
 
-共同作業者チャット、キャンペーン、プロジェクトに関する完全な製品ドキュメントについては、[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)を参照してください。
+共同作業者チャット、キャンペーン、プロジェクトに関する完全な製品ドキュメントについては、[Adobe CX Enterprise Coworker](./coworker/overview.md)を参照してください。
 
 ## MCP
 
@@ -99,3 +99,4 @@ AI アシスタントや共同作業者の体験から最大限の価値を引�
 ## 法的考慮事項
 
 現在、AI アシスタントは英語のみで回答をサポートしており、言語モデルが間違いを犯すこともあります。 提供された情報を必ず検証し、各回答に含まれる推論手順に従って、どのように生成されたかを把握します。 詳しくは、[法的免責事項](./ai-assistant/legal-disclaimer.md)を参照してください。
+
