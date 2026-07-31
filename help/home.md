@@ -15,10 +15,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
+source-git-commit: 325bdc7452557cf9a2b448b5e6afa613b87b4544
 workflow-type: tm+mt
-source-wordcount: 872
-ht-degree: 2%
+source-wordcount: 929
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 このガイドでは、Adobe CX Enterprise アプリケーション全体で利用できるAI機能について説明します。製品情報と運用上のインサイトのための生成AIとAI アシスタント、業務を自動化するためのAgent OrchestratorとExperience Platform Agents、完全会話型でエージェントファーストのエクスペリエンスを実現するCX Enterprise Coworker、独自のAI ツールをCX Enterprise データに接続するためのMCPです。
 
-## CX エンタープライズにおけるAIについて
+## AI機能の概要
 
 CX Enterpriseのどこで、どのようにAIが使用されているかについては、こちらをご覧ください。
 
@@ -34,6 +34,7 @@ CX Enterpriseのどこで、どのようにAIが使用されているかにつ�
 - [Agentic AI](./overview/agentic-ai.md)は、Experience Platform Agentsが既存のCX Enterprise アプリケーションとAI ファースト アプリケーションの両方でどのように機能するかを説明し、それぞれに使用可能なエージェントを一覧表示します。
 - [&#x200B; エージェンティック AI モニタリング &#x200B;](./overview/monitoring.md)では、エージェントの導入、使用、フィードバック、AI クレジット消費を追跡するダッシュボードについて説明します。
 - [&#x200B; エージェントのジョブとAI クレジットの消費](./overview/ai-credit-consumption.md)は、AI クレジットがエージェントのジョブによって消費される仕組みを説明し、エージェントとジョブのタイプ別の推定消費率を示します。
+- [CX Enterprise Agentic Tools](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)では、CX Enterprise エージェントを拡張する追加のエージェントのスキルとツールについて説明します。
 
 ## AI アシスタント
 
@@ -55,6 +56,7 @@ CX Enterpriseのどこで、どのようにAIが使用されているかにつ�
 - [Notifications エージェント](./agents/notifications.md)
 - [製品サポート担当者](./agents/product-support.md)
 - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
+- [データの検証](./agents/data-validation.md)
 
 エージェントの完全なリスト、各アプリケーションがサポートするアプリケーション、および適格要件については、「[Agentic AI in CX Enterprise](./overview/agentic-ai.md)」を参照してください。
 
@@ -62,19 +64,21 @@ CX Enterpriseのどこで、どのようにAIが使用されているかにつ�
 
 CX Enterprise Coworkerは、顧客体験とマーケティングのワークフローを自動化するAI アシスタントのエージェント第一の進化であり、日常的な実行ではなくビジネス目標に集中することができます。 自然言語で目標を説明します。Coworkerは、一度に1つの質問をする代わりに、作業を計画し、Adobeと接続されたシステムをまたいで実行し、結果を検証し、完成した作業を承認のために返します。 チームメンバーは次の通りです。
 
-- **[同僚チャット &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)**: データを探索し、オーディエンスとジャーニーを検証し、CX エンタープライズ アプリケーション全体でマルチステップのタスクを完了するための会話型インターフェイスです。
-- **[同僚キャンペーン &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)**：組み込みのテンプレート、ベストプラクティス、プロンプトによるガイダンスを使用して、キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニーデザイン、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションで、小規模なアジャイルチームでも素早くキャンペーンを開始できます。
+- **[同僚チャット &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/chat/overview)**: データを探索し、オーディエンスとジャーニーを検証し、CX エンタープライズ アプリケーション全体でマルチステップのタスクを完了するための会話型インターフェイスです。
+- **[同僚キャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/campaigns/overview)**：組み込みのテンプレート、ベストプラクティス、プロンプトによるガイダンスを使用して、キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニーデザイン、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションで、小規模なアジャイルチームでも素早くキャンペーンを開始できます。
 - **同僚プロジェクト** （近日リリース予定）: エンドツーエンドの顧客体験オーケストレーションワークフローを自動化し、チームがタスク、承認、実行を調整して、戦略から納品までの成果を促進するための統合ワークスペースです。 プロジェクトのドキュメントは近日公開予定です。
 
 適格な顧客は、AI アシスタントやExperience Platform AgentsからCoworker Chatへ徐々に移行しています。 体験版の利用条件、AI クレジットの使用状況、アクセス方法については、[CX Enterprise Coworker Trial](./agents/trial.md)を参照してください。
 
-Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)や[Analyze CJA data](./coworker/analytics-chat.md)などの実際のユースケースを読んでください。
+Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)や[Analyze CJA data](./coworker/chat/analytics-chat.md)などの実際のユースケースを読んでください。
 
-共同作業者チャット、キャンペーン、プロジェクトに関する完全な製品ドキュメントについては、[Adobe CX Enterprise Coworker](./coworker/overview.md)を参照してください。
+共同作業者チャット、キャンペーン、プロジェクトに関する完全な製品ドキュメントについては、[Adobe CX Enterprise Coworker](./coworker/overview.md)を参照してください。 サンドボックス間のオブジェクトレプリケーションについては、[Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)を参照してください。
 
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md)は、CX Enterpriseの統合モデル コンテキスト プロトコル （MCP） エンドポイントです。 [!DNL Claude]、[!DNL ChatGPT]、[!DNL Cursor]などのMCP対応クライアントを使用できます。これらのクライアントは、Real-Time CDP、Experience Platform、Journey Optimizer、Customer Journey Analytics、Adobe Analyticsなど、組織が使用する権限を持つ製品ツールへの1つの管理された接続です。
+[Adobe CX Coworker Gateway](./mcp/overview.md)は、CX Enterpriseの統合モデル コンテキスト プロトコル （MCP） エンドポイントです。 [!DNL Claude]、[!DNL ChatGPT]、[!DNL Cursor]などのMCP対応クライアントを使用できます。これらのクライアントは、Real-Time CDP、Experience Platform、Journey Optimizer、Customer Journey Analytics、Adobe Analytics、Workfrontなど、組織が使用する権限を持つ製品ツールへの1つの管理された接続です。
+
+CX Coworker Gatewayを初めて利用する場合 接続するには、[CX Coworker Gateway tools](./mcp/access.md)および[CX Coworker Gateway](./mcp/install.md)のインストールを参照してください。
 
 ## 基本を学ぶ
 
