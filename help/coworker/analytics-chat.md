@@ -40,13 +40,13 @@ Customer Journey Analytics データでCoworker Chatを使用する前に、ロ�
 
 * その他
 
-詳しくは、[同僚チャット UI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
+詳しくは、[同僚チャット UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
 
 ### Customer Journey Analyticsのユースケース
 
 Adobe CX Enterprise Coworker Chatでは、Customer Journey Analyticsのユースケースと、実務担当者が使用しているサンプルプロンプトを確認できます。 各プロンプトは、コピーできるように構築され、独自のデータやコンテキストに適応させ、会話を通じて洗練させられます。
 
-詳しくは、[&#x200B; ユースケース &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/use-cases)を参照してください。
+詳しくは、[&#x200B; ユースケース &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/chat/use-cases)を参照してください。
 
 ## Workfront ChatがCustomer Journey Analyticsに接続されていることを確認します
 

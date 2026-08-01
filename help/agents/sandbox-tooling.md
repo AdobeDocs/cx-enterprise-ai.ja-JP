@@ -33,7 +33,7 @@ ht-degree: 1%
 - 検出または移行するオブジェクトへのアクセス。
 - CX CoworkerにインストールされたAdobe CXO プラグイン。
 
-プラグインのインストール手順については、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
+プラグインのインストール手順については、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
 
 ## エージェント型スキルのサンドボックスツールの使用 {#use-sandbox-tooling-agentic-skills}
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 ![&#x200B; リクエストの状態を示す転送の完了ページ。](./assets/sandbox-tooling/transfer-complete.png)
 
-CX Coworkerの使用について詳しくは、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
+CX Coworkerの使用について詳しくは、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
 
 ## サポートされるユースケース {#supported-use-cases}
 
