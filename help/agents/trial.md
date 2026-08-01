@@ -78,7 +78,7 @@ Coworker Chatに移行していないお客様：
 
 Workfront、Agent Orchestrator、AI アシスタントの詳細については、次のガイドを参照してください。
 
-- [CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
 - [Agent Orchestratorの概要](agent-orchestrator.md)
 - [AI アシスタント UI ガイド](../ai-assistant/ai-assistant-ui.md)
 - [AI アシスタントプロンプトライブラリ](../ai-assistant/prompt-library.md)
