@@ -3,8 +3,8 @@ title: CX Coworker GatewayのAdobe Experience Platformツール
 description: CX Coworker Gatewayを通じて利用できるAdobe Experience Platform ツールについて説明します。
 source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 8%
+source-wordcount: '1354'
+ht-degree: 7%
 
 ---
 
@@ -175,7 +175,7 @@ Policy Service APIに対して、データ使用ラベル、ポリシー、マ�
 | `scope` | × | `core` （Adobe定義）または`custom` （組織定義）です。 `list`、`get`、`evaluate`には必須です。`list_enabled`には使用されません |
 | `resource_id` | × | ラベル名、ポリシーID、またはマーケティングアクション名。 `get`および`evaluate`に必要 |
 | `query_params.dule_labels` | × | コンマ区切りのラベル （例：`C1,C3`）。 `marketing_action/evaluate`には必須です。`policy/list`にはオプションのフィルターがあります |
-| `query_params.limit` | × | 最大結果 |
+| `query_params.limit` | × | 最大結果数 |
 | `query_params.start` | × | 以前の応答の`_page.next`値からのページネーション カーソル |
 | `query_params.orderby` | × | コンマ区切りのソートフィールド |
 | `query_params.property_filter` | × | フィルター式（例：`name==C1`） |
