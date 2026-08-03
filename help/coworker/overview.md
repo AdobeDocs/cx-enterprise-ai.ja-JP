@@ -1,7 +1,7 @@
 ---
 title: Adobe CX Enterprise Collaborker
 description: Adobe CX Enterprise Coworkerを利用して、マーケティングを次のレベルに引き上げる方法をご確認ください。
-source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
+source-git-commit: 0a56fd8cc38258e764f4cf97ff67ae4dde2e4d56
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 4%
@@ -33,4 +33,3 @@ Coworker Chatなら、自然言語を使ってAdobe Adobeのプロダクトタ�
 ## プロジェクト（ドキュメントは近日リリース予定）
 
 Coworker Projectsは、エンドツーエンドの顧客体験オーケストレーションワークフローを自動化するための統合ワークスペースで、戦略から納品までの成果の促進のために、タスク、承認、実行の調整を支援します。
-
