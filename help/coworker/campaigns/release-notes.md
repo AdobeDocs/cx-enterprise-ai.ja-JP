@@ -1,16 +1,16 @@
 ---
-description: Adobe CX Enterprise Coworker Campaigns リリースノートで、機能の機能強化と修正について説明します。
-title: Adobe CX Enterprise Coworker Campaigns リリースノート
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+description: 機能の機能強化と修正について詳しくは、Adobe Campaigns リリースノートを参照してください。
+title: Adobe Workfront Campaigns リリースノート
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
 
-# Adobe CX Enterprise Coworker Campaigns リリースノート {#release-notes}
+# Adobe Workfront Campaigns リリースノート {#release-notes}
 
-Adobe CX Enterprise Coworker Campaignsのリリースは、継続的な配信モデルにもとづいて動作するため、機能のデプロイメントに対するよりスケーラブルで段階的なアプローチが可能になります。
+Coworker Campaignsのリリースは、継続的な配信モデルにもとづいて運用されるため、機能のデプロイメントに対してよりスケーラブルで段階的なアプローチが可能になります。
 
 ## 2026年7月 {#july-2026}
 
@@ -130,7 +130,7 @@ Adobe CX Enterprise Coworker Campaignsのリリースは、継続的な配信モ
 
 **リリース日：2026年6月10日**
 
-* アプリは現在、CX Enterprise Coworker Campaignsに移行しており、名前は全体を通じて更新されています
+* アプリはCoworker Campaignsに移行されました。このキャンペーンの命名規則は
 * 初回のオンボーディングツアーでは、デモブランドの構築について説明します
 * プランの準備が整ったら、専用ダイアログからキャンペーンを開始します
 * 統合カタログのAPI キーでHubSpotを接続します

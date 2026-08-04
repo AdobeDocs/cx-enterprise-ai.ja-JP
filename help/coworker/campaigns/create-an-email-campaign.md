@@ -1,9 +1,9 @@
 ---
-description: プロンプトの作成からキャンペーンのレビューとエクスポートに至るまで、Adobe CX Enterprise Coworker Campaignsでメールキャンペーンを作成する手順を解説します。
+description: プロンプトの作成からキャンペーンのレビューとエクスポートに至るまで、Adobe Coworker Campaignsでメールキャンペーンを作成する手順を解説します。
 title: メールキャンペーンの作成
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 次を持っていることを確認します。
 
-* アクティブなAdobe CX Enterprise Coworker Campaigns アカウント（[まだお持ちでない場合はここからサインアップ &#x200B;](https://coworker-campaigns.experience.adobe.com/){target="_blank"}）。
+* アクティブなAdobe Coworker Campaigns アカウント（[まだ登録していない場合は、ここで](https://coworker-campaigns.experience.adobe.com/){target="_blank"}登録してください）。
 
 * ブランドが&#x200B;**自分のもの** > **ブランド**&#x200B;の下に追加されました。
 
