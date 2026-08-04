@@ -17,7 +17,7 @@ Adobe Workfront Campaignsを利用すれば、Marketo EngageまたはHubspotの�
 >
 >コネクタも近日追加予定です。
 
-1. [Campaign Coworkerのホームページ ](https://coworker-campaigns.experience.adobe.com/)で、**カスタマイズ**&#x200B;をクリックし、**コネクタ**&#x200B;を選択します。
+1. [Campaign Coworkerのホームページ &#x200B;](https://coworker-campaigns.experience.adobe.com/)で、**カスタマイズ**&#x200B;をクリックし、**コネクタ**&#x200B;を選択します。
 
 SCREENSHOT
 
