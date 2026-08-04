@@ -26,7 +26,7 @@ ht-degree: 2%
 
 # Agentic AI モニタリングダッシュボード
 
-エージェント型AI [!UICONTROL 監視] ダッシュボードは、センターオブエクセレンス （COE） メンバーおよびその他のガバナンス関係者に、エージェント型AIの使用と導入に関する可視性を提供します。 7日間または30日間のトレンドを表示して、[!DNL AI Assistant]またはその他のサーフェス（[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)など）を使用して[!DNL Experience Platform Agents]とインタラクションするユーザーとそのユーザーが受け取る値を確認します。 これらのビューを組み合わせることで、エージェントの導入を仮定ではなくデータで導くことができます。
+エージェント型AI [!UICONTROL 監視] ダッシュボードは、センターオブエクセレンス （COE） メンバーおよびその他のガバナンス関係者に、エージェント型AIの使用と導入に関する可視性を提供します。 7日間または30日間のトレンドを表示して、[!DNL AI Assistant]またはその他のサーフェス（[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)など）を使用して[!DNL Experience Platform Agents]とインタラクションするユーザーとそのユーザーが受け取る値を確認します。 これらのビューを組み合わせることで、エージェントの導入を仮定ではなくデータで導くことができます。
 
 **対象**
 
@@ -155,7 +155,7 @@ AI クレジット ダッシュボードは、組織での[!DNL Experience Platf
 
 ## このトピックの詳細ヘルプ
 
-* [!DNL Experience Platform]の[&#x200B; ライセンス使用状況ダッシュボード &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)
+* [!DNL Experience Platform]の[&#x200B; ライセンス使用状況ダッシュボード &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage)
 * [Adobe CX EnterpriseのAgentic AI](agentic-ai.md)
 * [担当者の業務とAIのクレジット消費](ai-credit-consumption.md)
-* [&#x200B; ライセンス使用状況ダッシュボード &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) （Experience Platform）
+* [&#x200B; ライセンス使用状況ダッシュボード &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage) （Experience Platform）
