@@ -1,10 +1,9 @@
 ---
 title: Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする際に、Coworkerでデータを検証する
-description: Analytics管理者がAdobe Coworker データ検証スキルを使用して、アップグレード中にAdobe AnalyticsとCustomer Journey Analytics データを比較する方法について説明します。
-hide: true
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+description: Analytics管理者がCX Enterprise Coworker データ検証スキルを使用して、アップグレード中にAdobe AnalyticsとCustomer Journey Analytics データを比較する方法について説明します。
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -13,7 +12,7 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->このページの手順は、以前のすべてのアップグレード手順を完了した後にのみ実行します。 推奨されるアップグレード手順（ほとんどの組織で推奨）に従うか、Customer Journey Analytics アップグレードガイドで組織に応じて動的に生成される手順に従うことができます。 <ul><li>**推奨されるアップグレード手順** （ほとんどの組織で推奨）<p>Adobe Customer Journey Analyticsを導入するための一連のステップ。</p><p>詳しくは、[Adobe AnalyticsからCustomer Journey Analyticsへのアップグレード &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)を参照してください。</p></li><li>**Customer Journey Analytics アップグレードガイド** （組織の特定のニーズに合わせたカスタム手順）<p>組織と独自の状況に合わせてカスタマイズされたアップグレード手順を動的に生成する新しいアップグレードガイドを利用できます。</p><p>Customer Journey Analyticsからガイドにアクセスするには、「**[!UICONTROL Workspace]**」タブを選択し、左側のパネルで「**[!UICONTROL Customer Journey Analyticsにアップグレード]**」を選択します。 画面の指示に従います。</p></li></ul>
+>このページの手順は、以前のすべてのアップグレード手順を完了した後にのみ実行します。 推奨されるアップグレード手順（ほとんどの組織で推奨）に従うか、Customer Journey Analytics アップグレードガイドで組織に応じて動的に生成される手順に従うことができます。 <ul><li>**推奨されるアップグレード手順** （ほとんどの組織で推奨）<p>Adobe Customer Journey Analyticsを導入するための一連のステップ。</p><p>詳しくは、[Adobe AnalyticsからCustomer Journey Analyticsへのアップグレード ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)を参照してください。</p></li><li>**Customer Journey Analytics アップグレードガイド** （組織の特定のニーズに合わせたカスタム手順）<p>組織と独自の状況に合わせてカスタマイズされたアップグレード手順を動的に生成する新しいアップグレードガイドを利用できます。</p><p>Customer Journey Analyticsからガイドにアクセスするには、「**[!UICONTROL Workspace]**」タブを選択し、左側のパネルで「**[!UICONTROL Customer Journey Analyticsにアップグレード]**」を選択します。 画面の指示に従います。</p></li></ul>
 
 Adobe Coworkerには、Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする際にデータを検証できる検証スキルが含まれています。 データ検証は、1回の会話で完了します。
 
@@ -91,7 +90,7 @@ Adobe Coworkerには、Adobe AnalyticsからCustomer Journey Analyticsにアッ�
    |---------|----------|----------|
    | 97%-100% | ![緑の四角形](./assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL 良好] | あらゆるプロパティが高度に調整されています。 操作は必要ありません。 |
    | 90%～96% | ![黄色の円](./assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL 良好] | 小さな隙間が存在する。 トレンドを監視し、トレンドが衰退しているかどうかを調査します。 |
-   | 75%～89% | ![&#x200B; オレンジ色の円](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL &#x200B; レビュー] | 大きなギャップが存在。 Customer Journey Analyticsのデータを利用する前に、根本原因を調査しましょう。 |
+   | 75%～89% | ![ オレンジ色の円](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL  レビュー] | 大きなギャップが存在。 Customer Journey Analyticsのデータを利用する前に、根本原因を調査しましょう。 |
    | 75%未満 | ![赤い円](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 悪い] | 大きな整合性の低下： Customer Journey Analyticsのデータを利用する前に、すぐに対応する必要があります。 |
 
 1. 「[!UICONTROL **重要なインサイト**]」タブを選択すると、2個から4個の短いコールアウトボックスが表示され、それぞれ分析から1個の結果が1文にまとめられます。 コールアウトは重大度によって色分けされるので、最も重要な結果を最初に見つけることができます。
@@ -102,22 +101,22 @@ Adobe Coworkerには、Adobe AnalyticsからCustomer Journey Analyticsにアッ�
 
    指標の場合、これは日々のトレンドを比較する折れ線グラフです。
 
-   折れ線グラフを表示する![日次トレンド タブ &#x200B;](./assets/data-validation-aa-cja/trend-line.png)
+   折れ線グラフを表示する![日次トレンド タブ ](./assets/data-validation-aa-cja/trend-line.png)
 
    ディメンションの場合、これは上位の値を比較する棒グラフです。
 
-   ![横棒グラフを表示する「日次トレンド」タブ &#x200B;](./assets/data-validation-aa-cja/trend-bar.png)
+   ![横棒グラフを表示する「日次トレンド」タブ ](./assets/data-validation-aa-cja/trend-bar.png)
 
 1. （条件付き）単一ディメンションの比較または単一メトリックの比較を行う場合、「[!UICONTROL **日付の詳細**]」タブで行レベルの詳細を表示できます。 この表は、比較された各指標またはディメンション値の日付、Adobe Analytics値、Customer Journey Analytics値、差異の割合、およびステータスバッジを示しています。
 
-   ![差異の割合と状態バッジのテーブルを表示する日付の詳細タブ &#x200B;](./assets/data-validation-aa-cja/date-detail.png)
+   ![差異の割合と状態バッジのテーブルを表示する日付の詳細タブ ](./assets/data-validation-aa-cja/date-detail.png)
 
    「差異」列と「ステータス」列では、次のスケールが使用されます。
 
    | 平方偏差 | ステータス | 意味 |
    |---------|----------|----------|
-   | 3%未満 | ![緑のチェックマーク &#x200B;](./assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL 合格] | データを適切に活用。 操作は必要ありません。 |
-   | 3%～10% | ![黄色の警告トライアングル &#x200B;](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL &#x200B; フラグ &#x200B;] | 違いを監視し、それが継続または悪化するかどうかを調べます。 |
+   | 3%未満 | ![緑のチェックマーク ](./assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL 合格] | データを適切に活用。 操作は必要ありません。 |
+   | 3%～10% | ![黄色の警告トライアングル ](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL  フラグ ] | 違いを監視し、それが継続または悪化するかどうかを調べます。 |
    | 10%以上 | ![赤い円](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 重要] | すぐに調査。 これは通常、スキーマ、取り込み、またはマッピングの問題を指します。 |
 
 1. （条件付き）完全なレポートスイートとデータビュー監査を実行する際、[!UICONTROL **日次トレンド**]&#x200B;と&#x200B;[!UICONTROL **日次の詳細**] タブは、合格数、フラグ付き数、重要数を示すスコアカードに置き換えられ、上位5つのベストマッチング指標と上位5つの最低マッチング指標とディメンションを示す個別のテーブルが表示されます。
@@ -142,5 +141,5 @@ Adobe Coworkerには、Adobe AnalyticsからCustomer Journey Analyticsにアッ�
 
 1. （オプション）別の指標を分析するか、別のディメンションを分析するか、[検証するデータを選択する](#choose-the-data-to-validate)で説明されているように、最大40指標と20 ディメンションの別のレポートを実行して、分析を続行します。 設定プロセスを繰り返す必要はなく、企業、レポートスイート、データビューの選択は、会話の間を通じて繰り返されます。
 
-1. 引き続き、[推奨されるアップグレード手順](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations)またはCustomer Journey Analytics アップグレードガイドの動的に生成されるアップグレード手順に従ってください。 Customer Journey Analyticsからガイドにアクセスするには、「**[!UICONTROL Workspace]**」タブを選択し、左側のパネルで「**[!UICONTROL Customer Journey Analyticsにアップグレード]**」を選択します。 画面の指示に従います。
+1. 引き続き、[推奨されるアップグレード手順](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations)またはCustomer Journey Analytics アップグレードガイドの動的に生成されるアップグレード手順に従ってください。 Customer Journey Analyticsからガイドにアクセスするには、「**[!UICONTROL Workspace]**」タブを選択し、左側のパネルで「**[!UICONTROL Customer Journey Analyticsにアップグレード]**」を選択します。 画面の指示に従います。
 

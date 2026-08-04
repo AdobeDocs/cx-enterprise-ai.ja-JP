@@ -5,7 +5,7 @@ user-guide-description: Adobe Experience Platform と Real-Time Customer Data Pl
 description: 顧客体験エンタープライズ版AI アシスタントについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 28%
@@ -54,7 +54,7 @@ ht-degree: 28%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同僚 {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - キャンペーン {#campaigns}
@@ -62,13 +62,13 @@ ht-degree: 28%
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
     - [ユースケース](./coworker/campaigns/use-cases.md)
     - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[&#x200B; コネクタ &#x200B;](./coworker/campaigns/connectors.md)
+    - {hide-from-toc}[ コネクタ ](./coworker/campaigns/connectors.md)
     - [リリースノート](./coworker/campaigns/release-notes.md)
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [ユースケース](./coworker/chat/use-cases.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
     - [CJAデータの分析](./coworker/chat/analytics-chat.md)
-  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
+  - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
+  - [AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
   - [サンドボックスツールのエージェント型スキル](./agents/sandbox-tooling.md)
