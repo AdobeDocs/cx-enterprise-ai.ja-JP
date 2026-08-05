@@ -7,7 +7,8 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
 source-git-commit: 9b744e4c60afcd0533d52c11ba65463f8ffb5b0e
 workflow-type: tm+mt
 source-wordcount: 966
@@ -44,7 +45,7 @@ AIによるクレジットの使用状況は、実行されるジョブの複雑
 * 複雑な（多くの場合マルチステップ）タスクでは、より多くのクレジットが消費されます
 * 高度な推論、検証、マルチエージェントの調整、または統合を伴うタスクは、より多くのクレジットを消費します
 
-ライセンス済みのCX Enterprise アプリケーションで使用可能なAEP AgentsとAgent ジョブを確認するには、[CX Enterprise Agentic AI機能カタログ ](https://agentic-capability-explorer.entapp.adproto.com/)を参照してください。
+ライセンス済みのCX Enterprise アプリケーションで使用可能なAEP AgentsとAgent ジョブを確認するには、[CX Enterprise Agentic AI機能カタログ &#x200B;](https://agentic-capability-explorer.entapp.adproto.com/)を参照してください。
 
 #### エージェントの予測ジョブのクレジット率
 
