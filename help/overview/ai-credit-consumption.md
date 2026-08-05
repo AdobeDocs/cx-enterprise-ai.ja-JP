@@ -7,9 +7,8 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 9b744e4c60afcd0533d52c11ba65463f8ffb5b0e
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 34a3227d726a6249a6dedea420828b84ad1547a7
 workflow-type: tm+mt
 source-wordcount: 966
 ht-degree: 5%
@@ -26,8 +25,8 @@ _AI クレジット_&#x200B;は、アクションまたはジョブの実行を�
 
 ## AI クレジットを使用する対象サービス
 
-* CX Enterprise Coworker
-* AEP Agents
+* [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [AEP Agents](#aep-agents-credit-rate)
 
 ### CX Enterprise Coworkerのクレジット率
 
@@ -45,7 +44,7 @@ AIによるクレジットの使用状況は、実行されるジョブの複雑
 * 複雑な（多くの場合マルチステップ）タスクでは、より多くのクレジットが消費されます
 * 高度な推論、検証、マルチエージェントの調整、または統合を伴うタスクは、より多くのクレジットを消費します
 
-ライセンス済みのCX Enterprise アプリケーションで使用可能なAEP AgentsとAgent ジョブを確認するには、[CX Enterprise Agentic AI機能カタログ &#x200B;](https://agentic-capability-explorer.entapp.adproto.com/)を参照してください。
+ライセンス済みのCX Enterprise アプリケーションで使用可能なAEP AgentsとAgent ジョブを確認するには、[CX Enterprise Agentic AI機能カタログ ](https://agentic-capability-explorer.entapp.adproto.com/)を参照してください。
 
 #### エージェントの予測ジョブのクレジット率
 
@@ -75,4 +74,4 @@ AIによるクレジットの使用状況は、実行されるジョブの複雑
 
 * [CX エンタープライズにおける生成AI](generative-ai.md)
 * [CX Enterprise のエージェント型 AI](agentic-ai.md)
-* [Adobe Experience Platform Agents利用制限トライアル](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform Agents利用制限トライアル](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
