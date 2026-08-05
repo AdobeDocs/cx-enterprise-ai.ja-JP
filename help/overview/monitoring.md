@@ -17,16 +17,16 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: cbded236e67d7d47ad70187a307f403a93ace8e9
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
-source-wordcount: 994
-ht-degree: 3%
+source-wordcount: 996
+ht-degree: 2%
 
 ---
 
 # Agentic AI モニタリングダッシュボード
 
-エージェンティック AI モニタリングダッシュボードは、センターオブエクセレンス（COE）メンバーやその他のガバナンス関係者に、エージェンティック AIの利用や導入に関する可視性を提供します。 7日間または30日間のトレンドを表示して、[!DNL AI Assistant]またはその他のサーフェス（[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)など）を使用して[!DNL Experience Platform Agents]とインタラクションするユーザーとそのユーザーが受け取る値を確認します。 これらのビューを組み合わせることで、エージェントの導入を仮定ではなくデータで導くことができます。
+エージェント型AI [!UICONTROL 監視] ダッシュボードは、センターオブエクセレンス （COE） メンバーおよびその他のガバナンス関係者に、エージェント型AIの使用と導入に関する可視性を提供します。 7日間または30日間のトレンドを表示して、[!DNL AI Assistant]またはその他のサーフェス（[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)など）を使用して[!DNL Experience Platform Agents]とインタラクションするユーザーとそのユーザーが受け取る値を確認します。 これらのビューを組み合わせることで、エージェントの導入を仮定ではなくデータで導くことができます。
 
 **対象**
 
@@ -42,7 +42,7 @@ ht-degree: 3%
 | **フィードバック** | レスポンスの質とユーザー満足度に関するシグナル |
 | **AI クレジット** | クレジット消費の動向と残高バランス |
 
-Adobe CX Enterprise[&#128279;](agentic-ai.md)の[Agentic AI ドキュメントには、既存のCX Enterprise アプリ &#x200B;](agentic-ai.md#existing-apps-table)のAI エージェントで使用状況を監視する対象のエージェントが一覧表示されています。
+Adobe CX Enterprise[&#128279;](agentic-ai.md)の[Agentic AI ドキュメントには、既存のCX Enterprise アプリ &#x200B;](agentic-ai.md#existing-apps-table)のAI エージェントの使用状況モニタリングの対象範囲のエージェントが一覧表示されています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491869?captions=jpn&learn=on)
 
@@ -90,7 +90,7 @@ Adobe CX Enterprise[&#128279;](agentic-ai.md)の[Agentic AI ドキュメント�
 
 ## 概要ダッシュボード
 
-概要ダッシュボードは、組織全体での導入とエンゲージメントの指標を一元化する場所です。 上位レベルのトレンドをより詳細な分析に結びつける。 数字を動かすものを確認するには、任意の指標から個々の会話をドリルダウンします。
+概要ダッシュボードは、組織全体での導入とエンゲージメントの指標を一元化する場所です。 上位レベルのトレンドをより詳細な分析に結びつける。 指標に影響を与える要因を確認するには、あらゆる指標の個別の会話を確認します。
 
 ### 概要ダッシュボードの指標
 

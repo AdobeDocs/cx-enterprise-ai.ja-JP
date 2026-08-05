@@ -1,16 +1,16 @@
 ---
-description: AIを活用して、単一のプロンプトをレビュー可能なキャンペーンに転換する、Adobe CX Enterprise Coworker Campaignsについてご確認ください。
-title: Adobe CX Enterprise Coworkerの概要
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+description: AIを活用して、単一のプロンプトをレビュー可能なキャンペーンに変える、Adobe Coworker Campaignsについてご確認ください。
+title: Adobe Workfrontの概要
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Adobe CX Enterprise Coworker Campaignsの概要 {#overview}
+# Adobeの共同作業キャンペーンの概要 {#overview}
 
-Adobe CX Enterprise Coworker Campaignsは、AIを活用したマーケティングアプリケーションで、単一のプロンプトから、レビュー可能な包括的なキャンペーンに移行できます。
+Coworker Campaignsは、AIを活用したマーケティングアプリケーションであり、単一のプロンプトから、レビュー可能な包括的なキャンペーンに移行できます。
 
 現時点では、AIに関するあらゆるやり取りが、[ キャンペーン生成] (./)に向けて送信されます。 近日中に追加機能を予定しています。
 
@@ -46,7 +46,7 @@ Adobe CX Enterprise Coworker Campaignsは、AIを活用したマーケティン�
 
 | 左ナビゲーションメニュー | 目的 |
 |---|---|
-| 新規チャット | 新しい会話を開始して、キャンペーンを生成します。 |
+| 新しいチャット | 新しい会話を開始して、キャンペーンを生成します。 |
 | ホーム | 出発点：プロンプトバー、最近のキャンペーン、既製のキャンペーンテンプレート |
 | チャット | 開始した会話のうち、まだキャンペーンボードに生成されていないものはすべて。 |
 | キャンペーン | ドラフトおよびライブキャンペーンの在庫。 |

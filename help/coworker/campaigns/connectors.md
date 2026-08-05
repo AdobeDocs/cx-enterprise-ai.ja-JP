@@ -2,16 +2,16 @@
 description: ここに説明が来ます。
 title: コネクタ
 hide: true
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 13%
 
 ---
 
 # コネクタ {#connectors}
 
-Adobe CX Enterprise Coworker Campaignsを使用すると、Marketo EngageまたはHubspot アカウントを接続して、連絡先、セグメント、アクティビティを取り込むことができます。
+Adobe Workfront Campaignsを利用すれば、Marketo EngageまたはHubspotのアカウントを連携させ、連絡先、セグメント、アクティビティを取り込むことができます。
 
 >[!NOTE]
 >

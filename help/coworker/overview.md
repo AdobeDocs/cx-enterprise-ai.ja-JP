@@ -1,16 +1,16 @@
 ---
-title: Adobe CX Enterprise Collaborker
-description: Adobe CX Enterprise Coworkerを利用して、マーケティングを次のレベルに引き上げる方法をご確認ください。
-source-git-commit: 0a56fd8cc38258e764f4cf97ff67ae4dde2e4d56
+title: Adobe Coworker
+description: Adobe Workfrontを利用して、マーケティングを次のレベルに引き上げる方法をご確認ください。
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 4%
+source-wordcount: '194'
+ht-degree: 5%
 
 ---
 
-# Adobe CX Enterprise Coworkerについて
+# Adobe Coworkerについて
 
-Adobe CX Enterprise Coworkerは、組織、チーム、個人の作業内容を再考する、AIを活用したチームメイトです。 CXM （顧客体験管理）とマーケティングワークフローを洗練させ、タスクを調整するのではなく、ビジネス目標の達成と成果の変革に集中できるようにします。 エージェンティックエンジンとして、同社はビジネスプロセスの自動化に新たな革新的アプローチを取り入れました。 データ、インテリジェンス、コラボレーション、エージェンティックスキルの実行を、企業のコンテキスト、ガバナンス、人間による監視を組み込むことで、AI モデルのパフォーマンスと精度を向上させます。
+Coworkerは、組織、チーム、個人の作業内容を再構築するAIを活用したチームメイトです。 CXM （顧客体験管理）とマーケティングワークフローを洗練させ、タスクを調整するのではなく、ビジネス目標の達成と成果の変革に集中できるようにします。 エージェンティックエンジンとして、同社はビジネスプロセスの自動化に新たな革新的アプローチを取り入れました。 データ、インテリジェンス、コラボレーション、エージェンティックスキルの実行を、企業のコンテキスト、ガバナンス、人間による監視を組み込むことで、AI モデルのパフォーマンスと精度を向上させます。
 
 ## キャンペーン
 

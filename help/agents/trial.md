@@ -1,6 +1,6 @@
 ---
-title: CX Enterprise Collaborker体験版
-description: CX Enterprise Coworkerの無償体験版についてご確認ください。
+title: Adobe共同作業者トライアル
+description: Adobe Coworkerの無償体験版について説明します。
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -12,14 +12,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1430
 ht-degree: 0%
 
 ---
 
-# CX Enterprise Collaborker体験版
+# Adobe共同作業者トライアル
 
 >[!AVAILABILITY]
 >
@@ -78,7 +78,7 @@ Coworker Chatに移行していないお客様：
 
 Workfront、Agent Orchestrator、AI アシスタントの詳細については、次のガイドを参照してください。
 
-- [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+- [同僚](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Agent Orchestratorの概要](agent-orchestrator.md)
 - [AI アシスタント UI ガイド](../ai-assistant/ai-assistant-ui.md)
 - [AI アシスタントプロンプトライブラリ](../ai-assistant/prompt-library.md)

@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Platform と Real-Time Customer Data Pl
 description: 顧客体験エンタープライズ版AI アシスタントについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 27%
+source-wordcount: '235'
+ht-degree: 28%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
 - CX エンタープライズにおけるAIについて {#overview}
   - [生成 AI](./overview/generative-ai.md)
   - [エージェント型 AI](./overview/agentic-ai.md)
-  - [エージェント型AI モニタリング](./overview/monitoring.md)
+  - [エージェント型 AI モニタリング](./overview/monitoring.md)
   - [担当者の業務とAIのクレジット消費](./overview/ai-credit-consumption.md)
   - [エージェント型ツール](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)
 - AI アシスタント {#ai-assistant}
@@ -37,7 +37,7 @@ ht-degree: 27%
   - [製品サポート担当者](./agents/product-support.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Notifications エージェント](./agents/notifications.md)
-  - [CX Enterprise Collaborker体験版](./agents/trial.md)
+  - [共同作業者の体験版](./agents/trial.md)
   - [データの検証](./agents/data-validation.md)
   - Data Engineering {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
@@ -70,5 +70,5 @@ ht-degree: 27%
     - [UI ガイド](./coworker/chat/ui-guide.md)
     - [CJAデータの分析](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
+  - [AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
   - [サンドボックスツールのエージェント型スキル](./agents/sandbox-tooling.md)

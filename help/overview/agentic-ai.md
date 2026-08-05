@@ -12,20 +12,20 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 1da893e900542a62e836250d9b38464016734740
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: 1142
 ht-degree: 10%
 
 ---
 
 # Adobe CX EnterpriseのAgentic AI
 
-Adobe Experience Platform Agentsは、[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home)によって強化され、CX Enterprise アプリケーション内でエージェンティック AI機能を有効にします。
+Adobe [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/home)は、CX Enterprise アプリケーションのAgentic AI機能を強化します。
 
-これらのエージェントは、タスクの自動化、インサイトの迅速な提供、ワークフローの合理化に役立ちます。 その結果、チームはより効率的に作業し、CX Enterpriseからより多くの価値を得ることができます。
+エージェントは、タスクの自動化、インサイトの迅速な提供、ワークフローの合理化に役立ちます。 その結果、チームはより効率的に作業し、CX Enterpriseからより多くの価値を得ることができます。
 
-CX EnterpriseのAI エージェントへのアクセスは、次のいずれかから利用できます。
+CX Enterprise AI エージェントは、次のいずれかの場所で利用できます。
 
 * [既存の顧客体験エンタープライズアプリケーション](#existing-apps)
 * [AI ファーストの顧客体験向けエンタープライズアプリケーション](#ai-first-apps)
@@ -34,7 +34,7 @@ CX EnterpriseのAI エージェントへのアクセスは、次のいずれか�
 
 ## 既存の顧客体験エンタープライズアプリケーション {#existing-apps}
 
-既存のアプリケーションでは、自然言語を使用して、[AI アシスタント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home)の会話型インターフェイスを通じてAdobe Experience Platform Agentsに指示できます。 AI アシスタントは、フルスクリーン表示と右パネル表示の両方で利用できます。
+既存のアプリケーションでは、自然言語を使用して、[AI アシスタント &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/home)の会話型インターフェイスを通じてAdobe Experience Platform Agentsに指示できます。 AI アシスタントは、フルスクリーン表示と右パネル表示の両方で利用できます。
 
 エージェントは、次のいずれかのカテゴリの既存の顧客向けCX エンタープライズアプリで有効にできます。
 
@@ -44,7 +44,7 @@ CX EnterpriseのAI エージェントへのアクセスは、次のいずれか�
 
 AI エージェントを使用して&#x200B;_エージェントジョブ_&#x200B;を実行すると、AI クレジットが使用されます。 エージェントのジョブとAI クレジットについて詳しくは、_[エージェントのジョブとAI クレジットの使用](ai-credit-consumption.md)_&#x200B;を参照してください。
 
-AI エージェントは&#x200B;_あなたの_&#x200B;の入力、監視に従い、製品レベルのアクセス制御を尊重します。 ジョブの実行またはデータへのアクセスは、基盤となるCX Enterprise アプリケーションで使用する権限を持つユーザーのみが実行できます。
+AI エージェントは&#x200B;_あなたの_&#x200B;入力と監視に従い、製品レベルのアクセス制御を尊重します。 ジョブの実行またはデータへのアクセスは、基盤となるCX Enterprise アプリケーションで使用する権限を持つユーザーのみが実行できます。
 
 ### 既存のCX エンタープライズアプリのAI エージェント {#existing-apps-table}
 
@@ -63,9 +63,9 @@ AI エージェントは&#x200B;_あなたの_&#x200B;の入力、監視に従�
 
 ## AI ファーストの顧客体験向けエンタープライズアプリケーション {#ai-first-apps}
 
-AI ファーストのアプリケーションは、生成AIまたはエージェンティック AIを中心に構築されています。 主要なタスクには生成AIまたはエージェント型AIを活用しており、エージェント型の機能は既にAl ファーストのアプリケーションライセンスに含まれています。 そのため、Experience Platform Agent Orchestrator ライセンスは必要ありません。
+AI ファーストのアプリケーションは、生成AIまたはエージェンティック AIを主要なコンポーネントとして構築されています。 主要なタスクに生成AIまたはエージェンティック AIを活用しており、エージェンティック機能は既にAI ファーストのアプリケーションライセンスに含まれています。 そのため、Experience Platform Agent Orchestrator ライセンスは必要ありません。
 
-次の表に、Al ファースト アプリケーションとして使用可能なExperience Platform Agentsを示します。 これらは、次のAl-first アプリケーションのライセンスを取得することで有効になります。
+次の表に、AI ファースト アプリケーションとして使用可能なExperience Platform Agentsを示します。 これらのAI ファーストのアプリケーションのライセンスを取得することで、これらの機能を利用できます。
 
 | エージェント名 | 機能 | サポートされているアプリケーション |
 |---|----------|----------|
