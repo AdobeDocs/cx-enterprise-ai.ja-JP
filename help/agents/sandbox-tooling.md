@@ -1,9 +1,9 @@
 ---
 title: サンドボックスツールのエージェント型スキル
 description: サンドボックスツールのエージェント型スキルを使用して、サンドボックス環境全体でオブジェクトメタデータをレプリケートする方法を説明します。
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '719'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->サンドボックスツール エージェンティックスキルは、Adobe Coworkerにアクセスできるすべてのお客様が利用できます。 利用可能なすべての機能を使用するには、次の権限が必要です。
+>サンドボックスツール エージェンティックスキルは、Adobe CX Enterprise Coworkerにアクセスできるすべてのお客様が利用できます。 利用可能なすべての機能を使用するには、次の権限が必要です。
 >
 >**Manage-sandbox**&#x200B;または&#x200B;**View-sandbox**：これらの権限を使用すると、サンドボックスツールのエージェント型スキルを使用して、Coworkerで直接サンドボックスを表示できます。
 >
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >現在、Sandbox Tooling Agentic Skillsを使用して、スキーマとオーディエンスオブジェクトを検索、パッケージ化、移行することができます。 追加のオブジェクトタイプのサポートは、今後のリリースで追加される予定です。
 
-サンドボックスツール エージェンティックスキルを使用して、Adobe Experience Platform環境全体でオブジェクトのメタデータ（スキーマやオーディエンスを含む）を移動し、自然言語で達成したい目標を記述します。 Coworkerを使用すると、必要なメタデータの検索、依存関係の自動特定、移行パッケージの作成、オブジェクトの移行を会話型エクスペリエンスで行うことができます。
+サンドボックスツール エージェンティックスキルを使用して、Adobe Experience Platform環境全体でオブジェクトのメタデータ（スキーマやオーディエンスを含む）を移動し、自然言語で達成したい目標を記述します。 CX Coworkerを利用すれば、必要なメタデータの検索、依存関係の自動的な特定、移行パッケージの作成、オブジェクトの移行を会話型のエクスペリエンスを通じて行うことができます。
 
 ## 前提条件 {#prerequisites}
 
@@ -31,13 +31,13 @@ ht-degree: 1%
 
 - 適切な組織やサンドボックスにAdobe Experience Platformからアクセスできます。
 - 検出または移行するオブジェクトへのアクセス。
-- CoworkerにインストールされたAdobe CXO プラグイン。
+- CX CoworkerにインストールされたAdobe CXO プラグイン。
 
-プラグインのインストール手順については、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
+プラグインのインストール手順については、[Coworker UI ガイド ](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)を参照してください。
 
 ## エージェント型スキルのサンドボックスツールの使用 {#use-sandbox-tooling-agentic-skills}
 
-自然言語を使用して、Coworkerを通じてサンドボックスツールのエージェント型スキルを操作します。 目標をできるだけ明確に記述する： 特定のリクエストは最も優れた結果を生み出します。一方、プロンプトが曖昧であったり過剰に短かったりすると、質の低い結果が返されたり、エージェントが呼び出されないことがあります。
+自然言語を使用して、CX Coworkerを通じてサンドボックスツールのエージェント型スキルを操作します。 目標をできるだけ明確に記述する： 特定のリクエストは最も優れた結果を生み出します。一方、プロンプトが曖昧であったり過剰に短かったりすると、質の低い結果が返されたり、エージェントが呼び出されないことがあります。
 
 サンドボックスツールのエージェント型スキルを使用するには：
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 1. 移行する1つ以上のオブジェクトを選択し、**[!UICONTROL 送信]**&#x200B;を選択します。
 
-   送信を強調表示する![&#x200B; オブジェクト選択ページ。](./assets/sandbox-tooling/object-selection.png)
+   送信を強調表示する![ オブジェクト選択ページ。](./assets/sandbox-tooling/object-selection.png)
 
 1. エージェントが操作アクションを識別するオブジェクトと依存関係を確認し、*新規作成*&#x200B;または&#x200B;*既存の*&#x200B;を使用します。 移行を開始する準備ができたら、**[!UICONTROL 続行]**&#x200B;を選択し、**[!UICONTROL 送信]**&#x200B;を選択して確認します。 移行が完了するまでに数分かかる場合があります。
 
@@ -60,9 +60,9 @@ ht-degree: 1%
 
 1. 移行が完了すると、選択したオブジェクトがターゲットサンドボックスで使用できるようになります。
 
-![&#x200B; リクエストの状態を示す転送の完了ページ。](./assets/sandbox-tooling/transfer-complete.png)
+![ リクエストの状態を示す転送の完了ページ。](./assets/sandbox-tooling/transfer-complete.png)
 
-Coworkerの使用について詳しくは、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/chat/ui-guide)を参照してください。
+CX Coworkerの使用について詳しくは、[Coworker UI ガイド ](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)を参照してください。
 
 ## サポートされるユースケース {#supported-use-cases}
 
@@ -72,7 +72,7 @@ Coworkerの使用について詳しくは、[Coworker UI ガイド &#x200B;](htt
 
 複数のAdobe Experience Platform サンドボックスを管理するサンドボックス管理者は、ユーザーインターフェイスを手動で移動する代わりに、自然言語リクエストを使用してオブジェクトメタデータを移行できます。
 
-Coworkerを使用すると、自然言語で移行を記述することで、スキーマ、オーディエンス、関連する設定アセットなどのオブジェクトメタデータをサンドボックスから別のサンドボックスに移行できます。 サンドボックスツール エージェンティックスキルは、必要な依存関係を自動的に特定してパッケージ化し、信頼性の高い移行を実現するのに役立ちます。
+CX Coworkerを使用すると、自然言語で移行を説明することで、スキーマ、オーディエンス、関連する設定アセットなどのオブジェクトメタデータをサンドボックス間で移行できます。 サンドボックスツール エージェンティックスキルは、必要な依存関係を自動的に特定してパッケージ化し、信頼性の高い移行を実現するのに役立ちます。
 
 次に例を示します。
 
@@ -108,4 +108,4 @@ Coworkerを使用すると、自然言語で移行を記述することで、ス
 
 このガイドでは、サンドボックスツールのエージェント型スキルを使用して、サポートされているオブジェクトをサンドボックス間で検索、パッケージ化、移行する方法を説明します。
 
-サンドボックスツールについて詳しくは、[&#x200B; サンドボックスツールガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。
+サンドボックスツールについて詳しくは、[ サンドボックスツールガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。

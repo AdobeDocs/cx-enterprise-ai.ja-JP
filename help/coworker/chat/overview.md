@@ -1,14 +1,14 @@
 ---
 description: Adobe Workfrontの対話型インターフェイスを利用して、Adobe Adobeと連携したシステムをまたいで、数分で顧客体験の作業を計画、実行、完了できる方法をご確認ください。
-title: Adobeの共同作業チャットの概要
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+title: Adobe CX エンタープライズチャットの概要
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
 
-# Adobeの共同作業チャットの概要 {#overview}
+# Adobe CX エンタープライズチャットの概要 {#overview}
 
 同僚とのチャットは、顧客体験を実現するための会話型インターフェイスです。 目標を平易な言葉で説明し（例：「春のヨガプロモーションのオーディエンスを作成する」、または「このオーディエンスが先週縮小した理由を教えてください」）、Coworker Chatが作業を計画し、Adobeと接続されたシステムをまたいで実行し、結果を検証し、完成した作業を承認のために返します。
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Coworker Chatは、Adobe Coworkerのモジュールのひとつです。 他の2つのモジュールが同じ基盤を拡張します。Coworker Campaigns （1つの会話から完全なキャンペーンを立ち上げて開始する）とCoworker Projects （エンドツーエンドのマルチチームワークフロー用の常時対応型ワークスペース）です。 このページでは、同僚とのチャットについて説明します。
+>Coworker Chatは、Adobe CX Enterprise Coworkerのモジュールのひとつです。 他の2つのモジュールが同じ基盤を拡張します。Coworker Campaigns （1つの会話から完全なキャンペーンを立ち上げて開始する）とCoworker Projects （エンドツーエンドのマルチチームワークフロー用の常時対応型ワークスペース）です。 このページでは、同僚とのチャットについて説明します。
 
 ## AI アシスタントによる進化
 
@@ -51,4 +51,4 @@ Coworker ChatはCoworkerのビルディングブロックを活用していま�
 
 ## ビデオの概要
 
->[!VIDEO](https://video.tv.adobe.com/v/3495968?captions=jpn&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}

@@ -1,14 +1,14 @@
 ---
-description: 機能の機能強化と修正について詳しくは、Adobe Campaigns リリースノートを参照してください。
-title: Adobe Workfront Campaigns リリースノート
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+description: Adobe CX Enterprise Coworker Campaigns リリースノートで、機能の機能強化と修正について説明します。
+title: Adobe CX Enterprise Coworker Campaigns リリースノート
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront Campaigns リリースノート {#release-notes}
+# Adobe CX Enterprise Coworker Campaigns リリースノート {#release-notes}
 
 Coworker Campaignsのリリースは、継続的な配信モデルにもとづいて運用されるため、機能のデプロイメントに対してよりスケーラブルで段階的なアプローチが可能になります。
 
