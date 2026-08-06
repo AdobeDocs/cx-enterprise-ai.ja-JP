@@ -41,9 +41,9 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
 workflow-type: tm+mt
-source-wordcount: 3283
+source-wordcount: 3287
 ht-degree: 13%
 
 ---
@@ -90,7 +90,7 @@ CX Enterpriseの生成AI （genAI）は、クリエイティブや認知に関�
 
 | **製品名** | **生成AIの主な機能** | **Fireflyの互換性** |
 | ------------------ | ------------------------- | ------------------- |
-| [Adobe共同作業者](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview) | 生成AIは、次の地域で利用できます。 <ul><li>**[チャット &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/chat/overview)**：自然言語で目標を記述し、生成AIが作業を計画し、Adobeと接続されたシステム全体で実行し、結果を検証し、完成した作業を承認のために返す会話型インターフェイス。</li><li>**[キャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/campaigns/overview)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。 GenAIは、キャンペーン計画の生成、ジャーニーの構築、パーソナライズされたコンテンツの作成を繰り返し行い、改善します。</li></ul> | × |
+| [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview) | 生成AIは、次の地域で利用できます。 <ul><li>**[チャット &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：自然言語で目標を記述し、生成AIが作業を計画し、Adobeと接続されたシステム全体で実行し、結果を検証し、完成した作業を承認のために返す会話型インターフェイス。</li><li>**[キャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/campaigns/overview)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。 GenAIは、キャンペーン計画の生成、ジャーニーの構築、パーソナライズされたコンテンツの作成を繰り返し行い、改善します。</li></ul> | × |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) | 生成AIを利用して、パーソナライズされたブランドに即したコンテンツを作成。 | ○ |
 | [Adobe Experience Manager as a Cloud Service （AEM CS） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | 生成AIは、次の地域で利用できます。 <ul><li>**AEM Sites**&#x200B;でバリエーションを生成（[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)）</li><li>**Sites Optimizer**&#x200B;の生成AI （[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)）</li><li>**Content Hub**&#x200B;の[AEM Assets](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en)および[&#x200B; スマートタグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags)</li></ul> AI アシスタント： <ul><li>Experience Hubの概要ページ</li><li>Edge 配信サービス</li><li>サイト</li><li>アセット</li><li>フォーム</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | ○ |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI アシスタント： <ul><li>Experience Hubの概要ページ</li><li>Edge 配信サービス</li><li>サイト</li><li>アセット</li><li>フォーム</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | ○ |

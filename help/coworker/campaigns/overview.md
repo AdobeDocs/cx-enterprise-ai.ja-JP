@@ -1,14 +1,14 @@
 ---
-description: AIを活用して、単一のプロンプトをレビュー可能なキャンペーンに変える、Adobe Coworker Campaignsについてご確認ください。
-title: Adobe Workfrontの概要
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+description: AIを活用して、単一のプロンプトをレビュー可能なキャンペーンに転換する、Adobe CX Enterprise Coworker Campaignsについてご確認ください。
+title: Adobe CX Enterprise Coworkerの概要
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
 
-# Adobeの共同作業キャンペーンの概要 {#overview}
+# Adobe CX Enterprise Coworker Campaignsの概要 {#overview}
 
 Coworker Campaignsは、AIを活用したマーケティングアプリケーションであり、単一のプロンプトから、レビュー可能な包括的なキャンペーンに移行できます。
 

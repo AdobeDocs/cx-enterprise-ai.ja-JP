@@ -1,6 +1,6 @@
 ---
-title: Adobe共同作業者トライアル
-description: Adobe Coworkerの無償体験版について説明します。
+title: CX Enterprise Collaborker体験版
+description: CX Enterprise Coworkerの無償体験版についてご確認ください。
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -12,14 +12,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: 1430
+source-wordcount: 1433
 ht-degree: 0%
 
 ---
 
-# Adobe共同作業者トライアル
+# CX Enterprise Collaborker体験版
 
 >[!AVAILABILITY]
 >

@@ -1,6 +1,6 @@
 ---
-title: CX エンタープライズアプリケーションにおけるAI
-description: CX エンタープライズアプリケーションで、生成AI （GenAI）、AI アシスタント、エージェンティック AI、Adobe Workfront、MCP ツールをどのように活用しているかをご確認ください。
+title: CX Enterprise アプリケーションの AI
+description: CX エンタープライズアプリケーションで生成AI （GenAI）、AI アシスタント、エージェンティック AI、CX エンタープライズパートナー、MCP ツールをどのように使用するかをご確認ください。
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,16 +15,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: 862
-ht-degree: 3%
+source-wordcount: 864
+ht-degree: 4%
 
 ---
 
 # CX Enterprise の AI
 
-このガイドでは、Adobe CX EnterpriseのAI機能（生成AI、AI アシスタント、Agent Orchestrator、Experience Platform Agents、Adobe Workfront、MCP）について説明します。
+このガイドでは、Adobe CX EnterpriseのAI機能（生成AI、AI アシスタント、Agent Orchestrator、Experience Platform Agents、CX Enterprise Workfront、MCP）について説明します。
 
 ## AI機能の概要
 
