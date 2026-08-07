@@ -1,9 +1,9 @@
 ---
 title: Adobe CX Enterprise Collaborker
 description: Adobe CX Enterprise Coworkerを利用して、マーケティングを次のレベルに引き上げる方法をご確認ください。
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 05fc3688b9a3544884b5b121a43ff17a81c4df78
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '195'
 ht-degree: 5%
 
 ---
@@ -26,9 +26,8 @@ Coworker Campaignsは、小規模なアジャイルチームが立ち上がり�
 Coworker Chatなら、自然言語を使ってAdobe Adobeのプロダクトタスクを自動化し、柔軟なプランニング、カスタマイズ可能なスキル、インテリジェントな実行によってアイデアをすばやくアクションに結び付けることができます。
 
 * [概要](./chat/overview.md)
-* [ユースケース](./chat/use-cases.md)
+* [ユースケース](./chat/use-cases/overview.md)
 * [UI ガイド](./chat/ui-guide.md)
-* [Customer Journey Analyticsデータの分析](./chat/analytics-chat.md)
 
 ## プロジェクト（ドキュメントは近日リリース予定）
 

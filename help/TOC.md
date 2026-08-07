@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Platform と Real-Time Customer Data Pl
 description: 顧客体験エンタープライズ版AI アシスタントについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: 543c62ff56886213b9212864e6ff6ad02dc0f742
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 25%
+source-wordcount: '241'
+ht-degree: 26%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 25%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同僚 {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - キャンペーン {#campaigns}
@@ -62,13 +62,16 @@ ht-degree: 25%
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
     - [ユースケース](./coworker/campaigns/use-cases.md)
     - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[&#x200B; コネクタ &#x200B;](./coworker/campaigns/connectors.md)
+    - {hide-from-toc}[ コネクタ ](./coworker/campaigns/connectors.md)
     - [リリースノート](./coworker/campaigns/release-notes.md)
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
-    - [ユースケース](./coworker/chat/use-cases.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
-    - [CJAデータの分析](./coworker/chat/analytics-chat.md)
-  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
-  - [AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
-  - [サンドボックスツールのエージェント型スキル](./agents/sandbox-tooling.md)
+    - ユースケース {#use-cases}
+      - [概要](./coworker/chat/use-cases/overview.md)
+      - データインサイト {#data-insights}
+        - [CJAデータの分析](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [AAからCJAへの移行データの検証](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - サンドボックスツール {#sandbox-tooling}
+        - [サンドボックス間でのオブジェクトの移動](./agents/sandbox-tooling.md)
+  - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
