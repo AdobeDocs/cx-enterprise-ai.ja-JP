@@ -41,14 +41,14 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
-source-wordcount: 3287
+source-wordcount: 3288
 ht-degree: 13%
 
 ---
 
-# CX Enterprise の生成 AI
+# CX エンタープライズ版の生成AIについて
 
 CX Enterpriseの生成AI （genAI）は、クリエイティブや認知に関する作業を自動化し、生産性を向上させるのに役立ちます。 このページでは、[!DNL CX Enterprise]個のアプリケーションが生成AIとAI アシスタントをサポートする場所を理解するのに役立ちます。 これらの機能について詳しくは、リンクを参照してください。
 
@@ -378,7 +378,7 @@ Marketoは、GenStudio for Performance Marketingや
 
 +++詳細
 
-[!DNL Workfront]の[!UICONTROL AI アシスタント &#x200B;]は、アプリ内の情報と提案を提供することで、作業を完了するのに役立ちます。 以下を行うことができます。
+[!DNL Workfront]の[!UICONTROL AI アシスタント &#x200B;]は、アプリ内の情報と提案を提供することで、作業を完了するのに役立ちます。 実行できる操作は、次のとおりです。
 
 * オブジェクトの概要を取得して、オブジェクトの意図や詳細を大まかに把握できます。
 * 質問し、[!UICONTROL AI アシスタント &#x200B;]がExperience Leagueに関する回答を見つけます。

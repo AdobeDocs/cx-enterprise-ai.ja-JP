@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 4da8c6f87f4227983b19c682fdceb0db9a352122
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 4%
 
 ---
@@ -30,10 +30,10 @@ ht-degree: 4%
 
 CX Enterpriseのどこで、どのようにAIが使用されているかについては、こちらをご覧ください。
 
-- [生成AI](./overview/generative-ai.md)は、生成AIとAI アシスタントをサポートするCX エンタープライズ アプリケーションと、それらの比較方法について説明します。
-- [Agentic AI](./overview/agentic-ai.md)は、Experience Platform Agentsが既存のCX Enterprise アプリケーションとAI ファースト アプリケーションの両方でどのように機能するかを説明し、それぞれに使用可能なエージェントを一覧表示します。
-- [&#x200B; エージェンティック AI モニタリング &#x200B;](./overview/monitoring.md)では、エージェントの導入、使用、フィードバック、AI クレジット消費を追跡するダッシュボードについて説明します。
-- [&#x200B; エージェントジョブとAI クレジット消費](./overview/ai-credit-consumption.md)は、エージェントジョブがAI クレジットを消費する方法を、エージェントとジョブタイプ別の推定消費率で説明します。
+- [生成AIについて](./overview/generative-ai.md)は、生成AIとAI アシスタントをサポートするCX エンタープライズ アプリケーションと、それらの比較方法について説明します。
+- [&#x200B; エージェント型AIについて](./overview/agentic-ai.md)は、Experience Platform Agentsが既存のCX Enterprise アプリケーションとAI ファースト アプリケーションの両方でどのように機能するかを説明し、それぞれに使用可能なエージェントを一覧表示します。
+- [AI モニタリング &#x200B;](./overview/monitoring.md)では、エージェントの導入、使用状況、フィードバック、AI クレジット消費を追跡するダッシュボードについて説明します。
+- [AI クレジットの消費](./overview/ai-credit-consumption.md)は、エージェント ジョブがAI クレジットを消費する方法を、エージェントとジョブのタイプ別の推定消費率で説明します。
 - [CX エンタープライズ エージェント ツール &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)では、CX エンタープライズ エージェントを拡張する追加のエージェント スキルとツールについて説明します（ビデオ チュートリアル）。
 
 ## AI アシスタント

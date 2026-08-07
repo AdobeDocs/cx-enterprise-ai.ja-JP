@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Platform と Real-Time Customer Data Pl
 description: 顧客体験エンタープライズ版AI アシスタントについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 28%
+source-wordcount: '236'
+ht-degree: 25%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 28%
 
 - [CX エンタープライズアプリケーションにおけるAI](home.md)
 - CX エンタープライズにおけるAIについて {#overview}
-  - [生成 AI](./overview/generative-ai.md)
-  - [エージェント型 AI](./overview/agentic-ai.md)
-  - [エージェント型 AI モニタリング](./overview/monitoring.md)
-  - [担当者の業務とAIのクレジット消費](./overview/ai-credit-consumption.md)
+  - [どのように拡大するのか](./overview/generative-ai.md)
+  - [エージェンティック AIについて](./overview/agentic-ai.md)
+  - [AI クレジットの使用について](./overview/ai-credit-consumption.md)
+  - [Agentic AI モニタリングダッシュボード](./overview/monitoring.md)
   - [エージェント型ツール](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)
 - AI アシスタント {#ai-assistant}
   - [AI アシスタント UI ガイド](./ai-assistant/ai-assistant-ui.md)
