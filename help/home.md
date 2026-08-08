@@ -15,7 +15,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4da8c6f87f4227983b19c682fdceb0db9a352122
+source-git-commit: 543c62ff56886213b9212864e6ff6ad02dc0f742
 workflow-type: tm+mt
 source-wordcount: 862
 ht-degree: 4%
@@ -70,7 +70,7 @@ Coworkerは、顧客体験とマーケティングのワークフローを自動
 
 適格な顧客は、AI アシスタントやExperience Platform AgentsからCoworker Chatへ徐々に移行しています。 [同僚の体験版](./agents/trial.md)を読んで、体験版の利用条件、AI クレジットの使用状況、アクセス方法について確認してください。
 
-Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)や[Analyze CJA data](./coworker/chat/analytics-chat.md)などの実際のユースケースを読んでください。
+Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)や[Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)などの実際のユースケースを読んでください。
 
 共同作業者チャット、キャンペーン、プロジェクトに関する完全な製品ドキュメントについては、[共同作業者](./coworker/overview.md)を参照してください。 サンドボックス間のオブジェクトレプリケーションについては、[Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)を参照してください。
 

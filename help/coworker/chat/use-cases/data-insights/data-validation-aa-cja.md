@@ -1,7 +1,7 @@
 ---
 title: Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする際に、Coworkerでデータを検証する
 description: Analytics管理者がCX Enterprise Coworker データ検証スキルを使用して、アップグレード中にAdobe AnalyticsとCustomer Journey Analytics データを比較する方法について説明します。
-source-git-commit: 8a9f8413f2993e99cf7452bc720500f4823b62a8
+source-git-commit: ccdc8e69ca03630ca0964b22878cff0bd6ca4c01
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -94,10 +94,10 @@ Coworkerには、Adobe AnalyticsからCustomer Journey Analyticsにアップグ�
 
    | スコア | レーティング | 意味 |
    |---------|----------|----------|
-   | 97%-100% | ![緑の四角形](./assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL 良好] | あらゆるプロパティが高度に調整されています。 操作は必要ありません。 |
-   | 90%～96% | ![黄色の円](./assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL 良好] | 小さな隙間が存在する。 トレンドを監視し、トレンドが衰退しているかどうかを調査します。 |
-   | 75%～89% | ![&#x200B; オレンジ色の円](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL &#x200B; レビュー] | 大きなギャップが存在。 Customer Journey Analyticsのデータを利用する前に、根本原因を調査しましょう。 |
-   | 75%未満 | ![赤い円](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 悪い] | 大きな整合性の低下： Customer Journey Analyticsのデータを利用する前に、すぐに対応する必要があります。 |
+   | 97%-100% | ![緑の四角形](../../assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL 良好] | あらゆるプロパティが高度に調整されています。 操作は必要ありません。 |
+   | 90%～96% | ![黄色の円](../../assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL 良好] | 小さな隙間が存在する。 トレンドを監視し、トレンドが衰退しているかどうかを調査します。 |
+   | 75%～89% | ![&#x200B; オレンジ色の円](../../assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL &#x200B; レビュー] | 大きなギャップが存在。 Customer Journey Analyticsのデータを利用する前に、根本原因を調査しましょう。 |
+   | 75%未満 | ![赤い円](../../assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 悪い] | 大きな整合性の低下： Customer Journey Analyticsのデータを利用する前に、すぐに対応する必要があります。 |
 
 1. 「[!UICONTROL **重要なインサイト**]」タブを選択すると、2個から4個の短いコールアウトボックスが表示され、それぞれ分析から1個の結果が1文にまとめられます。
 
@@ -123,11 +123,11 @@ Coworkerには、Adobe AnalyticsからCustomer Journey Analyticsにアップグ�
 
    指標の場合、これは日々のトレンドを比較する折れ線グラフです。
 
-   折れ線グラフを表示する![日次トレンド タブ &#x200B;](./assets/data-validation-aa-cja/trend-line.png)
+   折れ線グラフを表示する![日次トレンド タブ &#x200B;](../../assets/data-validation-aa-cja/trend-line.png)
 
    ディメンションの場合、これは上位の値を比較する棒グラフです。
 
-   ![横棒グラフを表示する「日次トレンド」タブ &#x200B;](./assets/data-validation-aa-cja/trend-bar.png)
+   ![横棒グラフを表示する「日次トレンド」タブ &#x200B;](../../assets/data-validation-aa-cja/trend-bar.png)
 
 1. （条件付き）単一ディメンション比較または単一ディメンション比較を行う場合は、「[!UICONTROL **日付の詳細**]」タブを選択して、比較された指標またはディメンション値ごとに次の情報を表示します。
 
@@ -141,15 +141,15 @@ Coworkerには、Adobe AnalyticsからCustomer Journey Analyticsにアップグ�
 
    * ステータスバッジ
 
-   ![差異の割合と状態バッジのテーブルを表示する日付の詳細タブ &#x200B;](./assets/data-validation-aa-cja/date-detail.png)
+   ![差異の割合と状態バッジのテーブルを表示する日付の詳細タブ &#x200B;](../../assets/data-validation-aa-cja/date-detail.png)
 
    「差異」列と「ステータス」列では、次のスケールが使用されます。
 
    | 平方偏差 | ステータス | 意味 |
    |---------|----------|----------|
-   | 3%未満 | ![緑のチェックマーク &#x200B;](./assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL 合格] | データを適切に活用。 操作は必要ありません。 |
-   | 3%～10% | ![黄色の警告トライアングル &#x200B;](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL &#x200B; フラグ &#x200B;] | 違いを監視し、それが継続または悪化するかどうかを調べます。 |
-   | 10%以上 | ![赤い円](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 重要] | すぐに調査。 これは通常、スキーマ、取り込み、またはマッピングの問題を指します。 |
+   | 3%未満 | ![緑のチェックマーク &#x200B;](../../assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL 合格] | データを適切に活用。 操作は必要ありません。 |
+   | 3%～10% | ![黄色の警告トライアングル &#x200B;](../../assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL &#x200B; フラグ &#x200B;] | 違いを監視し、それが継続または悪化するかどうかを調べます。 |
+   | 10%以上 | ![赤い円](../../assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 重要] | すぐに調査。 これは通常、スキーマ、取り込み、またはマッピングの問題を指します。 |
 
 1. （条件付き）完全なレポートスイートとデータビュー監査を実行する場合は、「[!UICONTROL **スコアカード**]」タブを選択して、次の情報を表示します。
 

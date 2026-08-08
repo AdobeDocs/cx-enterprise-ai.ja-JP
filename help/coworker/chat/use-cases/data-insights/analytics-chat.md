@@ -1,7 +1,7 @@
 ---
 title: Adobe Customer Journey Analyticsのデータを分析する（チャット）
 description: Adobe CXのAdobe Commerceのコラボレーションチャット機能を使用して、Customer Journey Analyticsのデータを分析し、ファネルを構築し、カスタマージャーニーのどこで顧客が脱落しているかを調べる方法を紹介します。
-source-git-commit: 64745860140f636548155b7eda8605ffde43b75a
+source-git-commit: bfc9d04860f592093e4cab4b88463b173f6be369
 workflow-type: tm+mt
 source-wordcount: '3210'
 ht-degree: 4%
@@ -80,7 +80,7 @@ Coworker Chatで、CoworkerがCustomer Journey Analyticsに接続されている
 
 1. 左側のパネルで「MCP」アイコンを選択し、接続されているMCP サーバーのリストで&#x200B;[!UICONTROL **cja-mcp**]&#x200B;が使用可能であることを確認します。
 
-   ![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](./assets/coworker-mcp-cja.png)
+   ![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](../../assets/coworker-mcp-cja.png)
 
 1. （条件付き） [!UICONTROL **cja-mcp**]&#x200B;がまだ接続されていない場合は、[!UICONTROL **MCP Server**]&#x200B;を追加を選択し、[!UICONTROL **サーバー名**] フィールドにcjaを指定して、表示されたら選択し、[!UICONTROL **サーバー**]&#x200B;を追加を選択します。
 
@@ -134,7 +134,7 @@ Coworker Chatには、すべてのチャットにまたがる情報へのアク�
 
 1. メモリーページの&#x200B;[!UICONTROL **保存された環境設定**] セクションで、Coworker Chatでチャットで使用する1つ以上のデータビューを指定します。
 
-   ![左側のパネルのメモリ セクション &#x200B;](./assets/coworker-memory.png)
+   ![左側のパネルのメモリ セクション &#x200B;](../../assets/coworker-memory.png)
 
 ## Customer Journey Analytics での分析
 
@@ -152,7 +152,7 @@ Workfrontでビジュアライゼーションを作成した後、Analysis Works
 
 Adobe Customer Journey Analyticsのユースケースと、実務担当者がAdobe CX Enterprise Coworker Chatで使用しているプロンプトの例を、簡単な回答から高度な作業の調査まで確認できます。 各プロンプトは、コピーできるように構築され、独自のデータやコンテキストに適応させ、会話を通じて洗練させられます。
 
-詳しくは、[&#x200B; ユースケース &#x200B;](/help/coworker/chat/use-cases.md)を参照してください。
+詳しくは、[&#x200B; ユースケース &#x200B;](/help/coworker/chat/use-cases/overview.md)を参照してください。
 
 ## 分析のスキル
 
@@ -249,7 +249,7 @@ Customer Journey Analytics データの分析には、次のスキルを使用�
 
 | ユースケース | 関数 | サンプルプロンプト |
 |---------|----------|---------|
-| **Adobe AnalyticsからCustomer Journey Analyticsへのアップグレード時にデータを検証** | [!DNL Adobe Analytics]とCustomer Journey Analytics間のデータの比較、監査、調整を行います。<p>詳しくは、「[Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする際にCoworkerでデータを検証する](/help/coworker/data-validation-aa-cja.md)」を参照してください。</p> | <ul><li>「Adobe Analytics レポートスイートとCustomer Journey Analytics データビューの比較」</li><li>「Adobe AnalyticsとCustomer Journey Analytics間のページビューの検証」</li></ul> |
+| **Adobe AnalyticsからCustomer Journey Analyticsへのアップグレード時にデータを検証** | [!DNL Adobe Analytics]とCustomer Journey Analytics間のデータの比較、監査、調整を行います。<p>詳しくは、「[Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする際にCoworkerでデータを検証する](data-validation-aa-cja.md)」を参照してください。</p> | <ul><li>「Adobe Analytics レポートスイートとCustomer Journey Analytics データビューの比較」</li><li>「Adobe AnalyticsとCustomer Journey Analytics間のページビューの検証」</li></ul> |
 
 #### スコープ内
 
@@ -323,7 +323,7 @@ Customer Journey Analytics データの分析には、次のスキルを使用�
 
 >[!BEGINSHADEBOX]
 
-![&#x200B; セッション数、コンバージョン率、およびセッションから購入までの各ステップでの脱落を示すFunnel テーブル &#x200B;](./assets/coworker-funnel-response.png)
+![&#x200B; セッション数、コンバージョン率、およびセッションから購入までの各ステップでの脱落を示すFunnel テーブル &#x200B;](../../assets/coworker-funnel-response.png)
 
 これはfunnelの質問です。funnelでコンバージョンを実行し、購入に至るまでの過程で離脱がどこで発生するかを確認します。
 
@@ -372,7 +372,7 @@ Customer Journey Analytics データの分析には、次のスキルを使用�
 
 >[!BEGINSHADEBOX]
 
-マーケティングチャネル別にコンバージョン率とドロップオフを示す![Funnel テーブル &#x200B;](./assets/coworker-funnel-response2.png)
+マーケティングチャネル別にコンバージョン率とドロップオフを示す![Funnel テーブル &#x200B;](../../assets/coworker-funnel-response2.png)
 
 カスタム **マーケティングチャネル** ディメンションがあります。 ここでfunnelを引き出して、チャネルごとのコンバージョン率を計算し、各チャネルがリークする場所を特定します。
 
@@ -423,7 +423,7 @@ Customer Journey Analytics データの分析には、次のスキルを使用�
 
 >[!BEGINSHADEBOX]
 
-デバイスの種類![&#128279;](./assets/coworker-funnel-response3.png)別にコンバージョン率とドロップオフを示すFunnel テーブル
+デバイスの種類![&#128279;](../../assets/coworker-funnel-response3.png)別にコンバージョン率とドロップオフを示すFunnel テーブル
 
 **見つかりました：モバイル チェックアウトが壊れています**
 

@@ -1,14 +1,14 @@
 ---
 audience: user
-user-guide-title: ADOBE CX EnterpriseのAI アシスタント
-user-guide-description: Adobe Experience Platform と Real-Time Customer Data Platform で AI アシスタントを使用して、ワークフローを迅速化する方法について説明します。
-description: 顧客体験エンタープライズ版AI アシスタントについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
+user-guide-title: 同僚
+user-guide-description: 実用的なドキュメント、実装ガイダンス、参考資料を通じて、AI アシスタント、同僚、エージェント、MCPの構築、設定、統合、拡張の方法を学びましょう。
+description: 顧客体験におけるAI ツールについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 25%
+source-wordcount: '238'
+ht-degree: 18%
 
 ---
 
@@ -66,9 +66,12 @@ ht-degree: 25%
     - [リリースノート](./coworker/campaigns/release-notes.md)
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
-    - [ユースケース](./coworker/chat/use-cases.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
-    - [CJAデータの分析](./coworker/chat/analytics-chat.md)
+    - ユースケース {#use-cases}
+      - [概要](./coworker/chat/use-cases/overview.md)
+      - データインサイト {#data-insights}
+        - [CJAデータの分析](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [AAからCJAへの移行データの検証](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - サンドボックスツール {#sandbox-tooling}
+        - [サンドボックス間でのオブジェクトの移動](./agents/sandbox-tooling.md)
   - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
-  - [AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
-  - [サンドボックスツールのエージェント型スキル](./agents/sandbox-tooling.md)

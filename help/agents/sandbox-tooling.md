@@ -1,7 +1,7 @@
 ---
 title: サンドボックスツールのエージェント型スキル
 description: サンドボックスツールのエージェント型スキルを使用して、サンドボックス環境全体でオブジェクトメタデータをレプリケートする方法を説明します。
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -24,6 +24,8 @@ ht-degree: 1%
 >現在、Sandbox Tooling Agentic Skillsを使用して、スキーマとオーディエンスオブジェクトを検索、パッケージ化、移行することができます。 追加のオブジェクトタイプのサポートは、今後のリリースで追加される予定です。
 
 サンドボックスツール エージェンティックスキルを使用して、Adobe Experience Platform環境全体でオブジェクトのメタデータ（スキーマやオーディエンスを含む）を移動し、自然言語で達成したい目標を記述します。 CX Coworkerを利用すれば、必要なメタデータの検索、依存関係の自動的な特定、移行パッケージの作成、オブジェクトの移行を会話型のエクスペリエンスを通じて行うことができます。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496709?captions=jpn&learn=on)
 
 ## 前提条件 {#prerequisites}
 
