@@ -5,9 +5,9 @@ user-guide-description: 実用的なドキュメント、実装ガイダンス�
 description: 顧客体験におけるAI ツールについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '253'
 ht-degree: 18%
 
 ---
@@ -71,7 +71,12 @@ ht-degree: 18%
       - [概要](./coworker/chat/use-cases/overview.md)
       - データインサイト {#data-insights}
         - [CJAデータの分析](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [根本原因分析](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [AAからCJAへの移行データの検証](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - オーディエンス {#audiences}
+        - [自然言語を活用したオーディエンスの構築](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - ジャーニー {#journeys}
+        - [自然言語を使用したジャーニーの作成](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - サンドボックスツール {#sandbox-tooling}
         - [サンドボックス間でのオブジェクトの移動](./agents/sandbox-tooling.md)
   - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)

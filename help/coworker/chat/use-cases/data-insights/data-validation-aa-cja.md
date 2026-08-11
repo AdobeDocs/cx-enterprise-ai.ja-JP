@@ -1,7 +1,14 @@
 ---
 title: Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする際に、Coworkerでデータを検証する
 description: Analytics管理者がCX Enterprise Coworker データ検証スキルを使用して、アップグレード中にAdobe AnalyticsとCustomer Journey Analytics データを比較する方法について説明します。
-source-git-commit: ccdc8e69ca03630ca0964b22878cff0bd6ca4c01
+feature: AI Tools
+role: User
+level: Intermediate
+doc-type: Feature Video
+duration: null
+last-substantial-update: 2026-08-10T00:00:00Z
+jira: KT-22083
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -26,8 +33,6 @@ Coworkerには、Adobe AnalyticsからCustomer Journey Analyticsにアップグ�
 
 ## 始める前に
 
-
-
 アップグレードの一環としてデータを検証するには、次のものが必要です。
 
 * 検証するAdobe Analytics レポートスイート。
@@ -35,6 +40,8 @@ Coworkerには、Adobe AnalyticsからCustomer Journey Analyticsにアップグ�
 * 同じデータを含むCustomer Journey Analytics データビュー。
 
 実装がどのように設計されているかを知る必要はありません。 このスキルは、Customer Journey Analyticsの実装でAnalytics Source コネクタを使用しているか、Experience Platform Web SDKの新しい実装を使用しているかを自動的に検出します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496849/?captions=jpn&learn=on&enablevpops)
 
 ## 検証セッションを開始
 

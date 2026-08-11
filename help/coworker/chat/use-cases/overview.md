@@ -1,9 +1,9 @@
 ---
 description: Coworker Chatのユースケースとサンプルプロンプトを、データインサイト、オーディエンス、ジャーニー、プラットフォーム運用をまたいで、エリアごとに整理して参照できます。
 title: ユースケース
-source-git-commit: 5a04f8fea57dcf6e50ca0040aaad904158c6edf7
+source-git-commit: 539dac230b33d4dee06c940080b48a523211d73d
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1142'
 ht-degree: 4%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 4%
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
-| CJAのレポートと指標を取得 | CJAにリアルタイムでクエリを実行し、指標、ディメンション、セグメント、データビューを取得します | `cja` | Customer Journey Analytics（CJA） | 「過去30日間のページビューを表示」 ・ 「マスターデータビューの上位セグメントのリスト」 |
+| [CJA レポートと指標を取得](data-insights/analytics-chat.md) | CJAにリアルタイムでクエリを実行し、指標、ディメンション、セグメント、データビューを取得します | `cja` | Customer Journey Analytics（CJA） | 「過去30日間のページビューを表示」 ・ 「マスターデータビューの上位セグメントのリスト」 |
 | 比較分析 | チャネル、期間、セグメントをまたいで指標を並べて比較できます | `cja` | Customer Journey Analytics（CJA） | 「チャネル別の収益を前月比で比較」 ・ 「モバイルとデスクトップのコンバージョンは、今四半期でどのように見えますか？」 |
 | Funnel analysis | 各段階での離脱を防ぐための、マルチステップのコンバージョンファネルを順を追って説明します | `cja` | Customer Journey Analytics（CJA） | 「チェックアウトのfunnelについて説明する」 ・ 「PDPから購入までのコンバージョンfunnelを表示する」 |
 | 予測 | 過去のCJA データに基づく将来の指標値のプロジェクト | `cja` | Customer Journey Analytics（CJA） | 「今後30日間のセッションを予測」 ・「売上目標を達成する準備は整っているか？」 |
-| 根本原因分析 | 指標が変化した理由：低下、急上昇、異常を診断します | `cja-root-cause-analysis` | Customer Journey Analytics（CJA） | 「先週、コンバージョンが下がったのはなぜですか？」 ・ 「1月15日の売上急増の要因は何か？」 |
+| [根本原因分析](data-insights/root-cause-analysis.md) | 指標が変化した理由：低下、急上昇、異常を診断します | `cja-root-cause-analysis` | Customer Journey Analytics（CJA） | 「先週、コンバージョンが下がったのはなぜですか？」 ・ 「1月15日の売上急増の要因は何か？」 |
 | エグゼクティブサマリーとKPI ダイジェスト | 関係者に提供可能なパフォーマンスの要約、処方レコメンデーション、スライドデッキの概要を作成します | `cja-executive-summary` | Customer Journey Analytics（CJA） | 「先月のエグゼクティブサマリーを教えてください」 ・ 「今四半期のデータからスライドデッキの概要を作成します」 |
-| AA ↔ CJA データ検証 | Adobe AnalyticsとCustomer Journey Analytics間でのデータの比較、監査、調整 | `aa-cja-validation` | ADOBE ANALYTICS + CJA | 「AA レポートスイートとCJA データビューの比較」 ・ 「AAとCJA間のページビューの検証」 |
+| [AA ↔ CJA データ検証](data-insights/data-validation-aa-cja.md) | Adobe AnalyticsとCustomer Journey Analytics間でのデータの比較、監査、調整 | `aa-cja-validation` | ADOBE ANALYTICS + CJA | 「AA レポートスイートとCJA データビューの比較」 ・ 「AAとCJA間のページビューの検証」 |
 | 運用時系列と因果関係分析 | オーディエンス、データセット、ジャーニーに関する過去の時系列データを、因果関係アトリビューションでクエリ、分析します | `operational-stats-causal-analysis` | すべての対象アプリケーション | 「過去90日間のオーディエンスサイズの傾向を表示」 ・ 「データセットの行数が3月3日に急増した理由」 |
 | CJAのカスタムスキルの作成 | 分析パターンを、セッションをまたいで保持される、再利用可能で反復可能なスキルに変換します | `cja-skill-creator` | Customer Journey Analytics（CJA） | 「この週次売上分析を再利用可能なスキルに変換」 ・ 「これを月次funnel レポートのスキルとして保存」 |
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
-| 自然言語からオーディエンスを作成 | 各段階で利用者の承認を得て、ステップバイステップのオーディエンス作成を連携できます | `audience-creation-flow` | Real-Time CDP（RTCDP） | 「過去30日以内に購入したユーザーのオーディエンスを作成」 ・ 「カリフォルニア州の価値の高いロイヤルティメンバー向けのセグメントを構築」 |
+| [自然言語からオーディエンスを作成](audiences/create-audience-from-natural-language.md) | 各段階で利用者の承認を得て、ステップバイステップのオーディエンス作成を連携できます | `audience-creation-flow` | Real-Time CDP（RTCDP） | 「過去30日以内に購入したユーザーのオーディエンスを作成」 ・ 「カリフォルニア州の価値の高いロイヤルティメンバー向けのセグメントを構築」 |
 | PQL定義の作成 | XDMのプロパティ、行動イベント、既存のオーディエンスからオーディエンス定義を組み立て、集計と時間ウィンドウをサポート | `segment-definition-assembly` | Real-Time CDP（RTCDP） | 「3つ以上の商品を閲覧したが購入しなかった人のためにPQLを作成する」 ・ 「イベント条件に7日間の時間枠を追加する」 |
 | オーディエンスの検索と発見 | ID、名前、セマンティック検索でオーディエンスを検索し、重複を検出して重複を分析 | `audience-search` | Real-Time CDP（RTCDP） | 「すべてのロイヤルティオーディエンスを検索」 ・ 「ホリデーショッパーのセグメントが重複していますか？」 |
 | オーディエンスサイズの推定 | ポーリングを使用したAdobe Experience Platform Preview APIを使用して、PQL式のプロファイルリーチを推定します | `audience-size-estimate` | Real-Time CDP（RTCDP） | 「この聴衆の規模はどれくらいですか？」 ・ 「このPQL エクスプレッションのリーチを見積もる」 |
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
-| 自然言語からジャーニーを作成する | テキストプロンプトやアップロードされた画像/フローチャートから、AJOでジャーニー作成を調整できます | `journey-create` | Adobe Journey Optimizer（AJO） | 「登録後にメールを送信し、3日間待ってからフォローアップを送信するウェルカムジャーニーを作成する」 ・ 「アップロードされたフローチャート画像からジャーニーを作成する」 |
+| [自然言語からジャーニーを作成](journeys/create-journey-from-natural-language.md) | テキストプロンプトやアップロードされた画像/フローチャートから、AJOでジャーニー作成を調整できます | `journey-create` | Adobe Journey Optimizer（AJO） | 「登録後にメールを送信し、3日間待ってからフォローアップを送信するウェルカムジャーニーを作成する」 ・ 「アップロードされたフローチャート画像からジャーニーを作成する」 |
 | ジャーニーの競合の分析 | オーディエンスの重複、スケジュールの競合、アクティブなジャーニー間の重複排除の問題を検出します | `journey-analyze-conflict` | Adobe Journey Optimizer（AJO） | 「カート放棄ジャーニーは他のジャーニーと競合しますか？」 ・ 「アクティブなジャーニー間のオーディエンスの重複をチェック」 |
 | ジャーニーのフォールアウトを分析 | ジャーニーの途中で顧客が離脱する場所や理由を特定し、離脱につながる行動パターンを検出します | `journey-analyze-fallout` | Adobe Journey Optimizer（AJO） | 「リエンゲージメントの過程で離脱した顧客はどこにいますか？」 ・ 「ジャーニーXのどのノードのフォールアウトが最も高いか？」 |
 | カスタムアクションエラーの分析 | カスタムアクションが失敗しているか、ジャーニー内でエラー率が急増しているかを特定し、失敗がより大きな混乱に連鎖する前に根本原因を診断できます | `journey-analyze-custom-action` | Adobe Journey Optimizer（AJO） | 「ロイヤルティ登録ジャーニーでカスタムアクションが失敗するのはなぜですか？」 ・ 「ウェルカムジャーニーのカスタムアクション ExternalPushのエラー率を表示する」 |
@@ -62,4 +62,4 @@ ht-degree: 4%
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
-| サンドボックス間でのオブジェクトメタデータの移動 | 依存関係を自動解決し、スキーマ、オーディエンス、その他のオブジェクト設定をサンドボックス間でシームレスに移行できます | `sandbox-tooling-workflow` | Adobe Experience Platform | 「スキーマのLuma Loyalty Members Platinumを現在のサンドボックスから実稼動サンドボックスに移動」 ・ 「US Gold Loyalty Members オーディエンスをステージに昇格させる」 |
+| [&#x200B; サンドボックス間でオブジェクトを移動](/help/agents/sandbox-tooling.md) | 依存関係を自動解決し、スキーマ、オーディエンス、その他のオブジェクト設定をサンドボックス間でシームレスに移行できます | `sandbox-tooling-workflow` | Adobe Experience Platform | 「スキーマのLuma Loyalty Members Platinumを現在のサンドボックスから実稼動サンドボックスに移動」 ・ 「US Gold Loyalty Members オーディエンスをステージに昇格させる」 |
