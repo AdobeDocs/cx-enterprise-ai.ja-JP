@@ -26,7 +26,7 @@ Adobe CX Enterpriseは、単一のMCPを通じて商品ツールを公開しま�
 | Journey Optimizer | ベータ版 | アクティブなJourney Optimizerライセンス、Adobe組織のBetaイネーブルメント、キャンペーンとチャネル設定を表示する権限。 |
 | Customer Journey Analytics | 使用可能 | アクティブなCustomer Journey Analytics ライセンスと、Adobe Admin Consoleの&#x200B;**MCP アクセス**&#x200B;権限項目を含む製品プロファイル。 製品権限は、アクセスまたは変更できるデータビュー、コンポーネント、レポート、プロジェクト、オーディエンスを引き続き管理します。 |
 | Adobe Analytics | 使用可能 | アクティブなAdobe Analytics ライセンスと、Adobe Admin Consoleの&#x200B;**MCP アクセス**&#x200B;権限項目を含む製品プロファイル。 製品権限は、アクセスまたは変更できるレポートスイート、コンポーネント、レポート、セグメント、日付範囲、プロジェクトを引き続き管理します。 |
-| Workfront | プレビュー | アクティブなWorkfront ライセンスとWorkfront MCPの有効化。 [Workfront MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)を参照してください。 |
+| Workfront | プレビュー | アクティブなWorkfront ライセンスとWorkfront MCPの有効化。 [Workfront MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)を参照してください。 |
 
 
 >[!NOTE]
