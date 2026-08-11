@@ -1,9 +1,9 @@
 ---
 description: Adobe CX Enterprise Coworker Campaigns リリースノートで、機能の機能強化と修正について説明します。
-title: Adobe CX Enterprise Coworker Campaigns リリースノート
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+title: CX Enterprise Coworker Campaigns リリースノート
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2187'
 ht-degree: 0%
 
 ---

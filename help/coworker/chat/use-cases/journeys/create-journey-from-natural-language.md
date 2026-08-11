@@ -1,5 +1,5 @@
 ---
-title: Adobe Journey Optimizerと同僚 – 自然言語でジャーニーを生成
+title: Journey Optimizerと同僚 – ジャーニーの生成
 description: Coworkerが、シンプルな自然言語プロンプトを使用して、Adobe Journey Optimizerジャーニーを構築する方法を紹介します。
 feature: AI Tools
 role: User
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 102
 last-substantial-update: 2026-08-10T00:00:00Z
 jira: KT-22081
-source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ ht-degree: 0%
  
 最初の設定プロセスを自動化することで、ゼロからジャーニーを構築する時間を減らし、顧客体験とビジネス成果を改善する時間を増やすことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496877/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)

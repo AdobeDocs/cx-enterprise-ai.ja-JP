@@ -1,9 +1,9 @@
 ---
-title: Adobe CX Coworker GatewayのAdobe Analyticsツール
+title: CX Coworker GatewayのAdobe Analytics Tools
 description: Adobe CX Coworker Gatewayを通じて利用できるAdobe Analytics ツールについて説明します。
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ Adobe Analytics ツールを使用すると、レポートスイートの検索�
 
 >[!AVAILABILITY]
 >
->分析ツールは、Adobe Analytics ライセンスをお持ちのお客様が利用できます。 アクセスは、Adobe Admin Consoleの&#x200B;**MCP Access**&#x200B;権限によって制御されます。 詳しくは、[&#x200B; アクセス CX Workfront ゲートウェイ ツール &#x200B;](access.md)を参照してください。
+>分析ツールは、Adobe Analytics ライセンスをお持ちのお客様が利用できます。 アクセスは、Adobe Admin Consoleの&#x200B;**MCP Access**&#x200B;権限によって制御されます。 詳しくは、[ アクセス CX Workfront ゲートウェイ ツール ](access.md)を参照してください。
 
 ## 主な機能 {#mcp-capabilities}
 
@@ -40,7 +40,7 @@ Adobe Analyticsツールは、MCP クライアントからの分析の発見と�
 | セグメントと日付範囲 | 製品の権限で許可されている再利用可能なセグメントと日付範囲を作成および更新できます。 |
 | Workspace プロジェクト | Analysis Workspace プロジェクトの概要を説明します。 |
 
-現在のツールの一覧については、[Adobe Analytics MCP ツール リファレンス &#x200B;](https://developer.adobe.com/analytics-mcp/docs/aa/reference){target="_blank"}を参照してください。
+現在のツールの一覧については、[Adobe Analytics MCP ツール リファレンス ](https://developer.adobe.com/analytics-mcp/docs/aa/reference){target="_blank"}を参照してください。
 
 ## プロンプト例 {#mcp-use-cases}
 
@@ -60,4 +60,4 @@ Adobe Analyticsツールは、MCP クライアントからの分析の発見と�
 
 ## 詳細 {#mcp-more}
 
-完全なツールリファレンスと基本ガイドについては、[Adobe Analytics MCP ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/aa/){target="_blank"}を参照してください。
+完全なツールリファレンスと基本ガイドについては、[Adobe Analytics MCP ドキュメント ](https://developer.adobe.com/analytics-mcp/docs/aa/){target="_blank"}を参照してください。

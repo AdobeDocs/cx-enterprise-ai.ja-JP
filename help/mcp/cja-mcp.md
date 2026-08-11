@@ -1,9 +1,9 @@
 ---
-title: Adobe CX Coworker GatewayのCustomer Journey Analyticsツール
+title: CX Coworker GatewayのCustomer Journey Analytics Tools
 description: Adobe CX Coworker Gatewayを通じて利用できるAdobe Customer Journey Analytics ツールについて説明します。
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '673'
 ht-degree: 4%
 
 ---
@@ -84,12 +84,12 @@ Customer Journey Analytics ツールは、MCP クライアントから管理さ�
 
 **概要**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486315/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486313/?learn=on&enablevpops)
 
 **実施中**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486326/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486314/?learn=on&enablevpops)
 
 ## 詳細 {#mcp-more}
 
-完全なツールリファレンスと基本ガイドについては、[Customer Journey Analytics MCP ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/cja/){target="_blank"}を参照してください。
+完全なツールリファレンスと基本ガイドについては、[Customer Journey Analytics MCP ドキュメント ](https://developer.adobe.com/analytics-mcp/docs/cja/){target="_blank"}を参照してください。

@@ -5,10 +5,11 @@ user-guide-description: 実用的なドキュメント、実装ガイダンス�
 description: 顧客体験におけるAI ツールについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+dummy: true
+source-git-commit: b68e00babda4fb9f8af816ceb836367fe86cc0fa
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 18%
+source-wordcount: '260'
+ht-degree: 17%
 
 ---
 
@@ -54,7 +55,7 @@ ht-degree: 18%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同僚 {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - キャンペーン {#campaigns}
@@ -62,21 +63,21 @@ ht-degree: 18%
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
     - [ユースケース](./coworker/campaigns/use-cases.md)
     - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[&#x200B; コネクタ &#x200B;](./coworker/campaigns/connectors.md)
+    - {hide-from-toc}[ コネクタ ](./coworker/campaigns/connectors.md)
     - [リリースノート](./coworker/campaigns/release-notes.md)
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
     - ユースケース {#use-cases}
-      - [概要](./coworker/chat/use-cases/overview.md)
+      - [Adobe Workfrontのユースケース](./coworker/chat/use-cases/overview.md)
       - データインサイト {#data-insights}
         - [CJAデータの分析](./coworker/chat/use-cases/data-insights/analytics-chat.md)
-        - [根本原因分析](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
-        - [AAからCJAへの移行データの検証](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [トレンドと根本原因を探る](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
+        - [アップグレード時にAAからCJA データを検証する](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
       - オーディエンス {#audiences}
-        - [自然言語を活用したオーディエンスの構築](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+        - [プラットフォームの健全性を評価し、オーディエンスを構築する](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - ジャーニー {#journeys}
         - [自然言語を使用したジャーニーの作成](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - サンドボックスツール {#sandbox-tooling}
-        - [サンドボックス間でのオブジェクトの移動](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+        - [エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
+  - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)

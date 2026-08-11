@@ -1,10 +1,10 @@
 ---
-title: CX Coworker GatewayのAdobe Experience Platformツール
+title: CX Coworker GatewayのExperience Platform Tools
 description: CX Coworker Gatewayを通じて利用できるAdobe Experience Platform ツールについて説明します。
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 7%
+source-wordcount: '1371'
+ht-degree: 8%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Experience Platform製品ツールを使用して、MCP対応クライア�
 
 ### search_audit
 
-**リソース：**&#x200B;監査クエリ ・監査イベント
+**リソース：**監査クエリ ・監査イベント
 **ステータス：** アクティブ
 
 Experience Platform サービス全体のユーザーアクティビティのタイムスタンプ付きレコードを一覧表示します。 アクションタイプ、ユーザーの電子メール、アセット情報、イベントステータスを返します。 `asset_type`と`action`を使用して結果を絞り込みます。 時間範囲が指定されていない場合は、デフォルトで過去7日間になります。 過去90日間の過去1000件のレコードとイベントに限定されます。
