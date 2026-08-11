@@ -62,4 +62,4 @@ ht-degree: 3%
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
-| [ サンドボックス間でオブジェクトを移動](/help/agents/sandbox-tooling.md) | 依存関係を自動解決し、スキーマ、オーディエンス、その他のオブジェクト設定をサンドボックス間でシームレスに移行できます | `sandbox-tooling-workflow` | Adobe Experience Platform | 「スキーマのLuma Loyalty Members Platinumを現在のサンドボックスから実稼動サンドボックスに移動」 ・ 「US Gold Loyalty Members オーディエンスをステージに昇格させる」 |
+| [&#x200B; サンドボックス間でオブジェクトを移動](/help/agents/sandbox-tooling.md) | 依存関係を自動解決し、スキーマ、オーディエンス、その他のオブジェクト設定をサンドボックス間でシームレスに移行できます | `sandbox-tooling-workflow` | Adobe Experience Platform | 「スキーマのLuma Loyalty Members Platinumを現在のサンドボックスから実稼動サンドボックスに移動」 ・ 「US Gold Loyalty Members オーディエンスをステージに昇格させる」 |
