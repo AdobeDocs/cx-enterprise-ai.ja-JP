@@ -1,6 +1,6 @@
 ---
 description: Customer Journey AnalyticsのData Insights Agentを使用して、データを視覚化する方法を説明します
-title: Customer Journey AnalyticsのData Insights Agentでデータを視覚化する
+title: Data Insights Agentでデータを視覚化
 role: User, Admin
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
@@ -22,9 +22,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: 2655
+source-wordcount: 2686
 ht-degree: 4%
 
 ---
@@ -46,7 +46,7 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
 | 機能 | スコープ内 | 範囲外 |
 | --- | --- | --- |
 | **ビジュアライゼーションタイプ** | <ul><li>折れ線グラフ</li><li>複数行</li><li>フリーフォームテーブル</li><li>棒グラフ</li><li>ドーナツ</li><li>概要番号</li></ul> | <ul><li>フロー</li><li>フォールアウト</li><li>コホートテーブル</li><li>エリア、積み重ねエリア</li><li>横向き積み上げ</li><li>箇条書き</li><li>コンボ</li><li>ヒストグラム</li><li>横向き棒グラフ、横向き棒グラフ</li><li>主要指標の概要</li><li>散布図</li><li>変更概要</li><li>テキスト</li><li>ツリーマップ</li><li>ベン</li><li>ガイド付き分析：アクティブな成長，コンバージョントレンド，エンゲージメント，初回使用の影響，頻度，Funnel, ネット成長，リリースの影響，保持，タイムライン，トレンド</li></ul> |
-| **Workspaceのアクションとエージェント機能** | <ul><li>ビジュアライゼーションの構築と更新<p>フリーフォームテーブルと関連するビジュアライゼーション（線、棒グラフ、ドーナツなど）を生成します。</p><p>例えば、*2月から5月までのSKU全体の利益は何ですか？*</p></li><li>フォローアップの質問<p>以前のプロンプトからのコンテキストでプロンプトに応答します。 次に例を示します。</p> <ul><li>プロンプト 1: *3月からのトレンドイベント。*</li><li>プロンプト 2: *3月から4月までのデータを表示する*</li></ul> </li><li>スコープ外プロンプト検出<p>このプロジェクトを書き出す&#x200B;*など、スコープ外のプロンプトを送信すると、Data Insights Agentは、質問がスコープ外であることを通知して応答します。*</p></li></ul> | <ul><li>共有</li><li>書き出し</li><li>ダウンロード</li><li>ユーザー環境設定の管理</li><li>データビューを管理</li><li>Adobe Analytics ダッシュボードアプリ</li><li>帰属</li><li>インラインの要約または応答<p>Data Insights Agentは、ユーザープロンプトの概要回答を使用して、チャットパネルでインラインで応答できません。 スコープ外プロンプトの例としては、*最後のプロンプトのインサイトの概要を表示*&#x200B;および&#x200B;*行のビジュアライゼーションのハイライトを要約*&#x200B;します。</p></li></ul> |
+| **Workspaceのアクションとエージェント機能** | <ul><li>ビジュアライゼーションの構築と更新<p>フリーフォームテーブルと関連するビジュアライゼーション（線、棒グラフ、ドーナツなど）を生成します。</p><p>例えば、*2月から5月までのSKU全体の利益は何ですか？*</p></li><li>フォローアップの質問<p>以前のプロンプトからのコンテキストでプロンプトに応答します。 例：</p> <ul><li>プロンプト 1: *3月からのトレンドイベント。*</li><li>プロンプト 2: *3月から4月までのデータを表示する*</li></ul> </li><li>スコープ外プロンプト検出<p>このプロジェクトを書き出す&#x200B;*など、スコープ外のプロンプトを送信すると、Data Insights Agentは、質問がスコープ外であることを通知して応答します。*</p></li></ul> | <ul><li>共有</li><li>書き出し</li><li>ダウンロード</li><li>ユーザー環境設定の管理</li><li>データビューを管理</li><li>Adobe Analytics ダッシュボードアプリ</li><li>帰属</li><li>インラインの要約または応答<p>Data Insights Agentは、ユーザープロンプトの概要回答を使用して、チャットパネルでインラインで応答できません。 スコープ外プロンプトの例としては、*最後のプロンプトのインサイトの概要を表示*&#x200B;および&#x200B;*行のビジュアライゼーションのハイライトを要約*&#x200B;します。</p></li></ul> |
 | **質問の明確化** | Data Insights Agentで回答するのに十分なコンテキストがない、または一般的すぎる質問をした場合、Data Insights Agentは明確な質問または提案されたオプションで回答します。 <p>以下の質問は、コンポーネント関連の質問の例です。</p><ul><li>指標：*どの「収益」指標を意味しましたか？*</li><li>Dimension: *次の「リージョン」のうち、どのリージョンに重点を置きますか？*</li><li>セグメント：*適用する「アカウント」セグメントはどれですか？*</li><li>日付範囲：*「先月」とは、最後の1か月または過去30日間を意味していますか？*</li></ul><p>次の明確な質問は、ディメンション項目に関連する質問の例です。</p> <ul><li>「お店の名前」とはどういう意味ですか。 （例：Store #5274、Store #2949など）</li></ul> | 質問の明確化は、コンポーネントとディメンション項目に限定されます。 Data Insights Agentでは、データビュー、ビジュアライゼーション、データの粒度、比較、範囲などを明確にすることはできません。 質問を明確にできない場合、エージェントはデフォルトで、最も可能性の高い質問に従います。 予期せぬビジュアライゼーションやデータの精度が返された場合は、フォローアップで質問するか、ビジュアライゼーションとデータを調整することができます。 |
 | **データの検証可能性と正確性** | 生成されたフリーフォームテーブルとデータのビジュアライゼーションを表示することで、データの検証可能性と正確性を確認できます。 <p>例えば、Data Insights Agentに対して&#x200B;*先月*&#x200B;のトレンド注文を求める場合、新しく生成されたパネル、データビジュアライゼーション、フリーフォームテーブルで正しい指標（「注文」）と日付範囲（「先月」）が選択されていることを確認できます。</p> | Data Insights Agentは、追加されたコンポーネントやビジュアライゼーションを通知しても応答しません。 |
 | **フィードバックメカニズム** | <ul><li>サムズアップ</li><li>サムズダウン</li><li>フラグ</li></ul> |  |
@@ -96,7 +96,7 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
   >[!IMPORTANT]
   >
   >データビューを有効にする際には、次の点を考慮してください。
-  >* IMS組織ごとに最大50個のデータビューを有効にできます。特定の組織のすべての製品プロファイルで50以上のデータビューを有効にすると、Data Insights Agentで最も使用される50のデータビューが使用されます。
+  >* IMS組織ごとに最大50個のデータビューを有効にできます。 特定の組織のすべての製品プロファイルで50以上のデータビューを有効にすると、Data Insights Agentで最も使用される50のデータビューが使用されます。
   >  データビュー[&#128279;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)のData Insights Agent列の情報を使用して、IMS組織内でData Insights Agentに対して有効になっているデータビューの数を表示できます。
   >* Data Insights Agentでは、含まれるデータビューを、有効にするのと同じ日の任意の時点で参照できます。
 
@@ -286,7 +286,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 >[!MORELIKETHIS]
 >
 >[&#x200B; コンポーネント設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[&#x200B; データディクショナリ &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[データ辞書](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
 >[計算指標を承認](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[&#x200B; セグメントの共有](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[セグメントの共有](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/segments/seg-share)
 

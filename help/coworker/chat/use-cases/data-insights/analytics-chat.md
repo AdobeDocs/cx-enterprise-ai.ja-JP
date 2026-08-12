@@ -1,7 +1,7 @@
 ---
 title: Adobe Customer Journey Analyticsのデータを分析する（チャット）
 description: Adobe CXのAdobe Commerceのコラボレーションチャット機能を使用して、Customer Journey Analyticsのデータを分析し、ファネルを構築し、カスタマージャーニーのどこで顧客が脱落しているかを調べる方法を紹介します。
-source-git-commit: bfc9d04860f592093e4cab4b88463b173f6be369
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '3210'
 ht-degree: 4%

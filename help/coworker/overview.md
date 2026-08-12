@@ -1,9 +1,9 @@
 ---
-title: Adobe CX Enterprise Collaborker
+title: Adobe CX Enterprise Coworkerについて
 description: Adobe CX Enterprise Coworkerを利用して、マーケティングを次のレベルに引き上げる方法をご確認ください。
-source-git-commit: 05fc3688b9a3544884b5b121a43ff17a81c4df78
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 5%
 
 ---
