@@ -80,4 +80,4 @@ ht-degree: 16%
         - [ロイヤルティに関する課題を作成し、インサイトを獲得](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - サンドボックスツール {#sandbox-tooling}
         - [エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
