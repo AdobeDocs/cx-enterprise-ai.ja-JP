@@ -6,9 +6,9 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: b68e00babda4fb9f8af816ceb836367fe86cc0fa
+source-git-commit: 91ea22749d33f8d58b5eb7b41f06ea4cc0b9513e
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '259'
 ht-degree: 17%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 17%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同僚 {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - キャンペーン {#campaigns}
@@ -63,7 +63,6 @@ ht-degree: 17%
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
     - [ユースケース](./coworker/campaigns/use-cases.md)
     - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[&#x200B; コネクタ &#x200B;](./coworker/campaigns/connectors.md)
     - [リリースノート](./coworker/campaigns/release-notes.md)
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
@@ -80,4 +79,4 @@ ht-degree: 17%
         - [自然言語を使用したジャーニーの作成](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - サンドボックスツール {#sandbox-tooling}
         - [エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
