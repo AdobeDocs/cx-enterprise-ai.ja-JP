@@ -6,10 +6,10 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 91ea22749d33f8d58b5eb7b41f06ea4cc0b9513e
+source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 17%
+source-wordcount: '266'
+ht-degree: 16%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 17%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同僚 {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - キャンペーン {#campaigns}
@@ -77,6 +77,7 @@ ht-degree: 17%
         - [プラットフォームの健全性を評価し、オーディエンスを構築する](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - ジャーニー {#journeys}
         - [自然言語を使用したジャーニーの作成](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+        - [ロイヤルティに関する課題を作成し、インサイトを獲得](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - サンドボックスツール {#sandbox-tooling}
         - [エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
