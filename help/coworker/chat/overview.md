@@ -1,9 +1,9 @@
 ---
 description: Adobe Workfrontの対話型インターフェイスを利用して、Adobe Adobeと連携したシステムをまたいで、数分で顧客体験の作業を計画、実行、完了できる方法をご確認ください。
 title: Adobe CX エンタープライズチャットの概要
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: e87e0cc9879629fa763ad6e5f20c484f30138a9a
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,19 @@ AI アシスタントとAdobe Experience Platform Agent Orchestratorをすでに
 >[!NOTE]
 >
 >エクスペリエンスが完成したら、インターフェイスのスクリーンショットが追加されます。
+
+## 互換性のあるCX エンタープライズアプリケーション
+
+次のCX Enterprise アプリケーションは、Coworker Chatと互換性があります。
+
+* Real-Time CDP B2C Edition
+* Adobe Journey Optimizer B2C Edition
+* Customer Journey Analytics B2C edition
+* _AEM（近日リリース予定）_
+* _Workfront（近日リリース予定）_
+* _Real-Time CDP B2B edition（近日リリース予定）_
+* _Adobe Journey Optimizer B2B edition（近日リリース予定）_
+* _Customer Journey Analytics B2B edition（近日リリース予定）_
 
 ## 構成要素
 
