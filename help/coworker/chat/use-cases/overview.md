@@ -1,10 +1,10 @@
 ---
 description: Coworker Chatのユースケースとサンプルプロンプトを、データインサイト、オーディエンス、ジャーニー、プラットフォーム運用をまたいで、エリアごとに整理して参照できます。
 title: 同僚チャットのユースケース
-source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
+source-git-commit: a19e6a17796fbe8d00a6e5559fc664ae469481f2
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 4%
+source-wordcount: '1284'
+ht-degree: 7%
 
 ---
 
@@ -17,12 +17,13 @@ ht-degree: 4%
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
 | [CJA レポートと指標を取得](data-insights/analytics-chat.md) | CJAにリアルタイムでクエリを実行し、指標、ディメンション、セグメント、データビューを取得します | `cja` | Customer Journey Analytics（CJA） | 「過去30日間のページビューを表示」 ・ 「マスターデータビューの上位セグメントのリスト」 |
-| 比較分析 | チャネル、期間、セグメントをまたいで指標を並べて比較できます | `cja` | Customer Journey Analytics（CJA） | 「チャネル別の収益を前月比で比較」 ・ 「モバイルとデスクトップのコンバージョンは、今四半期でどのように見えますか？」 |
+| 比較分析 | チャネル、期間、セグメントをまたいで指標を並べて比較できます | `cja-root-cause-analysis`, `cja`, `dx-api`, `knowledge-graph` | Customer Journey Analytics（CJA） | 「チャネル別の収益を前月比で比較」 ・ 「モバイルとデスクトップのコンバージョンは、今四半期でどのように見えますか？」 |
+| キャンペーンのパフォーマンス | 一定期間におけるキャンペーン、チャネル、web プロパティのパフォーマンスを測定。 | `cja`, `dx-api`, `knowledge-graph` | | 「先月のAcrobat web キャンペーンのパフォーマンスはどうでしたか？」 |
 | Funnel analysis | 各段階での離脱を防ぐための、マルチステップのコンバージョンファネルを順を追って説明します | `cja` | Customer Journey Analytics（CJA） | 「チェックアウトのfunnelについて説明する」 ・ 「PDPから購入までのコンバージョンfunnelを表示する」 |
 | 予測 | 過去のCJA データに基づく将来の指標値のプロジェクト | `cja` | Customer Journey Analytics（CJA） | 「今後30日間のセッションを予測」 ・「売上目標を達成する準備は整っているか？」 |
 | [根本原因分析](data-insights/root-cause-analysis.md) | 指標が変化した理由：低下、急上昇、異常を診断します | `cja-root-cause-analysis` | Customer Journey Analytics（CJA） | 「先週、コンバージョンが下がったのはなぜですか？」 ・ 「1月15日の売上急増の要因は何か？」 |
-| エグゼクティブサマリーとKPI ダイジェスト | 関係者に提供可能なパフォーマンスの要約、処方レコメンデーション、スライドデッキの概要を作成します | `cja-executive-summary` | Customer Journey Analytics（CJA） | 「先月のエグゼクティブサマリーを教えてください」 ・ 「今四半期のデータからスライドデッキの概要を作成します」 |
-| [AA ↔ CJA データ検証](data-insights/data-validation-aa-cja.md) | Adobe AnalyticsとCustomer Journey Analytics間でのデータの比較、監査、調整 | `aa-cja-validation` | ADOBE ANALYTICS + CJA | 「AA レポートスイートとCJA データビューの比較」 ・ 「AAとCJA間のページビューの検証」 |
+| エグゼクティブサマリーとKPI ダイジェスト | 関係者に提供可能なパフォーマンスの要約、処方レコメンデーション、スライドデッキの概要を作成します | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics（CJA） | 「先月のエグゼクティブサマリーを教えてください」 ・ 「今四半期のデータからスライドデッキの概要を作成します」 |
+| [AA ↔ CJA データ検証](data-insights/data-validation-aa-cja.md) | 特にAdobe AnalyticsからCustomer Journey Analyticsにアップグレードする場合は、Adobe AnalyticsとCustomer Journey Analytics間でデータを比較、監査、調整できます | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | 「AA レポートスイートとCJA データビューの比較」 ・ 「AAとCJA間のページビューの検証」 |
 | 運用時系列と因果関係分析 | オーディエンス、データセット、ジャーニーに関する過去の時系列データを、因果関係アトリビューションでクエリ、分析します | `operational-stats-causal-analysis` | すべての対象アプリケーション | 「過去90日間のオーディエンスサイズの傾向を表示」 ・ 「データセットの行数が3月3日に急増した理由」 |
 | CJAのカスタムスキルの作成 | 分析パターンを、セッションをまたいで保持される、再利用可能で反復可能なスキルに変換します | `cja-skill-creator` | Customer Journey Analytics（CJA） | 「この週次売上分析を再利用可能なスキルに変換」 ・ 「これを月次funnel レポートのスキルとして保存」 |
 
