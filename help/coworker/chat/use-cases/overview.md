@@ -1,9 +1,10 @@
 ---
 description: Coworker Chatのユースケースとサンプルプロンプトを、データインサイト、オーディエンス、ジャーニー、プラットフォーム運用をまたいで、エリアごとに整理して参照できます。
 title: 同僚チャットのユースケース
-source-git-commit: a19e6a17796fbe8d00a6e5559fc664ae469481f2
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: 1284
 ht-degree: 7%
 
 ---
@@ -47,7 +48,7 @@ ht-degree: 7%
 | ジャーニーの競合の分析 | オーディエンスの重複、スケジュールの競合、アクティブなジャーニー間の重複排除の問題を検出します | `journey-analyze-conflict` | Adobe Journey Optimizer（AJO） | 「カート放棄ジャーニーは他のジャーニーと競合しますか？」 ・ 「アクティブなジャーニー間のオーディエンスの重複をチェック」 |
 | ジャーニーのフォールアウトを分析 | ジャーニーの途中で顧客が離脱する場所や理由を特定し、離脱につながる行動パターンを検出します | `journey-analyze-fallout` | Adobe Journey Optimizer（AJO） | 「リエンゲージメントの過程で離脱した顧客はどこにいますか？」 ・ 「ジャーニーXのどのノードのフォールアウトが最も高いか？」 |
 | カスタムアクションエラーの分析 | カスタムアクションが失敗しているか、ジャーニー内でエラー率が急増しているかを特定し、失敗がより大きな混乱に連鎖する前に根本原因を診断できます | `journey-analyze-custom-action` | Adobe Journey Optimizer（AJO） | 「ロイヤルティ登録ジャーニーでカスタムアクションが失敗するのはなぜですか？」 ・ 「ウェルカムジャーニーのカスタムアクション ExternalPushのエラー率を表示する」 |
-| [&#x200B; ロイヤルティに関する課題の作成、編集、管理](journeys/create-loyalty-challenge.md) | ロイヤルティプログラム管理を簡素化し、迅速化したい | `loyalty` | Adobe Journey Optimizer（AJO） | 「会員に新しい季節の飲み物を試すように促すチャレンジを作成する」 ・ 「最も高い会員の脱落率でロイヤルティの課題を表示する」。 |
+| [ ロイヤルティに関する課題の作成、編集、管理](journeys/create-loyalty-challenge.md) | ロイヤルティプログラム管理を簡素化し、迅速化したい | `loyalty` | Adobe Journey Optimizer（AJO） | 「会員に新しい季節の飲み物を試すように促すチャレンジを作成する」 ・ 「最も高い会員の脱落率でロイヤルティの課題を表示する」。 |
 
 ## 基本要素
 
@@ -64,4 +65,4 @@ ht-degree: 7%
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
-| [&#x200B; サンドボックス間でオブジェクトを移動](/help/agents/sandbox-tooling.md) | 依存関係を自動解決し、スキーマ、オーディエンス、その他のオブジェクト設定をサンドボックス間でシームレスに移行できます | `sandbox-tooling-workflow` | Adobe Experience Platform | 「スキーマのLuma Loyalty Members Platinumを現在のサンドボックスから実稼動サンドボックスに移動」 ・ 「US Gold Loyalty Members オーディエンスをステージに昇格させる」 |
+| [ サンドボックス間でオブジェクトを移動](/help/agents/sandbox-tooling.md) | 依存関係を自動解決し、スキーマ、オーディエンス、その他のオブジェクト設定をサンドボックス間でシームレスに移行できます | `sandbox-tooling-workflow` | Adobe Experience Platform | 「スキーマのLuma Loyalty Members Platinumを現在のサンドボックスから実稼動サンドボックスに移動」 ・ 「US Gold Loyalty Members オーディエンスをステージに昇格させる」 |
