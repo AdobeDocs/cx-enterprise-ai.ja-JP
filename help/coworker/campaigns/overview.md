@@ -1,7 +1,8 @@
 ---
 description: AIを活用して、単一のプロンプトをレビュー可能なキャンペーンに転換する、Adobe CX Enterprise Coworker Campaignsについてご確認ください。
 title: Adobe CX Enterprise Coworkerの概要
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
 source-wordcount: 950
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Coworker Campaignsは、AIを活用したマーケティングアプリケーションであり、単一のプロンプトから、レビュー可能な包括的なキャンペーンに移行できます。
 
-現時点では、AIに関するあらゆるやり取りが、[ キャンペーン生成](./)に向けて送信されます。 近日中に追加機能を予定しています。
+現時点では、AIに関するあらゆるやり取りが、[ キャンペーン生成] (./)に向けて送信されます。 近日中に追加機能を予定しています。
 
 ## アクセス方法
 
@@ -43,7 +44,7 @@ Coworker Campaignsは、AIを活用したマーケティングアプリケーシ
 
 共同作業キャンペーンのインターフェイスは、左側のナビゲーションの周りに整理されています。
 
-![ ホーム画面](./assets/overview-2.gif)
+![&#x200B; ホーム画面](./assets/overview-2.gif)
 
 | 左ナビゲーションメニュー | 目的 |
 |---|---|
