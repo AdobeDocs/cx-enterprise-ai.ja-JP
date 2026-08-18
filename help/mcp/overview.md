@@ -1,9 +1,9 @@
 ---
 title: Adobe CX Coworker Gatewayの概要
 description: Adobe CX Coworker Gatewayは、Adobe CX Enterpriseの統合MCPであり、MCP クライアントにサポートされている製品ツールへの単一の接続を提供します。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 428291fab4c74bc49f62c65011c3336ff1609a38
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '454'
 ht-degree: 5%
 
 ---
@@ -39,12 +39,12 @@ CX Coworker Gatewayは、CX Coworker Gateway製品ツール用の管理エンド
 
 | 製品ツール | エンドポイントを通じて公開される情報 | 対象 | ドキュメント |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Real-Time CDP** | オーディエンス、宛先、ソース、ID名前空間、アクティベーションの正常性（読み取り専用） | ベータ版 | [Real-Time CDP ツール &#x200B;](rtcdp-mcp.md) |
-| **Experience Platform** | スキーマ、データセット、データガバナンス、クエリサービス、監査イベント（読み取り専用） | ベータ版 | [Experience Platform ツール &#x200B;](aep-mcp.md) |
-| **Journey Optimizer** | キャンペーンとチャネル設定（読み取り専用） | ベータ版 | [Journey Optimizer ツール &#x200B;](ajo-mcp.md) |
-| **Customer Journey Analytics** | データビュー、ディメンション、指標、レポート、セグメント、日付範囲、プロジェクト、オーディエンス（読み取りと書き込み） | 使用可能 | [Customer Journey Analytics ツール &#x200B;](cja-mcp.md) |
-| **Adobe Analytics** | レポートスイート、ディメンション、指標、レポート、セグメント、日付範囲、ワークスペースプロジェクト（サポートされているコンポーネントの読み取りと書き込み） | 使用可能 | [Adobe Analytics ツール &#x200B;](analytics-mcp.md) |
-| **Workfront** | プロジェクト、タスク、承認ワークフローの作業管理ツール | プレビュー | [Workfront MCP サーバー](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
+| **Real-Time CDP** | オーディエンス、宛先、ソース、ID名前空間、アクティベーションの正常性（読み取り専用） | ベータ版 | [Real-Time CDP ツール ](rtcdp-mcp.md) |
+| **Experience Platform** | スキーマ、データセット、データガバナンス、クエリサービス、監査イベント、サンドボックスのヘルスチェック評価（読み取り専用） | ベータ版 | [Experience Platform ツール ](aep-mcp.md) |
+| **Journey Optimizer** | キャンペーンとチャネル設定（読み取り専用） | ベータ版 | [Journey Optimizer ツール ](ajo-mcp.md) |
+| **Customer Journey Analytics** | データビュー、ディメンション、指標、レポート、セグメント、日付範囲、プロジェクト、オーディエンス（読み取りと書き込み） | 使用可能 | [Customer Journey Analytics ツール ](cja-mcp.md) |
+| **Adobe Analytics** | レポートスイート、ディメンション、指標、レポート、セグメント、日付範囲、ワークスペースプロジェクト（サポートされているコンポーネントの読み取りと書き込み） | 使用可能 | [Adobe Analytics ツール ](analytics-mcp.md) |
+| **Workfront** | プロジェクト、タスク、承認ワークフローの作業管理ツール | プレビュー | [Workfront MCP サーバー](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
 >[!NOTE]

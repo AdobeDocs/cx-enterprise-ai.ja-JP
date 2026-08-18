@@ -1,10 +1,10 @@
 ---
 title: CX Coworker GatewayのExperience Platform Tools
 description: CX Coworker Gatewayを通じて利用できるAdobe Experience Platform ツールについて説明します。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 3b9aa67448b5686b614e5f34019d06272837f5c6
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 8%
+source-wordcount: '1537'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,7 @@ Adobe Experience Platform製品ツールを使用して、MCP対応クライア�
 | `search_data_lake` | データセットのメタデータとバッチの正常性の検査 | データレイク API ・ データセット、バッチ | 取得、サイズ取得、失敗したバッチの一覧表示 | アクティブ |
 | `search_dule` | データガバナンスラベル、ポリシー、アクションのクエリ | データガバナンス ・ ラベル、ポリシー、marketing_actions | list, get, list enabled,evaluate | アクティブ |
 | `search_query_service` | SQL クエリ、テンプレート、スケジュール、アラートのクエリ | クエリサービス ・ クエリ、テンプレート、スケジュール、アラート | リスト、取得、フィルター、取得の接続パラメーター | アクティブ |
+| `search_sandbox_health_assessment` | 現在のサンドボックスの最新の「実行」および「操作」ヘルスチェック評価結果の取得 | 実行と操作・ ヘルスチェック評価 | リスト、チェック名で取得 | アクティブ |
 | `search_schema_registry` | XDM スキーマ、フィールドグループ、クラス、タイプのクエリ | スキーマレジストリ ・ スキーマ、フィールドグループ、クラス、data_types、記述子 | リスト、取得、コンテナによるフィルタリング | アクティブ |
 
 ## ツールリファレンス
@@ -46,7 +47,7 @@ Adobe Experience Platform製品ツールを使用して、MCP対応クライア�
 
 ### search_audit
 
-**リソース：**&#x200B;監査クエリ ・監査イベント
+**リソース：**監査クエリ ・監査イベント
 **ステータス：** アクティブ
 
 Experience Platform サービス全体のユーザーアクティビティのタイムスタンプ付きレコードを一覧表示します。 アクションタイプ、ユーザーの電子メール、アセット情報、イベントステータスを返します。 `asset_type`と`action`を使用して結果を絞り込みます。 時間範囲が指定されていない場合は、デフォルトで過去7日間になります。 過去90日間の過去1000件のレコードとイベントに限定されます。
@@ -197,3 +198,18 @@ Query Serviceのリソース向けの統合ツール。 アドホッククエリ
 | --- | --- | --- |
 | `entity_type` | ○ | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | ○ | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### search_sandbox_health_assessment
+
+**リソース：**実行と操作・ ヘルスチェック評価
+**ステータス：** アクティブ
+
+現在のサンドボックスの最新の「実行」および「操作」ヘルスチェック評価結果を取得します。 スキーマやID、セグメンテーション、取り込み、プロファイルなど、サポートされているあらゆるカテゴリをまたいで結果を返します。 別のルックアップを使用せずに根本原因を特定するために、各結果には、失敗したチェックの背後にある影響を受けるアセットが含まれます。 公開された人間が読み取れる名前を持つチェックのみが返されます。 すべての操作は読み取り専用です。
+
+>[!NOTE]
+>
+>このツールは、評価結果のみを取得します。 フラグ付きの問題を修正するには、[!DNL Experience Platform] UIのヘルスチェックの詳細パネルを使用します。 [ ヘルスチェック ](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks)を参照してください。 サポートされているヘルスチェックの自動修復ガイダンスは、[CX Coworker Chat](../coworker/chat/overview.md)のスキルとして利用できます。
+
+**機能：**&#x200B;現在のサンドボックスのすべてのヘルスチェック結果を一覧表示し、1つの名前付きチェックの結果を取得します
+
+パラメーターがありません。
