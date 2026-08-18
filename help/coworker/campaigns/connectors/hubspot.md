@@ -1,9 +1,11 @@
 ---
 description: HubSpot アカウントをCoworker Campaignsにサービスキーを使用して連絡先リストを同期し、いつでも統合を管理または切断できます。
 title: HubSpotへの接続
-source-git-commit: 58764017fd2504a481be7ed9577cdcf4a1f107cd
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: 258
 ht-degree: 0%
 
 ---

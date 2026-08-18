@@ -6,9 +6,9 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6f3672e35719921b82ce5c9bdd761a2a6b610438
+source-git-commit: 785b5d106cb029d68506c90385786cbdae164991
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '272'
 ht-degree: 17%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 17%
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
     - [ユースケース](./coworker/campaigns/use-cases.md)
     - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
+    - {hide-from-toc}[C2PA メタデータ &#x200B;](./coworker/campaigns/generative-c2pa-metadata.md)
     - コネクタ {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
