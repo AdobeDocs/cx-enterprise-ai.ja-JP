@@ -40,4 +40,4 @@ Coworker Campaignsは、サポートされている画像アセットに関連�
 
 * [Adobeの各製品におけるContent Credentialsの仕組み](https://helpx.adobe.com/jp/firefly/using/content-credentials.html){target="_blank"}
 
-* [ガードレールと制限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [ガードレールと制限](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
