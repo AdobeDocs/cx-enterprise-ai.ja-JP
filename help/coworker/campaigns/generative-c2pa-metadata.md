@@ -2,7 +2,7 @@
 description: Coworker Campaignsが、生成からメール配信まで、画像にC2PA メタデータ（Content Credentials）を自動的にアタッチして保存する方法について説明します。
 title: Coworker CampaignsのC2PA メタデータ
 hide: true
-source-git-commit: 9796ac7d3d55e7a278414d44a214bfdf5311d727
+source-git-commit: 399f0e33cc98c0450fe5fd0b75d847525e89f978
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%
@@ -11,17 +11,13 @@ ht-degree: 6%
 
 # Coworker CampaignsのC2PA メタデータ {#overview}
 
-生成AIの透明性に関する新たな法律が制定されつつあり、Adobeでは、さまざまな地域で適用される要件を満たすために取り組んでいます。 [C2PA メタデータ &#x200B;](https://c2pa.org/) （Content Credentialsとも呼ばれます）は、Adobeがこれらの法律の要件を満たすために使用する来歴ツールです。
+生成AIの透明性に関する新たな法律が制定されつつあり、Adobeでは、さまざまな地域で適用される要件を満たすために取り組んでいます。 [C2PA メタデータ ](https://c2pa.org/) （Content Credentialsとも呼ばれます）は、Adobeがこれらの法律の要件を満たすために使用する来歴ツールです。
 
 C2PA メタデータは、コンテンツがどのように作成または編集されたかを記録する、耐久性のある目に見えないメタデータです。 Workfront Campaignsの生成AI ツールを使用して画像を生成または編集すると、C2PA メタデータが自動的にその画像に添付されます。 お客様の側で操作は必要ありません。
-
->[!BEGINSHADEBOX]
 
 ## メールキャンペーンでのContent Credentials {#content-credentials-email}
 
 メールキャンペーンで送信された画像はContent Credentialsを維持するので、受信者は配信されたメールから直接画像の出所と信頼性を確認できます。
-
->[!ENDSHADEBOX]
 
 ## C2PA メタデータを添付するアクション {#cc-workflows}
 
@@ -48,4 +44,4 @@ Coworker Campaignsは、サポートされている画像アセットに関連�
 
 * [Adobe Experience Cloud生成AI ユーザーガイドライン](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [ガードレールと制限](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [ガードレールと制限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
