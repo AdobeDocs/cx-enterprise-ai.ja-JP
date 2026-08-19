@@ -1,10 +1,10 @@
 ---
 title: CX Coworker GatewayのExperience Platform Tools
 description: CX Coworker Gatewayを通じて利用できるAdobe Experience Platform ツールについて説明します。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 8%
+source-wordcount: '1947'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,10 @@ Adobe Experience Platform製品ツールを使用して、MCP対応クライア�
 | `search_data_lake` | データセットのメタデータとバッチの正常性の検査 | データレイク API ・ データセット、バッチ | 取得、サイズ取得、失敗したバッチの一覧表示 | アクティブ |
 | `search_dule` | データガバナンスラベル、ポリシー、アクションのクエリ | データガバナンス ・ ラベル、ポリシー、marketing_actions | list, get, list enabled,evaluate | アクティブ |
 | `search_query_service` | SQL クエリ、テンプレート、スケジュール、アラートのクエリ | クエリサービス ・ クエリ、テンプレート、スケジュール、アラート | リスト、取得、フィルター、取得の接続パラメーター | アクティブ |
+| `search_sandbox_health_assessment` | 現在のサンドボックスの最新の「実行」および「操作」ヘルスチェック評価結果の取得 | 実行と操作・ ヘルスチェック評価 | リスト、チェック名で取得 | アクティブ |
 | `search_schema_registry` | XDM スキーマ、フィールドグループ、クラス、タイプのクエリ | スキーマレジストリ ・ スキーマ、フィールドグループ、クラス、data_types、記述子 | リスト、取得、コンテナによるフィルタリング | アクティブ |
+| `execute_observability_metrics_query` | 現在のサンドボックスまたはすべてのサンドボックスの[!DNL Observability Insights]指標をクエリします | オブザーバビリティのインサイト ・指標 | 時系列クエリと集計クエリ、複数メトリック要求、タグフィルター、groupBy/exclude、メトリックごとのダウンサンプル | アクティブ |
+| `inspect_observability_breaches` | 指標が設定済みのベースラインを超えた[!DNL Observability Insights]回違反インターバルを検出します | 可観測性のインサイト ・侵害 | データ侵害の間隔を系列、組織、サンドボックスの範囲ごとに一覧表示します | アクティブ |
 
 ## ツールリファレンス
 
@@ -197,3 +200,64 @@ Query Serviceのリソース向けの統合ツール。 アドホッククエリ
 | --- | --- | --- |
 | `entity_type` | ○ | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | ○ | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### execute_observability_metrics_query
+
+**リソース：** Observability Insights ・ metrics
+**ステータス：** アクティブ
+
+現在のサンドボックス、または組織内のすべてのサンドボックスについて、[!DNL Observability Insights]指標をクエリします。 1回のリクエスト、タグベースのフィルター、指標ごとのダウンサンプリングで複数の指標をサポートしています。 `scope=org`の場合、すべての指標に少なくとも1つの`groupBy` フィルターを含めます。 すべての操作は読み取り専用です。
+
+**機能：** クエリー指標データポイント、時系列または集計、複数指標リクエスト、タグフィルター、groupBy/exclude、指標ごとのダウンサンプル
+
+**パラメーター：**
+
+| パラメーター | 必須 | 説明 |
+| --- | --- | --- |
+| `metrics` | ○ | 指標スペックの配列。 それぞれに`name` （完全修飾指標名）、`aggregator` （`sum`、`avg`、`min`、`max`、`count`、`last`、`p50`、`p95`、`p99`、ヒストグラムのバリアント、または`absent`）、オプション `filters`、およびオプション `downsample`が含まれます |
+| `start` | ○ | ウィンドウ開始、ISO 8601 （例：`2026-01-15T00:00:00.000Z`）。 `end`より前である必要があります。 最大ウィンドウ：31日 |
+| `end` | ○ | ウィンドウエンド、ISO 8601。 `start`以降である必要があります |
+| `granularity` | × | 時間バケット サイズ：`MINUTE`、`FIVE_MINUTE`、`TEN_MINUTE`、`FIFTEEN_MINUTE`、`THIRTY_MINUTE`、`HOUR`、`FOUR_HOUR`、`TWELVE_HOUR`、`DAY`、`TWO_DAY`、`WEEK`、`MONTH`または`ALL` （ウィンドウを1つの集計に折りたたむ）。 サーバーが選択することを許可しない |
+| `scope` | × | `sandbox` （既定値）は、現在のサンドボックスをクエリします。 `org`は、組織内のすべてのサンドボックスをクエリし、すべての指標に`groupBy` フィルターを推奨します |
+
+`metrics[].filters`の各フィルターには、`name` （タグ名）、`value` （正確、ワイルドカード、または正規表現の一致）、オプションの`groupBy`および`exclude`のブール値が含まれます。
+
+### inspect_observability_breaches
+
+**リソース：** Observability Insights ・ データ侵害
+**ステータス：** アクティブ
+
+現在のサンドボックスまたは組織内のすべてのサンドボックスについて、指標が設定されたベースラインを超えた時間ウィンドウである[!DNL Observability Insights]個の漏洩間隔を検出します。 系列ごとに一致した区間を返します。 ウィンドウの終了時にまだ進行中のオープンエンドの侵害は`end: null`で返されます。 すべての操作は読み取り専用です。
+
+**機能：** シリーズ、組織、サンドボックスの範囲ごとに侵害の間隔を一覧表示します
+
+**パラメーター：**
+
+| パラメーター | 必須 | 説明 |
+| --- | --- | --- |
+| `metrics` | ○ | データ漏洩スペックの配列。 それぞれに`name` （完全修飾メトリック名）とオプションの`filters`が含まれます |
+| `start` | ○ | ウィンドウ開始、ISO 8601。 `end`より前である必要があります。 最大ウィンドウ：31日 |
+| `end` | ○ | ウィンドウエンド、ISO 8601 |
+| `granularity` | × | タイムバケットのサイズ、`ALL`を除く`execute_observability_metrics_query`と同じ値。 各バケットは、ベースラインに対して個別に評価されます |
+| `scope` | × | `sandbox` （デフォルト）または`org`。 サンドボックスフィルターを使用しない`org`では、指標ごとに`groupBy: true`を含むフィルターを少なくとも1つ含めることで、組織全体で折りたたまれるのではなく、そのディメンションで結果が分割されます |
+
+`inspect_observability_breaches`は`metrics[]`に`aggregator`または`downsample`を受け入れません。 ツールは、違反条件を評価するために、これらを社内で設定します。
+
+>[!NOTE]
+>
+>両方のオブザーバビリティインサイトツールも、リクエストごとに推定10,000個のデータポイントに制限されています。 要求がこの制限を超えて拒否された場合は、時間範囲を狭めたり、フィルターを追加したり、粗い`granularity`を使用したりします。
+
+### search_sandbox_health_assessment
+
+**リソース：**&#x200B;実行と操作・ ヘルスチェック評価
+**ステータス：** アクティブ
+
+現在のサンドボックスの最新の「実行」および「操作」ヘルスチェック評価結果を取得します。 スキーマやID、セグメンテーション、取り込み、プロファイルなど、サポートされているあらゆるカテゴリをまたいで結果を返します。 別のルックアップを使用せずに根本原因を特定するために、各結果には、失敗したチェックの背後にある影響を受けるアセットが含まれます。 公開された人間が読み取れる名前を持つチェックのみが返されます。 すべての操作は読み取り専用です。
+
+>[!NOTE]
+>
+>このツールは、評価結果のみを取得します。 フラグ付きの問題を修正するには、[!DNL Experience Platform] UIのヘルスチェックの詳細パネルを使用します。 [&#x200B; ヘルスチェック &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/run-and-operate/health-checks)を参照してください。 サポートされているヘルスチェックの自動修復ガイダンスは、[CX Coworker Chat](../coworker/chat/overview.md)のスキルとして利用できます。
+
+**機能：**&#x200B;現在のサンドボックスのすべてのヘルスチェック結果を一覧表示し、1つの名前付きチェックの結果を取得します
+
+パラメーターがありません。

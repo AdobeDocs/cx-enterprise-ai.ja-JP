@@ -3,9 +3,9 @@ description: Coworker Chatのユースケースとサンプルプロンプトを
 title: 同僚チャットのユースケース
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+source-git-commit: 9188ccfc1a01288bee775bc82d84c7f252e66615
 workflow-type: tm+mt
-source-wordcount: 1284
+source-wordcount: 1333
 ht-degree: 7%
 
 ---
@@ -61,6 +61,7 @@ ht-degree: 7%
 | Experience Platform/Journey Optimizer/Customer Journey Analytics APIの操作 | ナレッジグラフにない突然変異、リアルタイム状態チェック、およびエンティティタイプに対して、直接API ゲートウェイを提供します | `cxo-api` | すべての対象アプリケーション | 「データセット Xを削除」 ・ 「バッチ取り込みジョブのステータスを確認」 |
 | エンティティの解決とリンク | セマンティック検索と字句検索を使用して、実際のExperience Platform エンティティに対するエンティティのメンションを解決し、XDM フィールドを検出します | `entity-linking` | Adobe Experience Platform | 「実際のオーディエンスに『ホリデーショッパー』を解決する」 ・「購入履歴に関連するフィールドを検索する」 |
 | カスタムスキルの管理 | 再利用可能なユーザー所有スキルを保存、変更、削除できます。これらのスキルは、セッションをまたいで保持されます | `manage-skill` | すべての対象アプリケーション | 「そのワークフローをスキルとして保存」 ・ 「週次レポートスキルを削除」 ・ 「これを再利用可能なスキルに変換」 |
+| ストリーミング容量とデータ侵害の監視 | サンドボックスをまたいで、現在および過去のストリーミング利用状況、キャパシティ、侵害ステータスを確認できます | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | 「現在のサンドボックスの現在のストリーミング容量は何ですか？」 ・ 「先週の現在のサンドボックスの容量制限に違反していますか？」 |
 
 ## サンドボックスツール
 
