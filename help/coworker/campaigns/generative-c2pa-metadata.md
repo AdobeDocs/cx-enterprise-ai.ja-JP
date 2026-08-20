@@ -2,10 +2,10 @@
 description: Coworker Campaignsが、生成からメール配信まで、画像にC2PA メタデータ（Content Credentials）を自動的にアタッチして保存する方法について説明します。
 title: Coworker CampaignsのC2PA メタデータ
 hide: true
-source-git-commit: 399f0e33cc98c0450fe5fd0b75d847525e89f978
+source-git-commit: 17acfbd783e1e70b965636b806c465be8cf73522
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 6%
+source-wordcount: '380'
+ht-degree: 4%
 
 ---
 
@@ -39,8 +39,6 @@ Coworker Campaignsは、サポートされている画像アセットに関連�
 <!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
 ## その他のリソース
-
-* [C2PA メタデータについて詳しく見る](https://helpx.adobe.com/jp/firefly/using/content-credentials.html){target="_blank"}
 
 * [Adobe Experience Cloud生成AI ユーザーガイドライン](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
