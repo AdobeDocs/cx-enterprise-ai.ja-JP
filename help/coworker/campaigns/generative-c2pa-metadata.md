@@ -2,16 +2,16 @@
 description: 生成からメール配信まで、Coworker Campaignsが画像にC2PA メタデータを自動的に添付して保存する方法について説明します。
 title: Coworker CampaignsのC2PA メタデータ
 hide: true
-source-git-commit: 1c24814b92c2eb3ecd7f3a54058c9a670613d814
+source-git-commit: 639602b445cba01fce2130006f98e1e388ba7d5b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
 
 # Coworker CampaignsのC2PA メタデータ {#overview}
 
-生成AIの透明性に関する新たな法律が制定されつつあり、Adobeでは、さまざまな地域で適用される要件を満たすために取り組んでいます。 [C2PA メタデータ &#x200B;](https://c2pa.org/)は、Adobeがこれらの法律の要件を満たすために使用する来歴ツールです。
+生成AIの透明性に関する新たな法律が制定されつつあり、Adobeでは、さまざまな地域で適用される要件を満たすために取り組んでいます。 [C2PA メタデータ ](https://c2pa.org/)は、Adobeがこれらの法律の要件を満たすために使用する来歴ツールです。
 
 C2PA メタデータは、コンテンツがどのように作成または編集されたかを記録する、耐久性のある目に見えないメタデータです。 Workfront Campaignsの生成AI ツールを使用して画像を生成または編集すると、C2PA メタデータが自動的にその画像に添付されます。 お客様の側で操作は必要ありません。
 
@@ -30,16 +30,14 @@ C2PA メタデータは、コンテンツがどのように作成または編集
 ## コンテンツの種類とその範囲 {#content-types}
 
 * **画像**：対象。 生成AIで画像を生成すると、C2PA メタデータが添付され、Coworker Campaignsの画像生成で実行されるトリミング、テキストオーバーレイ、画像オーバーレイ操作を通じて保存されます。
-* **テキスト**：該当しません。 コピー生成、翻訳、ブランド整列の提案など、Adobe Workfront キャンペーンでの画像生成のテキストのみの出力には、C2PA メタデータは必要ありません。
+* **テキスト**：該当しません。 コピーの生成、翻訳、ブランド整列の提案など、Adobe Workfrontのテキストのみの出力には、C2PA メタデータは必要ありません。
 
 ## コンテンツが移動するとどうなるか {#content-moves}
 
 Coworker Campaignsは、サポートされている画像アセットに関連するC2PA メタデータを保持します。 画像にCoworker Campaignsに読み込まれた際にC2PA メタデータが含まれている場合、生成されたキャンペーンコンテンツとアウトバウンドメールエクスペリエンスでアセットが使用されるときに、それらの資格情報が保持されます。
 
-<!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
-
 ## その他のリソース {#resources}
 
 * [Adobe Experience Cloud生成AI ユーザーガイドライン](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [ガードレールと制限](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [ガードレールと制限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}

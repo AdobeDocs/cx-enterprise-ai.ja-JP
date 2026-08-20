@@ -1,9 +1,8 @@
 ---
 description: 共同作業者向けキャンペーンのプロンプト作成のベストプラクティス（CO-STAR フレームワーク、すべきこと、してはいけないこと、サポートされていないコンテンツ、プロンプトの質の高いチェックリスト）について説明します。
 title: プロンプト作成のベストプラクティス
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
 workflow-type: tm+mt
 source-wordcount: 532
 ht-degree: 37%
@@ -141,4 +140,4 @@ AIが関連性の高いコンテンツを生成できるように、コンテキ
 
 >[!MORELIKETHIS]
 >
->同僚キャンペーンの[ プロンプトパターン ] (./)を参照します。
+>同僚キャンペーンの[ プロンプトパターン ](use-cases.md)を参照します。
