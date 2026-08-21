@@ -3,7 +3,8 @@ description: Coworker Chat インターフェイスのリファレンスガイ�
 title: 同僚チャット UI ガイド
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+jira: KT-22106
+source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
 workflow-type: tm+mt
 source-wordcount: 1577
 ht-degree: 3%
@@ -13,6 +14,8 @@ ht-degree: 3%
 # UI ガイド {#ui-guide}
 
 同僚とのチャットインターフェイスを使って方向性を定める。 このガイドでは、アプリにアクセスしてワークスペースをナビゲートする方法から、会話を最大限に活用する方法、履歴を管理する方法、設定をカスタマイズする方法まで、すべてを説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 同僚とのチャット
 
