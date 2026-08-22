@@ -98,7 +98,7 @@ CX Enterpriseの生成AI （genAI）は、クリエイティブや認知に関�
 | [LLM Optimizer](https://experienceleague.adobe.com/ja/docs/llm-optimizer/using/home) | AI エージェントを使用して、可視性のギャップを自動特定し、改善を自動的に提案します。一部のケースでは、サイトエクスペリエンスを自動最適化します。 | × |
 | [Adobe Experience Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/landing) | 製品知識と運用インサイトのためのAI アシスタント。 | × |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/ai-assistant) | 製品知識と運用インサイトのためのAI アシスタント。 | × |
-| | _AJO Prime_&#x200B;および&#x200B;_Ultimate_&#x200B;では、テキストと画像に対するプロアクティブなコンテンツのバリエーションの提案を行うために[Content generation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en)を提供しています。 | ○ |
+| | _AJO Prime_&#x200B;および&#x200B;_Ultimate_&#x200B;では、テキストと画像に対するプロアクティブなコンテンツのバリエーションの提案を行うために[Content generation](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en)を提供しています。 | ○ |
 | [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | 製品知識のためのAI アシスタント： | × |
 | [[!DNL Campaign]  マネージドクラウドサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/ai-assistant/generative-gs) | コンテンツアクセラレーター用のAI アシスタントは、メール、SMS、プッシュ通知などのチャネルをまたいで、マーケティング目標にもとづいて、パーソナライズされた、魅力的で効果的なコンテンツを自動的に生成します。 | ○ |
 | **[!DNL Customer Journey Analytics]** | GenAIは、次の場面で使用されます。<ul><li> [&#x200B; インテリジェントなキャプション &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：最も頻繁に使用されるWorkspace ビジュアライゼーションに関するインサイト。</li><li>[Content Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): アセットメタデータを自動的に割り当てます。</li></ul> AI アシスタント：<ul><li>[製品ナレッジ &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[製品サポートエージェント &#x200B;](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | × |
@@ -251,11 +251,11 @@ AI アシスタントは、Experience Platform、Real-Time Customer Data Platfor
 
 #### コンテンツ制作向けAI アシスタント（AJO PrimeおよびUltimate）
 
-AJO _Prime_&#x200B;および&#x200B;_Ultimate_&#x200B;では、[content generation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)を使用してコンテンツ生成を行い、テキストと画像に対するプロアクティブなコンテンツのバリエーションの提案を行うことができます。
+AJO _Prime_&#x200B;および&#x200B;_Ultimate_&#x200B;では、[content generation](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)を使用してコンテンツ生成を行い、テキストと画像に対するプロアクティブなコンテンツのバリエーションの提案を行うことができます。
 
 この機能は、電子メール、プッシュ通知、web ページ、コンテンツ、SMS チャネルで利用できます。 プロンプトベースのテキストと画像の生成が可能です。 AJO PrimeおよびUltimateのコンテンツ作成時の出力には補償が適用されます。
 
-[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="AJOのAI アシスタントについてさらに詳しく"}
+[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="AJOのAI アシスタントについてさらに詳しく"}
 
 +++
 
