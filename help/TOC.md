@@ -6,7 +6,7 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: fb1f4ed99d7a7fe4338dc44c7922889e36c5ae76
+source-git-commit: 2adef3bad3a31beeedc6ae722327d7f875693584
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 18%
@@ -23,7 +23,7 @@ ht-degree: 18%
   - [AI クレジットの使用について](./overview/ai-credit-consumption.md)
   - [Agentic AI モニタリングダッシュボード](./overview/monitoring.md)
   - [エージェント型ツール](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)
-- [生成AI コンテンツの透明性](content-transparency.md)
+  - [生成AI コンテンツの透明性](content-transparency.md)
 - AI アシスタント {#ai-assistant}
   - [AI アシスタント UI ガイド](./ai-assistant/ai-assistant-ui.md)
   - [プロンプトライブラリ](./ai-assistant/prompt-library.md)
@@ -56,7 +56,7 @@ ht-degree: 18%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - キャンペーン {#campaigns}
@@ -64,7 +64,7 @@ ht-degree: 18%
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
     - [ユースケース](./coworker/campaigns/use-cases.md)
     - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[C2PA メタデータ &#x200B;](./coworker/campaigns/generative-c2pa-metadata.md)
+    - {hide-from-toc}[C2PA メタデータ ](./coworker/campaigns/generative-c2pa-metadata.md)
     - コネクタ {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
@@ -85,4 +85,4 @@ ht-degree: 18%
         - [ロイヤルティに関する課題を作成し、インサイトを獲得](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - サンドボックスツール {#sandbox-tooling}
         - [エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
