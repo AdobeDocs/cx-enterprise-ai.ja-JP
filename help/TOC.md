@@ -1,15 +1,15 @@
 ---
 audience: user
-user-guide-title: 同僚
+user-guide-title: Coworker
 user-guide-description: 実用的なドキュメント、実装ガイダンス、参考資料を通じて、AI アシスタント、同僚、エージェント、MCPの構築、設定、統合、拡張の方法を学びましょう。
 description: 顧客体験におけるAI ツールについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 785b5d106cb029d68506c90385786cbdae164991
+source-git-commit: fb1f4ed99d7a7fe4338dc44c7922889e36c5ae76
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 17%
+source-wordcount: '276'
+ht-degree: 18%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 17%
   - [AI クレジットの使用について](./overview/ai-credit-consumption.md)
   - [Agentic AI モニタリングダッシュボード](./overview/monitoring.md)
   - [エージェント型ツール](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)
+- [生成AI コンテンツの透明性](content-transparency.md)
 - AI アシスタント {#ai-assistant}
   - [AI アシスタント UI ガイド](./ai-assistant/ai-assistant-ui.md)
   - [プロンプトライブラリ](./ai-assistant/prompt-library.md)
@@ -55,15 +56,15 @@ ht-degree: 17%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- 同僚 {#coworker}
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- Coworker {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - キャンペーン {#campaigns}
     - [概要](./coworker/campaigns/overview.md)
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
     - [ユースケース](./coworker/campaigns/use-cases.md)
     - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[C2PA メタデータ &#x200B;](./coworker/campaigns/generative-c2pa-metadata.md)
+    - {hide-from-toc}[C2PA メタデータ ](./coworker/campaigns/generative-c2pa-metadata.md)
     - コネクタ {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
@@ -84,4 +85,4 @@ ht-degree: 17%
         - [ロイヤルティに関する課題を作成し、インサイトを獲得](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - サンドボックスツール {#sandbox-tooling}
         - [エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
