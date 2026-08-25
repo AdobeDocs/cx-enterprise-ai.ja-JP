@@ -12,9 +12,9 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: cdf395ef366771780ee549385fa5ed6aaa6bd873
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: 1194
 ht-degree: 12%
 
 ---
@@ -69,6 +69,7 @@ AI ファーストのアプリケーションは、生成AIまたはエージェ
 
 | エージェント名 | 機能 | サポートされているアプリケーション |
 |---|----------|----------|
+| [CX Enterprise Coworker](../coworker/overview.md) | エージェンティックなチームメイトとして機能する：自然言語の目標からマルチステップの作業を計画し、Adobeと接続されたシステムをまたいで実行し、結果を検証し、完成した作業を承認のために返すことで、手作業の調整を減らすことができます。 | <ul><li>CX エンタープライズパートナー（チャット）</li><li>CX Enterprise Coworker （キャンペーン）</li></ul> |
 | [Experimentation Agent](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | インサイトを自動化、分析、合成することで、手作業のプロセスを削減しながら、一元化されたワークスペースから、インパクトの大きい実験や成長機会をすばやく特定することができます。 | <ul><li>AJO Experimentation Accelerator</li></ul> |
 | [LLM最適化エージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/llm-optimizer/using/home) | AIを活用した検索環境における可視性、正確性、影響力を強化し、AIが生成した回答のブランドプレゼンスに関するインサイトを提供し、規範的なコンテンツレコメンデーションを提供し、最適化の修正を自動化します。 | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/ja/docs/experience-manager-sites-optimizer/content/home) | web サイトの機能強化を自動的に検出して展開し、ビジネス効果を最大化します。 生成AIと複数の監視テクノロジーを使用すれば、サイトトラフィックの獲得やエンゲージメントなどを向上できます | <ul><li>AEM Sites Optimizer</li></ul> |

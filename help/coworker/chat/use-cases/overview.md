@@ -3,10 +3,10 @@ description: Coworker Chatのユースケースとサンプルプロンプトを
 title: 同僚チャットのユースケース
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 9188ccfc1a01288bee775bc82d84c7f252e66615
+source-git-commit: 959d2a748bc99462a60f3ecf958db623db0ac941
 workflow-type: tm+mt
-source-wordcount: 1333
-ht-degree: 7%
+source-wordcount: 1466
+ht-degree: 9%
 
 ---
 
@@ -62,6 +62,8 @@ ht-degree: 7%
 | エンティティの解決とリンク | セマンティック検索と字句検索を使用して、実際のExperience Platform エンティティに対するエンティティのメンションを解決し、XDM フィールドを検出します | `entity-linking` | Adobe Experience Platform | 「実際のオーディエンスに『ホリデーショッパー』を解決する」 ・「購入履歴に関連するフィールドを検索する」 |
 | カスタムスキルの管理 | 再利用可能なユーザー所有スキルを保存、変更、削除できます。これらのスキルは、セッションをまたいで保持されます | `manage-skill` | すべての対象アプリケーション | 「そのワークフローをスキルとして保存」 ・ 「週次レポートスキルを削除」 ・ 「これを再利用可能なスキルに変換」 |
 | ストリーミング容量とデータ侵害の監視 | サンドボックスをまたいで、現在および過去のストリーミング利用状況、キャパシティ、侵害ステータスを確認できます | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | 「現在のサンドボックスの現在のストリーミング容量は何ですか？」 ・ 「先週の現在のサンドボックスの容量制限に違反していますか？」 |
+| [&#x200B; ヘルスチェックの評価結果を表示](https://experienceleague.adobe.com/ja/docs/experience-platform/run-and-operate/health-checks/overview) | サンドボックスの最新のヘルスチェック評価を表示し、失敗したチェックをドリルダウンして、影響を受けるエンティティを確認します | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「私のサンドボックスのどこが悪いのですか？」 ・ 「最新のヘルスチェック評価について教えてください」 ・ 「カスタム名前空間説明チェックの問題は何ですか？」 |
+| ヘルスチェックの問題を修正 | 変更が行われる前に承認を得て、フラグ付きのID名前空間、結合ポリシー、スキーマの問題をチャットから直接修正します | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | 「ID名前空間の説明を修正」 ・ 「重複する結合ポリシー名を修正」 ・ 「監査フィールドグループが欠落しているスキーマを修正」 ・ 「デフォルトの結合ポリシーの名前付けを修正」 |
 
 ## サンドボックスツール
 
