@@ -1,7 +1,7 @@
 ---
 title: サンドボックスツールのエージェント型スキル
 description: サンドボックスツールのエージェント型スキルを使用して、サンドボックス環境全体でオブジェクトメタデータをレプリケートする方法を説明します。
-source-git-commit: 979ac39364b79973a683cd2f1b2b8e4e67fcbcf3
+source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 サンドボックスツール エージェンティックスキルを使用して、Adobe Experience Platform環境全体でオブジェクトのメタデータ（スキーマやオーディエンスを含む）を移動し、自然言語で達成したい目標を記述します。 CX Coworkerを利用すれば、必要なメタデータの検索、依存関係の自動的な特定、移行パッケージの作成、オブジェクトの移行を会話型のエクスペリエンスを通じて行うことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496709?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3496706?learn=on)
 
 ## 前提条件 {#prerequisites}
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 - 検出または移行するオブジェクトへのアクセス。
 - CX CoworkerにインストールされたAdobe CXO プラグイン。
 
-プラグインのインストール手順については、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)を参照してください。
+プラグインのインストール手順については、[Coworker UI ガイド ](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)を参照してください。
 
 ## エージェント型スキルのサンドボックスツールの使用 {#use-sandbox-tooling-agentic-skills}
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 1. 移行する1つ以上のオブジェクトを選択し、**[!UICONTROL 送信]**&#x200B;を選択します。
 
-   送信を強調表示する![&#x200B; オブジェクト選択ページ。](./assets/sandbox-tooling/object-selection.png)
+   送信を強調表示する![ オブジェクト選択ページ。](./assets/sandbox-tooling/object-selection.png)
 
 1. エージェントが操作アクションを識別するオブジェクトと依存関係を確認し、*新規作成*&#x200B;または&#x200B;*既存の*&#x200B;を使用します。 移行を開始する準備ができたら、**[!UICONTROL 続行]**&#x200B;を選択し、**[!UICONTROL 送信]**&#x200B;を選択して確認します。 移行が完了するまでに数分かかる場合があります。
 
@@ -62,9 +62,9 @@ ht-degree: 1%
 
 1. 移行が完了すると、選択したオブジェクトがターゲットサンドボックスで使用できるようになります。
 
-   ![&#x200B; リクエストの状態を示す転送の完了ページ。](./assets/sandbox-tooling/transfer-complete.png)
+   ![ リクエストの状態を示す転送の完了ページ。](./assets/sandbox-tooling/transfer-complete.png)
 
-CX Coworkerの使用について詳しくは、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)を参照してください。
+CX Coworkerの使用について詳しくは、[Coworker UI ガイド ](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)を参照してください。
 
 ## サポートされるユースケース {#supported-use-cases}
 
@@ -110,4 +110,5 @@ CX Coworkerを使用すると、自然言語で移行を説明することで、
 
 このガイドでは、サンドボックスツールのエージェント型スキルを使用して、サポートされているオブジェクトをサンドボックス間で検索、パッケージ化、移行する方法を説明します。
 
-サンドボックスツールについて詳しくは、[&#x200B; サンドボックスツールガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。
+サンドボックスツールについて詳しくは、[ サンドボックスツールガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。
+
