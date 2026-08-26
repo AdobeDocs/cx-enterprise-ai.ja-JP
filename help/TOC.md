@@ -6,9 +6,9 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
+source-git-commit: 979ac39364b79973a683cd2f1b2b8e4e67fcbcf3
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '292'
 ht-degree: 18%
 
 ---
@@ -37,6 +37,7 @@ ht-degree: 18%
   - [Field Discovery エージェント](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [製品サポート担当者](./agents/product-support.md)
+  - [サンドボックスツールのエージェント型スキル](./agents/sandbox-tooling.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Notifications エージェント](./agents/notifications.md)
   - [共同作業者の体験版](./agents/trial.md)
@@ -56,7 +57,7 @@ ht-degree: 18%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - キャンペーン {#campaigns}
@@ -64,7 +65,7 @@ ht-degree: 18%
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
     - [ユースケース](./coworker/campaigns/use-cases.md)
     - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[C2PA メタデータ &#x200B;](./coworker/campaigns/generative-c2pa-metadata.md)
+    - {hide-from-toc}[C2PA メタデータ ](./coworker/campaigns/generative-c2pa-metadata.md)
     - コネクタ {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
@@ -85,4 +86,6 @@ ht-degree: 18%
         - [ロイヤルティに関する課題を作成し、インサイトを獲得](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - サンドボックスツール {#sandbox-tooling}
         - [エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[AAからCJAへの移行データの検証](./coworker/data-validation-aa-cja.md)
+  - [CJAデータの分析](./coworker/analytics-chat.md)
