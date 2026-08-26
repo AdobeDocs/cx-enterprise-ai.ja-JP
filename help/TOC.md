@@ -91,4 +91,4 @@ ht-degree: 19%
         - [エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
       - アラート {alerts}
         - [顧客アラートのスキル](./agents/customer-alert-skills.md)
-  - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
