@@ -2,23 +2,13 @@
 title: CX Enterprise アプリケーションの AI
 description: CX エンタープライズアプリケーションで生成AI （GenAI）、AI アシスタント、エージェンティック AI、CX エンタープライズパートナー、MCP ツールをどのように使用するかをご確認ください。
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 543c62ff56886213b9212864e6ff6ad02dc0f742
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7668505ba139898a4747e049290e5eaf1e29b9f8
 workflow-type: tm+mt
-source-wordcount: 862
-ht-degree: 4%
+source-wordcount: 969
+ht-degree: 3%
 
 ---
 
@@ -31,16 +21,17 @@ ht-degree: 4%
 CX Enterpriseのどこで、どのようにAIが使用されているかについては、こちらをご覧ください。
 
 - [生成AIについて](./overview/generative-ai.md)は、生成AIとAI アシスタントをサポートするCX エンタープライズ アプリケーションと、それらの比較方法について説明します。
-- [&#x200B; エージェント型AIについて](./overview/agentic-ai.md)は、Experience Platform Agentsが既存のCX Enterprise アプリケーションとAI ファースト アプリケーションの両方でどのように機能するかを説明し、それぞれに使用可能なエージェントを一覧表示します。
-- [AI モニタリング &#x200B;](./overview/monitoring.md)では、エージェントの導入、使用状況、フィードバック、AI クレジット消費を追跡するダッシュボードについて説明します。
+- [ エージェント型AIについて](./overview/agentic-ai.md)は、Experience Platform Agentsが既存のCX Enterprise アプリケーションとAI ファースト アプリケーションの両方でどのように機能するかを説明し、それぞれに使用可能なエージェントを一覧表示します。
+- [AI モニタリング ](./overview/monitoring.md)では、エージェントの導入、使用状況、フィードバック、AI クレジット消費を追跡するダッシュボードについて説明します。
 - [AI クレジットの消費](./overview/ai-credit-consumption.md)は、エージェント ジョブがAI クレジットを消費する方法を、エージェントとジョブのタイプ別の推定消費率で説明します。
-- [CX エンタープライズ エージェント ツール &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)では、CX エンタープライズ エージェントを拡張する追加のエージェント スキルとツールについて説明します（ビデオ チュートリアル）。
+- [生成AI コンテンツの透明性](./content-transparency.md)は、Adobeが自動的にC2PA メタデータを生成および生成AI編集コンテンツに添付する方法を、CX エンタープライズアプリケーション全体で説明します。
+- [CX エンタープライズ エージェント ツール ](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)では、CX エンタープライズ エージェントを拡張する追加のエージェント スキルとツールについて説明します（ビデオ チュートリアル）。
 
 ## AI アシスタント
 
-[AI アシスタント &#x200B;](./ai-assistant/ai-assistant-ui.md)は、Adobe Experience Platform ベースのアプリケーションで利用できる会話型の生成AI ツールです。 フルスクリーンまたはレールビューのインターフェイスで自然言語プロンプトを使用し、製品情報の取得、問題のトラブルシューティング、運用上のインサイトの取得、Experience Platform Agentsへのアクセスに使用できます。
+[AI アシスタント ](./ai-assistant/ai-assistant-ui.md)は、Adobe Experience Platform ベースのアプリケーションで利用できる会話型の生成AI ツールです。 フルスクリーンまたはレールビューのインターフェイスで自然言語プロンプトを使用し、製品情報の取得、問題のトラブルシューティング、運用上のインサイトの取得、Experience Platform Agentsへのアクセスに使用できます。
 
-インターフェイスのナビゲーション方法については、[AI アシスタント UI ガイド &#x200B;](./ai-assistant/ai-assistant-ui.md)を参照してください。 エージェント別のプロンプトの例については、[&#x200B; プロンプトライブラリ &#x200B;](./ai-assistant/prompt-library.md)を参照してください。
+インターフェイスのナビゲーション方法については、[AI アシスタント UI ガイド ](./ai-assistant/ai-assistant-ui.md)を参照してください。 エージェント別のプロンプトの例については、[ プロンプトライブラリ ](./ai-assistant/prompt-library.md)を参照してください。
 
 ## Agent OrchestratorおよびExperience Platform agents
 
@@ -60,35 +51,42 @@ CX Enterpriseのどこで、どのようにAIが使用されているかにつ�
 
 エージェントの完全なリスト、各アプリケーションがサポートするアプリケーション、および適格要件については、「[Agentic AI in CX Enterprise](./overview/agentic-ai.md)」を参照してください。
 
-## 同僚
+## Coworker
 
 Coworkerは、顧客体験とマーケティングのワークフローを自動化するAI アシスタントの進化であり、日常的な実行ではなくビジネス目標に集中することができます。 一度にひとつの質問をする代わりに、目標を記述します。 チームメンバーは、完成した作業を計画、実行、検証し、承認のために返します。 チームメンバーは次の通りです。
 
-- **[同僚チャット &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: データを探索し、オーディエンスとジャーニーを検証し、CX エンタープライズ アプリケーション全体でマルチステップのタスクを完了するための会話型インターフェイスです。
-- **[同僚キャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。 組み込みのテンプレート、ベストプラクティス、プロンプトガイダンスを利用して、小規模なアジャイルチームが施策を迅速に立ち上げるのを支援します。
+- **[同僚チャット ](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: データを探索し、オーディエンスとジャーニーを検証し、CX エンタープライズ アプリケーション全体でマルチステップのタスクを完了するための会話型インターフェイスです。
+- **[同僚キャンペーン ](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。 組み込みのテンプレート、ベストプラクティス、プロンプトガイダンスを利用して、小規模なアジャイルチームが施策を迅速に立ち上げるのを支援します。
 - **同僚プロジェクト** （近日リリース予定）: エンドツーエンドの顧客体験オーケストレーションワークフローを自動化し、チームがタスク、承認、実行を調整して、戦略から納品までの成果を促進するための統合ワークスペースです。 プロジェクトのドキュメントは近日公開予定です。
 
 適格な顧客は、AI アシスタントやExperience Platform AgentsからCoworker Chatへ徐々に移行しています。 [同僚の体験版](./agents/trial.md)を読んで、体験版の利用条件、AI クレジットの使用状況、アクセス方法について確認してください。
 
-Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)や[Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)などの実際のユースケースを読んでください。
+Coworker Chatの実際の動作を確認するには、Playground](./coworker/playground-coworker-chat.md)の[Coworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)や[Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)などの実際のユースケースを読んでください。
 
 共同作業者チャット、キャンペーン、プロジェクトに関する完全な製品ドキュメントについては、[共同作業者](./coworker/overview.md)を参照してください。 サンドボックス間のオブジェクトレプリケーションについては、[Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)を参照してください。
 
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md)は、CX Enterpriseの統合モデル コンテキスト プロトコル （MCP） エンドポイントです。 [!DNL Claude]、[!DNL ChatGPT]、[!DNL Cursor]などのMCP互換クライアントを、組織が使用できる製品ツールへの単一の管理された接続として提供します。 これらのツールには、[!DNL Real-Time CDP]、[!DNL Experience Platform]、[!DNL Journey Optimizer]、[!DNL Customer Journey Analytics]、[!DNL Adobe Analytics]および[!DNL Workfront]が含まれます。
+[Adobe CX Coworker Gateway](./mcp/overview.md)は、CX Enterpriseの統合モデル コンテキスト プロトコル （MCP） エンドポイントです。 [!DNL Claude]、[!DNL ChatGPT]、[!DNL Cursor]などのMCP互換クライアントを、組織が使用できる製品ツールへの単一の管理接続として提供します。
 
-CX Coworker Gatewayを初めて利用する場合 接続するには、[CX Coworker Gateway tools](./mcp/access.md)および[CX Coworker Gateway](./mcp/install.md)のインストールを参照してください。
+- [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
+- [Experience Platform tools](./mcp/aep-mcp.md)
+- [Journey Optimizer tools](./mcp/ajo-mcp.md)
+- [Customer Journey Analytics tools](./mcp/cja-mcp.md)
+- [Adobe Analytics tools](./mcp/analytics-mcp.md)
+- [Workfront MCP サーバーガイド ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)に記載されている[!DNL Workfront] ツール
+
+CX Coworker Gatewayを初めて利用する場合 接続するには、[CX Coworker Gateway tools](./mcp/access.md)および[CX Coworker Gateway](./mcp/install.md)のインストールを参照してください。 接続したら、[ セッションコンテキストツール ](./mcp/context-tools.md)を使用して、製品ツールを呼び出す前に、アクティブな組織、サンドボックス、データビューを設定します。
 
 ## 基本を学ぶ
 
 ### アクセス要件
 
-AI アシスタントとExperience Platform Agentsを使用する前に、Adobe管理者が適切な権限を付与する必要があります。 要件はアプリケーションによって異なります。詳しくは、Agent Orchestrator ガイドの[&#x200B; アクセス &#x200B;](./agents/agent-orchestrator.md#access)を参照してください。
+AI アシスタントとExperience Platform Agentsを使用する前に、Adobe管理者が適切な権限を付与する必要があります。 要件はアプリケーションによって異なります。詳しくは、Agent Orchestrator ガイドの[ アクセス ](./agents/agent-orchestrator.md#access)を参照してください。
 
 ### プライバシーとセキュリティ
 
-AI アシスタントとExperience Platform Agentsは、サンドボックスに特化したデータ分離や既存のアクセス制御ポリシーなど、プライバシー、セキュリティ、ガバナンスを優先します。 詳しくは、[AI アシスタントのプライバシー、セキュリティ、ガバナンス &#x200B;](./ai-assistant/privacy.md)を参照してください。
+AI アシスタントとExperience Platform Agentsは、サンドボックスに特化したデータ分離や既存のアクセス制御ポリシーなど、プライバシー、セキュリティ、ガバナンスを優先します。 詳しくは、[AI アシスタントのプライバシー、セキュリティ、ガバナンス ](./ai-assistant/privacy.md)を参照してください。
 
 ## ベストプラクティス
 
@@ -103,4 +101,6 @@ AI アシスタントや共同作業者の体験から最大限の価値を引�
 ## 法的考慮事項
 
 現在、AI アシスタントは英語での回答のみをサポートしており、言語モデルは時々ミスを犯します。 提供された情報を必ず検証し、各回答に含まれる推論手順に従って、どのように生成されたかを把握します。 詳しくは、[法的免責事項](./ai-assistant/legal-disclaimer.md)を参照してください。
+
+また、Adobeは、生成AIの透明性に関する規制に対応するために、CX エンタープライズアプリケーション全体で、生成AIが生成し、生成AIが編集したコンテンツにC2PA メタデータを自動的に添付します。 詳しくは、[生成AI コンテンツの透明性](./content-transparency.md)を参照してください。
 
