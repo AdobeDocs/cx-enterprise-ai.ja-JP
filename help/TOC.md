@@ -88,5 +88,5 @@ ht-degree: 18%
         - [自然言語を使用したジャーニーの作成](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [ロイヤルティに関する課題を作成し、インサイトを獲得](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
   - {hide-from-toc}[遊び場での共同作業チャット](./coworker/playground-coworker-chat.md)
-    - [ エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
-    - [顧客アラートのスキル ](./agents/customer-alert-skills.md)
+    - [&#x200B; エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
+    - [顧客アラートのスキル &#x200B;](./agents/customer-alert-skills.md)
