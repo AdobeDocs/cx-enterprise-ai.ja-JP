@@ -7,7 +7,7 @@ doc-type: Feature Video
 duration: 155
 last-substantial-update: 2026-08-26T00:00:00Z
 jira: KT-22377
-source-git-commit: 638e01d8a9a6f8763e1197348360ffc13be77b4a
+source-git-commit: 25eef0f43755edf478eb7130aba470b43584d6ef
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 最初のスキルはCoworkerで作成しますか？
+# Coworkerで最初のスキルを作成する
 
 このビデオでは、リテールアナリストがCoworkerとCustomer Journey Analytics（CJA）を使用して、厳しい納期の下でエグゼクティブビジネスパフォーマンスブリーフィングを準備する方法を説明します。
  
