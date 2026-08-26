@@ -6,10 +6,10 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1f51191d1f7a00c21d235b647c7e4b7777a9b728
+source-git-commit: 487b6e32ef108f864e878516e32921c958422763
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 19%
+source-wordcount: '289'
+ht-degree: 18%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 19%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - キャンペーン {#campaigns}
@@ -87,8 +87,6 @@ ht-degree: 19%
       - ジャーニー {#journeys}
         - [自然言語を使用したジャーニーの作成](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [ロイヤルティに関する課題を作成し、インサイトを獲得](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
-      - サンドボックスツール {#sandbox-tooling}
-        - [エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
-      - アラート {alerts}
-        - [顧客アラートのスキル](./agents/customer-alert-skills.md)
-  - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[遊び場での共同作業チャット](./coworker/playground-coworker-chat.md)
+    - [ エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
+    - [顧客アラートのスキル ](./agents/customer-alert-skills.md)
