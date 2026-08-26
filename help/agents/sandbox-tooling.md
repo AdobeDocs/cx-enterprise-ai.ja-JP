@@ -1,7 +1,7 @@
 ---
 title: サンドボックスツールのエージェント型スキル
 description: サンドボックスツールのエージェント型スキルを使用して、サンドボックス環境全体でオブジェクトメタデータをレプリケートする方法を説明します。
-source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
+source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 1. 移行が完了すると、選択したオブジェクトがターゲットサンドボックスで使用できるようになります。
 
-![&#x200B; リクエストの状態を示す転送の完了ページ。](./assets/sandbox-tooling/transfer-complete.png)
+   ![&#x200B; リクエストの状態を示す転送の完了ページ。](./assets/sandbox-tooling/transfer-complete.png)
 
 CX Coworkerの使用について詳しくは、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)を参照してください。
 
@@ -78,7 +78,7 @@ CX Coworkerを使用すると、自然言語で移行を説明することで、
 
 次に例を示します。
 
-> 「スキーマ Luma Loyalty Members Platinumを現在のサンドボックスから実稼動サンドボックスに移動します。」
+- 「スキーマ Luma Loyalty Members Platinumを現在のサンドボックスから実稼動サンドボックスに移動します。」
 
 ### サンドボックス間でのオーディエンスのプロモーション
 
@@ -86,7 +86,7 @@ CX Coworkerを使用すると、自然言語で移行を説明することで、
 
 次に例を示します。
 
-> 「ステージングサンドボックスに「オーディエンス名」オーディエンスを昇格します。」
+- 「ステージングサンドボックスに「オーディエンス名」オーディエンスを昇格します。」
 
 サンドボックスツール エージェンティックスキルは、指定されたオーディエンスを特定し、その依存関係を検証し、必要なすべてのオブジェクトをターゲットサンドボックスに移行します。
 
@@ -111,3 +111,4 @@ CX Coworkerを使用すると、自然言語で移行を説明することで、
 このガイドでは、サンドボックスツールのエージェント型スキルを使用して、サポートされているオブジェクトをサンドボックス間で検索、パッケージ化、移行する方法を説明します。
 
 サンドボックスツールについて詳しくは、[&#x200B; サンドボックスツールガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。
+

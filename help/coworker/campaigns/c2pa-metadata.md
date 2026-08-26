@@ -1,10 +1,9 @@
 ---
 description: 生成からメール配信まで、Coworker Campaignsが画像にC2PA メタデータを自動的に添付して保存する方法について説明します。
 title: Coworker CampaignsのC2PA メタデータ
-hide: true
-source-git-commit: 639602b445cba01fce2130006f98e1e388ba7d5b
+source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '387'
 ht-degree: 4%
 
 ---
@@ -38,6 +37,6 @@ Coworker Campaignsは、サポートされている画像アセットに関連�
 
 ## その他のリソース {#resources}
 
+* [生成AI コンテンツの透明性](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}
 * [Adobe Experience Cloud生成AI ユーザーガイドライン](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
-
 * [ガードレールと制限](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
