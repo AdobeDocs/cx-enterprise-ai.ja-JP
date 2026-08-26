@@ -1,7 +1,8 @@
 ---
 description: Coworker Chatのユースケースとサンプルプロンプトを、データインサイト、オーディエンス、ジャーニー、プラットフォーム運用をまたいで、エリアごとに整理して参照できます。
 title: 同僚チャットのユースケース
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: c5535d1d559f65b78ccc20a5b4c867f1bd2613e7
 workflow-type: tm+mt
 source-wordcount: 3344
@@ -151,7 +152,7 @@ ht-degree: 7%
 | ジャーニーの競合の分析 | オーディエンスの重複、スケジュールの競合、アクティブなジャーニー間の重複排除の問題を検出します | `journey-analyze-conflict` | Adobe Journey Optimizer（AJO） | 「カート放棄ジャーニーは他のジャーニーと競合しますか？」 ・ 「アクティブなジャーニー間のオーディエンスの重複をチェック」 |
 | ジャーニーのフォールアウトを分析 | ジャーニーの途中で顧客が離脱する場所や理由を特定し、離脱につながる行動パターンを検出します | `journey-analyze-fallout` | Adobe Journey Optimizer（AJO） | 「リエンゲージメントの過程で離脱した顧客はどこにいますか？」 ・ 「ジャーニーXのどのノードのフォールアウトが最も高いか？」 |
 | カスタムアクションエラーの分析 | カスタムアクションが失敗しているか、ジャーニー内でエラー率が急増しているかを特定し、失敗がより大きな混乱に連鎖する前に根本原因を診断できます | `journey-analyze-custom-action` | Adobe Journey Optimizer（AJO） | 「ロイヤルティ登録ジャーニーでカスタムアクションが失敗するのはなぜですか？」 ・ 「ウェルカムジャーニーのカスタムアクション ExternalPushのエラー率を表示する」 |
-| [ ロイヤルティに関する課題の作成、編集、管理](journeys/create-loyalty-challenge.md) | ロイヤルティプログラム管理を簡素化し、迅速化したい | `loyalty` | Adobe Journey Optimizer（AJO） | 「会員に新しい季節の飲み物を試すように促すチャレンジを作成する」 ・ 「最も高い会員の脱落率でロイヤルティの課題を表示する」。 |
+| [&#x200B; ロイヤルティに関する課題の作成、編集、管理](journeys/create-loyalty-challenge.md) | ロイヤルティプログラム管理を簡素化し、迅速化したい | `loyalty` | Adobe Journey Optimizer（AJO） | 「会員に新しい季節の飲み物を試すように促すチャレンジを作成する」 ・ 「最も高い会員の脱落率でロイヤルティの課題を表示する」。 |
 
 ## 基本要素
 
@@ -164,14 +165,14 @@ ht-degree: 7%
 | エンティティの解決とリンク | セマンティック検索と字句検索を使用して、実際のExperience Platform エンティティに対するエンティティのメンションを解決し、XDM フィールドを検出します | `entity-linking` | Adobe Experience Platform | 「実際のオーディエンスに『ホリデーショッパー』を解決する」 ・「購入履歴に関連するフィールドを検索する」 |
 | カスタムスキルの管理 | 再利用可能なユーザー所有スキルを保存、変更、削除できます。これらのスキルは、セッションをまたいで保持されます | `manage-skill` | すべての対象アプリケーション | 「そのワークフローをスキルとして保存」 ・ 「週次レポートスキルを削除」 ・ 「これを再利用可能なスキルに変換」 |
 | ストリーミング容量とデータ侵害の監視 | サンドボックスをまたいで、現在および過去のストリーミング利用状況、キャパシティ、侵害ステータスを確認できます | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | 「現在のサンドボックスの現在のストリーミング容量は何ですか？」 ・ 「先週の現在のサンドボックスの容量制限に違反していますか？」 |
-| [ ヘルスチェックの評価結果を表示](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | サンドボックスの最新のヘルスチェック評価を表示し、失敗したチェックをドリルダウンして、影響を受けるエンティティを確認します | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「私のサンドボックスのどこが悪いのですか？」 ・ 「最新のヘルスチェック評価について教えてください」 ・ 「カスタム名前空間説明チェックの問題は何ですか？」 |
+| [&#x200B; ヘルスチェックの評価結果を表示](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | サンドボックスの最新のヘルスチェック評価を表示し、失敗したチェックをドリルダウンして、影響を受けるエンティティを確認します | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「私のサンドボックスのどこが悪いのですか？」 ・ 「最新のヘルスチェック評価について教えてください」 ・ 「カスタム名前空間説明チェックの問題は何ですか？」 |
 | ヘルスチェックの問題を修正 | 変更が行われる前に承認を得て、フラグ付きのID名前空間、結合ポリシー、スキーマの問題をチャットから直接修正します | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | 「ID名前空間の説明を修正」 ・ 「重複する結合ポリシー名を修正」 ・ 「監査フィールドグループが欠落しているスキーマを修正」 ・ 「デフォルトの結合ポリシーの名前付けを修正」 |
 
 ## サンドボックスツール
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
-| [ サンドボックス間でオブジェクトを移動](/help/agents/sandbox-tooling.md) | 依存関係を自動解決し、スキーマ、オーディエンス、その他のオブジェクト設定をサンドボックス間でシームレスに移行できます | `sandbox-tooling-workflow` | Adobe Experience Platform | 「スキーマのLuma Loyalty Members Platinumを現在のサンドボックスから実稼動サンドボックスに移動」 ・ 「US Gold Loyalty Members オーディエンスをステージに昇格させる」 |
+| [&#x200B; サンドボックス間でオブジェクトを移動](/help/agents/sandbox-tooling.md) | 依存関係を自動解決し、スキーマ、オーディエンス、その他のオブジェクト設定をサンドボックス間でシームレスに移行できます | `sandbox-tooling-workflow` | Adobe Experience Platform | 「スキーマのLuma Loyalty Members Platinumを現在のサンドボックスから実稼動サンドボックスに移動」 ・ 「US Gold Loyalty Members オーディエンスをステージに昇格させる」 |
 
 ## 顧客アラート
 
