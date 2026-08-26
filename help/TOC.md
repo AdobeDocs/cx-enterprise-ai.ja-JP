@@ -1,15 +1,15 @@
 ---
 audience: user
-user-guide-title: 同僚
+user-guide-title: CX Enterprise の AI
 user-guide-description: 実用的なドキュメント、実装ガイダンス、参考資料を通じて、AI アシスタント、同僚、エージェント、MCPの構築、設定、統合、拡張の方法を学びましょう。
 description: 顧客体験におけるAI ツールについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 785b5d106cb029d68506c90385786cbdae164991
+source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 17%
+source-wordcount: '279'
+ht-degree: 18%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 17%
   - [AI クレジットの使用について](./overview/ai-credit-consumption.md)
   - [Agentic AI モニタリングダッシュボード](./overview/monitoring.md)
   - [エージェント型ツール](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)
+  - [生成AI コンテンツの透明性](content-transparency.md)
 - AI アシスタント {#ai-assistant}
   - [AI アシスタント UI ガイド](./ai-assistant/ai-assistant-ui.md)
   - [プロンプトライブラリ](./ai-assistant/prompt-library.md)
@@ -56,7 +57,7 @@ ht-degree: 17%
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- 同僚 {#coworker}
+- Coworker {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - キャンペーン {#campaigns}
     - [概要](./coworker/campaigns/overview.md)

@@ -3,7 +3,7 @@ description: Coworker Chatのユースケースとサンプルプロンプトを
 title: 同僚チャットのユースケース
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 46299bb3b1cd8179f277940d67bcb876b3f4e9fc
+source-git-commit: e396bdc6974eb4484049af450f1b3a6b5045311b
 workflow-type: tm+mt
 source-wordcount: 3050
 ht-degree: 7%
@@ -22,15 +22,11 @@ ht-degree: 7%
 >
 >対象となるすべてのお客様は、CoworkerのAdobe Experience Manager エージェンティック機能にローリングベースでアクセスできます。
 >
->AEMの[AI - AEMのエージェンティック機能の概要](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)も参照してください。
+>AEMの[AI - AEMのエージェンティック機能の概要](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)も参照してください。
 
 ## ブランド体験
 
 ### Experience Production - Sites ユースケース
-
->[!NOTE]
->
->AEMの[Agentic Capabilities: Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)も参照してください。
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
@@ -38,11 +34,11 @@ ht-degree: 7%
 | AEMの一括更新 | コンテンツ要素の削除、置き換え、追加など、複数のページをまたいで同時に一括アクションを実行し、エクスペリエンスを正確かつ最新の状態に保ちます。 | `aem-sites-pages-bulkreplace` | Adobe Experience Manager（AEM） | &lt;aem path>で、コピー「MyBarista\」を含むすべてのページを「BrewPass」に更新します |
 | Figmaからビジュアルコンテンツフラグメントへ | 自然言語を使用して、FigmaからAdobe Experience Managerにデザインを直接読み込みます。 このスキルにより、必要なコンテンツモデル、コンテンツフラグメント、アセット、ビジュアライゼーションテンプレートが自動的に作成されるため、ビジネスユーザーは手作業で設定しなくても、デザインからwebに対応したコンテンツを数分で作成することができます。 | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager（AEM） | &lt;Figma_URL>からインポート |
 
-### Experience Production - Formsのユースケース
+**関連情報**
 
->[!NOTE]
->
->AEMの[Agentic Capabilities: Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)も参照してください。
+* [AEMのAgentic Capabilities: Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+
+### Experience Production - Formsのユースケース
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
@@ -51,11 +47,11 @@ ht-degree: 7%
 | ビジネスロジックの追加 | 他のフィールドの値に基づいてフィールドを表示または非表示にするなど、簡単なルールを作成できます | `aem-forms-adaptiveform-edit` | Adobe Experience Manager（AEM） | 「従業員タイプが請負業者の場合にのみ会社フィールドを表示」 <br><br> 「他のフィールドが&lt;value>の場合にのみ&lt;field> フィールドを表示」 |
 | 埋め込みフォーム | 既存または新しく作成したフォームを、指定したAEM Sites ページに配置します（Edge Delivery Services ページでのみサポート） | `aem-forms-adaptiveform-embed` | Adobe Experience Manager（AEM） | 「このフォームをサイトのホームページに埋め込む」 <br><br> 「このフォームを&lt; ページパス >に埋め込む」 |
 
-### 開発
+**関連情報**
 
->[!NOTE]
->
->AEMの[&#x200B; エージェンティック機能：ブランドエクスペリエンス – 開発](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)も参照してください。
+* [AEMのエージェント機能：ブランドエクスペリエンス – エクスペリエンス制作 – Forms](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+
+### 開発
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
@@ -65,11 +61,11 @@ ht-degree: 7%
 | Cloud Manager プログラムの管理 | パイプラインと環境を含むAEM Cloud Manager プログラムの一覧表示、検査、削除 | `cloud-manager-program-management` | Adobe Experience Manager（AEM） | 「自分のCloud Manager プログラムを一覧表示」 <br><br> 「プログラム 12345の詳細を表示」 |
 | AEM リリースアップデートスケジュールの管理 | 自動メンテナンス用に毎日のサイレントアワーとアップデート不要の期間を設定し、Adobeのグローバルコードフリーズウィンドウを表示します | `cloud-manager-release-management` | Adobe Experience Manager（AEM） | 「現在の休眠時間枠は何ですか？」 <br><br> 「12月20日から1月2日までの更新料無料の期間をスケジュールする」 |
 
-### オンボーディング - AEM Assetsのユースケース
+**関連情報**
 
->[!NOTE]
->
->AEMの[&#x200B; エージェンティック機能：ブランドエクスペリエンス – オンボーディング &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)も参照してください。
+* [AEMのエージェント機能：ブランドエクスペリエンス – 開発](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+
+### オンボーディング - AEM Assetsのユースケース
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
@@ -78,13 +74,13 @@ ht-degree: 7%
 | タグのデザインと作成 | `/content/cq:tags`の下に制御されたタグ語彙をデザインして作成します – 名前空間、階層タグ、およびバッチタグ操作。 | `aem-tag-taxonomy` | Adobe Experience Manager（AEM）Assets | 「商品カテゴリの名前空間を使用したタグ分類の設計」 <br><br> 「このCSVからタグをインポート」 <br><br> 「AEMでこれらの階層タグを作成」 |
 | メタデータフォームの作成と割り当て | カスタムメタデータフォームを設計および作成し、オーサリング UI コンテンツ作成者が使用するカスタムメタデータフォームは、CSV、テーブル、要件ドキュメントまたは説明から任意でフォルダーに割り当てられます。 | `aem-metadata-form` | Adobe Experience Manager（AEM）Assets | 「このフィールドのリストからメタデータフォームを作成する」 <br><br> 「このフォームを`campaigns` フォルダーに割り当てる」 |
 
+**関連情報**
+
+* [AEMのエージェント機能：ブランドエクスペリエンス – オンボーディング](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+
 ## Content Advisor - AEM Assets ユースケース
 
 ### コンテンツ発見
-
->[!NOTE]
->
->AEMの[Agentic Capabilities: Content Advisor - Content Discovery](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)も参照してください。
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
@@ -93,11 +89,11 @@ ht-degree: 7%
 | 承認ステータスで検索 | 承認ステータスに基づいてアセットをフィルタリングします。 たとえば、「承認済み」、「レビュー中」、「却下」、「ステータスが欠落している」などです。 | `aem-assets-discovery` | Adobe Experience Manager（AEM）Assets | 「`Campaign` フォルダー内のすべての承認済みアセットを表示する」 |
 | フォルダー/パスで検索 | AEMのフォルダー名を参照する自然言語プロンプトを解釈して、アセットを識別できます。 リポジトリ内を手動で移動することなく、プロンプトでフォルダーについて説明するだけで、適切なコンテンツを見つけるために必要なクリック数を大幅に削減できます。 | `aem-assets-discovery` | Adobe Experience Manager（AEM）Assets | 「フォルダー`WKND`にsvgがありますか？<br><br>」「フォルダー`WKND`の2025年11月1日以降に変更されたアセットを表示」 |
 
-### コンテンツの最適化
+**関連情報**
 
->[!NOTE]
->
->AEMの[Agentic Capabilities: Content Advisor - Content Optimization](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)も参照してください。
+* [AEMのエージェント機能：Content Advisor - Content Discovery](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+
+### コンテンツの最適化
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
@@ -105,17 +101,21 @@ ht-degree: 7%
 | ブランドオーバーレイと複合生成 | 正確な配置で既存のアセットにプロモーショングラフィック、オーバーレイ、バッジを適用し、キャンペーンに対応したコンポジットの迅速な作成をサポートします。 | `aem-assets-content-optimisation` | Adobe Experience Manager（AEM）Assets | 「プロモーションバナーの上に`30%`個の割引グラフィックを配置し、中央から`100px`配置した画像をオーバーレイする」 |
 | 画像の強化、背景色の調整、方向の変換 | ビジュアルの改善（シャープ画像）の適用、背景色の置き換え、方向変換の実行を行います。 | `aem-assets-content-optimisation` | Adobe Experience Manager（AEM）Assets | 「`PNG`の背景色を`#ff8932`に変更」 <br><br> 「画像をシャープにする」 <br><br> 「画像を水平方向にミラーリングする」 |
 
-## ブランドガバナンス
+**関連情報**
 
->[!NOTE]
->
->AEMの[&#x200B; エージェンティック機能：ブランドガバナンス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)も参照してください。
+* [AEMのエージェント機能：Content Advisor - Content Optimization](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+
+## ブランドガバナンス
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
 | ガイドラインとセグメントの検索 | セグメント、市場、カテゴリーごとに分類された詳細なブランドガイドラインを取得します | enterprise-context | Adobe Experience Manager（AEM） | 「このブランドのトーンオブボイスのガイドラインは何ですか？」 <br> 「ヘルスの垂直方向で使用される請求項カテゴリのリスト」 |
 | ブランドガイドラインに照らし合わせたコンテンツの評価 | 設定されたブランドチェックに照らし合わせて、公開/編集されたページ、テキストブロック、画像を評価します | aem-governance | Adobe Experience Manager（AEM） | 「このランディングページをSecurBank ガイドラインに照らして評価する」 <br> 「このキャッチフレーズはトーンオブボイスのチェックに合格しますか？」 |
 | AEM権限のデバッグ | 権限ポリシー、ACL、継承ルールをデバッグまたは理解します。 | aem-governance | Adobe Experience Manager（AEM） | 「プリンシパル管理者が`https://author/`に`/content/folder/us`を書き込むことができる理由？」 <br> 「なぜ`https://author`に`/content/dam`でサンプル オーサーを書き込むことができないのか」 |
+
+**関連情報**
+
+* [AEMのエージェント機能：ブランドガバナンス](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 顧客理解とデータ活用
 
