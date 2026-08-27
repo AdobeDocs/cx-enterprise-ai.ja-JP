@@ -6,9 +6,9 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+source-git-commit: 4045f52a0ff95b9b64327551388fddb5a86650ea
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '292'
 ht-degree: 19%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 19%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - キャンペーン {#campaigns}
@@ -76,6 +76,7 @@ ht-degree: 19%
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
+    - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
     - ユースケース {#use-cases}
       - [Adobe Workfrontのユースケース](./coworker/chat/use-cases/overview.md)
       - データインサイト {#data-insights}
