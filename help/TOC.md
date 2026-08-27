@@ -6,17 +6,17 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 2c7c8a8cd40bca2e1a3cdae08f24f56e3b00daa0
+source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 18%
+source-wordcount: '296'
+ht-degree: 20%
 
 ---
 
 
 # CX Enterprise の AI {#experience-cloud-ai}
 
-- [CX エンタープライズアプリケーションにおけるAI](home.md)
+- [CX Enterprise の AI](home.md)
 - CX エンタープライズにおけるAIについて {#overview}
   - [CX エンタープライズにおけるAIについて](./overview/overview-ai-cxe.md)
   - [どのように拡大するのか](./overview/generative-ai.md)
@@ -57,7 +57,7 @@ ht-degree: 18%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - キャンペーン {#campaigns}
@@ -77,7 +77,7 @@ ht-degree: 18%
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
-    - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+    - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
     - ユースケース {#use-cases}
       - [Adobe Workfrontのユースケース](./coworker/chat/use-cases/overview.md)
       - データインサイト {#data-insights}
