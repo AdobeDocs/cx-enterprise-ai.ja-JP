@@ -77,7 +77,7 @@ ht-degree: 18%
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
-    - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
+    - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
     - ユースケース {#use-cases}
       - [Adobe Workfrontのユースケース](./coworker/chat/use-cases/overview.md)
       - データインサイト {#data-insights}
