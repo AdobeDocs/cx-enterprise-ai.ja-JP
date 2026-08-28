@@ -6,18 +6,19 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 19%
+source-wordcount: '296'
+ht-degree: 20%
 
 ---
 
 
 # CX Enterprise の AI {#experience-cloud-ai}
 
-- [CX エンタープライズアプリケーションにおけるAI](home.md)
+- [CX Enterprise の AI](home.md)
 - CX エンタープライズにおけるAIについて {#overview}
+  - [CX エンタープライズにおけるAIについて](./overview/overview-ai-cxe.md)
   - [どのように拡大するのか](./overview/generative-ai.md)
   - [エージェンティック AIについて](./overview/agentic-ai.md)
   - [AI クレジットの使用について](./overview/ai-credit-consumption.md)
@@ -76,6 +77,7 @@ ht-degree: 19%
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
+    - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
     - ユースケース {#use-cases}
       - [Adobe Workfrontのユースケース](./coworker/chat/use-cases/overview.md)
       - データインサイト {#data-insights}

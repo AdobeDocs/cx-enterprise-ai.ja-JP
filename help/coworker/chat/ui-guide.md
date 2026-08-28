@@ -4,10 +4,10 @@ title: 同僚チャット UI ガイド
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
+source-git-commit: b0cea8cb64bd92c97fdd85905400fd458c842af2
 workflow-type: tm+mt
-source-wordcount: 1577
-ht-degree: 3%
+source-wordcount: 1718
+ht-degree: 4%
 
 ---
 
@@ -18,6 +18,25 @@ ht-degree: 3%
 >[!VIDEO](https://video.tv.adobe.com/v/3498568?captions=jpn&learn=on)
 
 ## 同僚とのチャット
+
+企業がCoworkerを利用できるようになれば、没入感のある体験や製品内の体験を通じて、その機能を活用することができます。
+
+>[!NOTE]
+>
+>製品内エクスペリエンスには、右上の同僚アイコン ![同僚アイコン &#x200B;](./assets/icon-coworker.png)からアクセスできます。 没入型エクスペリエンスの詳細は、以下の[概説されています](#immersive)。
+
+次の表は、CX Enterpriseの各アプリケーションでこれらのエクスペリエンスがいつ利用できるようになるのかを示しています。
+
+| CX エンタープライズアプリケーション | 没入感のある体験 | 製品体験 |
+|---|---|---|
+| RTCDP | 今すぐ利用可能 | まもなくリリース |
+| AJO | 今すぐ利用可能 | まもなくリリース |
+| CJA | 今すぐ利用可能 | まもなくリリース |
+| AEM | 2026年9月予定 | まもなくリリース |
+| Workfront | 2026年9月予定 | 近日リリース予定：<br><br>*一部のWorkfront System Admins向けのプレビューモードで2026年9月上旬<br><br>*対象となる高速リリースのWorkfrontのお客様の実稼動モードで2026年9月中旬<br><br>*対象となる四半期リリースのWorkfrontのお客様の実稼動モードで2026年10月中旬 |
+| Target | 2026年9月予定 | まもなくリリース |
+
+### 没入感のある体験 {#immersive}
 
 [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker)に移動し、Adobeの資格情報でログインして、共同作業者チャットにアクセスします。
 
