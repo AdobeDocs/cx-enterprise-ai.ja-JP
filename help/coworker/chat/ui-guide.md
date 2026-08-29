@@ -4,9 +4,9 @@ title: 同僚チャット UI ガイド
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: b0cea8cb64bd92c97fdd85905400fd458c842af2
+source-git-commit: 94a546c3b9f89b35b0e34c821ea3f0f8c021fae4
 workflow-type: tm+mt
-source-wordcount: 1718
+source-wordcount: 1713
 ht-degree: 4%
 
 ---
@@ -32,9 +32,9 @@ ht-degree: 4%
 | RTCDP | 今すぐ利用可能 | まもなくリリース |
 | AJO | 今すぐ利用可能 | まもなくリリース |
 | CJA | 今すぐ利用可能 | まもなくリリース |
-| AEM | 2026年9月予定 | まもなくリリース |
-| Workfront | 2026年9月予定 | 近日リリース予定：<br><br>*一部のWorkfront System Admins向けのプレビューモードで2026年9月上旬<br><br>*対象となる高速リリースのWorkfrontのお客様の実稼動モードで2026年9月中旬<br><br>*対象となる四半期リリースのWorkfrontのお客様の実稼動モードで2026年10月中旬 |
-| Target | 2026年9月予定 | まもなくリリース |
+| AEM | 2026年9月 | まもなくリリース |
+| Workfront | 2026年9月 | 近日リリース予定：<br><br>*一部の対象となるWorkfront System Adminsのプレビューインスタンスで2026年9月上旬<br><br>*対象となる高速リリースの対象となる実稼動インスタンスで2026年9月中旬Workfrontのお客様<br><br>*対象となる四半期リリースの対象となるWorkfrontのお客様の実稼動インスタンスで2026年10月中旬 |
+| Target | 2026年9月 | まもなくリリース |
 
 ### 没入感のある体験 {#immersive}
 
