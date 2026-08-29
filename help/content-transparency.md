@@ -64,7 +64,7 @@ Adobeは、コンテンツがAdobe アプリケーションを離れた後に、
 
 状況によっては、特定の地域では、企業はGenAIが生成またはGenAIが編集したコンテンツを目に見える形で特定することを選択する、または特定する必要がある場合があります。
 
-Adobeでは、Adobe アプリケーションでサポートされている既存の透かし機能の使用に関する[&#x200B; ガイダンス &#x200B;](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)を提供しています。 目に見える透かしが必要かどうかは、組織のビジネス要件と、コンテンツが公開される地域で適用される法律や規制によって異なります。
+Adobeでは、Adobe アプリケーションでサポートされている既存の透かし機能の使用に関する[&#x200B; ガイダンス &#x200B;](https://helpx.adobe.com/jp/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)を提供しています。 目に見える透かしが必要かどうかは、組織のビジネス要件と、コンテンツが公開される地域で適用される法律や規制によって異なります。
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ C2PA メタデータは、サポートされているGenAI生成およびGenAI�
 
 ### 透かしガイダンス
 
-Adobeでは、表示ラベルを選択または適用する必要がある企業に対して、サポートされているAdobe アプリケーションで使用できる既存の透かし機能を使用する方法について説明する[&#x200B; ドキュメント &#x200B;](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)を提供しています。
+Adobeでは、表示ラベルを選択または適用する必要がある企業に対して、サポートされているAdobe アプリケーションで使用できる既存の透かし機能を使用する方法について説明する[&#x200B; ドキュメント &#x200B;](https://helpx.adobe.com/jp/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)を提供しています。
 
 ## Adobe CX Enterpriseでサポートされているアプリケーション {#supported-applications}
 
@@ -100,24 +100,24 @@ Adobeでは、表示ラベルを選択または適用する必要がある企業
 
 | アプリケーション/ソリューション | リリースノート/ガイダンス |
 |---|---|
-| Adobe Advertising Cloud | [ドキュメント](https://experienceleague.adobe.com/en/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
-| Adobe Experience Manager（AEM） | [ドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
-| コンテンツ生成用AI アシスタント（Adobe Journey Optimizer / Adobe Campaignの機能） | [ドキュメント](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
-| Adobe Journey Optimizer B2B Ultimate | [ドキュメント](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2B Prime （別名Adobe Marketo Optimizer） | [ドキュメント](https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
+| Adobe Advertising Cloud | [ドキュメント](https://experienceleague.adobe.com/ja/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
+| Adobe Experience Manager（AEM） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
+| コンテンツ生成用AI アシスタント（Adobe Journey Optimizer / Adobe Campaignの機能） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
+| Adobe Journey Optimizer B2B Ultimate | [ドキュメント](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2B Prime （別名Adobe Marketo Optimizer） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2C | [ドキュメント](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
-| Adobe Campaign | [ドキュメント](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
-| Adobe Commerce | [ドキュメント](https://experienceleague.adobe.com/en/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
-| パフォーマンスマーケティング用の GenStudio | [ドキュメント](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
-| Adobe Marketo Engage | [ドキュメント](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
-| Adobe Workfront | [ドキュメント](https://experienceleague.adobe.com/en/docs/workfront/using/documents/c2pa-metadata-overview) |
-| CX Enterprise Coworker Campaigns （旧HALO） | [ドキュメント](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
+| Adobe Campaign | [ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
+| Adobe Commerce | [ドキュメント](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
+| パフォーマンスマーケティング用の GenStudio | [ドキュメント](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
+| Adobe Marketo Engage | [ドキュメント](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
+| Adobe Workfront | [ドキュメント](https://experienceleague.adobe.com/ja/docs/workfront/using/documents/c2pa-metadata-overview) |
+| CX Enterprise Coworker Campaigns （旧HALO） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
 
 ## 関連リンク
 
-* [表示される透かしガイド](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
+* [表示される透かしガイド](https://helpx.adobe.com/jp/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
 * [Adobe Inspect](https://contentauthenticity.adobe.com/inspect)
-* [Adobe GenAI ラベリングコンプライアンス施策の概要](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-labeling-faq.html)
+* [Adobe GenAI ラベリングコンプライアンス施策の概要](https://helpx.adobe.com/jp/creative-cloud/apps/generative-ai/ai-content-labeling-faq.html)
 
 ## よくある質問
 
