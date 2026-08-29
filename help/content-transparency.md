@@ -100,17 +100,17 @@ Adobeでは、表示ラベルを選択または適用する必要がある企業
 
 | アプリケーション/ソリューション | リリースノート/ガイダンス |
 |---|---|
-| Adobe Advertising Cloud | [ドキュメント](https://experienceleague.adobe.com/en/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
+| Adobe Advertising Cloud | [ドキュメント](https://experienceleague.adobe.com/ja/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
 | Adobe Experience Manager（AEM） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
 | コンテンツ生成用AI アシスタント（Adobe Journey Optimizer / Adobe Campaignの機能） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
 | Adobe Journey Optimizer B2B Ultimate | [ドキュメント](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2B Prime （別名Adobe Marketo Optimizer） | [ドキュメント](https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2B Prime （別名Adobe Marketo Optimizer） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2C | |
 | Adobe Campaign | |
 | Adobe Commerce | [ドキュメント](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
 | パフォーマンスマーケティング用の GenStudio | [ドキュメント](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [ドキュメント](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
-| Adobe Workfront | [ドキュメント](https://experienceleague.adobe.com/en/docs/workfront/using/documents/c2pa-metadata-overview) |
+| Adobe Workfront | [ドキュメント](https://experienceleague.adobe.com/ja/docs/workfront/using/documents/c2pa-metadata-overview) |
 | CX Enterprise Coworker Campaigns （旧HALO） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
 
 ## 関連リンク
