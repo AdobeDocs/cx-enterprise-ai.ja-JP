@@ -4,10 +4,10 @@ description: Adobeが、Adobe CX Enterpriseのアプリケーション全体で�
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 4a9ab38cc3aa650dbb90639558d25f6acf707da5
+source-git-commit: 1ff44fcfab1a304b3640032d6c0985795f580e5e
 workflow-type: tm+mt
-source-wordcount: 1714
-ht-degree: 1%
+source-wordcount: 1745
+ht-degree: 2%
 
 ---
 
@@ -105,8 +105,8 @@ Adobeでは、表示ラベルを選択または適用する必要がある企業
 | コンテンツ生成用AI アシスタント（Adobe Journey Optimizer / Adobe Campaignの機能） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
 | Adobe Journey Optimizer B2B Ultimate | [ドキュメント](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2B Prime （別名Adobe Marketo Optimizer） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2C | |
-| Adobe Campaign | |
+| Adobe Journey Optimizer B2C | [ドキュメント](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
+| Adobe Campaign | [ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
 | Adobe Commerce | [ドキュメント](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
 | パフォーマンスマーケティング用の GenStudio | [ドキュメント](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [ドキュメント](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
