@@ -1,7 +1,8 @@
 ---
 description: 生成からメール配信まで、Coworker Campaignsが画像にC2PA メタデータを自動的に添付して保存する方法について説明します。
 title: Coworker CampaignsのC2PA メタデータ
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 387
@@ -11,7 +12,7 @@ ht-degree: 4%
 
 # Coworker CampaignsのC2PA メタデータ {#overview}
 
-生成AIの透明性に関する新たな法律が制定されつつあり、Adobeでは、さまざまな地域で適用される要件を満たすために取り組んでいます。 [C2PA メタデータ ](https://c2pa.org/)は、Adobeがこれらの法律の要件を満たすために使用する来歴ツールです。
+生成AIの透明性に関する新たな法律が制定されつつあり、Adobeでは、さまざまな地域で適用される要件を満たすために取り組んでいます。 [C2PA メタデータ &#x200B;](https://c2pa.org/)は、Adobeがこれらの法律の要件を満たすために使用する来歴ツールです。
 
 C2PA メタデータは、コンテンツがどのように作成または編集されたかを記録する、耐久性のある目に見えないメタデータです。 Workfront Campaignsの生成AI ツールを使用して画像を生成または編集すると、C2PA メタデータが自動的にその画像に添付されます。 お客様の側で操作は必要ありません。
 
