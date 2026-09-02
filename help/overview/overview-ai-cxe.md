@@ -1,15 +1,10 @@
 ---
 title: CX エンタープライズにおけるAIについて
 description: Adobe CX Enterprise アプリケーション全体で生成AIとAgentic AIがどこで利用でき、どのように利用を管理および測定するのか、どのように始めることができるのかを、ビジネスレベルで解説します。
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: aed11b3ad3450c80516d9cbd580cf983008ddbfd
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 387
 ht-degree: 3%
@@ -27,7 +22,7 @@ Adobe CX エンタープライズ版アプリケーションでは、AIを次の
 - **[エージェンティック AI モニタリング](./monitoring.md)**&#x200B;では、センターオブエクセレンス チームおよびその他のガバナンス関係者が、組織全体でのエージェントの導入、使用、およびフィードバックを追跡するために使用するダッシュボードについて説明します。
 - **[AI クレジットの使用](./ai-credit-consumption.md)**&#x200B;は、エージェントのジョブと同僚の入力がAI クレジットをどのように使用しているかを、エージェントとジョブのタイプ別の見積もり率で説明します。これにより、使用に関する計画と予算を立てることができます。
 - **[生成AI コンテンツの透明性](../content-transparency.md)**&#x200B;は、Adobeが生成AIが生成し、生成AIが編集したコンテンツにC2PA メタデータを自動的に添付する方法を説明し、組織の開示義務を理解するのに役立ちます。
-- **[CX エンタープライズ エージェント ツール &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)**&#x200B;は、CX エンタープライズ エージェントを拡張する追加のエージェント スキルとツールをカバーするビデオ チュートリアルです。
+- **[CX エンタープライズ エージェント ツール ](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)**&#x200B;は、CX エンタープライズ エージェントを拡張する追加のエージェント スキルとツールをカバーするビデオ チュートリアルです。
 
 ## 開始する場所
 
@@ -35,4 +30,4 @@ Adobe CX エンタープライズ版アプリケーションでは、AIを次の
 1. **AI クレジットの使用**&#x200B;を読んで、使用がコストにどのように変換されるかを理解してください。これにより、財務と調達に対する期待値を設定できます。
 1. ガバナンス チームに&#x200B;**Agentic AI監視** ダッシュボード権限を設定して、導入と使用状況を初日から確認できるようにします。
 1. **生成AI コンテンツの透明性**&#x200B;を参照して、AIが生成したコンテンツに対して、チームが公開するコンテンツに自動的に適用される情報開示について確認してください。
-1. 組織がユーザーをオンボーディングする準備ができたら、ユーザーをCX Enterprise アプリケーション [&#128279;](../home.md)のAIに誘導して、AI Assistant、Agent Orchestrator、CX Enterprise Workfrontに関する実践的なガイダンスを提供します。
+1. 組織がユーザーをオンボーディングする準備ができたら、ユーザーをCX Enterprise アプリケーション ](../home.md)の[AIに誘導して、AI Assistant、Agent Orchestrator、CX Enterprise Workfrontに関する実践的なガイダンスを提供します。

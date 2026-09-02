@@ -1,9 +1,9 @@
 ---
 title: Adobe Customer Journey Analyticsのデータを分析する（チャット）
 description: Adobe CXのAdobe Commerceのコラボレーションチャット機能を使用して、Customer Journey Analyticsのデータを分析し、ファネルを構築し、カスタマージャーニーのどこで顧客が脱落しているかを調べる方法を紹介します。
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 3210
 ht-degree: 4%
@@ -40,7 +40,7 @@ Customer Journey Analytics データでCoworker Chatを使用する前に、ロ�
 * スキル
 * その他
 
-詳しくは、[同僚チャット UI ガイド &#x200B;](/help/coworker/chat/ui-guide.md)を参照してください。
+詳しくは、[同僚チャット UI ガイド ](/help/coworker/chat/ui-guide.md)を参照してください。
 
 ### 同僚とのチャットでデータを分析する際のベストプラクティス
 
@@ -58,7 +58,7 @@ Customer Journey Analytics データでCoworker Chatを使用する前に、ロ�
 
 * プランモードを使用します。
 
-  このモードは、複雑なタスクに特に役立ちますが、単純なタスクにも優れた結果をもたらします。同僚は、アクションを起こす前にフォローアップで質問することができるからです。 詳しくは、[&#x200B; プランモード &#x200B;](/help/coworker/chat/ui-guide.md#plan-mode)を参照してください。
+  このモードは、複雑なタスクに特に役立ちますが、単純なタスクにも優れた結果をもたらします。同僚は、アクションを起こす前にフォローアップで質問することができるからです。 詳しくは、[ プランモード ](/help/coworker/chat/ui-guide.md#plan-mode)を参照してください。
 
 * プロンプトを作成する際には、できるだけ具体的に次のように記述します。
 
@@ -82,7 +82,7 @@ Coworker Chatで、CoworkerがCustomer Journey Analyticsに接続されている
 
 1. 左側のパネルで「MCP」アイコンを選択し、接続されているMCP サーバーのリストで&#x200B;[!UICONTROL **cja-mcp**]&#x200B;が使用可能であることを確認します。
 
-   ![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](../../assets/coworker-mcp-cja.png)
+   ![同僚の左側のパネルで強調表示されたMCP アイコン ](../../assets/coworker-mcp-cja.png)
 
 1. （条件付き） [!UICONTROL **cja-mcp**]&#x200B;がまだ接続されていない場合は、[!UICONTROL **MCP Server**]&#x200B;を追加を選択し、[!UICONTROL **サーバー名**] フィールドにcjaを指定して、表示されたら選択し、[!UICONTROL **サーバー**]&#x200B;を追加を選択します。
 
@@ -94,7 +94,7 @@ Customer Journey Analyticsでは、さまざまなデータビューにアクセ
 
 ### 使用するデータビューを決める
 
-同僚に回答したい質問の種類を伝え、その情報を提供するためにどのデータビューにアクセスできるかを尋ねます。 また、[&#x200B; データビューをメモリ &#x200B;](#add-a-data-view-preference-in-memory)の環境設定として設定することもできます。
+同僚に回答したい質問の種類を伝え、その情報を提供するためにどのデータビューにアクセスできるかを尋ねます。 また、[ データビューをメモリ ](#add-a-data-view-preference-in-memory)の環境設定として設定することもできます。
 
 **あなた：**
 
@@ -136,7 +136,7 @@ Coworker Chatには、すべてのチャットにまたがる情報へのアク�
 
 1. メモリーページの&#x200B;[!UICONTROL **保存された環境設定**] セクションで、Coworker Chatでチャットで使用する1つ以上のデータビューを指定します。
 
-   ![左側のパネルのメモリ セクション &#x200B;](../../assets/coworker-memory.png)
+   ![左側のパネルのメモリ セクション ](../../assets/coworker-memory.png)
 
 ## Customer Journey Analytics での分析
 
@@ -154,7 +154,7 @@ Workfrontでビジュアライゼーションを作成した後、Analysis Works
 
 Adobe Customer Journey Analyticsのユースケースと、実務担当者がAdobe CX Enterprise Coworker Chatで使用しているプロンプトの例を、簡単な回答から高度な作業の調査まで確認できます。 各プロンプトは、コピーできるように構築され、独自のデータやコンテキストに適応させ、会話を通じて洗練させられます。
 
-詳しくは、[&#x200B; ユースケース &#x200B;](/help/coworker/chat/use-cases/overview.md)を参照してください。
+詳しくは、[ ユースケース ](/help/coworker/chat/use-cases/overview.md)を参照してください。
 
 ## 分析のスキル
 
@@ -325,7 +325,7 @@ Customer Journey Analytics データの分析には、次のスキルを使用�
 
 >[!BEGINSHADEBOX]
 
-![&#x200B; セッション数、コンバージョン率、およびセッションから購入までの各ステップでの脱落を示すFunnel テーブル &#x200B;](../../assets/coworker-funnel-response.png)
+![ セッション数、コンバージョン率、およびセッションから購入までの各ステップでの脱落を示すFunnel テーブル ](../../assets/coworker-funnel-response.png)
 
 これはfunnelの質問です。funnelでコンバージョンを実行し、購入に至るまでの過程で離脱がどこで発生するかを確認します。
 
@@ -374,7 +374,7 @@ Customer Journey Analytics データの分析には、次のスキルを使用�
 
 >[!BEGINSHADEBOX]
 
-マーケティングチャネル別にコンバージョン率とドロップオフを示す![Funnel テーブル &#x200B;](../../assets/coworker-funnel-response2.png)
+マーケティングチャネル別にコンバージョン率とドロップオフを示す![Funnel テーブル ](../../assets/coworker-funnel-response2.png)
 
 カスタム **マーケティングチャネル** ディメンションがあります。 ここでfunnelを引き出して、チャネルごとのコンバージョン率を計算し、各チャネルがリークする場所を特定します。
 
@@ -425,7 +425,7 @@ Customer Journey Analytics データの分析には、次のスキルを使用�
 
 >[!BEGINSHADEBOX]
 
-デバイスの種類![&#128279;](../../assets/coworker-funnel-response3.png)別にコンバージョン率とドロップオフを示すFunnel テーブル
+デバイスの種類](../../assets/coworker-funnel-response3.png)別にコンバージョン率とドロップオフを示す![Funnel テーブル
 
 **見つかりました：モバイル チェックアウトが壊れています**
 
