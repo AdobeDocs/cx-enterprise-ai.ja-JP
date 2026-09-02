@@ -6,10 +6,10 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
+source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 20%
+source-wordcount: '304'
+ht-degree: 19%
 
 ---
 
@@ -93,4 +93,6 @@ ht-degree: 20%
         - [エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
       - アラート {#alerts}
         - [顧客アラートのスキル](./agents/customer-alerts.md)
-
+      - Content Advisor {#content-advisor}
+        - [マーケティングアセットの生成](./coworker/chat/use-cases/content-advisor/generate-assets.md)
+        - [ブランドコンプライアンスのチェック](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
