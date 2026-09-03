@@ -1,13 +1,11 @@
 ---
 description: Coworker Chatのユースケースとサンプルプロンプトを、データインサイト、オーディエンス、ジャーニー、プラットフォーム運用をまたいで、エリアごとに整理して参照できます。
 title: 同僚チャットのユースケース
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: befb56a0afc6de347aa2481bc930d1e0fc812f09
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 83cd3d9dcc9ae0c56e8d63e995b166e8ff0736d9
 workflow-type: tm+mt
-source-wordcount: 4261
+source-wordcount: 4260
 ht-degree: 6%
 
 ---
@@ -24,7 +22,7 @@ ht-degree: 6%
 >
 >対象となるすべてのお客様は、CoworkerのAdobe Experience Manager エージェンティック機能にローリングベースでアクセスできます。
 >
->AEMの[AI - AEMのエージェンティック機能の概要](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)も参照してください。
+>AEMの[AI - AEMのエージェンティック機能の概要](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)も参照してください。
 
 ## ブランド体験
 
@@ -43,9 +41,9 @@ ht-degree: 6%
 
 **関連情報**
 
-* [AEMのAgentic Capabilities: Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEMのAgentic Capabilities: Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [AEMのエージェント機能：ブランドエクスペリエンス – エクスペリエンス制作 – Forms](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEMのエージェント機能：ブランドエクスペリエンス – エクスペリエンス制作 – Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 開発
 
@@ -58,7 +56,7 @@ ht-degree: 6%
 
 **関連情報**
 
-* [AEMのエージェント機能：ブランドエクスペリエンス – 開発](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEMのエージェント機能：ブランドエクスペリエンス – 開発](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### オンボーディング
 
@@ -71,7 +69,7 @@ ht-degree: 6%
 
 **関連情報**
 
-* [AEMのエージェント機能：ブランドエクスペリエンス – オンボーディング](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEMのエージェント機能：ブランドエクスペリエンス – オンボーディング](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Content Advisor
 
@@ -86,7 +84,7 @@ ht-degree: 6%
 
 **関連情報**
 
-* [AEMのエージェント機能：Content Advisor - Content Discovery](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEMのエージェント機能：Content Advisor - Content Discovery](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### コンテンツの最適化
 
@@ -98,7 +96,7 @@ ht-degree: 6%
 
 **関連情報**
 
-* [AEMのエージェント機能：Content Advisor - Content Optimization](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEMのエージェント機能：Content Advisor - Content Optimization](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## ブランドガバナンス
 
@@ -110,7 +108,7 @@ ht-degree: 6%
 
 **関連情報**
 
-* [AEMのエージェント機能：ブランドガバナンス](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEMのエージェント機能：ブランドガバナンス](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 顧客理解とデータ活用
 
@@ -147,7 +145,7 @@ ht-degree: 6%
 | ジャーニーの競合の分析 | オーディエンスの重複、スケジュールの競合、アクティブなジャーニー間の重複排除の問題を検出します | `journey-analyze-conflict` | Adobe Journey Optimizer（AJO） | 「カート放棄ジャーニーは他のジャーニーと競合しますか？」 <br> 「アクティブなジャーニー間のオーディエンスの重複をチェック」 |
 | ジャーニーのフォールアウトを分析 | ジャーニーの途中で顧客が離脱する場所や理由を特定し、離脱につながる行動パターンを検出します | `journey-analyze-fallout` | Adobe Journey Optimizer（AJO） | 「リエンゲージメントの過程で離脱したユーザーはどこにいますか？」 <br> 「ジャーニーXのどのノードのフォールアウトが最も高いか？」 |
 | カスタムアクションエラーの分析 | カスタムアクションが失敗しているか、ジャーニー内でエラー率が急増しているかを特定し、失敗がより大きな混乱に連鎖する前に根本原因を診断できます | `journey-analyze-custom-action` | Adobe Journey Optimizer（AJO） | 「ロイヤルティ登録ジャーニーでカスタムアクションが失敗するのはなぜですか？」 <br> 「ウェルカムジャーニーのカスタムアクション ExternalPushのエラー率を表示する」 |
-| [&#x200B; ロイヤルティに関する課題の作成、編集、管理](journeys/create-loyalty-challenge.md) | ロイヤルティプログラム管理を簡素化し、迅速化したい | `loyalty` | Adobe Journey Optimizer（AJO） | 「会員に新しい季節の飲み物を試すように促すチャレンジを作成する」 <br> 「最も高い会員の脱落レートでロイヤルティのチャレンジを表示する」 |
+| [ ロイヤルティに関する課題の作成、編集、管理](journeys/create-loyalty-challenge.md) | ロイヤルティプログラム管理を簡素化し、迅速化したい | `loyalty` | Adobe Journey Optimizer（AJO） | 「会員に新しい季節の飲み物を試すように促すチャレンジを作成する」 <br> 「最も高い会員の脱落レートでロイヤルティのチャレンジを表示する」 |
 
 ## 基本要素
 
@@ -160,14 +158,14 @@ ht-degree: 6%
 | エンティティの解決とリンク | セマンティック検索と字句検索を使用して、実際のExperience Platform エンティティに対するエンティティのメンションを解決し、XDM フィールドを検出します | `entity-linking` | Adobe Experience Platform | 「実際のオーディエンスに&#39;Holiday Shoppers&#39;を解決する」 <br> 「購入履歴に関連するフィールドを検索する」 |
 | カスタムスキルの管理 | 再利用可能なユーザー所有スキルを保存、変更、削除できます。これらのスキルは、セッションをまたいで保持されます | `manage-skill` | すべての対象アプリケーション | 「そのワークフローをスキルとして保存」 <br> 「週次レポートスキルを削除」 <br> 「これを再利用可能なスキルに変換」 |
 | ストリーミング容量とデータ侵害の監視 | サンドボックスをまたいで、現在および過去のストリーミング利用状況、キャパシティ、侵害ステータスを確認できます | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | 「現在のサンドボックスの現在のストリーミング容量は何ですか？」 <br> 「私の現在のサンドボックスは、先週の容量制限に違反していますか？」 |
-| [&#x200B; ヘルスチェックの評価結果を表示](https://experienceleague.adobe.com/ja/docs/experience-platform/run-and-operate/health-checks/overview) | サンドボックスの最新のヘルスチェック評価を表示し、失敗したチェックをドリルダウンして、影響を受けるエンティティを確認します | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「サンドボックスの何が問題ですか？」 <br> 「最新のヘルスチェック評価について教えてください」 <br> 「カスタム名前空間説明チェックの問題は何ですか？」 |
+| [ ヘルスチェックの評価結果を表示](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | サンドボックスの最新のヘルスチェック評価を表示し、失敗したチェックをドリルダウンして、影響を受けるエンティティを確認します | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「サンドボックスの何が問題ですか？」 <br> 「最新のヘルスチェック評価について教えてください」 <br> 「カスタム名前空間説明チェックの問題は何ですか？」 |
 | ヘルスチェックの問題を修正 | 変更が行われる前に承認を得て、フラグ付きのID名前空間、結合ポリシー、スキーマの問題をチャットから直接修正します | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | 「ID名前空間の説明を修正」 <br> 「重複する結合ポリシー名を修正」 <br> 「監査フィールドグループが欠落しているスキーマを修正」 <br> 「デフォルトの結合ポリシーの名前付けを修正」 |
 
 ## サンドボックスツール
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
-| [&#x200B; サンドボックス間でオブジェクトを移動](/help/agents/sandbox-tooling.md) | 依存関係を自動解決し、スキーマ、オーディエンス、その他のオブジェクト設定をサンドボックス間でシームレスに移行できます | `sandbox-tooling-workflow` | Adobe Experience Platform | 「スキーマ Luma Loyalty Members Platinumを現在のサンドボックスから実稼動サンドボックスに移動」 <br> 「米国ゴールドロイヤルティメンバーのオーディエンスをステージに昇格させる」 |
+| [ サンドボックス間でオブジェクトを移動](/help/agents/sandbox-tooling.md) | 依存関係を自動解決し、スキーマ、オーディエンス、その他のオブジェクト設定をサンドボックス間でシームレスに移行できます | `sandbox-tooling-workflow` | Adobe Experience Platform | 「スキーマ Luma Loyalty Members Platinumを現在のサンドボックスから実稼動サンドボックスに移動」 <br> 「米国ゴールドロイヤルティメンバーのオーディエンスをステージに昇格させる」 |
 
 ## 顧客アラート
 
@@ -191,21 +189,21 @@ ht-degree: 6%
 | レビューと承認を迅速化 | 多段階の承認の設定、承認テンプレートの適用、承認者の追加と削除、リマインダーの送信、一括更新をおこないます | `manage-workfront-workflow` | Workfront Workflow | 「多段階の承認（コピー、デザイン、法務）を作成し、承認していない人にリマインドする」 <br> 「開いているすべての承認からChris Smithを削除し、Jane Francisに置き換える」 |
 | タスクと作業ステータスの更新 | タスクの完了をマークし、完了率を更新して、作業を終了します | `manage-workfront-workflow` | Workfront Workflow | 「秋の起動時に「キーアートの作成」タスクを完了としてマーク」 <br> 「秋の起動時のコピータスクを100%で閉じる」 |
 | 作業のインサイトの獲得 | 探索的な質問をすることで、リスクのある作業、未割り当てのタスク、未解決のイシュー、プロジェクトをまたいだステータスなどを見つけることができます | `query-workfront` | Workfront Workflow | 「誰にも割り当てられていない現在のプロジェクトで、今週中に期限が切れる不完全なタスクを検索する」 <br> 「現在のプロジェクトに含まれている未解決の問題の数は？」 |
-| プロジェクトとタスクの概要 | プロジェクト、タスク、イシュー、割り当てのリスト、テーブル、カウントを取得する | `query-workfront` | Workfront Workflow | 「プロジェクト名、タスクの期日、割り当てられたユーザーを含む、開始準備が整ったタスクのテーブルを表示する」 <br> 「ユーザー名&rbrack;に割り当てられたすべてのタスクを取得する」&lbrack; |
+| プロジェクトとタスクの概要 | プロジェクト、タスク、イシュー、割り当てのリスト、テーブル、カウントを取得する | `query-workfront` | Workfront Workflow | 「プロジェクト名、タスクの期日、割り当てられたユーザーを含む、開始準備が整ったタスクのテーブルを表示する」 <br> 「ユーザー名]に割り当てられたすべてのタスクを取得する」[ |
 | 承認とポートフォリオのステータスを追跡 | 承認のステータスを確認し、ポートフォリオごとに不完全な作業をロールアップします | `query-workfront` | Workfront Workflow | 「自分の承認のステータスを表示する」 <br> 「不完全な問題を含むテーブルを表示します。これは、[Portfolio name] ポートフォリオの一部です」 |
 
 ## 実験と最適化
 
 | ドメイン | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
-|---|---|---|---|---|---|
-| **実験と最適化** | ターゲットエンティティの参照と検索 | ターゲットエンティティ（A/B、XT、AP、自動配分、MVT）、オーディエンス、オファーを発見、検査、検索、リストアップします。 発見のために、ここから始めましょう。 | `target-browse` | Adobe Target | 「アクティブなA/B アクティビティをすべて表示」 <br> 「どのオーディエンスを使用しますか？」 <br> 「アクティビティを検索\&lt;nameまたはID>」 |
-| **実験と最適化、オーディエンス分析、コンテンツパフォーマンスインテリジェンス** | アクティビティパフォーマンスに関するレポート | あらゆるアクティビティタイプ（レコメンデーションを含む）を網羅するパフォーマンスと注文レポート – コンバージョン率、売上、注文。 | `target-analyze` | Adobe Target | 「アクティビティ \&lt;name/ID>のパフォーマンスはどうですか？」 <br> 「コンバージョンの上昇率と収益を\&lt;activity>&quot;<br> 「先月最も多くの注文を集めたアクティビティはどれですか？」 |
+| --- | --- | --- | --- | --- | --- |
+| **実験と最適化** | ターゲットエンティティの参照と検索 | ターゲットエンティティ（A/B、XT、AP、自動割り当て、MVT）、オーディエンス、オファーを発見、検査、検索、リスト化します。 発見のために、ここから始めましょう。 | `target-browse` | Adobe Target | 「アクティブなA/B アクティビティをすべて表示」 <br> 「どのオーディエンスを使用しますか？」 <br> 「アクティビティを検索\&lt;nameまたはID>」 |
+| **実験と最適化、オーディエンス分析、コンテンツパフォーマンスインテリジェンス** | アクティビティパフォーマンスに関するレポート | あらゆるアクティビティタイプ（レコメンデーションを含む）でのパフォーマンスと注文のレポート：コンバージョン向上、売上、注文 | `target-analyze` | Adobe Target | 「アクティビティ \&lt;name/ID>のパフォーマンスはどうですか？」 <br> 「コンバージョンの上昇率と収益を\&lt;activity>&quot;<br> 「先月最も多くの注文を集めたアクティビティはどれですか？」 |
 | **実験と最適化、オーディエンス管理** | オーサーのアクティビティ、オファー、オーディエンス | アクティビティ、オファー（HTML/JSON/リダイレクト）、オーディエンス、応答トークンを作成して設定します。 コアとなるオーサリングスキル。 | `target-design` | Adobe Target | 「\&lt;audience>&quot;<br>&quot;JSON オファーを作成して\&lt; ユースケース >&quot;<br>&quot;応答トークンを\&lt;attribute>&quot;に追加する |
-| **実験と最適化、コンテンツ制作** | ビジュアル（WYSIWYG）アクティビティの構築 | Visual Experience Composerのオーサリング - CSS セレクターの変更を使用して、ライブページのURLに対して視覚的なA/BおよびXT アクティビティを作成および編集できます。 | `target-vec` | Adobe Target | 「\&lt;page URL>&quot;<br>&quot;で視覚的なA/B テストを作成する\&lt;page URL>のヒーロー見出しを\&lt;text>&quot;<br>&quot;に変更する\&lt;page URL>&quot;で視覚的な編集を行うXT アクティビティを設定する |
+| **実験と最適化、コンテンツ制作** | ビジュアル（WYSIWYG）アクティビティの構築 | Visual Experience Composerのオーサリング：CSS セレクターの変更を使用して、ライブページ URLに対して視覚的なA/BおよびXT アクティビティを作成および編集します。 | `target-vec` | Adobe Target | 「\&lt;page URL>&quot;<br>&quot;で視覚的なA/B テストを作成する\&lt;page URL>のヒーロー見出しを\&lt;text>&quot;<br>&quot;に変更する\&lt;page URL>&quot;で視覚的な編集を行うXT アクティビティを設定する |
 | **実験と最適化** | 推奨事項の参照と検査 | 読み取り専用：基準、コレクション、デザイン、プロモーション、除外事項、カタログ、フィードの参照と検査。クリーンアップに関するアドバイスとカタログ属性のインテリジェンスが含まれます。 | `target-recs` | Adobe Target | 「レコメンデーションの条件とコレクションを表示」 <br> 「デザインの\&lt;recs アクティビティ >」 <br> 「カタログフィードと除外を確認」 |
 | **実験と最適化** | レコメンデーションのトラブルシューティング | 「結果が準備されていません」、「空の結果」、「失敗したrecs」などのrecsの問題に対する読み取り専用のトラブルシューティング。 | `target-recs-diagnose` | Adobe Target | 「レコメンデーション結果の準備ができていないのはなぜですか？」 <br> 「レコメンデーションが空になっています。何が問題ですか？」 <br> 「なぜ\&lt;recs アクティビティ >が失敗しているのかを診断してください」 |
-| **実験と最適化** | レコメンデーションの作成と自動化 | Recs オーサリング – 条件、コレクション、デザイン、除外、プロモーション、フィードの作成、更新、削除、recs アクティビティの構築、および多くのアクティビティでの一括/自動化。 | `target-recs-design` | Adobe Target | 「最近閲覧した条件を作成する」 <br> 「すべてのrecs アクティビティでデザインを一括更新する」「\&lt;criteria>&quot;<br>」を使用してRecommendations アクティビティを作成する」 |
+| **実験と最適化** | レコメンデーションの作成と自動化 | Recs オーサリング：条件、コレクション、デザイン、除外、プロモーション、フィードの作成、更新、削除、recs アクティビティの構築、および多くのアクティビティでの一括/自動化。 | `target-recs-design` | Adobe Target | 「最近閲覧した条件を作成する」 <br> 「すべてのrecs アクティビティでデザインを一括更新する」「\&lt;criteria>&quot;<br>」を使用してRecommendations アクティビティを作成する」 |
 | **実験と最適化** | 実験の参照と検索 | 実験全体での一般的なブラウジングと検索：結果とインサイトのリスト、表示、取得 | `experiment-explorer` | 実験アクセラレーター | 「自分の実験を表示する」 <br> 「アクティブな実験をリストする」 <br> 「検索結果を表示」\&lt;experiment>&quot;<br> 「どのようなインサイトを\&lt;experiment>が持っているか？」 |
-| **実験と最適化、オーディエンス分析、コンテンツパフォーマンスインテリジェンス** | 実験の分析と決定 | 健康診断、船舶上の意思決定、エグゼクティブサマリーなど、様々な実験において合成と意思決定をガイド付きでサポートします。 | `experiment-analysis` | 実験アクセラレーター | 「実験はどのように進んでいますか？」 <br> 「発送する必要がありますか？」\&lt;実験>?&quot;<br> 「実験は正常ですか？」 <br> 「実験のエグゼクティブサマリーを書く」 |
-| **実験と最適化** | 実験の設計と計画 | 将来を見据えたテストの設計と計画：次にテストすべきこと、テストの設計方法、ロードマップの構築方法 | `experiment-strategist` | 実験アクセラレーター | 「次にテストすべきことは何ですか？」 <br> 「テストの設計を支援してください」\&lt;目標>&quot;<br> 「テストに失敗しました。次の手順は何ですか？」 <br> 「テストロードマップを作成する」 |
+| **実験と最適化、オーディエンス分析、コンテンツパフォーマンスインテリジェンス** | 実験の分析と決定 | 複数の実験をまたいだガイド付きの合成と意思決定のサポート：ヘルスチェック、船舶上の意思決定、エグゼクティブサマリー | `experiment-analysis` | 実験アクセラレーター | 「実験はどのように進んでいますか？」 <br> 「発送する必要がありますか？」\&lt;実験>?&quot;<br> 「実験は正常ですか？」 <br> 「実験のエグゼクティブサマリーを書く」 |
+| **実験と最適化** | 実験の設計と計画 | 将来を見据えた実験の設計と計画：次にテストすべきこと、テストの設計方法、ロードマップの構築方法 | `experiment-strategist` | 実験アクセラレーター | 「次にテストすべきことは何ですか？」 <br> 「テストの設計を支援してください」\&lt;目標>&quot;<br> 「テストに失敗しました。次の手順は？」 <br> 「テストロードマップを作成します」 |
 | **実験と最適化、顧客とアカウントのジャーニーに関するインテリジェンス** | 知識の検索とデータの取り込み | テストのコンテキスト知識を取得して検索したり、分析用に外部CSV データを取り込んだりできます。 | `experiment-knowledge-base` | 実験アクセラレーター | 「実験について知っておくべきこと\&lt;name>?」 <br> 「この仮説を以前にテストしたことがありますか？」 <br> 「CSVをアップロードして、このファイルを分析します」 |
