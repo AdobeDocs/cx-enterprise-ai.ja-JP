@@ -1,10 +1,12 @@
 ---
 description: Coworker Chat インターフェイスのリファレンスガイド。ナビゲーション、入力ボックス、応答、チャット履歴、スキル、MCP サーバー、メモリの設定などを説明します。
 title: 同僚チャット UI ガイド
+jira: KT-22106
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-jira: KT-22106
-source-git-commit: 94a546c3b9f89b35b0e34c821ea3f0f8c021fae4
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 1713
 ht-degree: 4%
@@ -34,7 +36,7 @@ ht-degree: 4%
 | CJA | 今すぐ利用可能 | まもなくリリース |
 | AEM | 2026年9月 | まもなくリリース |
 | Workfront | 2026年9月 | 近日リリース予定：<br><br>*一部の対象となるWorkfront System Adminsのプレビューインスタンスで2026年9月上旬<br><br>*対象となる高速リリースの対象となる実稼動インスタンスで2026年9月中旬Workfrontのお客様<br><br>*対象となる四半期リリースの対象となるWorkfrontのお客様の実稼動インスタンスで2026年10月中旬 |
-| Target | 2026年9月 | まもなくリリース |
+| ターゲット | 2026年9月 | まもなくリリース |
 
 ### 没入感のある体験 {#immersive}
 

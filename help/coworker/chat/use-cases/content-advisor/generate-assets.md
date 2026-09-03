@@ -5,11 +5,13 @@ role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 147
-last-substantial-update: 2026-09-01
+last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22502
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 135
 ht-degree: 0%
@@ -25,4 +27,4 @@ ht-degree: 0%
 
 また、さらにカスタマイズするための柔軟性も提供します。 アセットを変更したり、バリエーションを作成したり、Instagram ストーリーなど、様々な形式にコンテンツを適応させたりすることができます。 このアプローチにより、チームメンバーが技術的な詳細を管理しながら、目標に集中することができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502692/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502708/?captions=jpn&learn=on&enablevpops)
