@@ -6,7 +6,7 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+source-git-commit: 73f2a00a3438903f72cddb35c3a5c47196b5821a
 workflow-type: tm+mt
 source-wordcount: 1713
 ht-degree: 4%
@@ -34,9 +34,9 @@ ht-degree: 4%
 | RTCDP | 今すぐ利用可能 | まもなくリリース |
 | AJO | 今すぐ利用可能 | まもなくリリース |
 | CJA | 今すぐ利用可能 | まもなくリリース |
+| Workfront | 今すぐ利用可能 | 近日リリース予定：<br><br>*一部の対象となるWorkfront System Adminsのプレビューインスタンスで2026年9月上旬<br><br>*対象となる高速リリースの対象となる実稼動インスタンスで2026年9月中旬Workfrontのお客様<br><br>*対象となる四半期リリースの対象となるWorkfrontのお客様の実稼動インスタンスで2026年10月中旬 |
+| ターゲット | 今すぐ利用可能 | 今すぐ利用可能 |
 | AEM | 2026年9月 | まもなくリリース |
-| Workfront | 2026年9月 | 近日リリース予定：<br><br>*一部の対象となるWorkfront System Adminsのプレビューインスタンスで2026年9月上旬<br><br>*対象となる高速リリースの対象となる実稼動インスタンスで2026年9月中旬Workfrontのお客様<br><br>*対象となる四半期リリースの対象となるWorkfrontのお客様の実稼動インスタンスで2026年10月中旬 |
-| ターゲット | 2026年9月 | まもなくリリース |
 
 ### 没入感のある体験 {#immersive}
 
