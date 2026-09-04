@@ -2,16 +2,10 @@
 title: AI アシスタント UI ガイド
 description: ユーザーインターフェイスで AI アシスタントにアクセスして使用する方法について説明します。
 TQID: https://experienceleague.adobe.com/MWhVCqUFt5Qze4mQp-G85OF81Mk1OL4xY8Jygm-B4PI
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4e10361b7df9786bd027e94d4be4a9dff2964f8a
 workflow-type: tm+mt
 source-wordcount: 2162
 ht-degree: 3%
@@ -22,7 +16,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->このドキュメントは、AI アシスタント（次世代）に適用されます。 AI アシスタント （従来）について詳しくは、Adobe Experience Platform ドキュメントの[AI アシスタント UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home)を参照してください。
+>このドキュメントは、AI アシスタント（次世代）に適用されます。 AI アシスタント （従来）について詳しくは、Adobe Experience Platform ドキュメントの[AI アシスタント UI ガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home)を参照してください。
 
 AI アシスタント（レガシー）とAI アシスタント（次世代）の比較については、次の表を参照してください。
 
@@ -30,15 +24,15 @@ AI アシスタント（レガシー）とAI アシスタント（次世代）�
 | --- | --- | --- |
 | ユーザーエクスペリエンス | AI アシスタント（レガシー）は、右側のパネルでのみ使用できます。 | AI アシスタント（次世代）は、右側のパネルと没入型のフルスクリーン体験の両方で利用できます。 |
 | 機能の範囲 | AI アシスタント（レガシー）は、製品知識と運用インサイトの両方に活用できます。 | AI アシスタント（次世代）は、製品知識、運用インサイト、高度なエージェント型スキル、マルチステップのタスク実行などに使用できます。 |
-| プラットフォームアーキテクチャ | AI アシスタント（レガシー）は、Agent Orchestratorスタック上に構築されていません。 | [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator)が提供するAI アシスタント （次世代）は、機能をまたいで拡張性と高度な連携を可能にします。 |
+| プラットフォームアーキテクチャ | AI アシスタント（レガシー）は、Agent Orchestratorスタック上に構築されていません。 | [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/agent-orchestrator)が提供するAI アシスタント （次世代）は、機能をまたいで拡張性と高度な連携を可能にします。 |
 | 適用範囲 | AI アシスタント（レガシー）は、アプリケーション固有の実装です。 | Adobe CX Enterpriseのあらゆるアプリケーションで、AI アシスタントを利用して、統合されたAI アシスタント体験を実現できます。 |
-| アクセスと権限のモデル | アプリケーション範囲のアクセスモデルを個々の製品境界に合わせて調整。 | 利用者は誰でも、AI アシスタント（次世代）と関連するExperience Platformエージェントにアクセスできます。 **メモ**: <ul><li>**Adobe Experience Manager**：管理者は、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を通じてAI アシスタント （Next-Gen）にアクセスする権限を付与する必要があります。</li><li>**Customer Journey Analytics**：管理者は、[Customer Journey Analytics アクセス制御](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/access-control?lang=en)を通じてAI アシスタントにアクセスする権限を付与する必要があります。 これにより、製品知識やデータインサイトにもとづいた質問が可能になります。 |
+| アクセスと権限のモデル | アプリケーション範囲のアクセスモデルを個々の製品境界に合わせて調整。 | 利用者は誰でも、AI アシスタント（次世代）と関連するExperience Platformエージェントにアクセスできます。 **メモ**: <ul><li>**Adobe Experience Manager**：管理者は、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を通じてAI アシスタント （Next-Gen）にアクセスする権限を付与する必要があります。</li><li>**Customer Journey Analytics**：管理者は、[Customer Journey Analytics アクセス制御](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en)を通じてAI アシスタントにアクセスする権限を付与する必要があります。 これにより、製品知識やデータインサイトにもとづいた質問が可能になります。 |
 
 AI アシスタントは、Adobe Experience Platformベースのアプリケーションの生産性を向上させ、作業を再定義する、インテリジェントな会話型の生成AI ツールです。 AI アシスタントを使用して、Adobe Experience Platform Agentsやその他のAI機能にアクセスできます。
 
 AI アシスタントの活用方法について、アドビのガイドでご確認ください。
 
-![&#x200B; フルスクリーンのAI アシスタント ホーム インターフェイス。](./assets/ai-assistant/blank-home.png)
+![ フルスクリーンのAI アシスタント ホーム インターフェイス。](./assets/ai-assistant/blank-home.png)
 
 >[!SLIDE](agent-orchestrator-ui)
 
@@ -72,11 +66,11 @@ AI アシスタントインターフェイスには、効果的なインタラ�
 
 1. **[!UICONTROL 会話]**: **[!UICONTROL 会話]** アイコンを選択して、新しい会話を開始し、履歴から最近の会話にアクセスします。 詳しくは、[会話](#conversations)の節を参照してください。
 2. **入力ボックス**：入力ボックスを選択して、AI アシスタントの質問とプロンプトを入力します。 詳しくは、[入力機能](#input-features)の節を参照してください。
-3. **データとオブジェクトのオートコンプリート**: - プラスアイコンを選択して、データとオブジェクトの提案とオートコンプリートを使用します。 このオプションを選択すると、ポップアップウィンドウを使用して、提案されたエンティティを選択できます。 詳しくは、[&#x200B; データとオブジェクトのオートコンプリート &#x200B;](#autocomplete)に関する節を参照してください。
-4. **コンテキスト設定**: - AI アシスタントの情報ソースを設定するには、コンテキスト設定アイコンを選択します。 このツールを使用して、AI アシスタントが参照するアプリケーション、サンドボックス、データビューを設定し、クエリに回答できます。 詳しくは、[&#x200B; コンテキスト設定](#context-setting)の節を参照してください。
-5. **Discovery**: - **[!UICONTROL Learn]**、**[!UICONTROL Analyze]**、**[!UICONTROL Optimize]**&#x200B;を選択して、開始に使用できるサンプルクエリを表示します。 詳しくは、[見つけやすさのプロンプト &#x200B;](#discoverability-prompts)に関する節を参照してください。
+3. **データとオブジェクトのオートコンプリート**: - プラスアイコンを選択して、データとオブジェクトの提案とオートコンプリートを使用します。 このオプションを選択すると、ポップアップウィンドウを使用して、提案されたエンティティを選択できます。 詳しくは、[ データとオブジェクトのオートコンプリート ](#autocomplete)に関する節を参照してください。
+4. **コンテキスト設定**: - AI アシスタントの情報ソースを設定するには、コンテキスト設定アイコンを選択します。 このツールを使用して、AI アシスタントが参照するアプリケーション、サンドボックス、データビューを設定し、クエリに回答できます。 詳しくは、[ コンテキスト設定](#context-setting)の節を参照してください。
+5. **Discovery**: - **[!UICONTROL Learn]**、**[!UICONTROL Analyze]**、**[!UICONTROL Optimize]**&#x200B;を選択して、開始に使用できるサンプルクエリを表示します。 詳しくは、[見つけやすさのプロンプト ](#discoverability-prompts)に関する節を参照してください。
 
-![&#x200B; フルスクリーンのAI アシスタント。](./assets/ai-assistant/ui-home.png)
+![ フルスクリーンのAI アシスタント。](./assets/ai-assistant/ui-home.png)
 
 ### レールビュー
 
@@ -87,10 +81,10 @@ AI アシスタントインターフェイスには、効果的なインタラ�
 1. **[!UICONTROL 新機能]**: **[!UICONTROL 新機能]**&#x200B;を選択すると、AI アシスタントで利用できる最新の更新情報のリストが表示されます。
 1. **[!UICONTROL 会話]**: **[!UICONTROL 会話]** アイコンを選択して、新しい会話を開始し、履歴から最近の会話にアクセスします。 詳しくは、[会話](#conversations)の節を参照してください。
 1. **全画面表示**: **[!UICONTROL 全画面表示]** アイコンを選択して、AI アシスタント インターフェイスを右側のパネルから全画面モードに変更します。
-1. **データとオブジェクトのオートコンプリート**: データとオブジェクトの提案とオートコンプリートを使用するには、プラスアイコンを選択します。 このオプションを選択すると、ポップアップウィンドウを使用して、提案されたエンティティを選択できます。 詳しくは、[&#x200B; データとオブジェクトのオートコンプリート &#x200B;](#autocomplete)に関する節を参照してください。
-1. **コンテキスト設定**: AI アシスタントの情報ソースを設定するには、コンテキスト設定アイコンを選択します。 このツールを使用して、AI アシスタントが参照するアプリケーション、サンドボックス、データビューを設定し、クエリに回答できます。 詳しくは、[&#x200B; コンテキスト設定](#context-setting)の節を参照してください。
+1. **データとオブジェクトのオートコンプリート**: データとオブジェクトの提案とオートコンプリートを使用するには、プラスアイコンを選択します。 このオプションを選択すると、ポップアップウィンドウを使用して、提案されたエンティティを選択できます。 詳しくは、[ データとオブジェクトのオートコンプリート ](#autocomplete)に関する節を参照してください。
+1. **コンテキスト設定**: AI アシスタントの情報ソースを設定するには、コンテキスト設定アイコンを選択します。 このツールを使用して、AI アシスタントが参照するアプリケーション、サンドボックス、データビューを設定し、クエリに回答できます。 詳しくは、[ コンテキスト設定](#context-setting)の節を参照してください。
 
-![&#x200B; パネル表示のAI アシスタント &#x200B;](./assets/ai-assistant/rail-mode.png)
+![ パネル表示のAI アシスタント ](./assets/ai-assistant/rail-mode.png)
 
 ## AI アシスタント UI ガイド
 
@@ -114,7 +108,7 @@ AI アシスタントの検出機能を使用すると、AI アシスタント�
 
 パネル表示から「**[!UICONTROL 検出]**」を選択すると、AI アシスタントを使用してチャットを開始し、入力するために使用できる検出プロンプトの広範なリストにアクセスできます。
 
-![&#x200B; パネル ビューの検出パネル。](./assets/ai-assistant/inputs/discover-rail.png)
+![ パネル ビューの検出パネル。](./assets/ai-assistant/inputs/discover-rail.png)
 
 >[!ENDTABS]
 
@@ -168,7 +162,7 @@ AI アシスタントの応答を確認するには、**[!UICONTROL ソース]**
 
 **[!UICONTROL 詳細なフィードバック]**&#x200B;を選択して、フィードバックをさらに詳しく説明することもできます。 終了したら、「**[!UICONTROL 送信]**」を選択します。
 
-![&#x200B; サムズアップの詳細フィードバックウィンドウ。](./assets/ai-assistant/inputs/thumbs-up-detailed.png)
+![ サムズアップの詳細フィードバックウィンドウ。](./assets/ai-assistant/inputs/thumbs-up-detailed.png)
 
 +++
 
@@ -182,7 +176,7 @@ AI アシスタントの応答を確認するには、**[!UICONTROL ソース]**
 
 同様に、**[!UICONTROL 詳細なフィードバック]**&#x200B;を選択して、フィードバックをさらに詳しく説明することもできます。 終了したら、「**[!UICONTROL 送信]**」を選択します。
 
-![&#x200B; サムズダウンの詳細フィードバックウィンドウ。](./assets/ai-assistant/inputs/thumbs-down-detailed.png)
+![ サムズダウンの詳細フィードバックウィンドウ。](./assets/ai-assistant/inputs/thumbs-down-detailed.png)
 
 +++
 
@@ -212,7 +206,7 @@ AI アシスタントの応答に画像が含まれる場合は、パスアイ�
 
 AI アシスタントのコンテキスト設定機能を使用して、AI アシスタントが参照する&#x200B;**アプリケーション**、**サンドボックス**&#x200B;および&#x200B;**データビュー**&#x200B;を設定し、クエリに回答します。 コンテキスト設定にアクセスするには、入力ボックスから「**[!UICONTROL コンテキスト設定]**」アイコンを選択します。
 
-![&#x200B; コンテキスト設定アイコンが選択されました。](./assets/ai-assistant/inputs/context-selection.png)
+![ コンテキスト設定アイコンが選択されました。](./assets/ai-assistant/inputs/context-selection.png)
 
 「*[!UICONTROL 回答者…]*」ポップアップウィンドウが表示されます。 このウィンドウを使用して、使用する情報ソースを設定し、**[!UICONTROL コンテキストを設定]**&#x200B;を選択します。
 
@@ -228,13 +222,13 @@ AI アシスタントのコンテキスト設定機能を使用して、AI ア�
 
 オートコンプリート関数を使用すると、サンドボックスに存在するデータオブジェクトのリストを受け取ることができます。 オートコンプリートを使用するには、クエリにプラスアイコン（+）を入力します。 別の方法として、テキスト入力ボックスの下部にあるプラスアイコン（+）を選択することもできます。 サンドボックスから推奨されるデータオブジェクトのリストが表示されます。
 
-![&#x200B; データとオブジェクトの自動補完ボタンが選択されました。](./assets/ai-assistant/autocomplete/autocomplete.png)
+![ データとオブジェクトの自動補完ボタンが選択されました。](./assets/ai-assistant/autocomplete/autocomplete.png)
 
 ### 応答を確認
 
 AI アシスタントからの回答を検証する方法は、いくつかあります。 「**[!UICONTROL オブジェクトに一致するクエリ用語]**」を選択すると、組織内の特定のオブジェクトに一致したクエリ内の用語の概要が表示されます。
 
-![&#x200B; クエリ用語が応答と一致しました。](./assets/ai-assistant/autocomplete/query-terms.png)
+![ クエリ用語が応答と一致しました。](./assets/ai-assistant/autocomplete/query-terms.png)
 
 「**[!UICONTROL 」を選択すると、AI アシスタントがどのように回答に到達したかを詳細にステップバイステップで説明できます（]**）。 さらに、質問に回答するために実行されたSQL クエリを表示することもできます。 このクエリは読み取り専用であり、クエリサービスでの使用はサポートされていません。
 
@@ -244,7 +238,7 @@ AI アシスタントからの回答を検証する方法は、いくつかあ�
 
 AI アシスタントのデータビジュアライゼーション機能を使用すれば、データをより深く理解できます。 また、クエリで使用するグラフのタイプを指定することもできます。 例えば、次のようなクエリを送信します。**「先月の製品名で利益を表示する（棒）」**。先月の利益の棒グラフを製品名で整理して受け取ります。
 
-![AI アシスタントに表示された棒グラフ &#x200B;](./assets/ai-assistant/visualization/graph.png)
+![AI アシスタントに表示された棒グラフ ](./assets/ai-assistant/visualization/graph.png)
 
 次に、**[!UICONTROL プロパティ]**&#x200B;を選択して、グラフの種類を変更し、X軸とY軸の値を設定します。
 
