@@ -5,34 +5,15 @@ solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0daf43247c80b5a2d3978515a45256bd03326c0c
 workflow-type: tm+mt
-source-wordcount: 3361
-ht-degree: 12%
+source-wordcount: 3372
+ht-degree: 11%
 
 ---
 
@@ -41,7 +22,7 @@ ht-degree: 12%
 
 >[!AVAILABILITY]
 >
->Journey Agentのクリエイティブスキルとコンテンツ生成スキルは、Agent Orchestrator Explorer プログラムの一部であるお客様が利用できます。 詳しくは、Adobe カスタマーケアにお問い合わせください。
+>Journey Agent create AI機能とコンテンツ生成AI機能は、Agent Orchestrator Explorer プログラムの一部であるお客様が利用できます。 詳しくは、Adobe カスタマーケアにお問い合わせください。
 
 ## Adobe Journey OptimizerでのJourney Agentの概要
 
@@ -53,13 +34,13 @@ Journey Agentは、次の4つの主要な作業で構成されています。
 - **チャネルコンテンツの作成**:AIを活用したコンテンツ生成を使用して、ジャーニー用のチャネル固有のコンテンツ（電子メール、プッシュ通知、SMS）を生成、編集、管理します
 - **ジャーニー分析**: ジャーニーを分析し、問題を検出し、インサイトを明らかにして、顧客エンゲージメントを最適化します
 
-さらに、**ジャーニーシミュレーション**&#x200B;は、[製品シミュレート &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)を含むJourney Optimizer機能です。これは、非会話型の製品内エージェント型スキルで、次の3つの機能を備えています。
+さらに、**ジャーニーシミュレーション**&#x200B;は、3つのサブ機能を備えた製品内の非会話型AI機能である[ジャーニーシミュレート ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)を含むJourney Optimizer機能です。
 
 - シミュレートされたユーザーの生成
 - イベント値の生成
 - クイックシミュレーション
 
-## ジャーニー作成：ユースケース、エージェンティックスキル、ユーザーガイド
+## ジャーニー制作：ユースケース、AI能力、ユーザーガイド
 
 ## 概要
 
@@ -111,7 +92,7 @@ Journey Agentは、次の4つの主要な作業で構成されています。
 
 これらのユースケースのそれぞれについて、エージェントは自然言語要件を構造化されたジャーニー設定に変換します。
 
-## スコープ内スキルとスコープ外スキル
+## AI機能の有効活用
 
 ### **スコープ内**
 
@@ -195,7 +176,7 @@ Journey Agentは、次の4つの主要な作業で構成されています。
 - **メッセージコンテンツを計画**: ジャーニーを作成する前に、メッセージ戦略を定義します。
 - **顧客体験を検討**：顧客の好みを尊重し、コミュニケーションの過剰を避けるジャーニーフローを設計します。
 
-## チャネルコンテンツの作成：ユースケース、エージェンティックスキル、ユーザーガイド
+## チャネルコンテンツの制作：ユースケース、AI機能、ユーザーガイド
 
 >[!AVAILABILITY]
 >
@@ -221,7 +202,7 @@ Channel Content Createを使用すると、Journey Optimizerユーザーは、AI
 
 1. **ジャーニーキャンバスとの統合**：在庫からジャーニーを選択し、関連するチャネルを表示します。
 
-## スコープ内スキルとスコープ外スキル
+## AI機能の有効活用
 
 ### **スコープ内**
 
@@ -277,13 +258,13 @@ Channel Content Createを使用すると、Journey Optimizerユーザーは、AI
 1. **トーンを定義**：目的のトーン（フレンドリー、フォーマル、カジュアル、緊急）を指定します。
 1. **反復して調整**：再生成アクションを使用して、要件を満たすまでコンテンツを調整します。
 
-## ジャーニー分析：ユースケース、Agentic Skills、ユーザーガイド
+## ジャーニー分析：ユースケース、AI機能、ユーザーガイド
 
 ## 概要
 
 Journey Agentなら、Journey Optimizerのユーザーは、自然言語のインターフェイスを使用してカスタマージャーニーを分析、最適化できます。 Journey Agentを使用することで、実務担当者はスケジュールやオーディエンスの競合を迅速に特定して解決し、ジャーニーにおける利用者の離脱ポイントを検出して、インサイトや推奨事項を提供することができます。 これにより、実務担当者はデータに基づいた意思決定を行い、顧客エンゲージメントを向上させ、ジャーニーオーケストレーションを効率化できるようになります。
 
-詳しくは、この[概要](https://experienceleague.adobe.com/ja/slides/journey-agent-overview)を参照してください。
+詳しくは、この[概要](https://experienceleague.adobe.com/en/slides/journey-agent-overview)を参照してください。
 
 >[!AVAILABILITY]
 >
@@ -297,7 +278,7 @@ Journey Agentなら、Journey Optimizerのユーザーは、自然言語のイ�
 >
 >**セグメントの管理**：権限を使用すると、AI アシスタントで新しいオーディエンスを直接作成できます。
 
-AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
+AJO Agent](./assets/ajo-agent/ajo-agent-sample.png)の![ サンプル
 
 ## ユースケース
 
@@ -329,7 +310,7 @@ AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 
 これらの各分析について、担当者は問題を検出するだけでなく、問題を解決するための&#x200B;**実用的な推奨事項**&#x200B;を提示します。
 
-## 範囲内のスキルと範囲外のスキル
+## AI機能のスコープ内およびスコープ外
 
 ### **範囲内**
 
@@ -425,13 +406,13 @@ AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 - **定期的に監視する**：ジャーニーのパフォーマンスを定期的にレビューし、トレンドや異常を特定します。
 - **セグメント化を最適化する**：オーディエンスのセグメント化が偏らないようにし、疲労を避けつつエンゲージメントを最大化します。
 
-## ジャーニーシミュレート：ユースケース、エージェンティックスキル、ユーザーガイド
+## ジャーニーシミュレート：ユースケース、AI機能、ユーザーガイド
 
 ## 概要
 
 >[!BEGINSHADEBOX]
 
-ジャーニーシミュレーションは、Journey Optimizerのすべてのユーザーが利用できます。 ジャーニーシミュレーション内の製品内エージェント型スキルであるジャーニーシミュレーションは、Agent Orchestrator エクスプローラープログラムの一部であるお客様が利用でき、次の権限のうち少なくとも1つを必要とします。
+ジャーニーシミュレーションは、Journey Optimizerのすべてのユーザーが利用できます。 ジャーニーシミュレーション内の製品内エージェンティック AI機能であるジャーニーシミュレーションは、Agent Orchestrator エクスプローラープログラムの一部であるお客様が利用でき、次の権限のうち少なくとも1つを必要とします。
 
 - **ジャーニーのシミュレーション**: ジャーニーキャンバスからシミュレーションワークフローを実行します。
 
@@ -439,13 +420,13 @@ AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 
 - **ジャーニーの承認と公開**：組織が承認ワークフローを使用する場合は、ジャーニーを承認して公開します。
 
-**[!UICONTROL シミュレーション]** （**[!UICONTROL クイックシミュレーション]**、AIを使用したシミュレートされたユーザーの生成、**[!UICONTROL イベント値の生成]**）でAIを使用するには、ユーザーは&#x200B;**[!UICONTROL AI アシスタント]**&#x200B;機能から&#x200B;**コンテンツを生成**&#x200B;する権限が必要です。
+**[!UICONTROL シミュレーション]** （**[!UICONTROL クイックシミュレーション]**、AIを使用したシミュレートされたユーザーの生成、**[!UICONTROL イベント値の生成]**）でAIを使用するには、ユーザーは&#x200B;**[!UICONTROL AI アシスタント]**&#x200B;機能から&#x200B;]**コンテンツを生成**[!UICONTROL &#x200B;する権限が必要です。
 
 [詳しくは、権限を参照してください](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions)。
 
 >[!ENDSHADEBOX]
 
-ジャーニーシミュレーションは、Journey Optimizerユーザーがアクティベーション前にマーケティングジャーニーを安全にテストおよび検証できるようにするJourney Optimizer機能です。 ジャーニーシミュレーション内では、ジャーニーシミュレートは、ジャーニーキャンバスから直接テストプロセスを自動化および支援する、会話型ではなく製品内のエージェント型スキルです。
+ジャーニーシミュレーションは、Journey Optimizerユーザーがアクティベーション前にマーケティングジャーニーを安全にテストおよび検証できるようにするJourney Optimizer機能です。 ジャーニーシミュレーションの中で、ジャーニーシミュレートは、ジャーニーキャンバスから直接テストプロセスを自動化および支援する、会話型ではなく製品内のエージェント型AI機能です。
 
 ジャーニーシミュレートには、次の3つの機能が含まれます。
 
@@ -480,7 +461,7 @@ AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 - 詳細なノードごとのトラバーサルを使用して、どのパスを通ってどのシミュレーションユーザーフローを実行するか、その理由を特定します。
 - Journey Optimizer UIでの実行終了時にシミュレーションレポートを確認して、アクティベーション前に結果を検証します。
 
-## 範囲のスキルと制限
+## AIの能力と限界について説明します
 
 ### **スコープ内**
 
@@ -493,14 +474,14 @@ AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 - **シミュレーション レポート**: Journey Optimizer UIでシミュレーション実行の最後にレポートを表示します。
 - **マルチユーザーテスト**：すべてのジャーニー分岐をカバーする、複数のシミュレートされたユーザーに対するテストを同時に実行して視覚化します。
 
-さらに、ジャーニーシミュレーションスキルでは、次の機能がサポートされています。
+さらに、ジャーニーのSimulate AI機能では、次の機能がサポートされています。
 
 - **シミュレートされたユーザー生成**: ジャーニーパス、既存のテストプロファイル、または指定された属性に基づいて、シミュレートされたユーザーを作成します。
 - **イベント値生成**：特定のジャーニーパスを通じてテスト実行を促進するために、イベント属性値を生成して割り当てます。
-- **クイックシミュレーション**：最小限の介入で、完全なエンドツーエンドのシミュレーションを実行します。 このスキルは、シミュレートされたユーザー、イベント値、事前入力されたテスト設定を自動的に生成し、ジャーニーを実行して結果をレビュー用に表示します。
+- **クイックシミュレーション**：最小限の介入で、完全なエンドツーエンドのシミュレーションを実行します。 このAI機能は、シミュレートされたユーザー、イベント値、事前入力されたテスト設定を自動的に生成し、ジャーニーを実行して結果をレビュー用に表示します。
 
 ### **制限事項**
 
 シミュレーションは、テストモードまたはライブジャーニーがサポートするあらゆるアクティビティ、チャネル、または統合をサポートしているわけではなく、機能の成熟度に応じて動作が変化する場合があります。
 
-➡️ [&#x200B; シミュレーションの制限](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)について詳しくは、Journey Optimizer ドキュメントを参照してください。
+➡️ [ シミュレーションの制限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)について詳しくは、Journey Optimizer ドキュメントを参照してください。
