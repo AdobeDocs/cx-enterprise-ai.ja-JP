@@ -12,10 +12,10 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: cdf395ef366771780ee549385fa5ed6aaa6bd873
+source-git-commit: 4e10361b7df9786bd027e94d4be4a9dff2964f8a
 workflow-type: tm+mt
 source-wordcount: 1194
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -52,14 +52,14 @@ AI エージェントは&#x200B;_あなたの_&#x200B;入力と監視に従い�
 
 | エージェント名 | 機能 | サポートされているアプリケーション | ヘルスデータ / HIPAA対応 |
 |---|----------|----------|----------|
-| [Audience Agent](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | 自然言語のプロンプトを使用して、オーディエンスを管理、最適化することで、より使いやすさ、効率、市場投入までの時間を短縮できます。 | <ul><li>Real-Time CDP（B2B、B2C、B2P エディション）</li><li>Adobe Journey Optimizer（B2BおよびB2C エディション）</li></ul> | |
+| [Audience Agent](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/agents/audience) | 自然言語のプロンプトを使用して、オーディエンスを管理、最適化することで、より使いやすさ、効率、市場投入までの時間を短縮できます。 | <ul><li>Real-Time CDP（B2B、B2C、B2P エディション）</li><li>Adobe Journey Optimizer（B2BおよびB2C エディション）</li></ul> | |
 | [コンテンツアドバイザーエージェント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agents/content-advisor/overview) | <ul><li>自然言語を使用して、企業全体で最も関連性の高いコンテンツをすばやく見つけることができ、検索時間を短縮し、より迅速な意思決定と実行を可能にします。</li><li>自然言語プロンプトを使用して、ソースアセットからビジュアルコンテンツのバリエーションを容易に作成できます。</li></ul> | <ul><li>Adobe Experience Manager Assets</li></ul><ul><li>Dynamic Media （クラウドサービス）</li></ul> | |
 | [Data Insights Agent](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | データに関する疑問にすばやく回答します。 データビューのコンポーネントと実際のデータを使用して、Analysis Workspace で関連するビジュアライゼーションを作成します。 | <ul><li>Customer Journey Analytics（B2BおよびB2C エディション）</li></ul> | ○ |
 | [Brand Experience Agent](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/overview) | <ul><li>既存のサイトを自動的に再構築、強化、検証することで、デジタルエクスペリエンスの移行と近代化を加速させ、リスクや手作業を削減しながら、AIを利用したモダンなエクスペリエンスにすばやく移行できます。</li><li>膨大なエクスペリエンスの構築と更新をおこない、手作業やサイクルタイムを大幅に削減することで、品質や一貫性を犠牲にすることなく迅速に作業を進めることができます。</li><li>フォーム体験を自動的に生成、構造化、検証することで、ブランドに即した最適化されたフォームの作成を高速化し、手作業を最小限に抑えながら迅速にローンチし、より高品質なデータを収集できるようにします。</li><li>AEM CSの開発者と技術管理者が、Cloud Manager パイプラインでビルドステップのエラーをトラブルシューティングするために、根本原因を分析し、修正を提案します。</li></ul> | <ul><li>Adobe Experience Manager Sites Cloud Services （エクスペリエンスの近代化）</li></ul><ul><li>Adobe Experience Manager Sites （Experience Production）</li></ul><ul><li>Adobe Experience Manager Forms（フォーム作成）</li></ul><ul><li>すべてのクラウドベースのAdobe Experience Manager アプリケーション（開発サポート）</li></ul> | |
 | [&#x200B; ブランドガバナンスエージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/overview) | リアルタイムガバナンスでDRMをサポートする自動化されたブランドポリシーのチェック、権限、インテリジェンスにより、ブランドの整合性とコンプライアンスを保護します。 | <ul><li>Adobe Experience Manager Assets</li><li>Adobe Experience Manager Sites（ブランドポリシー）</li></ul> | |
-| [Journey Agent](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent) | マルチタッチのカスタマージャーニーを迅速に分析し、大規模に最適化できるようになります。 | <ul><li>Adobe Journey Optimizer（B2BおよびB2C エディション）</li></ul> | |
-| [製品サポートエージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/product-support) | ワークフローを離れることなく、サポートの問題をトラブルシューティングし、カスタマーサポートチケットを作成し、AI アシスタントを使用してケースの進捗を追跡します。 | <ul><li>Real-Time CDP（B2B、B2C、B2P エディション）</li><li>Adobe Journey Optimizer（B2BおよびB2C エディション）</li><li>Customer Journey Analytics（B2BおよびB2C エディション）</li><li>Adobe Experience Manager</li></ul> | |
-| [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms) | Experience PlatformをMicrosoft 365 Copilotに直接接続します。 Teams、Word、Powerpoint、ExcelなどのMicrosoft 365 アプリケーション内で、自然言語による質問をすることで、ワークフローを中断することなく、Experience Platformからマーケティングインサイトをすばやく取得できます。 | <ul><li> Adobe Agent Orchestrator （Audience Agent、Journey Agent、Customer Journey Analytics Data Insights、Experience Platform Operational Insightsをサポート）</li></ul> | |
+| [Journey Agent](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent) | マルチタッチのカスタマージャーニーを迅速に分析し、大規模に最適化できるようになります。 | <ul><li>Adobe Journey Optimizer（B2BおよびB2C エディション）</li></ul> | |
+| [製品サポートエージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/agents/product-support) | ワークフローを離れることなく、サポートの問題をトラブルシューティングし、カスタマーサポートチケットを作成し、AI アシスタントを使用してケースの進捗を追跡します。 | <ul><li>Real-Time CDP（B2B、B2C、B2P エディション）</li><li>Adobe Journey Optimizer（B2BおよびB2C エディション）</li><li>Customer Journey Analytics（B2BおよびB2C エディション）</li><li>Adobe Experience Manager</li></ul> | |
+| [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms) | Experience PlatformをMicrosoft 365 Copilotに直接接続します。 Teams、Word、Powerpoint、ExcelなどのMicrosoft 365 アプリケーション内で、自然言語による質問をすることで、ワークフローを中断することなく、Experience Platformからマーケティングインサイトをすばやく取得できます。 | <ul><li> Adobe Agent Orchestrator （Audience Agent、Journey Agent、Customer Journey Analytics Data Insights、Experience Platform Operational Insightsをサポート）</li></ul> | |
 
 ## AI ファーストの顧客体験向けエンタープライズアプリケーション {#ai-first-apps}
 
