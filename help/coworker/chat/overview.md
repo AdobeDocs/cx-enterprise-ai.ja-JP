@@ -1,13 +1,11 @@
 ---
 description: Adobe Workfrontの対話型インターフェイスを利用して、Adobe Adobeと連携したシステムをまたいで、数分で顧客体験の作業を計画、実行、完了できる方法をご確認ください。
 title: Adobe CX エンタープライズチャットの概要
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 5c430cb5e63575da34a51f39fe871988e4c873d0
 workflow-type: tm+mt
-source-wordcount: 741
+source-wordcount: 739
 ht-degree: 0%
 
 ---
@@ -50,8 +48,9 @@ AI アシスタントとAdobe Experience Platform Agent Orchestratorをすでに
 * Real-Time CDP B2C Edition
 * Adobe Journey Optimizer B2C Edition
 * Customer Journey Analytics B2C edition
-* _AEM（近日リリース予定）_
-* _Workfront（近日リリース予定）_
+* AEM
+* Workfront
+* Marketo Engage
 * _Real-Time CDP B2B edition（近日リリース予定）_
 * _Adobe Journey Optimizer B2B edition（近日リリース予定）_
 * _Customer Journey Analytics B2B edition（近日リリース予定）_
@@ -68,4 +67,4 @@ Coworker ChatはCoworkerのビルディングブロックを活用していま�
 
 ## ビデオの概要
 
->[!VIDEO](https://video.tv.adobe.com/v/3495968?captions=jpn&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
