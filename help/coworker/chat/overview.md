@@ -1,11 +1,9 @@
 ---
 description: Adobe Workfrontの対話型インターフェイスを利用して、Adobe Adobeと連携したシステムをまたいで、数分で顧客体験の作業を計画、実行、完了できる方法をご確認ください。
 title: Adobe CX エンタープライズチャットの概要
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: b7fb10d084209e0a34023d09f568bcbfaa314705
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 741
 ht-degree: 1%
@@ -70,4 +68,4 @@ Coworker ChatはCoworkerのビルディングブロックを活用していま�
 
 ## ビデオの概要
 
->[!VIDEO](https://video.tv.adobe.com/v/3495968?captions=jpn&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}

@@ -8,11 +8,9 @@ doc-type: Feature Video
 duration: 186
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22082
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 106
 ht-degree: 0%
@@ -26,4 +24,4 @@ ht-degree: 0%
  
 アナリストやマーケターは、自然言語を使うことで、データに関する質問、視覚化された結果の取得、有意義なトレンドの特定、パフォーマンスを促進する要因の発見などを、すべて1回の会話で行うことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496852/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)
