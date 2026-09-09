@@ -5,10 +5,10 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+source-git-commit: b7fb10d084209e0a34023d09f568bcbfaa314705
 workflow-type: tm+mt
 source-wordcount: 741
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -50,8 +50,10 @@ AI アシスタントとAdobe Experience Platform Agent Orchestratorをすでに
 * Real-Time CDP B2C Edition
 * Adobe Journey Optimizer B2C Edition
 * Customer Journey Analytics B2C edition
-* _AEM（近日リリース予定）_
-* _Workfront（近日リリース予定）_
+* Adobe Target
+* AEM
+* Workfront
+* Marketo Engage
 * _Real-Time CDP B2B edition（近日リリース予定）_
 * _Adobe Journey Optimizer B2B edition（近日リリース予定）_
 * _Customer Journey Analytics B2B edition（近日リリース予定）_

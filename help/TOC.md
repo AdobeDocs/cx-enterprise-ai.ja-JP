@@ -6,9 +6,9 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
+source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '311'
 ht-degree: 19%
 
 ---
@@ -74,6 +74,7 @@ ht-degree: 19%
     - スキル {#skills}
       - [スキルとは？](./coworker/customizations/skills/what-are-skills.md)
       - [最初のスキルを作成](./coworker/customizations/skills/create-your-first-skill.md)
+      - [高品質なゲートスキルの構築と実行](./coworker/customizations/skills/run-a-quality-gate-skill.md)
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
