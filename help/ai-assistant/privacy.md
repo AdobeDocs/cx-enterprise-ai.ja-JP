@@ -14,7 +14,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 239
 ht-degree: 3%
@@ -30,7 +30,7 @@ ADOBE EXPERIENCE PLATFORMのAI アシスタントは、プライバシー、セ�
 * 現在、AI アシスタントはトレーニング目的でも個人データを使用していません。
 * AI アシスタントは消費者データを認識していません。
 * 既存のすべての[&#x200B; アクセス制御](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home) ポリシーは、AI アシスタントによって尊重されます。
-   * 新しい属性ベースのアクセス制御ポリシーは、最大24時間後にAI アシスタントに反映されます（&amp;A）。
+  * 新しい属性ベースのアクセス制御ポリシーは、最大24時間後にAI アシスタントに反映されます（&amp;A）。
 * AI アシスタントは、Adobe Experience Platform Healthcare Shieldと組み合わせて使用すると、HIPAA対応の機能になります。
 * 30日間のリテンションポリシーにより、AI アシスタントとのやり取りの履歴を確認できます。
 * Ai アシスタントは、ユーザープロンプトへの回答において、サンドボックス固有のデータとAdobeの公開ドキュメントをもとにしています。 データはサンドボックス間で共有されません。

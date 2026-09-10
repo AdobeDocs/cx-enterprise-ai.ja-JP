@@ -12,10 +12,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 1433
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -78,7 +78,7 @@ Coworker Chatに移行していないお客様：
 
 Workfront、Agent Orchestrator、AI アシスタントの詳細については、次のガイドを参照してください。
 
-- [同僚](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Agent Orchestratorの概要](agent-orchestrator.md)
 - [AI アシスタント UI ガイド](../ai-assistant/ai-assistant-ui.md)
 - [AI アシスタントプロンプトライブラリ](../ai-assistant/prompt-library.md)

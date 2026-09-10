@@ -1,6 +1,6 @@
 ---
 title: CX Enterprise アプリケーションの AI
-description: CX エンタープライズアプリケーションで生成AI （GenAI）、AI アシスタント、エージェンティック AI、CX エンタープライズパートナー、MCP ツールをどのように使用するかをご確認ください。
+description: CX エンタープライズアプリケーションで生成AI （GenAI）、CX Enterprise Workfront、AI アシスタント、Agentic AI、MCP ツールをどのように使用するかをご確認ください。
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,16 +15,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7668505ba139898a4747e049290e5eaf1e29b9f8
+source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
 workflow-type: tm+mt
-source-wordcount: 969
+source-wordcount: 971
 ht-degree: 3%
 
 ---
 
 # CX Enterprise の AI
 
-このガイドでは、Adobe CX EnterpriseのAI機能（生成AI、AI アシスタント、Agent Orchestrator、Experience Platform Agents、CX Enterprise Workfront、MCP）について説明します。
+このガイドでは、Adobe CX EnterpriseのAI機能（生成AI、CX Enterprise Coworker、AI アシスタント、Agent Orchestrator、Experience Platform Agents、MCP）について説明します。
 
 ## AI機能の概要
 
@@ -36,6 +36,20 @@ CX Enterpriseのどこで、どのようにAIが使用されているかにつ�
 - [AI クレジットの消費](./overview/ai-credit-consumption.md)は、エージェント ジョブがAI クレジットを消費する方法を、エージェントとジョブのタイプ別の推定消費率で説明します。
 - [生成AI コンテンツの透明性](./content-transparency.md)は、Adobeが自動的にC2PA メタデータを生成および生成AI編集コンテンツに添付する方法を、CX エンタープライズアプリケーション全体で説明します。
 - [CX エンタープライズ エージェント ツール &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)では、CX エンタープライズ エージェントを拡張する追加のエージェント スキルとツールについて説明します（ビデオ チュートリアル）。
+
+## CX Enterprise Coworker
+
+Coworkerは、顧客体験とマーケティングのワークフローを自動化するAI アシスタントの進化であり、日常的な実行ではなくビジネス目標に集中することができます。 一度にひとつの質問をする代わりに、目標を記述します。 チームメンバーは、完成した作業を計画、実行、検証し、承認のために返します。 チームメンバーは次の通りです。
+
+- **[同僚チャット &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: データを探索し、オーディエンスとジャーニーを検証し、CX エンタープライズ アプリケーション全体でマルチステップのタスクを完了するための会話型インターフェイスです。
+- **[同僚キャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。 組み込みのテンプレート、ベストプラクティス、プロンプトガイダンスを利用して、小規模なアジャイルチームが施策を迅速に立ち上げるのを支援します。
+- **同僚プロジェクト** （近日リリース予定）: エンドツーエンドの顧客体験オーケストレーションワークフローを自動化し、チームがタスク、承認、実行を調整して、戦略から納品までの成果を促進するための統合ワークスペースです。 プロジェクトのドキュメントは近日公開予定です。
+
+適格な顧客は、AI アシスタントやExperience Platform AgentsからCoworker Chatへ徐々に移行しています。 [同僚の体験版](./agents/trial.md)を読んで、体験版の利用条件、AI クレジットの使用状況、アクセス方法について確認してください。
+
+Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)や[Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)などの実際のユースケースを読んでください。
+
+共同作業者チャット、キャンペーン、プロジェクトに関する完全な製品ドキュメントについては、[共同作業者](./coworker/overview.md)を参照してください。 サンドボックス間のオブジェクトレプリケーションについては、[Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)を参照してください。
 
 ## AI アシスタント
 
@@ -60,20 +74,6 @@ CX Enterpriseのどこで、どのようにAIが使用されているかにつ�
 - [データの検証](./agents/data-validation.md)
 
 エージェントの完全なリスト、各アプリケーションがサポートするアプリケーション、および適格要件については、「[Agentic AI in CX Enterprise](./overview/agentic-ai.md)」を参照してください。
-
-## Coworker
-
-Coworkerは、顧客体験とマーケティングのワークフローを自動化するAI アシスタントの進化であり、日常的な実行ではなくビジネス目標に集中することができます。 一度にひとつの質問をする代わりに、目標を記述します。 チームメンバーは、完成した作業を計画、実行、検証し、承認のために返します。 チームメンバーは次の通りです。
-
-- **[同僚チャット &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: データを探索し、オーディエンスとジャーニーを検証し、CX エンタープライズ アプリケーション全体でマルチステップのタスクを完了するための会話型インターフェイスです。
-- **[同僚キャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。 組み込みのテンプレート、ベストプラクティス、プロンプトガイダンスを利用して、小規模なアジャイルチームが施策を迅速に立ち上げるのを支援します。
-- **同僚プロジェクト** （近日リリース予定）: エンドツーエンドの顧客体験オーケストレーションワークフローを自動化し、チームがタスク、承認、実行を調整して、戦略から納品までの成果を促進するための統合ワークスペースです。 プロジェクトのドキュメントは近日公開予定です。
-
-適格な顧客は、AI アシスタントやExperience Platform AgentsからCoworker Chatへ徐々に移行しています。 [同僚の体験版](./agents/trial.md)を読んで、体験版の利用条件、AI クレジットの使用状況、アクセス方法について確認してください。
-
-Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)や[Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)などの実際のユースケースを読んでください。
-
-共同作業者チャット、キャンペーン、プロジェクトに関する完全な製品ドキュメントについては、[共同作業者](./coworker/overview.md)を参照してください。 サンドボックス間のオブジェクトレプリケーションについては、[Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)を参照してください。
 
 ## MCP
 
