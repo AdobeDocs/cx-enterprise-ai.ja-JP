@@ -6,9 +6,9 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: f06ee8c16052091f661f16e291767a38ac7edee9
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '317'
 ht-degree: 19%
 
 ---
@@ -57,6 +57,8 @@ ht-degree: 19%
       - ジャーニー {#journeys}
         - [自然言語を使用したジャーニーの作成](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [ロイヤルティに関する課題を作成し、インサイトを獲得](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
+      - 最適化 {#optimization}
+        - [Target アクティビティの起動](./coworker/chat/use-cases/optimization/target.md)
       - サンドボックスツール {#sandbox-tooling}
         - [エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
       - アラート {#alerts}
