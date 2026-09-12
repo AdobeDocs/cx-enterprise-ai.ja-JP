@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
 workflow-type: tm+mt
-source-wordcount: 971
+source-wordcount: 988
 ht-degree: 3%
 
 ---
@@ -85,6 +85,7 @@ Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./c
 - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
 - [Adobe Analytics tools](./mcp/analytics-mcp.md)
 - [Workfront MCP サーバーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)に記載されている[!DNL Workfront] ツール
+- [Target MCP サーバーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp)に記載されている[!DNL Target]個のツール
 
 CX Coworker Gatewayを初めて利用する場合 接続するには、[CX Coworker Gateway tools](./mcp/access.md)および[CX Coworker Gateway](./mcp/install.md)のインストールを参照してください。 接続したら、[&#x200B; セッションコンテキストツール &#x200B;](./mcp/context-tools.md)を使用して、製品ツールを呼び出す前に、アクティブな組織、サンドボックス、データビューを設定します。
 
