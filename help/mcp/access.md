@@ -1,10 +1,10 @@
 ---
 title: CX Coworker Gateway Toolsへのアクセス
 description: Adobe CX Coworker Gateway ツールを使用する前に、製品の可用性、組織のイネーブルメント、権限を確認します。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 3%
+source-wordcount: '583'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,9 @@ Adobe CX Enterpriseは、単一のMCPを通じて商品ツールを公開しま�
 | Journey Optimizer | ベータ版 | アクティブなJourney Optimizerライセンス、Adobe組織のBetaイネーブルメント、キャンペーンとチャネル設定を表示する権限。 |
 | Customer Journey Analytics | 使用可能 | アクティブなCustomer Journey Analytics ライセンスと、Adobe Admin Consoleの&#x200B;**MCP アクセス**&#x200B;権限項目を含む製品プロファイル。 製品権限は、アクセスまたは変更できるデータビュー、コンポーネント、レポート、プロジェクト、オーディエンスを引き続き管理します。 |
 | Adobe Analytics | 使用可能 | アクティブなAdobe Analytics ライセンスと、Adobe Admin Consoleの&#x200B;**MCP アクセス**&#x200B;権限項目を含む製品プロファイル。 製品権限は、アクセスまたは変更できるレポートスイート、コンポーネント、レポート、セグメント、日付範囲、プロジェクトを引き続き管理します。 |
-| Workfront | プレビュー | アクティブなWorkfront ライセンスとWorkfront MCPの有効化。 [Workfront MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)を参照してください。 |
+| Workfront | プレビュー | アクティブなWorkfront ライセンスとWorkfront MCPの有効化。 [Workfront MCP ドキュメント ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)を参照してください。 |
+| ターゲット | ベータ版 | Adobe Experience Platform組織でのActive Target ライセンス。 [Target MCP ドキュメント ](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp-get-started)を参照してください。 |
+
 
 
 >[!NOTE]
