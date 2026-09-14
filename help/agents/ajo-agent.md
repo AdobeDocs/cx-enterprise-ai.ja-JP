@@ -7,41 +7,54 @@ role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+    internal-label: Journey design
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+    internal-label: Audiences
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0daf43247c80b5a2d3978515a45256bd03326c0c
+    internal-label: Audience segmentation
+source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
 workflow-type: tm+mt
-source-wordcount: 3372
-ht-degree: 11%
-
+source-wordcount: '3820'
+ht-degree: 10%
 ---
 
-
 # Journey Agent：概要とユーザーガイド
-
->[!AVAILABILITY]
->
->Journey Agent create AI機能とコンテンツ生成AI機能は、Agent Orchestrator Explorer プログラムの一部であるお客様が利用できます。 詳しくは、Adobe カスタマーケアにお問い合わせください。
 
 ## Adobe Journey OptimizerでのJourney Agentの概要
 
@@ -53,21 +66,23 @@ Journey Agentは、次の4つの主要な作業で構成されています。
 - **チャネルコンテンツの作成**:AIを活用したコンテンツ生成を使用して、ジャーニー用のチャネル固有のコンテンツ（電子メール、プッシュ通知、SMS）を生成、編集、管理します
 - **ジャーニー分析**: ジャーニーを分析し、問題を検出し、インサイトを明らかにして、顧客エンゲージメントを最適化します
 
-さらに、**ジャーニーシミュレーション**&#x200B;は、3つのサブ機能を備えた製品内の非会話型AI機能である[ジャーニーシミュレート &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)を含むJourney Optimizer機能です。
+さらに、**ジャーニーシミュレーション**&#x200B;は、3つのサブ機能を備えた製品内の非会話型AI機能である[ジャーニーシミュレート &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}を含むJourney Optimizer機能です。
 
 - シミュレートされたユーザーの生成
 - イベント値の生成
 - クイックシミュレーション
 
-## ジャーニー制作：ユースケース、AI能力、ユーザーガイド
+## ジャーニー制作：ユースケース、AI能力、ユーザーガイド {#journey-create}
 
 ## 概要
 
 ジャーニー制作Journey Optimizerでは、自然言語のインターフェイスを利用してマーケティングジャーニーを構築および設定できます。 ジャーニー制作ツールを利用すれば、実務担当者は、会話プロンプトで要件を説明することで、ジャーニーをすばやく構築できます。 エージェントにより、ジャーニーの作成が効率化され、マーケターは技術的な設定ではなく戦略に焦点を当てることができます。
 
+詳しくは、Adobe Journey Optimizer ドキュメントの[ジャーニー作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"}を参照してください。
+
 >[!AVAILABILITY]
 >
->ジャーニー作成は、Agent Orchestrator エクスプローラープログラムの一部であるお客様が利用できます。 ジャーニー作成機能を完全に使用するには、次の権限も必要です。
+>ジャーニー作成機能を完全に使用するには、次の権限が必要です。
 >
 >**ジャーニーの管理**：この権限を持つユーザーは、AI アシスタントで新しいジャーニーを直接作成できます。
 >
@@ -109,6 +124,11 @@ Journey Agentは、次の4つの主要な作業で構成されています。
    - 顧客属性にもとづいて決定分岐を作成します。
    - 顧客のプリファレンスに合わせた分割パスをデザイン。
 
+1. **画像からジャーニーを作成**
+
+   - 参照画像をアップロードし、その画像を参照として使用してジャーニーを作成するようにエージェントに依頼します。
+   - エージェントは、参照画像から編集可能なプロンプトを抽出します。
+
 これらのユースケースのそれぞれについて、エージェントは自然言語要件を構造化されたジャーニー設定に変換します。
 
 ## AI機能の有効活用
@@ -128,9 +148,14 @@ Journey Agentは、次の4つの主要な作業で構成されています。
 次の機能は、現在サポートされていません。
 
 - **高度なジャーニー分析**
-- **リアルタイムのジャーニー変更**
 - **クロスジャーニーオーケストレーション**
 - **A/B テスト設定**
+- **InAudience式の生成**
+- **データセット検索ノード**
+- **Wave送信設定**
+- **繰り返しオプションのスケジュール**
+- **オーディエンスの名前空間の選択**
+- **カスタムアクションフィールドマッピング**
 - **複雑なデータ変換**
 
 ## サンプルプロンプト
@@ -195,7 +220,7 @@ Journey Agentは、次の4つの主要な作業で構成されています。
 - **メッセージコンテンツを計画**: ジャーニーを作成する前に、メッセージ戦略を定義します。
 - **顧客体験を検討**：顧客の好みを尊重し、コミュニケーションの過剰を避けるジャーニーフローを設計します。
 
-## チャネルコンテンツの制作：ユースケース、AI機能、ユーザーガイド
+## チャネルコンテンツの制作：ユースケース、AI機能、ユーザーガイド {#channel-content-create}
 
 >[!AVAILABILITY]
 >
@@ -204,6 +229,8 @@ Journey Agentは、次の4つの主要な作業で構成されています。
 ## 概要
 
 Channel Content Createを使用すると、Journey Optimizerユーザーは、AIを活用したコンテンツ生成を使用して、ジャーニーのチャネル固有のコンテンツを生成、編集、管理できます。
+
+詳しくは、Adobe Journey Optimizer ドキュメントの[Channel Content Create](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"}を参照してください。
 
 ## ユースケース
 
@@ -277,13 +304,15 @@ Channel Content Createを使用すると、Journey Optimizerユーザーは、AI
 1. **トーンを定義**：目的のトーン（フレンドリー、フォーマル、カジュアル、緊急）を指定します。
 1. **反復して調整**：再生成アクションを使用して、要件を満たすまでコンテンツを調整します。
 
-## ジャーニー分析：ユースケース、AI機能、ユーザーガイド
+## ジャーニー分析：ユースケース、AI機能、ユーザーガイド {#journey-analyze}
 
 ## 概要
 
-Journey Agentなら、Journey Optimizerのユーザーは、自然言語のインターフェイスを使用してカスタマージャーニーを分析、最適化できます。 Journey Agentを使用することで、実務担当者はスケジュールやオーディエンスの競合を迅速に特定して解決し、ジャーニーにおける利用者の離脱ポイントを検出して、インサイトや推奨事項を提供することができます。 これにより、実務担当者はデータに基づいた意思決定を行い、顧客エンゲージメントを向上させ、ジャーニーオーケストレーションを効率化できるようになります。
+ジャーニー分析では、Journey Optimizerのユーザーは、自然言語のインターフェイスを使用してジャーニーを分析および最適化できます。 実務担当者は、ジャーニー分析を利用することで、スケジュールやオーディエンスの競合を迅速に特定して解決し、ジャーニーにおける利用者の離脱ポイントを検出して、インサイトや推奨事項を明らかにしてパフォーマンスを向上させることができます。
 
 詳しくは、この[概要](https://experienceleague.adobe.com/ja/slides/journey-agent-overview)を参照してください。
+
+詳しくは、Adobe Journey Optimizer ドキュメントの[ジャーニー分析](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"}を参照してください。
 
 >[!AVAILABILITY]
 >
@@ -327,6 +356,19 @@ AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 
    - プロンプトベースのジャーニーインサイト：ジャーニーに関する運用上のインサイトを表示します（例：「すべてのライブジャーニーを表示」）。
 
+1. **ジャーニーカスタムアクションエラー分析**
+
+   - カスタムアクションが失敗しているか、ジャーニー内でエラー率が急増しているかを特定できます。
+   - 障害がより広範なジャーニーの中断につながる前に、根本原因を診断します。
+   - 特定の修復ステップを使用して、カスタムアクションの信頼性を迅速に復元します。
+
+1. **ジャーニーの異常値を分析**
+
+   - 過去のベースラインと比較して、ジャーニーの入口、出口、メッセージの送信数における予期しない急増、急減、フラットラインを検出します。これには、ジャーニーに入り、出口、完了するプロファイル数に関する質問のフレーズが含まれます。
+   - フラグ付きの変更が、未加工の異常値フラグだけに頼るのではなく、決定論的な統計チェックを使用して、真の異常値かどうかを確認します。
+   - ジャーニー実行データに対して読み取り専用の境界付き診断を実行し、可能性の高い根本原因を特定します。これにより、レコメンデーションとともに各チェックで確認された内容を明らかにします。
+   - 特定のジャーニーのバージョンとタイムスタンプを参照する異常値アラートを検出します。
+
 これらの各分析について、担当者は問題を検出するだけでなく、問題を解決するための&#x200B;**実用的な推奨事項**&#x200B;を提示します。
 
 ## AI機能のスコープ内およびスコープ外
@@ -338,13 +380,14 @@ AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 - **クエリの再アクティブ化**：ユーザーがジャーニーのパフォーマンス、オーディエンスの使用状況、スケジュールの競合について具体的な質問を行えるようにします。
 - **他のエージェントとの統合**：Audience エージェントや Data Insights エージェントと連携して、より深い分析を行います。
 - **エージェントの応答構造化**：推論（ロジックの説明）、分析の概要（キーポイントのハイライト）、問題の詳細（問題の説明）、推奨事項（次の手順を提案）。
+- **カスタムアクションエラー分析**: ジャーニー内のカスタムアクションエラーとエラースパイクを検出して診断します。
+- **異常値検出**: ジャーニーのエントリ、終了、送信数の統計的に有意なスパイク、ドロップ、またはフラットラインを検出して確認し、可能性の高い根本原因を明らかにします。
 
 ### **範囲外**
 
 次の機能は、現在サポートされていません。
 
 - **ジャーニーの自動作成**
-- **リアルタイムの異常値検出**
 - **チャネルの重複**
 - **ジャーニーエントリ分析**
 - **技術的問題の分析**
@@ -409,6 +452,22 @@ AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 - 「ジャーニー[ジャーニー名]の競合リスクを分析します。」
 - 「[ジャーニー名]の競合診断を提供します。」
 
+### カスタムアクションエラー分析
+
+- 「ジャーニー[ジャーニー名]でカスタムアクションが失敗するのはなぜですか？」
+- 「ジャーニー[ジャーニー名]のカスタムアクション [ カスタムアクション名]のエラー率は？」
+- 「ジャーニー[ジャーニー名]のカスタムアクションエラーの根本原因を表示します。」
+- 「現在、ジャーニー[ジャーニー名]に影響を与えるカスタムアクションエラーはありますか？」
+
+### ジャーニー異常値分析
+
+- 「昨日のウェルカムジャーニーのエントリが低下した理由は何ですか？」
+- 「今週のカート放棄ジャーニーで、出口が急増しましたか？」
+- 「今日の更新リマインダーのジャーニーの送信は少なくなります。何が起こったのでしょうか？」
+- 「過去30日間で、メンバー記念日のサンキュージャーニーに入るプロファイルの数が突然減少したのはなぜですか？」
+- 「通常よりも少ないプロファイルが今月、更新リマインダーのジャーニーを完了しています。なぜですか？」
+- 「ジャーニー[ジャーニーバージョン ID]の異常値アラートが[ タイムスタンプ ]でトリガーされました。調査してください。」
+
 ## ベストプラクティス
 
 ### プロンプト作成のベストプラクティス
@@ -425,7 +484,7 @@ AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 - **定期的に監視する**：ジャーニーのパフォーマンスを定期的にレビューし、トレンドや異常を特定します。
 - **セグメント化を最適化する**：オーディエンスのセグメント化が偏らないようにし、疲労を避けつつエンゲージメントを最大化します。
 
-## ジャーニーシミュレート：ユースケース、AI機能、ユーザーガイド
+## ジャーニーシミュレート：ユースケース、AI機能、ユーザーガイド {#journey-simulate}
 
 ## 概要
 
@@ -441,7 +500,7 @@ AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 
 **[!UICONTROL シミュレーション]** （**[!UICONTROL クイックシミュレーション]**、AIを使用したシミュレートされたユーザーの生成、**[!UICONTROL イベント値の生成]**）でAIを使用するには、ユーザーは&#x200B;**[!UICONTROL AI アシスタント]**&#x200B;機能から&#x200B;**コンテンツを生成**&#x200B;する権限が必要です。
 
-[詳しくは、権限を参照してください](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions)。
+[詳しくは、権限を参照してください](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/access-control/permissions)。
 
 >[!ENDSHADEBOX]
 
@@ -503,4 +562,11 @@ AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 
 シミュレーションは、テストモードまたはライブジャーニーがサポートするあらゆるアクティビティ、チャネル、または統合をサポートしているわけではなく、機能の成熟度に応じて動作が変化する場合があります。
 
-➡️ [&#x200B; シミュレーションの制限](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)について詳しくは、Journey Optimizer ドキュメントを参照してください。
+➡️ [&#x200B; シミュレーションの制限](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"}について詳しくは、Journey Optimizer ドキュメントを参照してください。
+
+## 関連トピック
+
+- [Agent Orchestrator](./agent-orchestrator.md)。Journey Agentおよびその他のExperience Platform Agentsを強化するエージェント レイヤーです。
+- CX Coworker Gateway[&#128279;](../mcp/ajo-mcp.md)のJourney Optimizer ツール。キャンペーンおよびチャネル設定レビュー用の読み取り専用MCP サーフェスです。
+- [自然言語からジャーニーを作成](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)および[&#x200B; ロイヤルティに関する課題を作成、編集、管理](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md)ジャーニー作成を基盤とした共同作業チャットのユースケース。
+- AI アシスタントを通じて表示されたJourney Optimizerの問題のトラブルシューティングについては、[Product Support Agent](./product-support.md)を参照してください。

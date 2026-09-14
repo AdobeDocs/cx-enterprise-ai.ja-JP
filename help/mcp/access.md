@@ -1,13 +1,11 @@
 ---
 title: CX Coworker Gateway Toolsへのアクセス
-description: Adobe CX Coworker Gateway ツールを使用する前に、製品の可用性、組織のイネーブルメント、権限を確認します。
-source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
+description: Adobe CX Coworker Gateway ツールを使用する前に、製品の可用性、組織の有効化、権限を確認します。
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 4%
-
 ---
-
 # CX Coworker Gateway ツールへのアクセス {#mcp-access}
 
 Adobe CX Enterpriseは、単一のMCPを通じて商品ツールを公開します。 アクセスは製品ツールによって評価されます。関連する製品ツールに対してAdobe組織を有効にし、ユーザーアカウントには、これらのツールが公開する製品データを表示または変更するために必要な製品権限が必要です。
@@ -23,7 +21,7 @@ Adobe CX Enterpriseは、単一のMCPを通じて商品ツールを公開しま�
 | --- | --- | --- |
 | Real-Time CDP | ベータ版 | アクティブなReal-Time CDPライセンス、Adobe組織のBetaイネーブルメント、クエリを実行するオーディエンス、宛先、ソース、ID、アクティベーションリソースを表示する権限。 |
 | Experience Platform | ベータ版 | アクティブなExperience Platformライセンス、Adobe組織のBetaイネーブルメント、クエリするスキーマ、データセット、ガバナンス、クエリサービス、監査、サンドボックスリソースを表示する権限。 |
-| Journey Optimizer | ベータ版 | アクティブなJourney Optimizerライセンス、Adobe組織のBetaイネーブルメント、キャンペーンとチャネル設定を表示する権限。 |
+| Journey Optimizer | ベータ版 | アクティブなJourney Optimizerライセンス、Adobe組織に対するBetaのイネーブルメント、キャンペーン、ジャーニー、チャネル設定を表示する権限。 |
 | Customer Journey Analytics | 使用可能 | アクティブなCustomer Journey Analytics ライセンスと、Adobe Admin Consoleの&#x200B;**MCP アクセス**&#x200B;権限項目を含む製品プロファイル。 製品権限は、アクセスまたは変更できるデータビュー、コンポーネント、レポート、プロジェクト、オーディエンスを引き続き管理します。 |
 | Adobe Analytics | 使用可能 | アクティブなAdobe Analytics ライセンスと、Adobe Admin Consoleの&#x200B;**MCP アクセス**&#x200B;権限項目を含む製品プロファイル。 製品権限は、アクセスまたは変更できるレポートスイート、コンポーネント、レポート、セグメント、日付範囲、プロジェクトを引き続き管理します。 |
 | Workfront | プレビュー | アクティブなWorkfront ライセンスとWorkfront MCPの有効化。 [Workfront MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)を参照してください。 |

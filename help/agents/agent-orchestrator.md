@@ -4,25 +4,34 @@ description: Adobe Experience Platform Agent Orchestrator について説明し�
 TQID: https://experienceleague.adobe.com/xv7K7636d65K0V8R1EG97xnZpZAjnNhfF7JgqQz1aoY
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+    internal-label: Insights
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 956
+source-wordcount: '928'
 ht-degree: 12%
-
 ---
-
 # Adobe Experience Platform Agent Orchestrator
 
 Adobe Experience Platform Agent Orchestratorは、Adobe Experience Platformの新しいエージェント層です。 Experience Platformの豊富なデータとカスタマーナレッジを活用するように設計されたExperience Platform Agent Orchestratorは、専用に構築されたエキスパートであるAdobe Experience Platform Agentsの背後にあるインテリジェンスと推論を支援します。これにより、人間の監視下で、複雑な意思決定と問題解決のタスクを迅速かつ大規模に実行できます。 AI アシスタントのような会話型インターフェイスを利用して、自然言語で質問したり、サポートを求めたりすると、Agent Orchestratorは専門の担当者を自動的に呼び出して適切な回答を提供します。 Agent Orchestratorは、会話履歴を記憶するため、コンテキストを繰り返すことなく自然に以前の質問を作成でき、複数の担当者からのインサイトを組み合わせて、明確で統一された回答を提供します。
@@ -58,7 +67,7 @@ Adobe Experience Platform Agentsは、顧客体験の領域をまたいで共通
 | [Audience Agent](audience.md) | Audience Agentを利用すれば、オーディエンスの大幅な変化の検出、重複するオーディエンスの検出、オーディエンスインベントリの調査、オーディエンスのサイズの取得など、オーディエンスに関するインサイトを取得できます。 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> |
 | [Data Insights Agent](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agentは、Customer Journey AnalyticsのAI アシスタントからアクセス可能な生成AI会話型エージェントで、データに関する疑問に迅速かつ効率的に回答します。 データビューのコンポーネントと実際のデータを使用して、Analysis Workspace で関連するビジュアライゼーションを作成します。 | Customer Journey Analytics |
 | [Experimentation Agent](./agent-experiment.md) | Experimentation Agentは、実験結果の分析、影響の予測、新しい実験の提案などにより、より迅速な学習を支援します。 過去と現在のテストを一元管理することで、すでに学んだことを基に構築し、ギャップを発見し、次にテストすべきことを優先することができます。 | Adobe Journey Optimizer Experimentation Accelerator |
-| [Journey Agent](./ajo-agent.md) | Journey Agentなら、自然言語のインターフェイスを利用して、カスタマージャーニーを構築、分析、最適化できます。 Journey Agentなら、ジャーニーの迅速な構築、スケジュールやオーディエンスの競合の検出と解決、パフォーマンスと離脱ポイントの分析などを実現し、今後のキャンペーンに向けて再現する最もパフォーマンスの高いジャーニーを特定できます。 データにもとづく意思決定、顧客エンゲージメントの向上、ジャーニーオーケストレーションの合理化に役立ちます。 | Adobe Journey Optimizer |
+| [Journey Agent](./ajo-agent.md) | Journey Agentでは、[ジャーニー作成](./ajo-agent.md#journey-create)、[&#x200B; チャネルコンテンツ作成](./ajo-agent.md#channel-content-create)、[ジャーニー分析](./ajo-agent.md#journey-analyze)、[ジャーニーシミュレーション &#x200B;](./ajo-agent.md#journey-simulate)の4つの機能を使用して、Adobe Journey Optimizer ユーザーが自然言語を使用してジャーニーを作成、分析、最適化できます。 詳しくは、[Journey Agent ガイド &#x200B;](./ajo-agent.md)を参照してください。 | Adobe Journey Optimizer |
 | [製品サポートエージェント &#x200B;](product-support.md) | Product Support Agentは、セルフサービス型のデバッグおよびトラブルシューティング機能で、ワークフローから離れることなくAdobe Experience Platformの機能とアプリケーションをトラブルシューティングするのに役立ちます。 サポート管理者は、AI アシスタントとのやり取りのコンテキストからカスタマーサポートチケットを作成でき、AI アシスタントを通じてチケットの更新を確認することができます。 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
 CX Enterprise アプリケーションでのエージェントの利用について詳しくは、[CX Enterprise ドキュメントのAgentic AIを参照してください](../overview/agentic-ai.md)。
