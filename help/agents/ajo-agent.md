@@ -66,7 +66,7 @@ Journey Agentは、次の4つの主要な作業で構成されています。
 - **チャネルコンテンツの作成**:AIを活用したコンテンツ生成を使用して、ジャーニー用のチャネル固有のコンテンツ（電子メール、プッシュ通知、SMS）を生成、編集、管理します
 - **ジャーニー分析**: ジャーニーを分析し、問題を検出し、インサイトを明らかにして、顧客エンゲージメントを最適化します
 
-さらに、**ジャーニーシミュレーション**&#x200B;は、3つのサブ機能を備えた製品内の非会話型AI機能である[ジャーニーシミュレート ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}を含むJourney Optimizer機能です。
+さらに、**ジャーニーシミュレーション**&#x200B;は、3つのサブ機能を備えた製品内の非会話型AI機能である[ジャーニーシミュレート &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}を含むJourney Optimizer機能です。
 
 - シミュレートされたユーザーの生成
 - イベント値の生成
@@ -326,7 +326,7 @@ Channel Content Createを使用すると、Journey Optimizerユーザーは、AI
 >
 >**セグメントの管理**：権限を使用すると、AI アシスタントで新しいオーディエンスを直接作成できます。
 
-AJO Agent](./assets/ajo-agent/ajo-agent-sample.png)の![ サンプル
+AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 
 ## ユースケース
 
@@ -498,7 +498,7 @@ AJO Agent](./assets/ajo-agent/ajo-agent-sample.png)の![ サンプル
 
 - **ジャーニーの承認と公開**：組織が承認ワークフローを使用する場合は、ジャーニーを承認して公開します。
 
-**[!UICONTROL シミュレーション]** （**[!UICONTROL クイックシミュレーション]**、AIを使用したシミュレートされたユーザーの生成、**[!UICONTROL イベント値の生成]**）でAIを使用するには、ユーザーは&#x200B;**[!UICONTROL AI アシスタント]**&#x200B;機能から&#x200B;]**コンテンツを生成**[!UICONTROL &#x200B;する権限が必要です。
+**[!UICONTROL シミュレーション]** （**[!UICONTROL クイックシミュレーション]**、AIを使用したシミュレートされたユーザーの生成、**[!UICONTROL イベント値の生成]**）でAIを使用するには、ユーザーは&#x200B;**[!UICONTROL AI アシスタント]**&#x200B;機能から&#x200B;**コンテンツを生成**&#x200B;する権限が必要です。
 
 [詳しくは、権限を参照してください](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)。
 
@@ -562,11 +562,11 @@ AJO Agent](./assets/ajo-agent/ajo-agent-sample.png)の![ サンプル
 
 シミュレーションは、テストモードまたはライブジャーニーがサポートするあらゆるアクティビティ、チャネル、または統合をサポートしているわけではなく、機能の成熟度に応じて動作が変化する場合があります。
 
-➡️ [ シミュレーションの制限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"}について詳しくは、Journey Optimizer ドキュメントを参照してください。
+➡️ [&#x200B; シミュレーションの制限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"}について詳しくは、Journey Optimizer ドキュメントを参照してください。
 
 ## 関連トピック
 
 - [Agent Orchestrator](./agent-orchestrator.md)。Journey Agentおよびその他のExperience Platform Agentsを強化するエージェント レイヤーです。
-- CX Coworker Gateway](../mcp/ajo-mcp.md)の[Journey Optimizer ツール。キャンペーンおよびチャネル設定レビュー用の読み取り専用MCP サーフェスです。
-- [自然言語からジャーニーを作成](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)および[ ロイヤルティに関する課題を作成、編集、管理](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md)ジャーニー作成を基盤とした共同作業チャットのユースケース。
+- CX Coworker Gateway[&#128279;](../mcp/ajo-mcp.md)のJourney Optimizer ツール。キャンペーンおよびチャネル設定レビュー用の読み取り専用MCP サーフェスです。
+- [自然言語からジャーニーを作成](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)および[&#x200B; ロイヤルティに関する課題を作成、編集、管理](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md)ジャーニー作成を基盤とした共同作業チャットのユースケース。
 - AI アシスタントを通じて表示されたJourney Optimizerの問題のトラブルシューティングについては、[Product Support Agent](./product-support.md)を参照してください。
