@@ -310,7 +310,7 @@ Channel Content Createを使用すると、Journey Optimizerユーザーは、AI
 
 ジャーニー分析では、Journey Optimizerのユーザーは、自然言語のインターフェイスを使用してジャーニーを分析および最適化できます。 実務担当者は、ジャーニー分析を利用することで、スケジュールやオーディエンスの競合を迅速に特定して解決し、ジャーニーにおける利用者の離脱ポイントを検出して、インサイトや推奨事項を明らかにしてパフォーマンスを向上させることができます。
 
-詳しくは、この[概要](https://experienceleague.adobe.com/en/slides/journey-agent-overview)を参照してください。
+詳しくは、この[概要](https://experienceleague.adobe.com/ja/slides/journey-agent-overview)を参照してください。
 
 詳しくは、Adobe Journey Optimizer ドキュメントの[ジャーニー分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"}を参照してください。
 
