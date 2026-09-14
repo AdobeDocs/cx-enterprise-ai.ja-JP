@@ -1,22 +1,22 @@
 ---
 title: CX Coworker GatewayのJourney Optimizer Tools
-description: CX Coworker Gatewayを通じて利用できるAdobe Journey Optimizer ツールについて説明します。
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+description: CX Coworker Gatewayを通じて使用できるAdobe Journey Optimizer ツールについて説明します。
+source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '917'
 ht-degree: 5%
 ---
-# CX Coworker GatewayのAdobe Journey Optimizerツール {#ajo-mcp}
+# CX Coworker GatewayのAdobe Journey Optimizer ツール {#ajo-mcp}
 
-Adobe Journey Optimizerの製品ツールを使用して、MCP対応クライアントからキャンペーン、ジャーニー、チャネル設定を調査します。 これらのツールは、組織が有効になっていて、ユーザーアカウントに必要なJourney Optimizer権限が付与されている場合、[CX Coworker Gateway](overview.md)を通じて利用できます。
+Adobe Journey Optimizerの製品ツールを使用して、MCP対応クライアントからキャンペーン、ジャーニー、チャネル設定を調査します。 これらのツールは、組織が有効になっていて、ユーザーアカウントに必要なJourney Optimizer権限が付与されている場合、[CX Coworker Gateway](overview.md)から利用できます。
 
-詳しくは、Adobe Journey Optimizer ドキュメントの[MCP クライアントの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/integrations/ajo-mcp){target="_blank"}を参照してください。
+詳しくは、Adobe Journey Optimizer ドキュメントの[MCP クライアントの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"}を参照してください。
 
 ジャーニーを作成、分析、シミュレートするための会話型のエージェント型エクスペリエンスについては、代わりに[Journey Agent](../agents/ajo-agent.md)を参照してください。
 
 >[!AVAILABILITY]
 >
->Journey OptimizerのツールはBetaに搭載されています。 アクセスは招待状によってのみ行われ、Adobe組織の有効化が必要です。 [CX Coworker Gateway Tools](access.md)へのアクセスを参照してください。
+>Journey OptimizerのツールはBetaに搭載されています。 アクセスは招待状によってのみ行われ、Adobe組織の有効化が必要です。 [CX Coworker Gateway tools](access.md)へのアクセスを参照してください。
 
 ## 主な機能 {#mcp-capabilities}
 
@@ -66,7 +66,7 @@ Journey Optimizerのツールは、キャンペーン、ジャーニー、チャ
 
 Journey Optimizerでは、上記の読み取り専用のツールに加えて、コンテンツテンプレート、フラグメント、ランディングページ、ジャーニーまたはキャンペーンのインラインメッセージコンテンツなど、コンテンツアセットを、自然言語プロンプトを使用してCX Coworkerから直接検索および管理できます。 この機能は、Journey Optimizer コンテンツの読み取りと書き込みが可能な個別のMCP ツールのセットを搭載しており、CX Coworkerにアクセスできるすべてのお客様が利用できます。
 
-詳しくは、Adobe Journey Optimizer ドキュメントの[&#x200B; コンテンツ管理ツール &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#content-management){target="_blank"}を参照してください。
+詳しくは、Adobe Journey Optimizer ドキュメントの[ コンテンツ管理ツール ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"}を参照してください。
 
 コンテンツ管理ツールを活用すると、次のことが可能になります。
 
@@ -94,4 +94,4 @@ Journey Optimizerでは、上記の読み取り専用のツールに加えて、
 | エンゲージメントやパフォーマンスに関する指標はない | ツールは、インプレッション、クリックスルー率、コンバージョン、配信統計などのレポートデータを返しません。 | Journey Optimizerのレポート、Customer Journey Analyticsのツール、Adobe Analyticsのツールをパフォーマンス指標に使用できます。 |
 | キャンペーンリストのページネーションは制限されています | キャンペーンリストは、結果の最初のページを返します。最大50件のキャンペーンがアルファベット順に並べ替えられます。 オフセット値と制限値は適用されません。 | キャンペーン IDがわかっている場合は、`Get Campaign`を直接使用します。 Journey Optimizer UIを使用したフルブラウジングとフィルタリング。 |
 | 日付、チャネル、スケジュール別にサーバーサイドのフィルタリングなし | キャンペーンリストは、ステータスのフィルタリングをサポートしていますが、公開日、スケジュール日、チャネル、キャンペーンタイプのフィルタリングはサポートしていません。 | Journey Optimizer UIのキャンペーンリストを使用して、ネイティブの日付とチャネルフィルタリングを実行できます。 |
-| 商品ツールでメッセージコンテンツを取得できない | Message HTML、件名、パーソナライゼーショントークン、オファーコンテンツは、上記の読み取り専用ツールでは利用できません。 | [&#x200B; コンテンツ管理ツール &#x200B;](#mcp-content-management)を使用して、インラインメッセージコンテンツを取得および更新するか、Journey Optimizer UIで直接表示します。 |
+| 商品ツールでメッセージコンテンツを取得できない | Message HTML、件名、パーソナライゼーショントークン、オファーコンテンツは、上記の読み取り専用ツールでは利用できません。 | [ コンテンツ管理ツール ](#mcp-content-management)を使用して、インラインメッセージコンテンツを取得および更新するか、Journey Optimizer UIで直接表示します。 |

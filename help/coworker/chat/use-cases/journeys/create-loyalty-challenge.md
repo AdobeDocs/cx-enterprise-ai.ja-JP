@@ -13,9 +13,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '140'
 ht-degree: 1%
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 1%
  
 動画では、ロイヤルティプラグインとそのチャレンジ管理スキルが紹介されています。これは、マーケターがユーザーインターフェイスのあらゆる設定を手動で設定するのではなく、自然言語を使用してロイヤルティの課題を作成、編集、管理するのに役立つAIを活用した機能です。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496539/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)
 
 ## 関連トピック
 
 - [Journey Agent](../../../../agents/ajo-agent.md)。他のAJO AI機能（ジャーニーの作成、分析、シミュレーションなど）については、共同作業チャットを通じて利用できます。
-- Adobe Journey Optimizer ドキュメントの[&#x200B; ロイヤルティチャレンジ管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#loyalty-challenge-management){target="_blank"}。
+- Adobe Journey Optimizer ドキュメントの[ ロイヤルティチャレンジ管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-challenge-management){target="_blank"}。
 - [その他の同僚チャットのユースケース](../overview.md#journeys)
