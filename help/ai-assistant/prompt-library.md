@@ -79,7 +79,7 @@ Data Insights Agentでは、次のプロンプト例を使用して、データ�
 
 次のプロンプト例は、[Journey Agent](../agents/ajo-agent.md)と共に使用して、ジャーニーライフサイクルの分析、ジャーニーリソースの管理、オーディエンスとジャーニーの関係に関するインサイトの取得、ジャーニー間の競合の検出に役立ちます。 これらのプロンプトを使用して、ジャーニーオーケストレーションを最適化し、問題を効率的に解決できます。
 
-ジャーニーの作成、チャネルコンテンツの生成、フォールアウト分析に関するプロンプトの例については、Journey Agent ガイドの[ジャーニー作成](../agents/ajo-agent.md#journey-create)、[ チャネルコンテンツ作成](../agents/ajo-agent.md#channel-content-create)、[ジャーニー分析](../agents/ajo-agent.md#journey-analyze)の各セクションを参照してください。
+ジャーニーの作成、チャネルコンテンツの生成、フォールアウト分析に関するプロンプトの例については、Journey Agent ガイドの[ジャーニー作成](../agents/ajo-agent.md#journey-create)、[&#x200B; チャネルコンテンツ作成](../agents/ajo-agent.md#channel-content-create)、[ジャーニー分析](../agents/ajo-agent.md#journey-analyze)の各セクションを参照してください。
 
 ### ジャーニーのライフサイクルに関する質問
 
