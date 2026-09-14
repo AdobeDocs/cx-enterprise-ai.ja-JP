@@ -66,7 +66,7 @@ Journey Agentは、次の4つの主要な作業で構成されています。
 - **チャネルコンテンツの作成**:AIを活用したコンテンツ生成を使用して、ジャーニー用のチャネル固有のコンテンツ（電子メール、プッシュ通知、SMS）を生成、編集、管理します
 - **ジャーニー分析**: ジャーニーを分析し、問題を検出し、インサイトを明らかにして、顧客エンゲージメントを最適化します
 
-さらに、**ジャーニーシミュレーション**&#x200B;は、3つのサブ機能を備えた製品内の非会話型AI機能である[ジャーニーシミュレート &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}を含むJourney Optimizer機能です。
+さらに、**ジャーニーシミュレーション**&#x200B;は、3つのサブ機能を備えた製品内の非会話型AI機能である[ジャーニーシミュレート &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}を含むJourney Optimizer機能です。
 
 - シミュレートされたユーザーの生成
 - イベント値の生成
@@ -78,7 +78,7 @@ Journey Agentは、次の4つの主要な作業で構成されています。
 
 ジャーニー制作Journey Optimizerでは、自然言語のインターフェイスを利用してマーケティングジャーニーを構築および設定できます。 ジャーニー制作ツールを利用すれば、実務担当者は、会話プロンプトで要件を説明することで、ジャーニーをすばやく構築できます。 エージェントにより、ジャーニーの作成が効率化され、マーケターは技術的な設定ではなく戦略に焦点を当てることができます。
 
-詳しくは、Adobe Journey Optimizer ドキュメントの[ジャーニー作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"}を参照してください。
+詳しくは、Adobe Journey Optimizer ドキュメントの[ジャーニー作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"}を参照してください。
 
 >[!AVAILABILITY]
 >
@@ -230,7 +230,7 @@ Journey Agentは、次の4つの主要な作業で構成されています。
 
 Channel Content Createを使用すると、Journey Optimizerユーザーは、AIを活用したコンテンツ生成を使用して、ジャーニーのチャネル固有のコンテンツを生成、編集、管理できます。
 
-詳しくは、Adobe Journey Optimizer ドキュメントの[Channel Content Create](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"}を参照してください。
+詳しくは、Adobe Journey Optimizer ドキュメントの[Channel Content Create](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"}を参照してください。
 
 ## ユースケース
 
@@ -310,9 +310,9 @@ Channel Content Createを使用すると、Journey Optimizerユーザーは、AI
 
 ジャーニー分析では、Journey Optimizerのユーザーは、自然言語のインターフェイスを使用してジャーニーを分析および最適化できます。 実務担当者は、ジャーニー分析を利用することで、スケジュールやオーディエンスの競合を迅速に特定して解決し、ジャーニーにおける利用者の離脱ポイントを検出して、インサイトや推奨事項を明らかにしてパフォーマンスを向上させることができます。
 
-詳しくは、この[概要](https://experienceleague.adobe.com/en/slides/journey-agent-overview)を参照してください。
+詳しくは、この[概要](https://experienceleague.adobe.com/ja/slides/journey-agent-overview)を参照してください。
 
-詳しくは、Adobe Journey Optimizer ドキュメントの[ジャーニー分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"}を参照してください。
+詳しくは、Adobe Journey Optimizer ドキュメントの[ジャーニー分析](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"}を参照してください。
 
 >[!AVAILABILITY]
 >
@@ -500,7 +500,7 @@ AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 
 **[!UICONTROL シミュレーション]** （**[!UICONTROL クイックシミュレーション]**、AIを使用したシミュレートされたユーザーの生成、**[!UICONTROL イベント値の生成]**）でAIを使用するには、ユーザーは&#x200B;**[!UICONTROL AI アシスタント]**&#x200B;機能から&#x200B;**コンテンツを生成**&#x200B;する権限が必要です。
 
-[詳しくは、権限を参照してください](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)。
+[詳しくは、権限を参照してください](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/access-control/permissions)。
 
 >[!ENDSHADEBOX]
 
@@ -562,7 +562,7 @@ AJO Agent![&#128279;](./assets/ajo-agent/ajo-agent-sample.png)の サンプル
 
 シミュレーションは、テストモードまたはライブジャーニーがサポートするあらゆるアクティビティ、チャネル、または統合をサポートしているわけではなく、機能の成熟度に応じて動作が変化する場合があります。
 
-➡️ [&#x200B; シミュレーションの制限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"}について詳しくは、Journey Optimizer ドキュメントを参照してください。
+➡️ [&#x200B; シミュレーションの制限](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"}について詳しくは、Journey Optimizer ドキュメントを参照してください。
 
 ## 関連トピック
 

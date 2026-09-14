@@ -10,7 +10,7 @@ ht-degree: 5%
 
 Adobe Journey Optimizerの製品ツールを使用して、MCP対応クライアントからキャンペーン、ジャーニー、チャネル設定を調査します。 これらのツールは、組織が有効になっていて、ユーザーアカウントに必要なJourney Optimizer権限が付与されている場合、[CX Coworker Gateway](overview.md)から利用できます。
 
-詳しくは、Adobe Journey Optimizer ドキュメントの[MCP クライアントの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"}を参照してください。
+詳しくは、Adobe Journey Optimizer ドキュメントの[MCP クライアントの操作](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"}を参照してください。
 
 ジャーニーを作成、分析、シミュレートするための会話型のエージェント型エクスペリエンスについては、代わりに[Journey Agent](../agents/ajo-agent.md)を参照してください。
 
@@ -66,7 +66,7 @@ Journey Optimizerのツールは、キャンペーン、ジャーニー、チャ
 
 Journey Optimizerでは、上記の読み取り専用のツールに加えて、コンテンツテンプレート、フラグメント、ランディングページ、ジャーニーまたはキャンペーンのインラインメッセージコンテンツなど、コンテンツアセットを、自然言語プロンプトを使用してCX Coworkerから直接検索および管理できます。 この機能は、Journey Optimizer コンテンツの読み取りと書き込みが可能な個別のMCP ツールのセットを搭載しており、CX Coworkerにアクセスできるすべてのお客様が利用できます。
 
-詳しくは、Adobe Journey Optimizer ドキュメントの[&#x200B; コンテンツ管理ツール &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"}を参照してください。
+詳しくは、Adobe Journey Optimizer ドキュメントの[&#x200B; コンテンツ管理ツール &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"}を参照してください。
 
 コンテンツ管理ツールを活用すると、次のことが可能になります。
 
