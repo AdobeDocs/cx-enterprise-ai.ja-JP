@@ -5,15 +5,13 @@ role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 101
-last-substantial-update: 2026-09-08T00:00:00Z
+last-substantial-update: 2026-09-08
 jira: KT-22379
-source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
+source-git-commit: 4cb104d919b71cb8c0e71ec5c747b23020c102ca
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
-
 ---
-
 
 # カスタム AI スキルを使用して、質の高いゲートスキルを構築、実行する
 
@@ -80,9 +78,6 @@ The three gates are:
 [Paste Gate 1, Gate 2, and Gate 3 definitions here]
 ```
 
-&#x200B;---
- 
-
 ## ゲート 1：抑制/同意
  
 > このセクションを、組織の抑制と同意要件に合わせて編集します。
@@ -110,9 +105,6 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
-&#x200B;---
- 
-
 ## ゲート 2：周波数キャップ
 
 > 組織の配信頻度の要件に合わせて、このセクションを編集します。
@@ -136,8 +128,6 @@ Our standard:
 
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 ```
-
-&#x200B;---
 
 ## ゲート 3：命名規則
  
@@ -178,10 +168,6 @@ Mortgage – High Propensity Prospects
 When blocked on naming, always propose a compliant replacement name.
 ```
 
- 
-
-&#x200B;---
-
 ## ガイダンス
 
 ### &#x200B;1. 角括弧で囲まれたセクションのみをカスタマイズする
@@ -196,8 +182,6 @@ When blocked on naming, always propose a compliant replacement name.
 - ゲート評価
 - スコアカードレンダリング
 - 評決ロジック
-
-&#x200B;---
 
 
 ### &#x200B;2. 前提条件を確認
@@ -214,8 +198,6 @@ When blocked on naming, always propose a compliant replacement name.
 - DataTable レンダリング
 
 お客様の環境でこれらの機能が使用できない場合、スキルは設計どおりに実行できません。
-
-&#x200B;---
 
 ### &#x200B;3. スキルを読み取り専用にする
 

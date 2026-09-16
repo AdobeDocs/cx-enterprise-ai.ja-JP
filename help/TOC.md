@@ -6,13 +6,11 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
+source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 19%
-
+source-wordcount: '339'
+ht-degree: 20%
 ---
-
 
 # CX Enterprise の AI {#experience-cloud-ai}
 
@@ -24,7 +22,7 @@ ht-degree: 19%
   - [AI クレジットの使用について](./overview/ai-credit-consumption.md)
   - [Agentic AI モニタリングダッシュボード](./overview/monitoring.md)
   - [エージェント型ツール](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)
-  - [生成AI コンテンツの透明性](content-transparency.md)
+  - [生成 AI コンテンツの透明性](content-transparency.md)
 - CX Enterprise Coworker {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - キャンペーン {#campaigns}
@@ -42,6 +40,7 @@ ht-degree: 19%
       - [スキルとは？](./coworker/customizations/skills/what-are-skills.md)
       - [最初のスキルを作成](./coworker/customizations/skills/create-your-first-skill.md)
       - [高品質なゲートスキルの構築と実行](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [スキルの管理と繰り返し](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
@@ -52,10 +51,12 @@ ht-degree: 19%
         - [CJAデータの分析](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [トレンドと根本原因を探る](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [アップグレード時にAAからCJA データを検証する](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [CJA レポート用のデータセット品質の検証](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - オーディエンス {#audiences}
         - [プラットフォームの健全性を評価し、オーディエンスを構築する](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - ジャーニー {#journeys}
         - [自然言語を使用したジャーニーの作成](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - ロイヤルティ {#loyalty}
         - [ロイヤルティに関する課題を作成し、インサイトを獲得](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - 最適化 {#optimization}
         - [Target アクティビティの起動](./coworker/chat/use-cases/optimization/target.md)
