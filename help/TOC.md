@@ -6,7 +6,7 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
+source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 20%
@@ -25,26 +25,10 @@ ht-degree: 20%
   - [生成 AI コンテンツの透明性](content-transparency.md)
 - CX Enterprise Coworker {#coworker}
   - [Cowakerについて](./coworker/overview.md)
-  - キャンペーン {#campaigns}
-    - [概要](./coworker/campaigns/overview.md)
-    - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
-    - [ユースケース](./coworker/campaigns/use-cases.md)
-    - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
-    - [C2PA メタデータ](./coworker/campaigns/c2pa-metadata.md)
-    - コネクタ {#connectors}
-      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
-    - [リリースノート](./coworker/campaigns/release-notes.md)
-  - カスタマイズ {#customizations}
-    - スキル {#skills}
-      - [スキルとは？](./coworker/customizations/skills/what-are-skills.md)
-      - [最初のスキルを作成](./coworker/customizations/skills/create-your-first-skill.md)
-      - [高品質なゲートスキルの構築と実行](./coworker/customizations/skills/run-a-quality-gate-skill.md)
-      - [スキルの管理と繰り返し](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
-    - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+    - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
     - ユースケース {#use-cases}
       - [Adobe Workfrontのユースケース](./coworker/chat/use-cases/overview.md)
       - データインサイト {#data-insights}
@@ -67,6 +51,22 @@ ht-degree: 20%
       - Content Advisor {#content-advisor}
         - [マーケティングアセットの生成](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [ブランドコンプライアンスのチェック](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+  - カスタマイズ {#customizations}
+    - スキル {#skills}
+      - [スキルとは？](./coworker/customizations/skills/what-are-skills.md)
+      - [最初のスキルを作成](./coworker/customizations/skills/create-your-first-skill.md)
+      - [高品質なゲートスキルの構築と実行](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [スキルの管理と繰り返し](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+  - キャンペーン {#campaigns}
+    - [概要](./coworker/campaigns/overview.md)
+    - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
+    - [ユースケース](./coworker/campaigns/use-cases.md)
+    - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
+    - [C2PA メタデータ](./coworker/campaigns/c2pa-metadata.md)
+    - コネクタ {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
+    - [リリースノート](./coworker/campaigns/release-notes.md)
 - AI アシスタント {#ai-assistant}
   - [AI アシスタント UI ガイド](./ai-assistant/ai-assistant-ui.md)
   - [プロンプトライブラリ](./ai-assistant/prompt-library.md)
@@ -99,6 +99,6 @@ ht-degree: 20%
     - [Journey Optimizer tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [ターゲット](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [ターゲット](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
