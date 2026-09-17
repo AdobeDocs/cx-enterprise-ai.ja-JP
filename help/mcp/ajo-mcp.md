@@ -1,7 +1,8 @@
 ---
 title: CX Coworker GatewayのJourney Optimizer Tools
 description: CX Coworker Gatewayを通じて使用できるAdobe Journey Optimizer ツールについて説明します。
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 5%
@@ -66,7 +67,7 @@ Journey Optimizerのツールは、キャンペーン、ジャーニー、チャ
 
 Journey Optimizerでは、上記の読み取り専用のツールに加えて、コンテンツテンプレート、フラグメント、ランディングページ、ジャーニーまたはキャンペーンのインラインメッセージコンテンツなど、コンテンツアセットを、自然言語プロンプトを使用してCX Coworkerから直接検索および管理できます。 この機能は、Journey Optimizer コンテンツの読み取りと書き込みが可能な個別のMCP ツールのセットを搭載しており、CX Coworkerにアクセスできるすべてのお客様が利用できます。
 
-詳しくは、Adobe Journey Optimizer ドキュメントの[&#x200B; コンテンツ管理ツール &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"}を参照してください。
+詳しくは、Adobe Journey Optimizer ドキュメントの[&#x200B; コンテンツ管理ツール &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"}を参照してください。
 
 コンテンツ管理ツールを活用すると、次のことが可能になります。
 

@@ -1,28 +1,28 @@
 ---
-description: AIを活用して、単一のプロンプトをレビュー可能なキャンペーンに転換する、Adobe CX Enterprise Coworker Campaignsについてご確認ください。
+description: Adobe CX Enterprise Coworker Campaignsは、AIを活用したマーケティングアプリケーションであり、単一のプロンプトをレビュー可能なキャンペーンに変えることができます。その詳細をご確認ください。
 title: Adobe CX Enterprise Coworkerの概要
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 21d2304c94d68d7800283b46e2a15012ffe55810
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '950'
 ht-degree: 0%
-
 ---
-
-# Adobe CX Enterprise Coworker Campaignsの概要 {#overview}
+# Adobe CX Enterprise Coworker キャンペーンの概要 {#overview}
 
 Coworker Campaignsは、AIを活用したマーケティングアプリケーションであり、単一のプロンプトから、レビュー可能な包括的なキャンペーンに移行できます。
 
-現時点では、AIに関するあらゆるやり取りが、[ キャンペーン生成] (./)に向けて送信されます。 近日中に追加機能を予定しています。
+現時点では、AIに関するあらゆるやり取りが、[&#x200B; キャンペーン生成](/help/coworker/campaigns/create-an-email-campaign.md)に向けて送信されます。 近日中に追加機能を予定しています。
 
 ## アクセス方法
 
 >[!NOTE]
 >
->Coworker Campaignsは、2026年10月1日（PT）まで無料トライアルでご利用いただけます。 体験版では、すべてのアセットとアクティビティがユーザーに固有です。
+>Coworker Campaignsは、2026年12月31日（PT）まで無料トライアルでご利用いただけます。 体験版では、すべてのアセットとアクティビティがユーザーに固有です。
 
 1. coworker-campaigns.experience.adobe.comに移動します。
 
@@ -104,7 +104,7 @@ Coworker Campaignsでは、どの時点でも（例えば、「2番目のメー�
 
 Coworker Campaignsは、積極的に開発を進めている製品です。 次の点に留意してください。
 
-- **体験版ウィンドウ**:2026年10月1日まで。
+- **体験版ウィンドウ**:2026年12月31日まで。
 - **同意が必要**：製品にアクセスする前に、体験版の条件を確認して同意する必要があります。
 - **地域**：無料トライアルは、現時点では北米のユーザーのみが利用できます。
 - **オーディエンス**: オーディエンスはCSV経由でアップロードされます。 すべてのオーディエンスは、それぞれのキャンペーンに固有です（現時点では、環境内の他の場所には保存されていません）。

@@ -1,22 +1,21 @@
 ---
 title: Adobe CX Coworker Gatewayのインストール
 description: MCP互換クライアントをAdobe CX Coworker Gatewayに接続する方法を説明します。
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%
-
 ---
-
 # Adobe CX Coworker Gatewayのインストール {#mcp-install}
 
-このガイドでは、MCP互換クライアントをAdobe CX Coworker Gatewayに接続する方法について説明します。  CX Coworker Gatewayでは、すべての文書化された製品ツールに対して1つのエンドポイントを使用します。
+このガイドでは、MCP互換クライアントをAdobe CX Coworker Gatewayに接続する方法について説明します。  CX Coworker Gatewayは、すべての文書化された製品ツールに対して1つのエンドポイントを使用します。
 
 ```
 https://cx-coworker-gateway.adobe.io/mcp
 ```
 
-インストールする前に、組織とユーザーアカウントが必要な製品ツールにアクセスできることを確認してください。 [CX Coworker Gateway Tools](access.md)へのアクセスを参照してください。
+インストールする前に、組織とユーザーアカウントが必要な製品ツールにアクセスできることを確認してください。 [CX Coworker Gateway tools](access.md)へのアクセスを参照してください。
 
 ## インストールの動作 {#mcp-install-how}
 
@@ -35,7 +34,7 @@ CX Coworker Gatewayは、ブラウザーベースのAdobe サインインフロ�
 
 ほとんどのチームおよびエンタープライズ MCP クライアントプランでは、組織用のカスタムコネクタを追加するために管理者が必要です。 これらの環境では、インストールには2つの手順があります。
 
-1. 管理者は、組織に対してCX Coworker Gateway エンドポイントを1回追加します。
+1. 管理者は、CX Coworker Gateway エンドポイントを1回追加します。
 2. 各ユーザーがコネクタを有効にし、独自のAdobe資格情報でログインします。
 
 ### 手順1：管理者がエンドポイントを追加する {#mcp-install-enterprise-admin}
@@ -49,7 +48,7 @@ CX Coworker Gatewayは、ブラウザーベースのAdobe サインインフロ�
 1. [!DNL Claude]に&#x200B;**所有者**&#x200B;または&#x200B;**プライマリ所有者**&#x200B;としてログインします。
 2. **設定** > **管理** > **コネクタ**&#x200B;に移動します。 一部のプランでは、**組織の設定** > **コネクタ**&#x200B;と表示されます。
 3. 「**カスタムコネクタを追加**」を選択します。
-4. サーバーURLとして`https://cx-coworker-gateway.adobe.io/mcp`を入力し、「CX Coworker Gateway用のAdobe」などの認識可能な名前を使用します。
+4. サーバーURLとして`https://cx-coworker-gateway.adobe.io/mcp`を入力し、「CX Coworker Gateway用Adobe」などの認識可能な名前を使用します。
 5. コネクタを保存します。
 
 #### ChatGPT チームとエンタープライズ {#mcp-install-enterprise-chatgpt}
@@ -64,11 +63,11 @@ CX Coworker Gatewayは、ブラウザーベースのAdobe サインインフロ�
 
 #### その他の組織で管理されている顧客 {#mcp-install-enterprise-other}
 
-組織で管理されるリモート コネクタをサポートするその他のクライアントの場合は、`https://cx-coworker-gateway.adobe.io/mcp`を使用して、CX Coworker Gatewayをリモート HTTP MCP サーバーとして追加します。 オプションのヘッダー、ベアラートークンのフィールド、クライアント ID フィールド、およびクライアント秘密鍵のフィールドは、クライアントがプレースホルダー値を必要としない限り空のままにします。
+組織管理のリモートコネクタをサポートする他のクライアントの場合は、`https://cx-coworker-gateway.adobe.io/mcp`を使用してCX Coworker Gatewayをリモート HTTP MCP サーバーとして追加します。 オプションのヘッダー、ベアラートークンのフィールド、クライアント ID フィールド、およびクライアント秘密鍵のフィールドは、クライアントがプレースホルダー値を必要としない限り空のままにします。
 
 ### 手順2: ユーザーがコネクタを有効にする {#mcp-install-enterprise-user}
 
-管理者がCX Coworker Gatewayを追加すると、各ユーザーは自分のアカウントに対して次のように有効になります。
+管理者がCX Coworker Gatewayを追加すると、各ユーザーは自分のアカウントに対して次の操作を実行できます。
 
 1. クライアントで個人用コネクタ、アプリ、またはMCP設定を開きます。
 2. CX Coworker Gateway コネクタを見つけて有効にします。
@@ -104,7 +103,7 @@ CX Coworker Gatewayは、ブラウザーベースのAdobe サインインフロ�
 3. サーバーURLとして`https://cx-coworker-gateway.adobe.io/mcp`を入力します。
 4. **Connect**&#x200B;を選択し、Adobeのサインインフローを完了します。
 
-接続後は、Cursorのコンポーザーモードとエージェントモードで、CX Coworker Gateway ツール用のAdobeというタイトルが付きます。
+接続後、CX Coworker Gateway ツール用のAdobeというタイトルが、カーソルのコンポーザーモードとエージェントモードで使用できるようになります。
 
 ### クロード・コード {#mcp-install-individual-claude-code}
 
@@ -184,7 +183,7 @@ JSON ベースのMCP サーバー設定を受け入れるクライアントの�
 
 ### その他の顧客 {#mcp-install-individual-other}
 
-リモート MCP サポートを持つその他のデスクトップまたはweb クライアントの場合は、`https://cx-coworker-gateway.adobe.io/mcp`を使用して、CX Coworker Gateway用Adobeをリモート HTTP サーバーとして追加します。 オプションのヘッダー、ベアラートークンのフィールド、クライアント ID フィールド、およびクライアント秘密鍵のフィールドは、クライアントがプレースホルダー値を必要としない限り空のままにします。
+リモート MCPをサポートする他のデスクトップまたはweb クライアントの場合は、`https://cx-coworker-gateway.adobe.io/mcp`を使用してAdobe for CX Coworker Gatewayをリモート HTTP サーバーとして追加します。 オプションのヘッダー、ベアラートークンのフィールド、クライアント ID フィールド、およびクライアント秘密鍵のフィールドは、クライアントがプレースホルダー値を必要としない限り空のままにします。
 
 ## ツールコールの製品コンテキスト {#mcp-connect-params}
 

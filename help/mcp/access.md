@@ -1,7 +1,8 @@
 ---
 title: CX Coworker Gateway Toolsへのアクセス
 description: Adobe CX Coworker Gateway ツールを使用する前に、製品の可用性、組織の有効化、権限を確認します。
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 4%
@@ -35,7 +36,7 @@ Adobe CX Enterpriseは、単一のMCPを通じて商品ツールを公開しま�
 
 ## 利用申請 {#mcp-request}
 
-Betaまたは限定リリースの製品ツールの場合は、Adobeの担当者にお問い合わせいただき、使用するAdobe for CX Coworker Gateway製品ツールを指定してください。 担当者は、製品のイネーブルメントを調整し、Adobeの準備が整ったことを確認します。
+Betaまたは限定リリースの製品ツールの場合は、Adobe アカウント担当者にお問い合わせいただき、使用するAdobe for CX Coworker Gateway製品ツールを指定してください。 担当者は、製品のイネーブルメントを調整し、Adobeの準備が整ったことを確認します。
 
 **MCP アクセス**&#x200B;権限項目を使用する一般利用可能な製品ツールについては、システム管理者または製品管理者に、MCP アクセスを含む製品プロファイルにアカウントを追加するように依頼してください。
 
@@ -58,4 +59,4 @@ MCP クライアントを接続する前に、次のことを確認します。
 - サポートされているMCP クライアント （[!DNL Claude]、[!DNL ChatGPT]、[!DNL Cursor]、[!DNL Claude Code]、[!DNL Codex]、または[!DNL VS Code]など）にアクセスできます。
 - エンタープライズ版のインストールでは、MCP クライアントの組織設定でコネクタやカスタムアプリを管理できます。
 
-次：[Adobe CX Coworker Gatewayをインストールします](install.md)。
+次：[Adobe CX Coworker Gatewayをインストール &#x200B;](install.md)。

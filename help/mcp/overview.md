@@ -1,7 +1,8 @@
 ---
 title: Adobe CX Coworker Gatewayの概要
 description: Adobe CX Coworker Gatewayは、Adobe CX Enterpriseの統合MCPであり、MCP クライアントがサポートされている製品ツールに単一で接続できます。
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
@@ -47,13 +48,13 @@ CX Coworker Gatewayは、CX Coworker Gateway製品ツール用の管理エンド
 
 >[!NOTE]
 >
->ツールの可用性は、製品ライセンス、組織の有効化、製品の権限、認証に使用されるAdobeの資格情報によって異なります。 MCPは、組織とユーザーアカウントがアクセス権を持つツールのみを表示します。 [CX Coworker Gateway Tools](access.md)へのアクセスを参照してください。
+>ツールの可用性は、製品ライセンス、組織の有効化、製品の権限、認証に使用されるAdobeの資格情報によって異なります。 MCPは、組織とユーザーアカウントがアクセス権を持つツールのみを表示します。 [CX Coworker Gateway tools](access.md)へのアクセスを参照してください。
 
 
 
 ## 基本を学ぶ {#mcp-get-started}
 
-1. [CX Coworker Gateway tools](access.md)にアクセスして、製品の可用性、イネーブルメント、権限を確認します。
-2. 「[Install Adobe for CX Coworker Gateway](install.md)」に従って、MCP クライアントをエンドポイントに接続します。
+1. [CX Coworker Gateway tools](access.md)へのアクセスを確認して、製品の可用性、イネーブルメント、権限を確認します。
+2. [CX Coworker Gateway用Adobeのインストール &#x200B;](install.md)に従って、MCP クライアントをエンドポイントに接続します。
 3. 使用する各製品ツールの製品ページを確認します。
 

@@ -1,20 +1,19 @@
 ---
 title: CX Coworker GatewayのReal-Time CDP Tools
 description: MCP サーバーを使用してAdobe Real-Time CDPをMCP クライアントに接続する方法について説明します。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 4%
-
 ---
+# CX Coworker GatewayのReal-Time CDP ツール {#rtcdp-mcp}
 
-# CX Coworker GatewayのReal-Time CDPツール {#rtcdp-mcp}
-
-Real-Time CDP MCP製品ツールを使用して、MCP互換クライアントからオーディエンス、宛先、ソース、ID名前空間、アクティベーションの正常性を調べることができます。 これらのツールは、組織が有効になっていて、ユーザーアカウントに必要なReal-Time CDP権限が付与されている場合、統合[CX Coworker Gateway ゲートウェイ &#x200B;](overview.md)を通じて利用できます。
+Real-Time CDP MCP製品ツールを使用して、MCP互換クライアントからオーディエンス、宛先、ソース、ID名前空間、アクティベーションの正常性を調べることができます。 これらのツールは、組織が有効になっていて、ユーザーアカウントに必要なReal-Time CDP権限がある場合に、統合[CX Coworker Gateway ゲートウェイ &#x200B;](overview.md)を通じて利用できます。
 
 >[!AVAILABILITY]
 >
->Real-Time CDPの製品ツールはBetaに搭載されています。 アクセスは招待状によってのみ行われ、Adobe組織の有効化が必要です。 [CX Coworker Gateway Tools](access.md)へのアクセスを参照してください。
+>Real-Time CDPの製品ツールはBetaに搭載されています。 アクセスは招待状によってのみ行われ、Adobe組織の有効化が必要です。 [CX Coworker Gateway tools](access.md)へのアクセスを参照してください。
 
 ## 主な機能 {#mcp-capabilities}
 
@@ -54,7 +53,7 @@ Real-Time CDP ツールは、読み取り専用のモニタリングおよびト
 
 ## プロンプト例 {#mcp-use-cases}
 
-| 目標 | プロンプト例 |
+| 目標 | プロンプトの例 |
 | --- | --- |
 | オーディエンスのリスト | 「`prod` サンドボックス内のオーディエンスを一覧表示します。」 |
 | オーディエンスの調査 | 「オーディエンス ID `abc123`の詳細とライフサイクルの状態を表示する」 |

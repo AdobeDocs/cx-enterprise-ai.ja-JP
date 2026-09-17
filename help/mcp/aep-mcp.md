@@ -1,21 +1,20 @@
 ---
 title: CX Coworker GatewayのExperience Platform Tools
-description: CX Coworker Gatewayを通じて利用できるAdobe Experience Platform ツールについて説明します。
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+description: CX Coworker Gatewayを通じて使用できるAdobe Experience Platform ツールについて説明します。
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1947'
 ht-degree: 6%
-
 ---
 
+# Adobe CX Coworker GatewayのAdobe Experience Platform ツール {#aep-mcp}
 
-# Adobe CX Coworker GatewayのAdobe Experience Platformツール {#aep-mcp}
-
-Adobe Experience Platform製品ツールを使用して、MCP対応クライアントからスキーマ、データセット、データガバナンス設定、クエリサービスリソース、監査イベントを調べることができます。 これらのツールは、組織が有効になっていて、ユーザーアカウントに必要なExperience Platform権限が付与されている場合、[Adobe CX Coworker Gateway](overview.md)から利用できます。
+Adobe Experience Platform製品ツールを使用して、MCP対応クライアントからスキーマ、データセット、データガバナンス設定、クエリサービスリソース、監査イベントを調べることができます。 これらのツールは、組織が有効になっていて、ユーザーアカウントに必要なExperience Platform権限がある場合、[Adobe CX Coworker Gateway](overview.md)から利用できます。
 
 >[!AVAILABILITY]
 >
->Experience Platformの製品ツールはBetaに搭載されています。 アクセスは招待状によってのみ行われ、Adobe組織の有効化が必要です。 [CX Coworker Gateway Tools](access.md)へのアクセスを参照してください。
+>Experience Platformの製品ツールはBetaに搭載されています。 アクセスは招待状によってのみ行われ、Adobe組織の有効化が必要です。 [CX Coworker Gateway tools](access.md)へのアクセスを参照してください。
 
 ## 概要
 
