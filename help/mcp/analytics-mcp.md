@@ -1,20 +1,19 @@
 ---
 title: CX Coworker GatewayのAdobe Analytics Tools
-description: Adobe CX Coworker Gatewayを通じて利用できるAdobe Analytics ツールについて説明します。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+description: Adobe CX Coworker Gatewayを通じて使用できるAdobe Analytics ツールについて説明します。
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
-
 ---
-
-# Adobe CX Coworker GatewayのAdobe Analyticsツール {#aa-mcp}
+# Adobe CX Coworker GatewayのAdobe Analytics ツール {#aa-mcp}
 
 Adobe Analytics ツールを使用すると、レポートスイートの検索、ディメンションと指標の検出、レポートの実行、選択した分析コンポーネントの管理を、MCP対応クライアントから行うことができます。 これらのツールは、アカウントに必要なAdobe Analytics ライセンスと権限がある場合に、統合[Adobe CX Coworker Gateway](overview.md)を通じて利用できます。
 
 >[!AVAILABILITY]
 >
->分析ツールは、Adobe Analytics ライセンスをお持ちのお客様が利用できます。 アクセスは、Adobe Admin Consoleの&#x200B;**MCP Access**&#x200B;権限によって制御されます。 詳しくは、[&#x200B; アクセス CX Workfront ゲートウェイ ツール &#x200B;](access.md)を参照してください。
+>分析ツールは、Adobe Analytics ライセンスをお持ちのお客様が利用できます。 アクセスは、Adobe Admin Consoleの&#x200B;**MCP Access**&#x200B;権限によって制御されます。 詳しくは、[CX Coworker Gateway tools](access.md)へのアクセスを参照してください。
 
 ## 主な機能 {#mcp-capabilities}
 
@@ -40,11 +39,11 @@ Adobe Analyticsツールは、MCP クライアントからの分析の発見と�
 | セグメントと日付範囲 | 製品の権限で許可されている再利用可能なセグメントと日付範囲を作成および更新できます。 |
 | Workspace プロジェクト | Analysis Workspace プロジェクトの概要を説明します。 |
 
-現在のツールの一覧については、[Adobe Analytics MCP ツール リファレンス &#x200B;](https://developer.adobe.com/analytics-mcp/docs/aa/reference){target="_blank"}を参照してください。
+現在のツールの一覧については、[Adobe Analytics MCP ツール リファレンス ](https://developer.adobe.com/analytics-mcp/docs/aa/reference){target="_blank"}を参照してください。
 
 ## プロンプト例 {#mcp-use-cases}
 
-| 目標 | プロンプト例 |
+| 目標 | プロンプトの例 |
 | --- | --- |
 | レポートスイートについて | 「アクセスできるレポートスイートのリスト」 |
 | コンポーネントを検索 | 「収益に関連する指標を見つける」 |
@@ -60,4 +59,4 @@ Adobe Analyticsツールは、MCP クライアントからの分析の発見と�
 
 ## 詳細 {#mcp-more}
 
-完全なツールリファレンスと基本ガイドについては、[Adobe Analytics MCP ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/aa/){target="_blank"}を参照してください。
+完全なツールリファレンスと基本ガイドについては、[Adobe Analytics MCP ドキュメント ](https://developer.adobe.com/analytics-mcp/docs/aa/){target="_blank"}を参照してください。

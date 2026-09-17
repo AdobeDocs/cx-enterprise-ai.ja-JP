@@ -1,21 +1,20 @@
 ---
 title: CX Coworker GatewayのCustomer Journey Analytics Tools
-description: Adobe CX Coworker Gatewayを通じて利用できるAdobe Customer Journey Analytics ツールについて説明します。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+description: Adobe CX Coworker Gatewayを通じて使用できるAdobe Customer Journey Analytics ツールについて説明します。
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 4%
-
 ---
 
+# Adobe CX Coworker GatewayのCustomer Journey Analytics ツール {#cja-mcp}
 
-# Adobe CX Coworker GatewayのCustomer Journey Analyticsツール {#cja-mcp}
-
-Customer Journey Analyticsの製品用ツールを使用して、MCP対応クライアントからデータビューの探索、ディメンションと指標の検出、レポートの実行、選択した分析コンポーネントの管理をおこなえます。 これらのツールは、アカウントに必要なCustomer Journey Analytics ライセンスと権限がある場合、[CX Coworker Gateway](overview.md)から利用できます。
+Customer Journey Analyticsの製品用ツールを使用して、MCP対応クライアントからデータビューの探索、ディメンションと指標の検出、レポートの実行、選択した分析コンポーネントの管理をおこなえます。 これらのツールは、アカウントに必要なCX Coworker ライセンスと権限がある場合、[Customer Journey Analytics Gateway](overview.md)から利用できます。
 
 >[!AVAILABILITY]
 >
->Customer Journey Analytics ツールは、Customer Journey Analytics ライセンスをお持ちのお客様が利用できます。 アクセスは、Adobe Admin Consoleの&#x200B;**MCP Access**&#x200B;権限によって制御されます。 [CX Coworker Gateway Tools](access.md)へのアクセスを参照してください。
+>Customer Journey Analytics ツールは、Customer Journey Analytics ライセンスをお持ちのお客様が利用できます。 アクセスは、Adobe Admin Consoleの&#x200B;**MCP Access**&#x200B;権限によって制御されます。 [CX Coworker Gateway tools](access.md)へのアクセスを参照してください。
 
 ## 主な機能 {#mcp-capabilities}
 
@@ -64,7 +63,7 @@ Customer Journey Analytics ツールは、MCP クライアントから管理さ�
 
 ## プロンプト例 {#mcp-use-cases}
 
-| 目標 | プロンプト例 |
+| 目標 | プロンプトの例 |
 | --- | --- |
 | データビューのリスト | 「Customer Journey Analyticsで自分が利用できるデータビューを一覧表示します。」 |
 | コンポーネントの詳細 | 「データビュー`[data view name]`で収益に関連する指標を検索します。」 |
@@ -84,12 +83,12 @@ Customer Journey Analytics ツールは、MCP クライアントから管理さ�
 
 **概要**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486315/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486313/?learn=on&enablevpops)
 
 **実施中**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486326/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486314/?learn=on&enablevpops)
 
 ## 詳細 {#mcp-more}
 
-完全なツールリファレンスと基本ガイドについては、[Customer Journey Analytics MCP ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/cja/){target="_blank"}を参照してください。
+完全なツールリファレンスと基本ガイドについては、[Customer Journey Analytics MCP ドキュメント ](https://developer.adobe.com/analytics-mcp/docs/cja/){target="_blank"}を参照してください。

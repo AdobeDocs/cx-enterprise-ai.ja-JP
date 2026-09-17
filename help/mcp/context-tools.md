@@ -1,20 +1,19 @@
 ---
 title: CX Coworker Gatewayのセッションコンテキストツール
-description: すべてのCX Coworker Gateway ツール呼び出しの組織、サンドボックス、データビューのコンテキストを設定するコアツールについて説明します。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+description: すべてのCX Coworker Gateway ツール呼び出しの整理、サンドボックス、データビューのコンテキストを設定するコアツールについて説明します。
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 0%
-
+ht-degree: 1%
 ---
-
 # Adobe CX Coworker Gatewayのセッションコンテキストツール {#mcp-core}
 
-Adobe CX Coworker Gatewayには、Adobeの組織、Adobe Experience Platform サンドボックス、Customer Journey Analytics データビューを確立する一連のセッションコンテキストツールが含まれています。これらのツールは、他のすべてのプロダクトツールで動作します。 追加のライセンスや有効化は必要ありません。これらのツールは、[CX Coworker Gateway サーバー](overview.md)に接続した後、すべての認証済みユーザーが利用できます。
+Adobe CX Coworker Gatewayには、Adobeの組織、Adobe Experience Platform サンドボックス、Customer Journey Analytics データビューを設定するセッションコンテキストツールのセットが含まれています。これらのツールは、他のすべてのプロダクトツールで動作します。 追加のライセンスや有効化は必要ありません。これらのツールは、[CX Coworker Gateway サーバー](overview.md)に接続した後、すべての認証済みユーザーが使用できます。
 
 ## コンテキストの仕組み {#mcp-core-how}
 
-CX Coworker Gatewayは、アクティブな1つのAdobe組織に対するすべてのツール呼び出しをスコープします。 それ以外のコンテキスト要件は、製品によって異なります。
+CX Coworker Gatewayは、1つのアクティブなAdobe組織に対するすべてのツール呼び出しをスコープします。 それ以外のコンテキスト要件は、製品によって異なります。
 
 - **Experience Platform ベースの製品** — [Real-Time CDP](rtcdp-mcp.md)、[Experience Platform](aep-mcp.md)、[Journey Optimizer](ajo-mcp.md) ツールは、Experience Platform サンドボックス内で動作します。 `core-set_sandbox`のセッションごとに1回サンドボックスを設定します。3つはすべて共有します。
 - **その他の製品** — Experience Platform上に構築されていない製品では、サンドボックスコンテキストは使用されません。 例えば、[Customer Journey Analytics](cja-mcp.md)個のツールはデータビューに対して解決され、[Adobe Analytics](analytics-mcp.md)個のツールはレポートスイートに対して解決されます。
@@ -52,7 +51,7 @@ MCP クライアントに、1つの自然言語リクエストでこの設定を
 
 ## プロンプト例 {#mcp-core-examples}
 
-| 目標 | プロンプト例 |
+| 目標 | プロンプトの例 |
 | --- | --- |
 | 利用可能な組織を見つける | 「どのAdobe組織にアクセスできますか？」 |
 | 組織コンテキストの設定 | 「組織`My Org (1234ABCD@AdobeOrg)`に切り替えます。」 |
@@ -64,5 +63,5 @@ MCP クライアントに、1つの自然言語リクエストでこの設定を
 
 ## 関連ページ {#mcp-core-related}
 
-- [Adobe CX Coworker Gatewayをインストール &#x200B;](install.md) – 製品コンテキスト設定セクションを含むMCP クライアントを接続する方法。
-- [Access CX Coworker Gateway tools](access.md) – 製品別のアクセス要件。
+- [Adobe CX Coworker Gatewayをインストール ](install.md) – 製品コンテキストの設定セクションを含む、MCP クライアントを接続する方法。
+- [CX Coworker Gateway tools](access.md)へのアクセス – 製品別のアクセス要件。

@@ -1,7 +1,8 @@
 ---
 title: Adobe CX Coworker Gatewayの概要
 description: Adobe CX Coworker Gatewayは、Adobe CX Enterpriseの統合MCPであり、MCP クライアントがサポートされている製品ツールに単一で接続できます。
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
@@ -37,23 +38,23 @@ CX Coworker Gatewayは、CX Coworker Gateway製品ツール用の管理エンド
 
 | 製品ツール | エンドポイントを通じて公開される情報 | 対象 | ドキュメント |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Real-Time CDP** | オーディエンス、宛先、ソース、ID名前空間、アクティベーションの正常性（読み取り専用） | ベータ版 | [Real-Time CDP ツール &#x200B;](rtcdp-mcp.md) |
-| **Experience Platform** | スキーマ、データセット、データガバナンス、クエリサービス、監査イベント、オブザーバビリティ指標、サンドボックス正常性チェック評価（読み取り専用） | ベータ版 | [Experience Platform ツール &#x200B;](aep-mcp.md) |
-| **Journey Optimizer** | キャンペーン、ジャーニー、チャネル設定（読み取り専用）、コンテンツテンプレート、フラグメント、ランディングページ、インラインメッセージコンテンツ（読み取りと書き込み） | ベータ版 | [Journey Optimizer ツール &#x200B;](ajo-mcp.md) |
-| **Customer Journey Analytics** | データビュー、ディメンション、指標、レポート、セグメント、日付範囲、プロジェクト、オーディエンス（読み取りと書き込み） | 使用可能 | [Customer Journey Analytics ツール &#x200B;](cja-mcp.md) |
-| **Adobe Analytics** | レポートスイート、ディメンション、指標、レポート、セグメント、日付範囲、ワークスペースプロジェクト（サポートされているコンポーネントの読み取りと書き込み） | 使用可能 | [Adobe Analytics ツール &#x200B;](analytics-mcp.md) |
-| **Workfront** | プロジェクト、タスク、承認ワークフローの作業管理ツール | プレビュー | [Workfront MCP サーバー](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
+| **Real-Time CDP** | オーディエンス、宛先、ソース、ID名前空間、アクティベーションの正常性（読み取り専用） | ベータ版 | [Real-Time CDP ツール ](rtcdp-mcp.md) |
+| **Experience Platform** | スキーマ、データセット、データガバナンス、クエリサービス、監査イベント、オブザーバビリティ指標、サンドボックス正常性チェック評価（読み取り専用） | ベータ版 | [Experience Platform ツール ](aep-mcp.md) |
+| **Journey Optimizer** | キャンペーン、ジャーニー、チャネル設定（読み取り専用）、コンテンツテンプレート、フラグメント、ランディングページ、インラインメッセージコンテンツ（読み取りと書き込み） | ベータ版 | [Journey Optimizer ツール ](ajo-mcp.md) |
+| **Customer Journey Analytics** | データビュー、ディメンション、指標、レポート、セグメント、日付範囲、プロジェクト、オーディエンス（読み取りと書き込み） | 使用可能 | [Customer Journey Analytics ツール ](cja-mcp.md) |
+| **Adobe Analytics** | レポートスイート、ディメンション、指標、レポート、セグメント、日付範囲、ワークスペースプロジェクト（サポートされているコンポーネントの読み取りと書き込み） | 使用可能 | [Adobe Analytics ツール ](analytics-mcp.md) |
+| **Workfront** | プロジェクト、タスク、承認ワークフローの作業管理ツール | プレビュー | [Workfront MCP サーバー](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
 >[!NOTE]
 >
->ツールの可用性は、製品ライセンス、組織の有効化、製品の権限、認証に使用されるAdobeの資格情報によって異なります。 MCPは、組織とユーザーアカウントがアクセス権を持つツールのみを表示します。 [CX Coworker Gateway Tools](access.md)へのアクセスを参照してください。
+>ツールの可用性は、製品ライセンス、組織の有効化、製品の権限、認証に使用されるAdobeの資格情報によって異なります。 MCPは、組織とユーザーアカウントがアクセス権を持つツールのみを表示します。 [CX Coworker Gateway tools](access.md)へのアクセスを参照してください。
 
 
 
 ## 基本を学ぶ {#mcp-get-started}
 
-1. [CX Coworker Gateway tools](access.md)にアクセスして、製品の可用性、イネーブルメント、権限を確認します。
-2. 「[Install Adobe for CX Coworker Gateway](install.md)」に従って、MCP クライアントをエンドポイントに接続します。
+1. [CX Coworker Gateway tools](access.md)へのアクセスを確認して、製品の可用性、イネーブルメント、権限を確認します。
+2. [CX Coworker Gateway用Adobeのインストール ](install.md)に従って、MCP クライアントをエンドポイントに接続します。
 3. 使用する各製品ツールの製品ページを確認します。
 
