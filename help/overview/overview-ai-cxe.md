@@ -32,7 +32,7 @@ Adobe CX Enterpriseのアプリケーションでは、AIを次の2つの補完�
 - **[エージェンティック AI モニタリング](./monitoring.md)**&#x200B;では、センターオブエクセレンス チームおよびその他のガバナンス関係者が、組織全体でのエージェントの導入、使用、およびフィードバックを追跡するために使用するダッシュボードについて説明します。
 - **[AI クレジットの使用](./ai-credit-consumption.md)**&#x200B;は、エージェントのジョブと同僚の入力がAI クレジットをどのように使用しているかを、エージェントとジョブのタイプ別の見積もり率で説明します。これにより、使用に関する計画と予算を立てることができます。
 - **[生成AI コンテンツの透明性](../content-transparency.md)**&#x200B;は、Adobeが生成AIが生成し、生成AIが編集したコンテンツにC2PA メタデータを自動的に添付する方法を説明し、組織の開示義務を理解するのに役立ちます。
-- **[CX Enterprise エージェンティック ツール ](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)**&#x200B;は、CX Enterprise エージェントを拡張するエージェンティック スキルとツールを取り上げるビデオ チュートリアルです。
+- **[CX Enterprise エージェンティック ツール &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)**&#x200B;は、CX Enterprise エージェントを拡張するエージェンティック スキルとツールを取り上げるビデオ チュートリアルです。
 
 ## 始める前に {#before-you-begin}
 
@@ -40,11 +40,11 @@ Coworker、AI アシスタント、エージェンティック AIの使用を開
 
 ### アクセス要件
 
-ユーザーがAI アシスタントとExperience Platform Agentsにアクセスするには、Adobe管理者が適切な権限を付与する必要があります。 要件はアプリケーションによって異なります。詳しくは、Agent Orchestrator ガイドの[ アクセス ](../agents/agent-orchestrator.md#access)を参照してください。 CX Enterprise Coworker アクセスは、実施要件に基づく体験版を通じて個別に展開されます。組織がアクセスを取得する方法については、[共同作業者体験版](../agents/trial.md)を参照してください。
+ユーザーがAI アシスタントとExperience Platform Agentsにアクセスするには、Adobe管理者が適切な権限を付与する必要があります。 要件はアプリケーションによって異なります。詳しくは、Agent Orchestrator ガイドの[&#x200B; アクセス &#x200B;](../agents/agent-orchestrator.md#access)を参照してください。 CX Enterprise Coworker アクセスは、実施要件に基づく体験版を通じて個別に展開されます。組織がアクセスを取得する方法については、[共同作業者体験版](../agents/trial.md)を参照してください。
 
 ### プライバシーとセキュリティ
 
-AI アシスタントとExperience Platform Agentsは、サンドボックスに特化したデータ分離や既存のアクセス制御ポリシーなど、プライバシー、セキュリティ、ガバナンスを優先します。 詳しくは、[AI アシスタントのプライバシー、セキュリティ、ガバナンス ](../ai-assistant/privacy.md)を参照してください。
+AI アシスタントとExperience Platform Agentsは、サンドボックスに特化したデータ分離や既存のアクセス制御ポリシーなど、プライバシー、セキュリティ、ガバナンスを優先します。 詳しくは、[AI アシスタントのプライバシー、セキュリティ、ガバナンス &#x200B;](../ai-assistant/privacy.md)を参照してください。
 
 ## 開始する場所
 
@@ -52,4 +52,4 @@ AI アシスタントとExperience Platform Agentsは、サンドボックスに
 1. **AI クレジットの使用**&#x200B;を読んで、使用がコストにどのように変換されるかを理解してください。これにより、財務と調達に対する期待値を設定できます。
 1. ガバナンス チームに&#x200B;**Agentic AI監視** ダッシュボード権限を設定して、導入と使用状況を初日から確認できるようにします。
 1. **生成AI コンテンツの透明性**&#x200B;を参照して、AIが生成したコンテンツに対して、チームが公開するコンテンツに自動的に適用される情報開示について確認してください。
-1. Adobe管理者と協力して、上記の&#x200B;**アクセス要件**&#x200B;を開始する前に完了し、CX Enterprise アプリケーション ](../home.md)の[AIにユーザーを誘導して、AI アシスタント、Agent Orchestrator、CX Enterprise Coworkerに関する実践的なガイダンスを提供します。
+1. Adobe管理者と協力して、上記の&#x200B;**アクセス要件**&#x200B;を開始する前に完了し、CX Enterprise アプリケーション [&#128279;](../home.md)のAIにユーザーを誘導して、AI アシスタント、Agent Orchestrator、CX Enterprise Coworkerに関する実践的なガイダンスを提供します。
