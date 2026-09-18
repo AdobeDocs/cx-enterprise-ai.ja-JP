@@ -6,9 +6,9 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 4ae7aa9127368da137582ce3aad3259fa815a497
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 20%
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 20%
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
-    - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+    - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
     - ユースケース {#use-cases}
       - [Adobe Workfrontのユースケース](./coworker/chat/use-cases/overview.md)
       - データインサイト {#data-insights}
@@ -60,6 +60,7 @@ ht-degree: 20%
   - キャンペーン {#campaigns}
     - [概要](./coworker/campaigns/overview.md)
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
+    - {hide-from-toc}[ キャンペーンを起動して管理](./coworker/campaigns/launch-manage-campaign.md)
     - [ユースケース](./coworker/campaigns/use-cases.md)
     - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
     - [C2PA メタデータ](./coworker/campaigns/c2pa-metadata.md)
@@ -90,15 +91,15 @@ ht-degree: 20%
   - {hide-from-toc}[Adobe CX Coworker Gateway](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP ベータ版](./mcp/beta/rtcdp-mcp.md)
   - 基本を学ぶ {#mcp-get-started}
-    - {hide-from-toc}[CX Coworker Gateway Toolsへのアクセス](./mcp/access.md)
-    - {hide-from-toc}[CX Coworker Gatewayのインストール &#x200B;](./mcp/install.md)
-    - {hide-from-toc}[CX Coworker Gatewayの セッションコンテキストツール &#x200B;](./mcp/context-tools.md)
+    - {hide-from-toc}[CX Coworker Gateway Tools](./mcp/access.md)へのアクセス
+    - {hide-from-toc}[CX Coworker Gatewayのインストール ](./mcp/install.md)
+    - CX Coworker Gatewayの{hide-from-toc}[ セッションコンテキストツール ](./mcp/context-tools.md)
   - 製品ツール {#mcp-product-tools}
-    - {hide-from-toc}[Real-Time CDP ツール &#x200B;](./mcp/rtcdp-mcp.md)
-    - {hide-from-toc}[Experience Platform ツール &#x200B;](./mcp/aep-mcp.md)
-    - {hide-from-toc}[Journey Optimizer ツール &#x200B;](./mcp/ajo-mcp.md)
-    - {hide-from-toc}[Customer Journey Analytics ツール &#x200B;](./mcp/cja-mcp.md)
-    - {hide-from-toc}[Adobe Analytics ツール &#x200B;](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [ターゲット](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Real-Time CDP ツール ](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Experience Platform ツール ](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Journey Optimizer ツール ](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Customer Journey Analytics ツール ](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Adobe Analytics ツール ](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [ターゲット](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
