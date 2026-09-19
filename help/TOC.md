@@ -6,9 +6,9 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 20%
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 20%
   - キャンペーン {#campaigns}
     - [概要](./coworker/campaigns/overview.md)
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
+    - [キャンペーンの立ち上げと管理](./coworker/campaigns/launch-manage-campaign.md)
     - [ユースケース](./coworker/campaigns/use-cases.md)
     - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
     - [C2PA メタデータ](./coworker/campaigns/c2pa-metadata.md)

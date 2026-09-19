@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: db8f6b723110d86fc3bd65f2e1f5ab3047157e8f
+source-git-commit: 92553b9b27ee38ba31ccd00b443502e990e625be
 workflow-type: tm+mt
-source-wordcount: '4800'
+source-wordcount: '4876'
 ht-degree: 6%
 ---
 # Adobe Workfrontのユースケース{#use-cases}
@@ -149,7 +149,13 @@ ht-degree: 6%
 | カスタムアクションエラーの分析 | カスタムアクションが失敗しているか、ジャーニー内でエラー率が急増しているかを特定し、失敗がより大きな混乱に連鎖する前に根本原因を診断できます | `journey-analyze-custom-action` | Adobe Journey Optimizer（AJO） | 「ロイヤルティ登録ジャーニーでカスタムアクションが失敗するのはなぜですか？」 <br> 「ウェルカムジャーニーのカスタムアクション ExternalPushのエラー率を表示する」 |
 | ジャーニーの異常値の検出 | ジャーニーの開始、終了、過去のベースラインに対する送信カウントにおける予期しない急増、急減、フラットラインを検出して確認し、可能性の高い根本原因を明らかにします | `journey-analyze-anomaly` | Adobe Journey Optimizer（AJO） | 「昨日のウェルカムジャーニーのエントリが低下した理由は何ですか？」 <br> 「今週のカート放棄ジャーニーで、出口が急増しましたか？」 |
 
-ジャーニーのCX Coworker スキルについて詳しくは、[Adobe Journey Optimizer ジャーニーのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}を参照してください。
+ジャーニーのCX Coworker スキルについて詳しくは、[Adobe Journey Optimizer ジャーニーのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}を参照してください。
+
+## マーケティングプログラム
+
+| 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
+|---|---|---|---|---|
+| プログラムの作成 | 既存のプログラムテンプレートを新しいプログラムに適応し、平易な言語のキャンペーン説明やアップロードされたキャンペーン概要から、スマートキャンペーン、スケジューリング、プレースホルダーメールを生成します | `build-programs` | Adobe Marketo Engage | 「8月の製品デモ用にウェビナー登録プログラムを作成する」 <br><br> 「リードが50点に達したときにトリガーするプログラムを作成する」 <br><br> 「非アクティブな90日間のリードの3通のメール再エンゲージメントシリーズを作成する」 |
 
 ## ロイヤルティ
 
@@ -158,7 +164,7 @@ ht-degree: 6%
 | ロイヤルティに関する課題を作成、編集、管理する | ロイヤルティプログラム管理を簡素化し、迅速化したい | `loyalty` | Adobe Journey Optimizer（AJO） | 「会員に新しい季節の飲み物を試すように促すチャレンジを作成する」 <br> 「最も高い会員の脱落レートでロイヤルティのチャレンジを表示する」 |
 | ロイヤルティプログラムのパフォーマンスを分析する | 自然言語を使用して、ロイヤルティポイント、メンバー層、引き換え、収益指標をクエリし、分析します | `loyalty-insights` | Adobe Journey Optimizer（AJO） | 「2026年8月に付与されたロイヤルティポイント数はいくつですか？」 <br> 「2026年8月の期間中のロイヤルティプログラムの総収益を日別に示してください。」 |
 
-ロイヤルティに関するCX Coworker スキルについて詳しくは、[Adobe Journey Optimizer ロイヤルティドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}を参照してください。
+ロイヤルティに関するCX Coworker スキルについて詳しくは、[Adobe Journey Optimizer ロイヤルティドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}を参照してください。
 
 ## 最適化
 
