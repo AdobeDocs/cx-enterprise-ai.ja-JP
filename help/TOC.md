@@ -6,9 +6,9 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 20%
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 20%
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
-    - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+    - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
     - ユースケース {#use-cases}
       - [Adobe Workfrontのユースケース](./coworker/chat/use-cases/overview.md)
       - データインサイト {#data-insights}
@@ -59,10 +59,12 @@ ht-degree: 20%
       - [最初のスキルを作成](./coworker/customizations/skills/create-your-first-skill.md)
       - [高品質なゲートスキルの構築と実行](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [スキルの管理と繰り返し](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - 統合 {#integrations}
+      - [統合とは何ですか？](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - プラグイン {#plugins}
-      - [プラグインとは](./coworker/customizations/plugins/what-are-plugins.md)
+      - [プラグインとは何ですか？](./coworker/customizations/plugins/what-are-plugins.md)
     - メモリ {#memory}
-      - [記憶とは](./coworker/customizations/memory/what-is-memory.md)
+      - [メモリとは何ですか？](./coworker/customizations/memory/what-is-memory.md)
   - キャンペーン {#campaigns}
     - [概要](./coworker/campaigns/overview.md)
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
@@ -98,15 +100,15 @@ ht-degree: 20%
   - {hide-from-toc}[Adobe CX Coworker Gateway](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP ベータ版](./mcp/beta/rtcdp-mcp.md)
   - 基本を学ぶ {#mcp-get-started}
-    - {hide-from-toc}[CX Coworker Gateway Toolsへのアクセス](./mcp/access.md)
-    - {hide-from-toc}[CX Coworker Gatewayのインストール &#x200B;](./mcp/install.md)
-    - {hide-from-toc}[CX Coworker Gatewayの セッションコンテキストツール &#x200B;](./mcp/context-tools.md)
+    - {hide-from-toc}[CX Coworker Gateway Tools](./mcp/access.md)へのアクセス
+    - {hide-from-toc}[CX Coworker Gatewayのインストール ](./mcp/install.md)
+    - CX Coworker Gatewayの{hide-from-toc}[ セッションコンテキストツール ](./mcp/context-tools.md)
   - 製品ツール {#mcp-product-tools}
-    - {hide-from-toc}[Real-Time CDP ツール &#x200B;](./mcp/rtcdp-mcp.md)
-    - {hide-from-toc}[Experience Platform ツール &#x200B;](./mcp/aep-mcp.md)
-    - {hide-from-toc}[Journey Optimizer ツール &#x200B;](./mcp/ajo-mcp.md)
-    - {hide-from-toc}[Customer Journey Analytics ツール &#x200B;](./mcp/cja-mcp.md)
-    - {hide-from-toc}[Adobe Analytics ツール &#x200B;](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [ターゲット](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Real-Time CDP ツール ](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Experience Platform ツール ](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Journey Optimizer ツール ](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Customer Journey Analytics ツール ](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Adobe Analytics ツール ](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [ターゲット](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
