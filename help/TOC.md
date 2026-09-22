@@ -6,9 +6,9 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '353'
 ht-degree: 20%
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 20%
         - [トレンドと根本原因を探る](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [アップグレード時にAAからCJA データを検証する](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [CJA レポート用のデータセット品質の検証](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+      - データ管理 {#data-management}
+        - [データレイクの管理](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - オーディエンス {#audiences}
         - [プラットフォームの健全性を評価し、オーディエンスを構築する](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - ジャーニー {#journeys}
@@ -77,6 +79,7 @@ ht-degree: 20%
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience Agent](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [Data Management エージェント](./agents/data-management.md)
   - [実験エージェント](./agents/agent-experiment.md)
   - [Field Discovery エージェント](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
