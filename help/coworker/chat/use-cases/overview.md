@@ -24,7 +24,7 @@ ht-degree: 5%
 >
 >対象となるすべてのお客様は、CoworkerのAdobe Experience Manager エージェンティック機能にローリングベースでアクセスできます。
 >
->AEMの[AI - AEMのエージェンティック機能の概要](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)も参照してください。
+>AEMの[AI - AEMのエージェンティック機能の概要](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)も参照してください。
 
 ## ブランド体験
 
@@ -43,9 +43,9 @@ ht-degree: 5%
 
 **関連情報**
 
-* [AEMのAgentic Capabilities: Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEMのAgentic Capabilities: Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [AEMのエージェント機能：ブランドエクスペリエンス – エクスペリエンス制作 – Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEMのエージェント機能：ブランドエクスペリエンス – エクスペリエンス制作 – Forms](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 開発
 
@@ -58,7 +58,7 @@ ht-degree: 5%
 
 **関連情報**
 
-* [AEMのエージェント機能：ブランドエクスペリエンス – 開発](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEMのエージェント機能：ブランドエクスペリエンス – 開発](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### オンボーディング
 
@@ -71,7 +71,7 @@ ht-degree: 5%
 
 **関連情報**
 
-* [AEMのエージェント機能：ブランドエクスペリエンス – オンボーディング](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEMのエージェント機能：ブランドエクスペリエンス – オンボーディング](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Content Advisor
 
@@ -86,7 +86,7 @@ ht-degree: 5%
 
 **関連情報**
 
-* [AEMのエージェント機能：Content Advisor - Content Discovery](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEMのエージェント機能：Content Advisor - Content Discovery](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### コンテンツの最適化
 
@@ -98,7 +98,7 @@ ht-degree: 5%
 
 **関連情報**
 
-* [AEMのエージェント機能：Content Advisor - Content Optimization](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEMのエージェント機能：Content Advisor - Content Optimization](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## ブランドガバナンス
 
@@ -110,7 +110,7 @@ ht-degree: 5%
 
 **関連情報**
 
-* [AEMのエージェント機能：ブランドガバナンス](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEMのエージェント機能：ブランドガバナンス](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 顧客理解とデータ活用
 
@@ -149,7 +149,7 @@ ht-degree: 5%
 | カスタムアクションエラーの分析 | カスタムアクションが失敗しているか、ジャーニー内でエラー率が急増しているかを特定し、失敗がより大きな混乱に連鎖する前に根本原因を診断できます | `journey-analyze-custom-action` | Adobe Journey Optimizer（AJO） | 「ロイヤルティ登録ジャーニーでカスタムアクションが失敗するのはなぜですか？」 <br> 「ウェルカムジャーニーのカスタムアクション ExternalPushのエラー率を表示する」 |
 | ジャーニーの異常値の検出 | ジャーニーの開始、終了、過去のベースラインに対する送信カウントにおける予期しない急増、急減、フラットラインを検出して確認し、可能性の高い根本原因を明らかにします | `journey-analyze-anomaly` | Adobe Journey Optimizer（AJO） | 「昨日のウェルカムジャーニーのエントリが低下した理由は何ですか？」 <br> 「今週のカート放棄ジャーニーで、出口が急増しましたか？」 |
 
-ジャーニーのCX Coworker スキルについて詳しくは、[Adobe Journey Optimizer ジャーニーのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}を参照してください。
+ジャーニーのCX Coworker スキルについて詳しくは、[Adobe Journey Optimizer ジャーニーのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}を参照してください。
 
 ## マーケティングプログラム
 
@@ -167,7 +167,7 @@ ht-degree: 5%
 | ロイヤルティに関する課題を作成、編集、管理する | ロイヤルティプログラム管理を簡素化し、迅速化したい | `loyalty` | Adobe Journey Optimizer（AJO） | 「会員に新しい季節の飲み物を試すように促すチャレンジを作成する」 <br> 「最も高い会員の脱落レートでロイヤルティのチャレンジを表示する」 |
 | ロイヤルティプログラムのパフォーマンスを分析する | 自然言語を使用して、ロイヤルティポイント、メンバー層、引き換え、収益指標をクエリし、分析します | `loyalty-insights` | Adobe Journey Optimizer（AJO） | 「2026年8月に付与されたロイヤルティポイント数はいくつですか？」 <br> 「2026年8月の期間中のロイヤルティプログラムの総収益を日別に示してください。」 |
 
-ロイヤルティに関するCX Coworker スキルについて詳しくは、[Adobe Journey Optimizer ロイヤルティドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}を参照してください。
+ロイヤルティに関するCX Coworker スキルについて詳しくは、[Adobe Journey Optimizer ロイヤルティドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}を参照してください。
 
 ## 最適化
 
@@ -217,7 +217,7 @@ Adobe Workfront Chatを使用すれば、エクスペリエンスの閲覧、分
 | エンティティの解決とリンク | セマンティック検索と字句検索を使用して、実際のExperience Platform エンティティに対するエンティティのメンションを解決し、XDM フィールドを検出します | `entity-linking` | Adobe Experience Platform | 「実際のオーディエンスに&#39;Holiday Shoppers&#39;を解決する」 <br> 「購入履歴に関連するフィールドを検索する」 |
 | カスタムスキルの管理 | 再利用可能なユーザー所有スキルを保存、変更、削除できます。これらのスキルは、セッションをまたいで保持されます | `manage-skill` | すべての対象アプリケーション | 「そのワークフローをスキルとして保存」 <br> 「週次レポートスキルを削除」 <br> 「これを再利用可能なスキルに変換」 |
 | ストリーミング容量とデータ侵害の監視 | サンドボックスをまたいで、現在および過去のストリーミング利用状況、キャパシティ、侵害ステータスを確認できます | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | 「現在のサンドボックスの現在のストリーミング容量は何ですか？」 <br> 「私の現在のサンドボックスは、先週の容量制限に違反していますか？」 |
-| [&#x200B; ヘルスチェックの評価結果を表示](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | サンドボックスの最新のヘルスチェック評価を表示し、失敗したチェックをドリルダウンして、影響を受けるエンティティを確認します | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「サンドボックスの何が問題ですか？」 <br> 「最新のヘルスチェック評価について教えてください」 <br> 「カスタム名前空間説明チェックの問題は何ですか？」 |
+| [&#x200B; ヘルスチェックの評価結果を表示](https://experienceleague.adobe.com/ja/docs/experience-platform/run-and-operate/health-checks/overview) | サンドボックスの最新のヘルスチェック評価を表示し、失敗したチェックをドリルダウンして、影響を受けるエンティティを確認します | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「サンドボックスの何が問題ですか？」 <br> 「最新のヘルスチェック評価について教えてください」 <br> 「カスタム名前空間説明チェックの問題は何ですか？」 |
 | ヘルスチェックの問題を修正 | 変更が行われる前に承認を得て、フラグ付きのID名前空間、結合ポリシー、スキーマの問題をチャットから直接修正します | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | 「ID名前空間の説明を修正」 <br> 「重複する結合ポリシー名を修正」 <br> 「監査フィールドグループが欠落しているスキーマを修正」 <br> 「デフォルトの結合ポリシーの名前付けを修正」 |
 
 ## データ管理
