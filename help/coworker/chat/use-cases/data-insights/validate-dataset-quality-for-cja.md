@@ -8,12 +8,12 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
+source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
 ---
-# [!DNL Coworker]のData Validation SkillでCustomer Journey Analytics データを検証します
+# [!DNL Coworker]のデータ検証スキルでCustomer Journey Analytics データを検証します
 
 Adobe Customer Journey Analytics（CJA）では、データ品質は正確なレポートの基盤となります。 指標、ダッシュボード、セグメント、カスタマージャーニーを構築する前に、基盤となるAdobe Experience Platform（AEP）データが信頼できるかどうかを把握することが重要です。
 
@@ -110,3 +110,4 @@ Customer Journey Analyticsの信頼性は、基盤となるデータの信頼性
 - 予期しない指標をより効率的にトラブルシューティング
 
 Coworkerでは、自然言語プロンプトを使用してこれらのチェックを開始できるため、技術的な知識を持つユーザーやそうでないユーザーもデータ検証にアクセスしやすくなります。
+

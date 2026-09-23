@@ -6,9 +6,9 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '365'
 ht-degree: 20%
 ---
 
@@ -59,6 +59,12 @@ ht-degree: 20%
       - [最初のスキルを作成](./coworker/customizations/skills/create-your-first-skill.md)
       - [高品質なゲートスキルの構築と実行](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [スキルの管理と繰り返し](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - 統合 {#integrations}
+      - [統合とは何ですか？](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
+    - プラグイン {#plugins}
+      - [プラグインとは何ですか？](./coworker/customizations/plugins/what-are-plugins.md)
+    - メモリ {#memory}
+      - [メモリとは何ですか？](./coworker/customizations/memory/what-is-memory.md)
   - キャンペーン {#campaigns}
     - [概要](./coworker/campaigns/overview.md)
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
