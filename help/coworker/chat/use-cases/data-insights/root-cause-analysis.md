@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analyticsと同僚 – 根本原因の分析
-description: Coworkerが自然言語で分析の質問に答え、トレンドを可視化し、パターンを明らかにし、手作業によるクエリなしで根本原因の分析を実行する方法を紹介します。
+description: 手作業でクエリを記述することなく、自然言語と共同作業者を使用して、分析データの傾向と根本原因を調査する方法を説明します。
 feature: AI Tools
 role: User
 level: Beginner
@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: '106'
 ht-degree: 0%
-
 ---
-
 
 # Customer Journey Analyticsと同僚 – 自然言語による傾向と根本原因を探る
 
@@ -26,4 +26,4 @@ ht-degree: 0%
  
 アナリストやマーケターは、自然言語を使うことで、データに関する質問、視覚化された結果の取得、有意義なトレンドの特定、パフォーマンスを促進する要因の発見などを、すべて1回の会話で行うことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496852/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)

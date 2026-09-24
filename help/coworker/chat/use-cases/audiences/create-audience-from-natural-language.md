@@ -1,6 +1,6 @@
 ---
 title: 自然言語からのオーディエンスの作成
-description: Coworkerを使用して自然言語からオーディエンスを作成する方法を説明します。
+description: Coworkerを使用して自然言語からオーディエンスを作成する方法を説明します。 Experience Platformの健全性を評価し、わかりやすいプロンプトをすばやく使用できるセグメントに変える。
 feature: AI Tools
 role: User
 level: Beginner
@@ -10,18 +10,18 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22080
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 84
+source-wordcount: '98'
 ht-degree: 0%
-
 ---
-
 
 # CoworkerによるExperience Platformの健全性を評価し、自然言語からオーディエンスを構築
 
 通常、オーディエンス、ジャーニー、データセット、宛先がどのように接続しているかを監査することは、手作業による時間のかかる作業です。 このビデオでは、CoworkerがAdobe Experience Platform（AEP）環境の全体像を生成し、業界のベストプラクティスに照らしてベンチマークテストを実施し、その結果を活用して新しいオーディエンスを構築する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496868/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496848/?learn=on&enablevpops)

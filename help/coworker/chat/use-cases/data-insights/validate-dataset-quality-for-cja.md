@@ -1,6 +1,6 @@
 ---
 title: CoworkerのData Validation Skillを使用したCustomer Journey Analytics データの検証
-description: CoworkerのData Validation スキルを使用してCustomer Journey Analytics データを検証する方法について説明します。 ダッシュボード、セグメント、カスタマージャーニーを構築する前に、CJAのデータセットを特定し、データの課題を明らかにします。
+description: CoworkerのData Validation スキルを使用してCustomer Journey Analytics データを検証し、ダッシュボードを構築する前に問題を解決する方法について説明します。
 feature: AI Tools
 role: User
 level: Beginner, Intermediate
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '625'
 ht-degree: 0%
 ---
 # [!DNL Coworker]のデータ検証スキルでCustomer Journey Analytics データを検証します
@@ -19,7 +19,7 @@ Adobe Customer Journey Analytics（CJA）では、データ品質は正確なレ
 
 このビデオでは、クエリを記述したり、データを手動で調べたりすることなく、Coworker **の** データ検証スキルを使用して、Customer Journey Analyticsの実装を強化するデータセットの品質をすばやく評価する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503520/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503519/?learn=on&enablevpops)
 
 ## CJAレポートの背後にあるデータセットを発見
 
