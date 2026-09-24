@@ -7,16 +7,16 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
+source-git-commit: 34cad34ad13eaf9de30e49ba90ef2530763aabc1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '203'
 ht-degree: 4%
 ---
 # Adobe CX Enterprise Coworkerについて
 
 Coworkerは、組織、チーム、個人の作業内容を再構築するAIを活用したチームメイトです。 CXM （顧客体験管理）とマーケティングワークフローを洗練させ、タスクを調整するのではなく、ビジネス目標の達成と成果の変革に集中できるようにします。 エージェンティックエンジンとして、同社はビジネスプロセスの自動化に新たな革新的アプローチを取り入れました。 データ、インテリジェンス、コラボレーション、エージェンティックスキルの実行を、企業のコンテキスト、ガバナンス、人間による監視を組み込むことで、AI モデルのパフォーマンスと精度を向上させます。
 
-## チャット
+## 共同作業者チャット
 
 Coworker Chatなら、自然言語を使ってAdobe Adobeのプロダクトタスクを自動化し、柔軟なプランニング、カスタマイズ可能なスキル、インテリジェントな実行によってアイデアをすばやくアクションに結び付けることができます。
 

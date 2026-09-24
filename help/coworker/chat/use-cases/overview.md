@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '5040'
-ht-degree: 6%
+source-wordcount: '5301'
+ht-degree: 5%
 ---
 # Adobe Workfrontのユースケース{#use-cases}
 
@@ -124,6 +124,7 @@ ht-degree: 6%
 | [根本原因分析](data-insights/root-cause-analysis.md) | 指標が変化した理由：低下、急上昇、異常を診断します | `cja-root-cause-analysis` | Customer Journey Analytics（CJA） | 「先週、コンバージョンが低下した理由は何ですか？」 <br> 「1月15日の売上の急増の原因は何ですか？」 |
 | エグゼクティブサマリーとKPI ダイジェスト | 関係者に提供可能なパフォーマンスの要約、処方レコメンデーション、スライドデッキの概要を作成します | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics（CJA） | 「先月のエグゼクティブサマリーを教えてください」 <br> 「今四半期のデータからスライドデッキの概要を作成してください」 |
 | [AA ↔ CJA データ検証](data-insights/data-validation-aa-cja.md) | 特にAdobe AnalyticsからCustomer Journey Analyticsにアップグレードする場合は、Adobe AnalyticsとCustomer Journey Analytics間でデータを比較、監査、調整できます | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | 「AA レポートスイートとCJA データビューの比較」 <br> 「AAとCJA間のページビューの検証」 |
+| [&#x200B; データセットとフィールドの品質を検証](data-insights/data-validation-aep.md) | Experience Platform データセットとフィールドに対して統計的およびセマンティック検証を実行し、実装後または継続的にデータ品質の問題を検出します<!--TODO: confirm skill ID(s) with engineering before publishing--> | `data-validation` | Adobe Experience Platform | 「データセット Electronics サンプル 1000の検証」 <br> 「Customers_2024 データセットの電子メールフィールドの検証」 |
 | 運用時系列と因果関係分析 | オーディエンス、データセット、ジャーニーに関する過去の時系列データを、因果関係アトリビューションでクエリ、分析します | `operational-stats-causal-analysis` | すべての対象アプリケーション | 「過去90日間のオーディエンスサイズの傾向を表示」 <br> 「データセットの行数が3月3日に急増した理由を教えてください。」 |
 | CJAのカスタムスキルの作成 | 分析パターンを、セッションをまたいで保持される、再利用可能で反復可能なスキルに変換します | `cja-skill-creator` | Customer Journey Analytics（CJA） | 「この週次売上分析を再利用可能なスキルに変換」 <br> 「これを月次funnel レポートのスキルとして保存」 |
 
@@ -154,8 +155,11 @@ ht-degree: 6%
 ## マーケティングプログラム
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
-|---|---|---|---|---|
-| プログラムの作成 | 既存のプログラムテンプレートを新しいプログラムに適応し、平易な言語のキャンペーン説明やアップロードされたキャンペーン概要から、スマートキャンペーン、スケジューリング、プレースホルダーメールを生成します | `build-programs` | Adobe Marketo Engage | 「8月の製品デモ用にウェビナー登録プログラムを作成する」 <br><br> 「リードが50点に達したときにトリガーするプログラムを作成する」 <br><br> 「非アクティブな90日間のリードの3通のメール再エンゲージメントシリーズを作成する」 |
+| --- | --- | --- | --- | --- |
+| プログラムの作成 | 既存のプログラムテンプレートを新しいプログラムに適応し、平易な言語の説明やアップロードされた概要から生成されたスマートキャンペーン、スケジューリング、プレースホルダーメールを活用します | `build-programs` | Adobe Marketo Engage | 「8月の製品デモ用にウェビナー登録プログラムを作成する」 <br><br> 「リードが50点に達したときにトリガーするプログラムを作成する」 <br><br> 「非アクティブな90日間のリードの3通のメール再エンゲージメントシリーズを作成する」 |
+| ブリーフからプログラムを立ち上げる | 平易な言葉で作成した概要やアップロードしたキャンペーンドキュメントを、作業中のプログラムに変換できます。最も近いテンプレートを複製し、スマートキャンペーンやトークンを引き継ぎ、イベントの詳細を更新します。 新しいスマートキャンペーンはレビュー用に非アクティブのままになります | `build-programs` | Adobe Marketo Engage | 「9月10日にシカゴでウェビナーを開催します。 プログラムを自分で設定する&quot;<br><br>&quot;この概要から来月のロードショープログラムを設定し、イベント トークンを更新する&quot; |
+| 既存のプログラムの複製と調整 | 新しい都市、四半期、地域の以前のプログラムをコピーし、日付、トークン、命名を更新します。 子スマートキャンペーンは、アクティベートするまで引き継がれ、非アクティブのままになります | `build-programs` | Adobe Marketo Engage | 「ニューヨークの前四半期のイベントプログラムを複製して、10月17日に停止し、日付とトークンを更新します」 <br><br> 「英国のオーディエンス向けにシカゴのロードショープログラムを複製します」 |
+| 選定ロジックを使用したスマートキャンペーンの構築 | トリガーまたはバッチ方式のスマートキャンペーンの作成、フォームへの入力やリーチのスコアなどのスマートリストルールの追加、メールの送信などのフローステップの設定 | `build-programs` | Adobe Marketo Engage | 「リードがお問い合わせフォームに入力したときにウェルカムメールを送信するトリガーキャンペーンを作成する」 <br><br> 「スコアが50に達したリードのバッチキャンペーンを作成し、メール送信手順を追加する」 |
 
 ## ロイヤルティ
 

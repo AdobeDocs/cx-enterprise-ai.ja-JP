@@ -6,9 +6,9 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '370'
 ht-degree: 20%
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 20%
         - [トレンドと根本原因を探る](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [アップグレード時にAAからCJA データを検証する](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [CJA レポート用のデータセット品質の検証](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+        - [Experience Platform データの検証](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
       - データ管理 {#data-management}
         - [データレイクの管理](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - オーディエンス {#audiences}
@@ -111,4 +112,3 @@ ht-degree: 20%
     - {hide-from-toc}[Adobe Analytics ツール &#x200B;](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [ターゲット](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp)
-

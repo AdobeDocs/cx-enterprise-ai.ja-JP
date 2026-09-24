@@ -1,13 +1,11 @@
 ---
 title: AI アシスタントでデータを検証する
 description: AI アシスタントでAgent Orchestratorを活用したデータ検証を使用して、データセットに対して統計的および意味的な検証を実行する方法を説明します。
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1602'
 ht-degree: 0%
-
 ---
-
 # AI アシスタントでデータを検証する
 
 AI アシスタントを使用して、Adobe Experience Platformデータセットのデータ品質を検証できます。 Agent Orchestratorなら、データセットを統計的かつ意味的に検証し、データセットフィールドを分析して、データ品質の問題を特定できます。また、実用的なインサイトを得て自然言語による要約を返すことができます。 データエンジニア、アナリスト、データスチュワードは、AI アシスタントを通じてこの機能を使用し、SQL クエリの記述や複雑なスキーマ階層の操作なしに、迅速にデータ品質評価を実行できます。
@@ -24,6 +22,10 @@ AI アシスタントでデータを検証する方法について詳しくは�
 >
 >AI アシスタントは、このワークフローの会話型インターフェイスです。 Agent Orchestratorは推論を実行し、バックグラウンドでの検証ステップを調整します。
 
+>[!NOTE]
+>
+>データ検証は、従業員のスキルとしても利用できます。 [Experience Platform データを共同作業者と検証する](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md)を参照してください。
+
 ## ユースケース
 
 | ユースケース | 説明 |
@@ -34,7 +36,7 @@ AI アシスタントでデータを検証する方法について詳しくは�
 
 ## UI ガイド
 
-Adobe CX Enterpriseで&#x200B;**AI アシスタント**&#x200B;を使用して、データを検証します。 AI アシスタントは会話型インターフェイスであり、Agent Orchestratorは舞台裏での検証ワークフローを調整します。 次の手順は、表示されるメイン画面に従います。
+Adobe CX Enterpriseの&#x200B;**AI アシスタント**&#x200B;を使用して、データを検証します。 AI アシスタントは会話型インターフェイスであり、Agent Orchestratorは舞台裏での検証ワークフローを調整します。 次の手順は、表示されるメイン画面に従います。
 
 ### 検証を開始
 

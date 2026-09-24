@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 81c51c896a10559db58c6389a08f9c84b96ef73c
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '965'
 ht-degree: 2%
 ---
 # CX ENTERPRISE製品のAI
@@ -52,12 +52,12 @@ Coworkerは、顧客体験とマーケティングのワークフローを自動
 チームメンバーは次の通りです。
 
 - **[同僚チャット &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: データを探索し、オーディエンスとジャーニーを検証し、CX Enterprise アプリケーション全体でマルチステップのタスクを完了するための会話型インターフェイス。
-- **[同僚キャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。 組み込みのテンプレート、ベストプラクティス、プロンプトガイダンスを利用して、小規模なアジャイルチームが施策を迅速に立ち上げるのを支援します。 [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html)の詳細をご覧ください。
+- **[同僚キャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。 組み込みのテンプレート、ベストプラクティス、プロンプトガイダンスを利用して、小規模なアジャイルチームが施策を迅速に立ち上げるのを支援します。 [Adobe for Business](https://business.adobe.com/jp/products/cx-enterprise-coworker/teams.html)の詳細をご覧ください。
 - **同僚プロジェクト** （近日リリース予定）: エンドツーエンドの顧客体験オーケストレーションワークフローを自動化し、チームがタスク、承認、実行を調整して、戦略から納品までの成果を促進するための統合ワークスペースです。 プロジェクトのドキュメントは近日公開予定です。
 
 適格な顧客は、AI アシスタントやExperience Platform AgentsからCoworker Chatへ徐々に移行しています。 [同僚の体験版](./agents/trial.md)を読んで、体験版の利用条件、AI クレジットの使用状況、アクセス方法について確認してください。
 
-Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)や[Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)などの実際のユースケースを読んでください。
+Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)、[Experience Platform データの検証](./coworker/chat/use-cases/data-insights/data-validation-aep.md)、[Analyze CJA データ &#x200B;](./coworker/chat/use-cases/data-insights/analytics-chat.md)などの実際のユースケースを読みます。
 
 共同作業者チャット、チーム向け共同作業者（共同作業者キャンペーン）、プロジェクトに関する完全な製品ドキュメントについては、[共同作業者](./coworker/overview.md)を参照してください。 サンドボックス間のオブジェクトレプリケーションについては、[Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)を参照してください。
 
