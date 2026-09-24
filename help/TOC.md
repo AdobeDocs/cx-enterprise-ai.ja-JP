@@ -6,10 +6,10 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 9934334f20d6632b4a390a39522b6bc3c4999c36
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 20%
+source-wordcount: '373'
+ht-degree: 18%
 ---
 
 # CX Enterprise の AI {#experience-cloud-ai}
@@ -23,12 +23,12 @@ ht-degree: 20%
   - [Agentic AI モニタリングダッシュボード](./overview/monitoring.md)
   - [エージェント型ツール](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)
   - [生成 AI コンテンツの透明性](content-transparency.md)
-- CX Enterprise Coworker {#coworker}
+- CX Enterprise Coworker ガイド {#coworker}
   - [Cowakerについて](./coworker/overview.md)
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
-    - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+    - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
     - ユースケース {#use-cases}
       - [Adobe Workfrontのユースケース](./coworker/chat/use-cases/overview.md)
       - データインサイト {#data-insights}
@@ -77,12 +77,12 @@ ht-degree: 20%
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [リリースノート](./coworker/campaigns/release-notes.md)
-- AI アシスタント {#ai-assistant}
+- AI アシスタントガイド {#ai-assistant}
   - [AI アシスタント UI ガイド](./ai-assistant/ai-assistant-ui.md)
   - [プロンプトライブラリ](./ai-assistant/prompt-library.md)
   - [プライバシー](./ai-assistant/privacy.md)
   - [免責事項](./ai-assistant/legal-disclaimer.md)
-- Agents {#agents}
+- エージェント AI {#agents}
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience Agent](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
@@ -101,14 +101,14 @@ ht-degree: 20%
   - {hide-from-toc}[Adobe CX Coworker Gateway](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP ベータ版](./mcp/beta/rtcdp-mcp.md)
   - 基本を学ぶ {#mcp-get-started}
-    - {hide-from-toc}[CX Coworker Gateway Toolsへのアクセス](./mcp/access.md)
-    - {hide-from-toc}[CX Coworker Gatewayのインストール &#x200B;](./mcp/install.md)
-    - {hide-from-toc}[CX Coworker Gatewayの セッションコンテキストツール &#x200B;](./mcp/context-tools.md)
+    - {hide-from-toc}[CX Coworker Gateway Tools](./mcp/access.md)へのアクセス
+    - {hide-from-toc}[CX Coworker Gatewayのインストール ](./mcp/install.md)
+    - CX Coworker Gatewayの{hide-from-toc}[ セッションコンテキストツール ](./mcp/context-tools.md)
   - 製品ツール {#mcp-product-tools}
-    - {hide-from-toc}[Real-Time CDP ツール &#x200B;](./mcp/rtcdp-mcp.md)
-    - {hide-from-toc}[Experience Platform ツール &#x200B;](./mcp/aep-mcp.md)
-    - {hide-from-toc}[Journey Optimizer ツール &#x200B;](./mcp/ajo-mcp.md)
-    - {hide-from-toc}[Customer Journey Analytics ツール &#x200B;](./mcp/cja-mcp.md)
-    - {hide-from-toc}[Adobe Analytics ツール &#x200B;](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [ターゲット](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Real-Time CDP ツール ](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Experience Platform ツール ](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Journey Optimizer ツール ](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Customer Journey Analytics ツール ](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Adobe Analytics ツール ](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [ターゲット](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
