@@ -30,4 +30,4 @@ Adobeの会話型AIである[Coworker](./overview.md)を使用して、ページ
 >
 >このビデオでは、ページエディターベースのサイトでページをオーサリングする同僚を示します。 Coworkerは、Edge Delivery Servicesで配信されるサイトでも同様に機能します。
 
-共同作業者チャットを開始するには、[共同作業者チャットの概要](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)を参照してください。
+共同作業者チャットを開始するには、[共同作業者チャットの概要](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)を参照してください。
