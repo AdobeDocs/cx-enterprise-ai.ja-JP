@@ -1,6 +1,6 @@
 ---
 title: Journey Optimizerと同僚 – ジャーニーの生成
-description: Coworkerが、シンプルな自然言語プロンプトを使用して、Adobe Journey Optimizerジャーニーを構築する方法を紹介します。
+description: Adobe Customer Journey Analyticsで、自然言語プロンプトからAdobe Journey Optimizerのジャーニーを構築する方法をご紹介します。
 feature: AI Tools
 role: User
 level: Beginner
@@ -14,13 +14,13 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '114'
 ht-degree: 1%
 ---
 
-# 自然言語プロンプトからジャーニーを生成する方法
+# 自然言語プロンプトからAdobe Journey Optimizerジャーニーを生成します
 
 従来、カスタマージャーニーを構築するには、トリガー、タイミングルール、チャネル、意思決定ロジック、メッセージの各ステップに関する広範な設定が必要でした。 この動画では、Adobe Adobe Journey Optimizerで平易な言葉の説明をジャーニーに変換し、複雑なプロセスを簡素化する方法を解説します。
  

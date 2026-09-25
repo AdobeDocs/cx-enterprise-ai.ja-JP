@@ -6,10 +6,10 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 20%
+source-wordcount: '374'
+ht-degree: 18%
 ---
 
 # CX Enterprise の AI {#experience-cloud-ai}
@@ -23,8 +23,8 @@ ht-degree: 20%
   - [Agentic AI モニタリングダッシュボード](./overview/monitoring.md)
   - [エージェント型ツール](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)
   - [生成 AI コンテンツの透明性](content-transparency.md)
-- CX Enterprise Coworker {#coworker}
-  - [Cowakerについて](./coworker/overview.md)
+- CX Enterprise Coworker ガイド {#coworker}
+  - [同僚の概要](./coworker/overview.md)
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
@@ -55,6 +55,7 @@ ht-degree: 20%
         - [マーケティングアセットの生成](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [ブランドコンプライアンスのチェック](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
   - カスタマイズ {#customizations}
+    - [概要](./coworker/customizations/overview.md)
     - スキル {#skills}
       - [スキルとは？](./coworker/customizations/skills/what-are-skills.md)
       - [最初のスキルを作成](./coworker/customizations/skills/create-your-first-skill.md)
@@ -77,12 +78,12 @@ ht-degree: 20%
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [リリースノート](./coworker/campaigns/release-notes.md)
-- AI アシスタント {#ai-assistant}
+- AI アシスタントガイド {#ai-assistant}
   - [AI アシスタント UI ガイド](./ai-assistant/ai-assistant-ui.md)
   - [プロンプトライブラリ](./ai-assistant/prompt-library.md)
   - [プライバシー](./ai-assistant/privacy.md)
   - [免責事項](./ai-assistant/legal-disclaimer.md)
-- Agents {#agents}
+- エージェント AI {#agents}
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience Agent](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)

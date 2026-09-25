@@ -1,6 +1,6 @@
 ---
 title: スキルとは？
-description: Adobe CX Coworkerのスキルを活用して、顧客体験のオーケストレーションを標準化し、定期的なワークフローを自動化して、再利用可能なAIを活用したプレイブックを活用して一貫性のある結果を提供する方法をご確認ください。
+description: Adobe CX Coworkerのスキルについて学び、ワークフローを標準化し、会話やユーザー間で一貫性のある結果を提供する再利用可能なプレイブックを活用しましょう。
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -9,17 +9,16 @@ last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 220
+source-wordcount: '215'
 ht-degree: 0%
-
 ---
-
 
 # Coworkerのスキルとは何ですか？
 
-スキルは、Adobe CX Coworkerが顧客体験のオーケストレーションタスクを一貫して効率的に実行するのに役立つ、再利用可能なプレイブックです。 チームは、同じプロセスを繰り返し説明するのではなく、スキルを活用して、会話やユーザー間で共通のワークフロー、レポート方法、分析アプローチを標準化できます。
+スキルは、Adobe CX Coworkerが一貫性のある効率的な顧客体験オーケストレーションタスクを実行するのに役立つ、再利用可能なプレイブックです。 チームは、同じプロセスを繰り返し説明するのではなく、スキルを活用して、会話やユーザー間で共通のワークフロー、レポート方法、分析アプローチを標準化できます。
  
 この動画では、スキルがどのように機能するのか、いつ使用するのか、チームが繰り返し可能な顧客体験の慣行を拡大するのにどのように役立つのかを解説します。
 

@@ -1,15 +1,15 @@
 ---
 title: Workfrontのスキルの管理と繰り返し
-description: 実績のあるガバナンスワークフローで再利用可能なAI スキルを管理する方法をご確認ください。 一貫性のある信頼できるアウトプットを維持しながら、ベースラインの確立、スキルの管理更新、結果の比較、改善の検証をおこない、時代遅れのスキルを安全に廃止する方法をご確認ください。
+description: ガバナンスワークフローで再利用可能なAI スキルを管理する方法、ベースラインを設定する方法、管理された更新を行う方法、改善を検証する方法、時代遅れのスキルを廃止する方法を説明します。
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 258
 last-substantial-update: 2026-09-16
 jira: KT-22445
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: 3c68c4d087141956c290a1d665d6f9eeaca3300f
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 
