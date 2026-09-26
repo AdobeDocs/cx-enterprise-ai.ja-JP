@@ -6,9 +6,9 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
+source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '385'
 ht-degree: 18%
 ---
 
@@ -54,6 +54,9 @@ ht-degree: 18%
       - Content Advisor {#content-advisor}
         - [マーケティングアセットの生成](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [ブランドコンプライアンスのチェック](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+      - ワークフロー/プランニング {#workflow-and-planning}
+        - [デジタルキャンペーンの立ち上げ計画](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
+        - [AEM Sites ページの作成](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - カスタマイズ {#customizations}
     - [概要](./coworker/customizations/overview.md)
     - スキル {#skills}
