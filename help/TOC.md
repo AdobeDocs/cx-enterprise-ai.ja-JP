@@ -6,10 +6,10 @@ description: 顧客体験におけるAI ツールについて詳しく見る。 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
+source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 18%
+ht-degree: 19%
 ---
 
 # CX Enterprise の AI {#experience-cloud-ai}
@@ -51,12 +51,12 @@ ht-degree: 18%
         - [エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
       - アラート {#alerts}
         - [顧客アラートのスキル](./agents/customer-alerts.md)
-      - Content Advisor {#content-advisor}
-        - [マーケティングアセットの生成](./coworker/chat/use-cases/content-advisor/generate-assets.md)
-        - [ブランドコンプライアンスのチェック](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+      - ブランドの可視性 {#brand-visibility}
+        - [マーケティングアセットの生成](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
+        - [ブランドコンプライアンスのチェック](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
+        - [AEM Sites ページの作成](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
       - ワークフロー/プランニング {#workflow-and-planning}
         - [デジタルキャンペーンの立ち上げ計画](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-        - [AEM Sites ページの作成](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - カスタマイズ {#customizations}
     - [概要](./coworker/customizations/overview.md)
     - スキル {#skills}
