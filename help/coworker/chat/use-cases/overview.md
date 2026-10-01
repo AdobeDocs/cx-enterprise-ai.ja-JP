@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
+source-git-commit: 802606e964d117abb57dabb772679a6b157352a0
 workflow-type: tm+mt
-source-wordcount: '6113'
+source-wordcount: '7039'
 ht-degree: 6%
 ---
 # Adobe Workfrontのユースケース {#use-cases}
@@ -195,6 +195,41 @@ ht-degree: 6%
 **関連情報**
 
 * [AIの操作](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}では、Adobe Journey Optimizerの共同作業者と利用可能なスキルの概要を提供します。
+
+## Journey Optimizerでのコンテンツ制作
+
+Adobe Workfront Chatを使用して、キャンペーンメッセージのコピーやAdobe HTMLを計画、生成、評価、調整し、承認されたコンテンツをJourney Optimizerに直接保存または引き渡します。
+
+### メッセージのコピー
+
+| 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
+| --- | --- | --- | --- | --- |
+| [&#x200B; マーケティング概要のキャプチャ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | キャンペーン戦略をキャプチャし、クリエイティブ概要をシードします。 | `capture-marketing-brief` | Adobe Journey Optimizer（AJO） | 「季節ごとの製品発売のためのマーケティング概要を作成する」 <br> 「このキャンペーン戦略をマーケティング概要に変換する」 |
+| [&#x200B; クリエイティブの概要をキャプチャ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | コピー実行仕様を構造化し、コンテンツプランマトリックスを構築します。 | `capture-creative-brief` | Adobe Journey Optimizer（AJO） | 「この承認済みマーケティング概要からクリエイティブ概要を作成する」 <br> 「メールとSMS キャンペーンのコンテンツ プラン マトリックスを作成する」 |
+| [&#x200B; コンテンツ戦略を計画](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | コピーを生成する前に、メッセージマップ、物語の円弧、チャネルの役割をブレインストーミングします。 | `plan-content-strategy` | Adobe Journey Optimizer（AJO） | 「電子メールとプッシュ通知で製品発売のメッセージ戦略を計画する」 <br> 「ウェルカムキャンペーンの物語の展開を提案する」 |
+| [&#x200B; コピーを生成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 電子メール、SMS、プッシュ通知、WhatsApp、ソーシャル広告、バナー用に、ブランドに即した最新のコピーを生成。 | `generate-copy` | Adobe Journey Optimizer（AJO） | 「新しいシーズンコレクションを告知するブランドに即したメールを作成する」 <br> 「カートを放棄した顧客にSMS リマインダーをドラフトする」 |
+| [画像の生成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Fireflyを使用して、キャンペーン画像を生成、切り抜き、オーバーレイ、バリエーション、署名します。 | `generate-image` | Adobe Journey Optimizer（AJO） | 「季節限定キャンペーンメールのヒーロー画像を生成」 <br> 「この承認済みキャンペーン画像からバナーバリエーションを作成」 |
+| [&#x200B; コピーを評価](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | ブランドおよびチャネル基準に照らして、既存のコピーを評価およびスコアリングします。 | `evaluate-copy` | Adobe Journey Optimizer（AJO） | 「このメールコピーをブランドガイドラインに照らして評価する」 <br> 「このプッシュメッセージが当社のチャネル標準を満たしているかどうかを確認する」 |
+| [&#x200B; コピーを編集](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 既存のコピーをインプレースで編集できます。評価修正、言い換え、翻訳、修正が必要です。 | `edit-copy` | Adobe Journey Optimizer（AJO） | 「この電子メールコピーを修正して評価フィードバックに対応する」 <br> 「この承認済みSMS コピーをフランス語に翻訳する」 |
+| [&#x200B; キャンペーンコンテンツを展開](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | ファンは承認済みのコンテンツプランマトリックスを、チャネル、ロケール、オーディエンス、バリエーションをまたいでユニットごとのコピーに変換します。 | `expand-campaign` | Adobe Journey Optimizer（AJO） | 「この承認済みコンテンツプランの各チャネルのコピーを生成する」 <br> 「このキャンペーンを各オーディエンスの英語とフランス語のバリエーションに展開する」 |
+| [&#x200B; ビジュアル HTMLの分析](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | HTMLのコピーをスクリーンショットにレンダリングして、視覚的な検査を行います。 | `analyze-visual-html` | Adobe Journey Optimizer（AJO） | 「このメールをHTMLでレンダリングして、レイアウトを調べることができます」 <br> 「このキャンペーンのHTMLのスクリーンショットを表示する」 |
+| [&#x200B; コンテンツを保存](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 承認されたコンテンツを、Adobe Journey Optimizer、Adobe Campaign v8、またはMarketoに保存します。 | `save-content` | Adobe Journey Optimizer（AJO） | 「この承認済みメールコンテンツをJourney Optimizerに保存」 <br> 「承認済みSMS コピーをJourney Optimizerに保存」 |
+
+### メールデザイン
+
+| 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
+| --- | --- | --- | --- | --- |
+| [電子メールを作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | マーケティング目標やブランド入力に基づいて、ブロック構造とスタイルを設定できます。 | `compose-email` | Adobe Journey Optimizer（AJO） | 「ブランドガイドラインに従って、製品リリース用のメールレイアウトを計画する」 <br> 「ヒーローセクション、製品ハイライト、call to actionを含むウェルカムメールを作成する」 |
+| [電子メールを作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | レイアウトプラン、スクリーンショット、Figma デザインリンクからメールHTMLを作成、適応、編集、改良します。 | `build-email` | Adobe Journey Optimizer（AJO） | 「この承認済みレイアウトプランからメール HTMLを作成」 <br> 「このFigma デザインリンクからメールを作成」 |
+| [&#x200B; デザインシステムを維持](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | トークン、レイアウトパターン、ブランド言語といった、ブランドの再利用可能なメールデザインシステムを維持する。 | `maintain-design-system` | Adobe Journey Optimizer（AJO） | 「承認済みのブランドカラーでメールデザインシステムを更新する」 <br> 「この再利用可能な製品レイアウトをメールデザインシステムに追加する」 |
+| [&#x200B; コンプライアンスのレビュー](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | ブランドやチャネルのガイドラインや配信品質の基準に照らして、組み立てられた電子メールを監査。 | `review-compliance` | Adobe Journey Optimizer（AJO） | 「この電子メールをブランドおよびチャネルのガイドラインに照らして確認する」 <br> 「ハンドオフ前に配信品質の問題についてこの電子メールを監査する」 |
+| [&#x200B; デザインのレビュー](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 階層、間隔、物語の流れ、ブランドフィットに関する主観的なデザインフィードバックを提供します。 | `review-design` | Adobe Journey Optimizer（AJO） | 「このメールの視覚的な階層と間隔を確認してください」 <br> 「このメールのデザインがブランドに合っているかどうかを評価してください」 |
+| [&#x200B; アクセシビリティのレビュー](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | WCAG 2.1 AA アクセシビリティ監査を実行します。 | `review-accessibility` | Adobe Journey Optimizer（AJO） | 「このメールをWCAG 2.1 AA アクセシビリティの問題について監査する」 <br> 「このメールのカラーコントラストと画像の代替テキストを確認する」 |
+| [電子メールの引き継ぎ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 承認されたHTMLを書き出して、Adobe Journey OptimizerまたはAdobe Campaignに配信します。 | `handoff-email` | Adobe Journey Optimizer（AJO） | 「この承認済み電子メールをHTMLからJourney Optimizerにエクスポート」 <br> 「承認済み電子メールをJourney Optimizerに渡す」 |
+
+**関連情報**
+
+* [Coworker for content management](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"}では、Adobe Journey Optimizerのコンテンツ管理ツールと利用可能なスキルについて詳しく説明しています。
 
 ## 最適化
 
