@@ -28,7 +28,7 @@ Coworker Chatなら、自然言語を使ってAdobe Adobeのプロダクトタ�
         <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/ja/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chatの基本を学ぶ" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="Experience League LIVE:CoworkerのB2C機能によるオーディエンスとジャーニー" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498568?captions=jpn&format=jpeg" alt="Experience League LIVE:CoworkerのB2C機能によるオーディエンスとジャーニー" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
@@ -50,7 +50,7 @@ Coworker Chatなら、自然言語を使ってAdobe Adobeのプロダクトタ�
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="ttps://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="CX Enterprise Coworker Chatの基本を学ぶ" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502322?format=jpeg" alt="Experience League LIVE:CoworkerのB2C機能によるオーディエンスとジャーニー" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502324?captions=jpn&format=jpeg" alt="Experience League LIVE:CoworkerのB2C機能によるオーディエンスとジャーニー" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
