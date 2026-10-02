@@ -28,7 +28,7 @@ Coworker Chatで作成したビジュアライゼーションは、いつでも�
 
 ## 分析のユースケースとスキル
 
-Coworker Chatには、多くのユースケースに適したスキルが組み込まれています。 [同僚チャットのユースケース、スキル、サンプルプロンプト ](/help/coworker/chat/use-cases/overview.md#data-insights)
+Coworker Chatには、多くのユースケースに適したスキルが組み込まれています。 [同僚チャットのユースケース、スキル、サンプルプロンプト &#x200B;](/help/coworker/chat/use-cases/overview.md#data-insights)
 
 ## Coworker Chatの分析機能とスキル
 
