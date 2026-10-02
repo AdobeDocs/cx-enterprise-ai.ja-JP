@@ -1,7 +1,7 @@
 ---
 title: 顧客アラートスキル
 description: CX Coworkerの顧客アラートスキルを使用して、自然言語の会話を通じてアラートアクティビティをレビュー、分析、優先順位付けする方法を説明します。
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 4%
@@ -139,7 +139,7 @@ CX Coworkerの顧客アラートスキルを活用して、アラート活動を
 - 「この通知を購読する。」
 - 「このアラートのサブスクリプションを削除します。」
 
-## プロンプト例 {#example-prompts}
+## サンプルプロンプト {#example-prompts}
 
 顧客アラートスキルを操作する際には、次のプロンプトを例として使用します。
 

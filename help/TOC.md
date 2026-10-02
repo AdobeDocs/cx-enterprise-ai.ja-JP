@@ -2,11 +2,11 @@
 audience: user
 user-guide-title: CX Enterprise の AI
 user-guide-description: 実用的なドキュメント、実装ガイダンス、参考資料を通じて、AI アシスタント、同僚、エージェント、MCPの構築、設定、統合、拡張の方法を学びましょう。
-description: 顧客体験におけるAI ツールについて詳しく見る。 CX EnterpriseのAIを使用して、製品知識を向上させ、運用上のインサイトを得ることができます。
+description: CX EnterpriseのAI ツールについてご確認ください。 CX EnterpriseのAIを利用して、製品知識を向上させ、運用上のインサイトを得ることができます。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 19%
@@ -15,8 +15,8 @@ ht-degree: 19%
 # CX Enterprise の AI {#experience-cloud-ai}
 
 - [CX Enterprise の AI](home.md)
-- CX エンタープライズにおけるAIについて {#overview}
-  - [CX エンタープライズにおけるAIについて](./overview/overview-ai-cxe.md)
+- CX EnterpriseのAIについて {#overview}
+  - [CX EnterpriseのAIについて](./overview/overview-ai-cxe.md)
   - [どのように拡大するのか](./overview/generative-ai.md)
   - [エージェンティック AIについて](./overview/agentic-ai.md)
   - [AI クレジットの使用について](./overview/ai-credit-consumption.md)
@@ -48,9 +48,9 @@ ht-degree: 19%
       - 最適化 {#optimization}
         - [Target アクティビティの起動](./coworker/chat/use-cases/optimization/target.md)
       - サンドボックスツール {#sandbox-tooling}
-        - [エージェント型スキルのサンドボックスツール](./agents/sandbox-tooling.md)
+        - [エージェント型スキルのサンドボックスツール](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
       - アラート {#alerts}
-        - [顧客アラートのスキル](./agents/customer-alerts.md)
+        - [顧客アラートのスキル](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - ブランドの可視性 {#brand-visibility}
         - [マーケティングアセットの生成](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [ブランドコンプライアンスのチェック](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)

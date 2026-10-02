@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 2%
@@ -59,7 +59,7 @@ Coworkerは、顧客体験とマーケティングのワークフローを自動
 
 Coworker Chatの実際の動作を確認するには、Playground[&#128279;](./coworker/playground-coworker-chat.md)のCoworker Chatを説明するか、[AAからCJAへの移行データの検証](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)、[Experience Platform データの検証](./coworker/chat/use-cases/data-insights/data-validation-aep.md)、[Analyze CJA データ &#x200B;](./coworker/chat/use-cases/data-insights/analytics-chat.md)などの実際のユースケースを読みます。
 
-共同作業者チャット、チーム向け共同作業者（共同作業者キャンペーン）、プロジェクトに関する完全な製品ドキュメントについては、[共同作業者](./coworker/overview.md)を参照してください。 サンドボックス間のオブジェクトレプリケーションについては、[Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)を参照してください。
+共同作業者チャット、チーム向け共同作業者（共同作業者キャンペーン）、プロジェクトに関する完全な製品ドキュメントについては、[共同作業者](./coworker/overview.md)を参照してください。 サンドボックス間のオブジェクトレプリケーションについては、[Sandbox Tooling Agentic Skills](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)を参照してください。
 
 ## AI アシスタント
 
