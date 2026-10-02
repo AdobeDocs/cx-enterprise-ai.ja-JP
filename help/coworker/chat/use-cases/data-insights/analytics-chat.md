@@ -1,37 +1,37 @@
 ---
 title: Adobe Customer Journey Analyticsのデータを分析する（チャット）
-description: Adobe CXのAdobe Commerceのコラボレーションチャット機能を使用して、Customer Journey Analyticsのデータを分析し、ファネルを構築し、カスタマージャーニーのどこで顧客が脱落しているかを調べる方法を紹介します。
+description: Adobe CX Enterprise Coworker Chatを使用してAdobe Customer Journey Analyticsのデータを分析し、ファネルを構築して、カスタマージャーニーのどの段階で顧客が脱落しているのかを把握する方法を紹介します。
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a235d262125070fd8655543d0ae35c6b2465e8cc
 workflow-type: tm+mt
-source-wordcount: 3210
-ht-degree: 4%
-
+source-wordcount: '3338'
+ht-degree: 3%
 ---
+# Adobe AdobeとAdobe CX Analyticsの連携に関する詳細
 
-# Adobe Customer Journey Analyticsのデータを分析する（チャット）
-
-Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できます。 Coworker Chatは、Customer Journey Analyticsのデータビューからデータにアクセスし、そのデータを検索して、自然言語プロンプトに対する回答を得ることができます。
+Adobe CX Enterprise Coworker Chatは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できます。 Coworker Chatは、Customer Journey AnalyticsのデータビューやAdobe Analyticsレポートスイートからデータにアクセスし、そのデータを探索して自然言語プロンプトへの回答を得ることができます。
 
 Coworker Chatは、必要な分析に応じて、次の2つの方法で使用できます。
 
 * **簡単な回答** – 直接の平易な言葉で質問すると、すぐに回答が得られます。 ビジネスユーザーはこの方法でCoworker Chatを使用することが多く、アナリストは関係者に迅速な回答が必要な場合にも使用します。
 * **深く考える作業** - ビジネス上の問題を調査し、原因を除外し、推奨事項に到達するために、Coworker Chatと拡張された複数回の会話を行います。 アナリストは通常、このアプローチを利用して、レコメンデーションの前にデータを詳細に分析します。
 
-開始する前に、Coworker Chat インターフェイスと設定オプションについて説明し、CoworkerがCustomer Journey Analyticsと関連するデータビューに接続されていることを確認します。
+開始する前に、Coworker Chat インターフェイスと設定オプションについて説明し、CoworkerがCustomer Journey AnalyticsまたはAdobe Analyticsと関連するデータビューまたはレポートスイートに接続されていることを確認します。
 
 ## 同僚とのチャットを始める
 
 ### データアクセスと権限
 
-Coworker Chatは、Customer Journey Analyticsから権限を継承します。 Analysis Workspaceで使用できるデータビュー、ディメンション、指標、セグメントのみにアクセスできます。
+Coworker Chatは、Customer Journey AnalyticsまたはAdobe Analyticsから権限を継承します。 Analysis Workspaceで使用できるデータビュー、レポートスイート、ディメンション、指標、セグメントのみにアクセスできます。
 
 ### インターフェイスと設定オプション
 
-Customer Journey Analytics データでCoworker Chatを使用する前に、ログインして次の機能の設定オプションを管理する方法について説明します。
+Customer Journey AnalyticsまたはAdobe Analytics データでCoworker Chatを使用する前に、ログインして次の機能の設定オプションを管理する方法について説明します。
 
 * チャット入力
 * 会話
@@ -42,7 +42,7 @@ Customer Journey Analytics データでCoworker Chatを使用する前に、ロ�
 * スキル
 * その他
 
-詳しくは、[同僚チャット UI ガイド &#x200B;](/help/coworker/chat/ui-guide.md)を参照してください。
+詳しくは、[同僚チャット UI ガイド ](/help/coworker/chat/ui-guide.md)を参照してください。
 
 ### 同僚とのチャットでデータを分析する際のベストプラクティス
 
@@ -60,12 +60,12 @@ Customer Journey Analytics データでCoworker Chatを使用する前に、ロ�
 
 * プランモードを使用します。
 
-  このモードは、複雑なタスクに特に役立ちますが、単純なタスクにも優れた結果をもたらします。同僚は、アクションを起こす前にフォローアップで質問することができるからです。 詳しくは、[&#x200B; プランモード &#x200B;](/help/coworker/chat/ui-guide.md#plan-mode)を参照してください。
+  このモードは、複雑なタスクに特に役立ちますが、単純なタスクにも優れた結果をもたらします。同僚は、アクションを起こす前にフォローアップで質問することができるからです。 詳しくは、[ プランモード ](/help/coworker/chat/ui-guide.md#plan-mode)を参照してください。
 
 * プロンプトを作成する際には、できるだけ具体的に次のように記述します。
 
   * 分析するディメンション、指標、日付範囲に名前を付けます。
-  * データビューコンポーネントを正確な名前で参照します。
+  * コンポーネントを名前で参照します。
   * 含める、除外、比較するセグメント、オーディエンス、チャネル、デバイスを指定します。
   * Funnel、トレンド、コホートテーブルなど、特定のビジュアライゼーションタイプを設定するかどうかを指定します。
   * 同僚チャットでフォローアップの質問を提案する場合は、次のステップの推奨を尋ねます。
@@ -76,7 +76,7 @@ Customer Journey Analytics データでCoworker Chatを使用する前に、ロ�
   * データの検証時に比較する特定のレポートスイートとデータビューに名前を付けます。
   * まず分析を完了し、次にCoworker Chatにスキルとして保存してもらいます。その際、わかりやすい名前を付け、どのくらいの頻度で再利用する予定かを書き留めます。
 
-* Coworker Chat メモリに標準的な方向を追加します。 例えば、常に同じデータビューのデータを使用する場合は、それをメモリに追加します。
+* Coworker Chat メモリに標準的な方向を追加します。 例えば、同じデータビューまたはレポートスイートのデータを常に使用する場合は、それをメモリに追加します。
 
 ## Workfront ChatがCustomer Journey Analyticsに接続されていることを確認します
 
@@ -84,19 +84,19 @@ Coworker Chatで、CoworkerがCustomer Journey Analyticsに接続されている
 
 1. 左側のパネルで「MCP」アイコンを選択し、接続されているMCP サーバーのリストで&#x200B;[!UICONTROL **cja-mcp**]&#x200B;が使用可能であることを確認します。
 
-   ![同僚の左側のパネルで強調表示されたMCP アイコン &#x200B;](../../assets/coworker-mcp-cja.png)
+   ![同僚の左側のパネルで強調表示されたMCP アイコン ](../../assets/coworker-mcp-cja.png)
 
 1. （条件付き） [!UICONTROL **cja-mcp**]&#x200B;がまだ接続されていない場合は、[!UICONTROL **MCP Server**]&#x200B;を追加を選択し、[!UICONTROL **サーバー名**] フィールドにcjaを指定して、表示されたら選択し、[!UICONTROL **サーバー**]&#x200B;を追加を選択します。
 
-## 適切なデータビューへの接続
+## 適切なデータビューやレポートスイートに接続する
 
-データビューとは、データの解釈方法を決定するCustomer Journey Analyticsのコンテナです。
+データビューとは、データの解釈方法を決定するCustomer Journey Analyticsのコンテナです。 レポートスイートは、Adobe Analyticsのコンテナで、web サイトやアプリから収集したデータを保持します。
 
-Customer Journey Analyticsでは、さまざまなデータビューにアクセスでき、それぞれに異なるディメンションと指標が含まれており、データを分析する際に利用することができます。
+Customer Journey Analyticsの様々なデータビューやAdobe Analyticsのレポートスイートにアクセスできる場合があります。 それぞれに、データを分析する際に使用できる異なるディメンションと指標が含まれている場合があります。
 
-### 使用するデータビューを決める
+### 使用するデータビューまたはレポートスイートを決定する
 
-同僚に回答したい質問の種類を伝え、その情報を提供するためにどのデータビューにアクセスできるかを尋ねます。 また、[&#x200B; データビューをメモリ &#x200B;](#add-a-data-view-preference-in-memory)の環境設定として設定することもできます。
+同僚に回答したい質問の種類を伝え、その情報を提供するためにどのデータビューやレポートスイートにアクセスできるかを尋ねます。 また、[ データビューまたはレポートスイートをメモリの環境設定として設定することもできます](#add-a-data-view-or-report-suite-preference-in-memory)。
 
 **あなた：**
 
@@ -130,15 +130,15 @@ Customer Journey Analyticsでは、さまざまなデータビューにアクセ
 
 >[!ENDSHADEBOX]
 
-### メモリにデータビューの環境設定を追加する
+### メモリにデータビューまたはレポートスイートの環境設定を追加する
 
-Coworker Chatには、すべてのチャットにまたがる情報へのアクセスを提供できるメモリ機能が含まれています。 同僚のメモリに、好みのデータビューを好みのデータビューとして追加することをお勧めします。
+Coworker Chatには、すべてのチャットにまたがる情報へのアクセスを提供できるメモリ機能が含まれています。 同僚のメモリに、好みのデータビューまたはレポートスイートを環境設定として追加することをお勧めします。
 
 1. Coworker Chatの左側のナビゲーションで、「メモリ」アイコンを選択します。
 
-1. メモリーページの&#x200B;[!UICONTROL **保存された環境設定**] セクションで、Coworker Chatでチャットで使用する1つ以上のデータビューを指定します。
+1. メモリーページの&#x200B;[!UICONTROL **保存された環境設定**] セクションで、Coworker Chatでチャットで使用する1つ以上のデータビューまたはレポートスイートを指定します。
 
-   ![左側のパネルのメモリ セクション &#x200B;](../../assets/coworker-memory.png)
+   ![左側のパネルのメモリ セクション ](../../assets/coworker-memory.png)
 
 ## Customer Journey Analytics での分析
 
@@ -154,51 +154,57 @@ Workfrontでビジュアライゼーションを作成した後、Analysis Works
 
 ### Customer Journey Analyticsのユースケース
 
-Adobe Customer Journey Analyticsのユースケースと、実務担当者がAdobe CX Enterprise Coworker Chatで使用しているプロンプトの例を、簡単な回答から高度な作業の調査まで確認できます。 各プロンプトは、コピーできるように構築され、独自のデータやコンテキストに適応させ、会話を通じて洗練させられます。
+Adobe Customer Journey Analyticsのユースケースと、Adobe CX Enterprise Coworker Chatで利用されているプロンプトの例を、簡単な回答から高度な作業データの調査まで確認できます。 各プロンプトは、コピーできるように構築され、独自のデータやコンテキストに適応させ、会話を通じて洗練させられます。
 
-詳しくは、[&#x200B; ユースケース &#x200B;](/help/coworker/chat/use-cases/overview.md)を参照してください。
+詳しくは、[ ユースケース ](/help/coworker/chat/use-cases/overview.md)を参照してください。
 
 ## 分析のスキル
 
-Customer Journey Analytics データの分析には、次のスキルを使用できます。
+Customer Journey AnalyticsまたはAdobe Analytics データの分析には、次のスキルを使用できます。
 
 ### データのクエリと分析
 
-このスキル （`cja`）を使用すると、Analysis Workspaceで自分でリクエストを作成することなく、Customer Journey Analyticsをリアルタイムでクエリし、結果を分析できます。
+次の機能を利用すれば、Analysis Workspaceでリクエストを作成することなく、データをリアルタイムでクエリし、結果を分析できます。
+
+* `cja` - Customer Journey Analytics データビューのクエリ
+* `aa` - Adobe Analytics レポートスイートのクエリ
 
 #### 必要な権限
 
-* クエリするデータビューへのアクセス権を表示します
+* クエリするデータビューまたはレポートスイートへのアクセスを表示します
 
 #### 主なユースケース
 
 | ユースケース | 関数 | サンプルプロンプト |
 |---------|----------|---------|
-| **レポートと指標を取得** | Customer Journey Analyticsにリアルタイムでクエリを実行し、指標、ディメンション、セグメント、データビューを取得します。 | <ul><li>「過去30日間のページビューを表示」</li><li>「マスターデータビューの上位セグメントのリスト」</li></ul> |
+| **レポートと指標を取得** | Customer Journey AnalyticsやAdobe Analyticsにリアルタイムでクエリを実行し、指標、ディメンション、セグメント、データビュー、レポートスイートなどを取得できます。 | <ul><li>「過去30日間のページビューを表示」</li><li>「マスターデータビューの上位セグメントのリスト」</li></ul> |
 | **比較分析** | チャネル、期間、セグメントをまたいで指標を並べて比較できます。 | <ul><li>「チャネル別の収益を月々比較」</li><li>「モバイル版とデスクトップ版のコンバージョンは、今四半期でどのように見えますか？」</li></ul> |
 | **Funnel analysis** | 各ステージで離脱するマルチステップのコンバージョンファネルを順を追って進めます。 | <ul><li>&quot;チェックアウトfunnelを通して私を歩く&quot;</li><li>「PDPから購入へのコンバージョンfunnelの表示」</li></ul> |
 | **予測** | 過去データにもとづいて、将来の指標値を予測。 | <ul><li>「今後30日間のセッションを予測」</li><li>「売上目標を達成する準備は整っていますか？」</li></ul> |
 
 #### スコープ内
 
-* 指標、ディメンション、セグメント、データビューのリアルタイムのクエリ
+* 指標、ディメンション、セグメント、データビュー、レポートスイートに対するリアルタイムのクエリ
 * チャネル、期間、セグメントをまたいだ比較を並べて表示
 * マルチステップのfunnelとフォールアウト分析
 * 過去の傾向にもとづく指標予測
 
 #### 範囲外
 
-* データビューコンポーネントの作成または編集
-* アクセスできるデータビュー以外のデータ
+* データビューまたはレポートスイートコンポーネントの作成または編集
+* アクセスできるデータビューまたはレポートスイート以外のデータ
 * 指標予測を超えた予測モデリング
 
 ### 根本原因分析
 
-このスキル （`cja-root-cause-analysis`）は、指標が変更されたことを報告するだけでなく、変更された理由を調査します。
+次のスキルは、指標が変化したことを報告するだけでなく、変化した理由を探ります。
+
+* `cja-root-cause-analysis` - Customer Journey Analytics データビューでの指標の変更の分析
+* `aa-root-cause-analysis` - Adobe Analytics レポートスイートの指標の変更を分析
 
 #### 必要な権限
 
-* 分析中のデータビューへのアクセスを表示します
+* 分析中のデータビューまたはレポートスイートへのアクセスを表示します
 
 #### 主なユースケース
 
@@ -214,15 +220,15 @@ Customer Journey Analytics データの分析には、次のスキルを使用�
 #### 範囲外
 
 * 質問していない異常の検出（自動化されたアラートやリアルタイムのアラートはない）
-* アクセス可能なデータビュー外の指標の根本原因分析
+* アクセス権のあるデータビューまたはレポートスイート以外の指標の根本原因分析
 
 ### 経営陣向けのサマリーとパフォーマンスダイジェスト
 
-このスキル （`cja-executive-summary`）は、Customer Journey Analytics データの関係者に対応した概要を生成します。
+このスキル （`cja-executive-summary`）は、Customer Journey AnalyticsまたはAdobe Analytics データの関係者に対応した概要を作成します。
 
 #### 必要な権限
 
-* 概要で説明されているデータビューまたはデータビューへのアクセスを表示する
+* 概要で説明されているデータビューまたはレポートスイートへのアクセスを表示する
 
 #### 主なユースケース
 
@@ -239,7 +245,7 @@ Customer Journey Analytics データの分析には、次のスキルを使用�
 #### 範囲外
 
 * 最後のスライド デッキまたはプレゼンテーション ファイルの作成
-* アクセスできないデータビューにまたがる要約
+* アクセス権のないデータビューまたはレポートスイートにまたがる要約
 
 ### Adobe Analyticsによるデータ検証
 
@@ -287,7 +293,7 @@ Customer Journey Analytics データの分析には、次のスキルを使用�
 #### 範囲外
 
 * 保存したスキルを他のユーザーと自動的に共有する（組織レベルのスキルライブラリには管理者の設定が必要）
-* スキルが参照するデータビューコンポーネントの編集
+* スキル参照でのデータビューまたはレポートスイートコンポーネントの編集
 
 ## 例：顧客の脱落する箇所の特定
 
@@ -327,7 +333,7 @@ Customer Journey Analytics データの分析には、次のスキルを使用�
 
 >[!BEGINSHADEBOX]
 
-![&#x200B; セッション数、コンバージョン率、およびセッションから購入までの各ステップでの脱落を示すFunnel テーブル &#x200B;](../../assets/coworker-funnel-response.png)
+![ セッション数、コンバージョン率、およびセッションから購入までの各ステップでの脱落を示すFunnel テーブル ](../../assets/coworker-funnel-response.png)
 
 これはfunnelの質問です。funnelでコンバージョンを実行し、購入に至るまでの過程で離脱がどこで発生するかを確認します。
 
@@ -376,7 +382,7 @@ Customer Journey Analytics データの分析には、次のスキルを使用�
 
 >[!BEGINSHADEBOX]
 
-マーケティングチャネル別にコンバージョン率とドロップオフを示す![Funnel テーブル &#x200B;](../../assets/coworker-funnel-response2.png)
+マーケティングチャネル別にコンバージョン率とドロップオフを示す![Funnel テーブル ](../../assets/coworker-funnel-response2.png)
 
 カスタム **マーケティングチャネル** ディメンションがあります。 ここでfunnelを引き出して、チャネルごとのコンバージョン率を計算し、各チャネルがリークする場所を特定します。
 
@@ -427,7 +433,7 @@ Customer Journey Analytics データの分析には、次のスキルを使用�
 
 >[!BEGINSHADEBOX]
 
-デバイスの種類![&#128279;](../../assets/coworker-funnel-response3.png)別にコンバージョン率とドロップオフを示すFunnel テーブル
+デバイスの種類](../../assets/coworker-funnel-response3.png)別にコンバージョン率とドロップオフを示す![Funnel テーブル
 
 **見つかりました：モバイル チェックアウトが壊れています**
 

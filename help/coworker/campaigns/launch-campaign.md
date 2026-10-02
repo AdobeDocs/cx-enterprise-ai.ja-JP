@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 82da1f40081c2d448208a4b96c152c8b79a1ecfe
+source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 1%
@@ -32,15 +32,15 @@ ht-degree: 1%
 
 1. キャンペーンが準備状況チェックを通過すると、起動ダイアログが開き、メールとオーディエンスのプレビューが表示されます。
 
-SCREENSHOT
+   SCREENSHOT
 
-1. ダイアログに表示されているスケジュールを確認します。 変更するには、[&#x200B; キャンペーンの開始時にスケジュールする](/help/coworker/campaigns/schedule-campaign.md)で説明されているスケジュール オプションを使用し、**保存**&#x200B;をクリックします。
+1. ダイアログに表示されているスケジュールを確認します。 変更するには、[ キャンペーンの開始時にスケジュールする](/help/coworker/campaigns/schedule-campaign.md)で説明されているスケジュール オプションを使用し、**保存**&#x200B;をクリックします。
 
-SCREENSHOT
+   SCREENSHOT
 
 1. 完了したら、**キャンペーンを開始**&#x200B;をクリックします。
 
-SCREENSHOT
+   SCREENSHOT
 
 サンプル（実在しない）オーディエンス、プルーフが行われていないメール下書き、設定が未設定の送信設定では、キャンペーンを開始できません
 
