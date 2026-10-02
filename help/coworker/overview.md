@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f3430820a49a690ef43b23347495653a41294ca9
+source-git-commit: 80dec3229f0855df4b9211858e6e5d27b5974c89
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 6%
+source-wordcount: '772'
+ht-degree: 5%
 ---
 # CX Enterprise Coworkerの概要 {#overview}
 
@@ -20,25 +20,27 @@ Coworkerは、組織、チーム、個人の作業内容を再構築するAIを�
 
 Coworker Chatなら、自然言語を使ってAdobe Adobeのプロダクトタスクを自動化し、柔軟なプランニング、カスタマイズ可能なスキル、インテリジェントな実行によってアイデアをすばやくアクションに結び付けることができます。
 
-## キュレーションされた同僚とのチャット学習
+## 同僚とのチャットの基本
+
+これから始める場合でも、専門知識を深めようとしている場合でも、これらのプレイリストは、CX Enterprise Coworker Chatのガイド付き概要を提供します。 主要な機能を操作する方法、効果的なプロンプトを作成する方法、Adobe Experience Cloud製品全体でより効率的に作業するためのCoworkerの実践的な例をご覧ください。
 
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop" aria-label="Get started with CX Enterprise Coworker Chat">
         <div class="card" style="height: 100%; display: flex; flex-direction: column;">
         <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/ja/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chatの基本を学ぶ" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498568?captions=jpn&format=jpeg" alt="Experience League LIVE:CoworkerのB2C機能によるオーディエンスとジャーニー" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chatの基本を学ぶ" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="Experience League LIVE:CoworkerのB2C機能によるオーディエンスとジャーニー" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/ja/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker Chatの基本を学ぶ">CX Enterprise Coworker チャットの基本を学ぶ</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker Chatの基本を学ぶ">CX Enterprise Coworker チャットの基本を学ぶ</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/ja/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> プレイリスト </span>
                 </a>
             </div>
@@ -50,7 +52,7 @@ Coworker Chatなら、自然言語を使ってAdobe Adobeのプロダクトタ�
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="ttps://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="CX Enterprise Coworker Chatの基本を学ぶ" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502324?captions=jpn&format=jpeg" alt="Experience League LIVE:CoworkerのB2C機能によるオーディエンスとジャーニー" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502322?format=jpeg" alt="Experience League LIVE:CoworkerのB2C機能によるオーディエンスとジャーニー" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
@@ -68,6 +70,8 @@ Coworker Chatなら、自然言語を使ってAdobe Adobeのプロダクトタ�
 </div>
 
 ## Experience League LIVE：同僚のロック解除シリーズ
+
+CX Enterprise Coworker Unlocked シリーズでは、企業がAIを活用したアシスタントを活用して、顧客体験作業をどのように合理化しているのかをご紹介します。 各セッションでは、Adobe Experience Cloud アプリケーションをまたいでワークフローを加速し、インサイトを獲得して、タスクを自動化するのに役立つ、実用的なユースケース、ライブデモ、エキスパートガイダンスについて解説します。 以前のエピソードを閲覧するか、今後のイベントに登録することで、生産性を高め、顧客体験の成果を促進するための新しい方法を学ぶことができます。
 
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop" aria-label="Transforming CX Workflows with Adobe CX Enterprise Coworker">
