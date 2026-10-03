@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
+source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
 workflow-type: tm+mt
-source-wordcount: '7039'
+source-wordcount: '7086'
 ht-degree: 6%
 ---
 # Adobe Workfrontのユースケース {#use-cases}
@@ -116,14 +116,14 @@ ht-degree: 6%
 
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
-| [CJA レポートと指標を取得](data-insights/analytics-chat.md) | CJAにリアルタイムでクエリを実行し、指標、ディメンション、セグメント、データビューを取得します | `cja` | Customer Journey Analytics（CJA） | 「過去30日間のページビューを表示」 <br> 「マスターデータビューの上位セグメントを一覧表示」 |
-| 比較分析 | チャネル、期間、セグメントをまたいで指標を並べて比較できます | `cja-root-cause-analysis`, `cja`, `dx-api`, `knowledge-graph` | Customer Journey Analytics（CJA） | 「チャネル別の収益を月々比較」 <br> 「モバイルとデスクトップのコンバージョンは今四半期でどのように見えますか？」 |
-| キャンペーンのパフォーマンス | 一定期間におけるキャンペーン、チャネル、web プロパティのパフォーマンスを測定。 | `cja`, `dx-api`, `knowledge-graph` | | 「先月のAcrobat web キャンペーンのパフォーマンスはどうでしたか？」 |
-| Funnel analysis | 各段階での離脱を防ぐための、マルチステップのコンバージョンファネルを順を追って説明します | `cja` | Customer Journey Analytics（CJA） | 「チェックアウト funnelの手順を説明」 <br> 「PDPから購入までのコンバージョン funnelの表示」 |
-| 予測 | 過去のCJA データに基づく将来の指標値のプロジェクト | `cja` | Customer Journey Analytics（CJA） | 「今後30日間のセッションを予測」 <br> 「売上目標を達成する予定ですか？」 |
-| [根本原因分析](data-insights/root-cause-analysis.md) | 指標が変化した理由：低下、急上昇、異常を診断します | `cja-root-cause-analysis` | Customer Journey Analytics（CJA） | 「先週、コンバージョンが低下した理由は何ですか？」 <br> 「1月15日の売上の急増の原因は何ですか？」 |
-| エグゼクティブサマリーとKPI ダイジェスト | 関係者に提供可能なパフォーマンスの要約、処方レコメンデーション、スライドデッキの概要を作成します | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics（CJA） | 「先月のエグゼクティブサマリーを教えてください」 <br> 「今四半期のデータからスライドデッキの概要を作成してください」 |
-| [AA ↔ CJA データ検証](data-insights/data-validation-aa-cja.md) | 特にAdobe AnalyticsからCustomer Journey Analyticsにアップグレードする場合は、Adobe AnalyticsとCustomer Journey Analytics間でデータを比較、監査、調整できます | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | 「AA レポートスイートとCJA データビューの比較」 <br> 「AAとCJA間のページビューの検証」 |
+| [CJAおよびAA レポートと指標を取得](data-insights/analytics-chat.md) | CJAやAAにリアルタイムでクエリを実行し、指標、ディメンション、セグメント、データビュー、レポートスイートなどを取得できます | `cja`, `aa` | Customer Journey Analytics（CJA）、Adobe Analytics（AA） | 「過去30日間のページビューを表示」 <br> 「マスターデータビューの上位セグメントを一覧表示」 |
+| 比較分析 | チャネル、期間、セグメントをまたいで指標を並べて比較できます | `cja-root-cause-analysis`, `cja`, `aa-root-cause-analysis`, `aa`, `dx-api`, `knowledge-graph` | Customer Journey Analytics（CJA）、Adobe Analytics（AA） | 「チャネル別の収益を月々比較」 <br> 「モバイルとデスクトップのコンバージョンは今四半期でどのように見えますか？」 |
+| キャンペーンのパフォーマンス | 一定期間におけるキャンペーン、チャネル、web プロパティのパフォーマンスを測定。 | `cja`, `aa`, `dx-api`, `knowledge-graph` | | 「先月のAcrobat web キャンペーンのパフォーマンスはどうでしたか？」 |
+| Funnel analysis | 各段階での離脱を防ぐための、マルチステップのコンバージョンファネルを順を追って説明します | `cja`, `aa` | Customer Journey Analytics（CJA）、Adobe Analytics（AA） | 「チェックアウト funnelの手順を説明」 <br> 「PDPから購入までのコンバージョン funnelの表示」 |
+| 予測 | 過去のCJAまたはAA データに基づく将来の指標値のプロジェクト | `cja`, `aa` | Customer Journey Analytics（CJA）、Adobe Analytics（AA） | 「今後30日間のセッションを予測」 <br> 「売上目標を達成する予定ですか？」 |
+| [根本原因分析](data-insights/root-cause-analysis.md) | 指標が変化した理由：低下、急上昇、異常を診断します | `cja-root-cause-analysis`, `aa-root-cause-analysis` | Customer Journey Analytics（CJA）、Adobe Analytics（AA） | 「先週、コンバージョンが低下した理由は何ですか？」 <br> 「1月15日の売上の急増の原因は何ですか？」 |
+| エグゼクティブサマリーとKPI ダイジェスト | 関係者に提供可能なパフォーマンスの要約、処方レコメンデーション、スライドデッキの概要を作成します | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `aa`, `dx-api` | Customer Journey Analytics（CJA）、Adobe Analytics（AA） | 「先月のエグゼクティブサマリーを教えてください」 <br> 「今四半期のデータからスライドデッキの概要を作成してください」 |
+| [AA ↔ CJA データ検証](data-insights/data-validation-aa-cja.md) | 特にAdobe AnalyticsからCustomer Journey Analyticsにアップグレードする場合は、Adobe AnalyticsとCustomer Journey Analytics間でデータを比較、監査、調整できます | `aa-cja-validation`, `cja`, `aa`, `dx-api` | ADOBE ANALYTICS + CJA | 「AA レポートスイートとCJA データビューの比較」 <br> 「AAとCJA間のページビューの検証」 |
 | [&#x200B; データセットとフィールドの品質を検証](data-insights/data-validation-aep.md) | Experience Platform データセットとフィールドに対して統計的およびセマンティック検証を実行し、実装後または継続的にデータ品質の問題を検出します<!--TODO: confirm skill ID(s) with engineering before publishing--> | `data-validation` | Adobe Experience Platform | 「データセット Electronics サンプル 1000の検証」 <br> 「Customers_2024 データセットの電子メールフィールドの検証」 |
 | 運用時系列と因果関係分析 | オーディエンス、データセット、ジャーニーに関する過去の時系列データを、因果関係アトリビューションでクエリ、分析します | `operational-stats-causal-analysis` | すべての対象アプリケーション | 「過去90日間のオーディエンスサイズの傾向を表示」 <br> 「データセットの行数が3月3日に急増した理由を教えてください。」 |
 | CJAのカスタムスキルの作成 | 分析パターンを、セッションをまたいで保持される、再利用可能で反復可能なスキルに変換します | `cja-skill-creator` | Customer Journey Analytics（CJA） | 「この週次売上分析を再利用可能なスキルに変換」 <br> 「これを月次funnel レポートのスキルとして保存」 |
