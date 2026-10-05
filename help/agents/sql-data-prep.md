@@ -29,7 +29,7 @@ CoworkerでSQL データ準備を使用する前に、次のことを確認し�
 
 CoworkerがSQLを生成または更新した後、会話を続行して結果をプレビューしたり、クエリを調整したり、保存したり、繰り返し実行のためにスケジュールしたりできます。
 
-Coworker インターフェイスの使用に関するガイダンスについては、[Coworker UI ガイド ](../coworker/chat/ui-guide.md)を参照してください。
+Coworker インターフェイスの使用に関するガイダンスについては、[Coworker UI ガイド &#x200B;](../coworker/chat/ui-guide.md)を参照してください。
 
 ## サポートされている機能 {#supported-capabilities}
 
@@ -56,7 +56,7 @@ SQL データ準備機能を別々のワークフローとして扱う代わり�
 
 同僚は、適切なデータセットの特定やスケジュールのタイムゾーンの確認など、追加の情報が必要な場合、フォローアップで質問することができます。
 
-クエリのプレビューでは、最大5行が返されます。 Experience Platformで直接クエリを実行して操作するには、[ クエリエディターUI ガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)を参照してください。
+クエリのプレビューでは、最大5行が返されます。 Experience Platformで直接クエリを実行して操作するには、[&#x200B; クエリエディターUI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)を参照してください。
 
 SQL クエリ結果の5行のプレビューと、クエリをテンプレートとして保存したり、定期的な実行のためにスケジュールしたりするオプションを示す![同僚の応答](./assets/sql-data-prep/query-preview.png)
 
@@ -74,7 +74,7 @@ Coworkerは生成されたSQLを返し、クエリを実行して結果のプレ
 
 ![同僚の応答は、イベントの種類ごとに顧客エンゲージメントを要約するために生成されたSQLを示し、その後、合計イベントと一意の顧客のテーブルのプレビューと結果の分析を示します。](./assets/sql-data-prep/authoring-result.png)
 
-Experience Platformで直接クエリを作成および実行する方法について詳しくは、[ クエリエディターUI ガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)を参照してください。
+Experience Platformで直接クエリを作成および実行する方法について詳しくは、[&#x200B; クエリエディターUI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)を参照してください。
 
 ### 既存のSQLの最適化 {#optimize-sql}
 
@@ -113,7 +113,7 @@ Coworkerに変更の説明を依頼し、元のSQLと最適化されたSQLを比
 
 SQL オーサリング機能を通じて生成されたSQLは、既に最適化されています。 最適化のために新しく生成されたSQLを別途送信する必要はありません。
 
-SQL構文とサポートされているコマンドについては、[ クエリサービス SQL リファレンス ](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)を参照してください。
+SQL構文とサポートされているコマンドについては、[&#x200B; クエリサービス SQL リファレンス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)を参照してください。
 
 ### SQL エラーの診断と修正 {#diagnose-sql-errors}
 
@@ -156,7 +156,7 @@ Coworkerは、クエリを分析し、エラーの原因を特定し、問題を
 
 ![保存されたテンプレート、スケジュール、タイムゾーン、終了日、スケジュールの状態、失敗アラートなど、スケジュールされたSQL クエリを確認する同僚の応答](./assets/sql-data-prep/schedule-query.png)
 
-クエリスケジュール、繰り返し設定、出力データセット、およびアラートについて詳しくは、[ クエリスケジュール ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)を参照してください。
+クエリスケジュール、繰り返し設定、出力データセット、およびアラートについて詳しくは、[&#x200B; クエリスケジュール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)を参照してください。
 
 ## 次の手順 {#next-steps}
 
