@@ -6,9 +6,9 @@ description: CX EnterpriseのAI ツールについてご確認ください。 CX
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
+source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 19%
 ---
 
@@ -95,6 +95,7 @@ ht-degree: 19%
   - [Field Discovery エージェント](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [製品サポート担当者](./agents/product-support.md)
+  - [SQL データの準備](./agents/sql-data-prep.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Notifications エージェント](./agents/notifications.md)
   - [共同作業者の体験版](./agents/trial.md)

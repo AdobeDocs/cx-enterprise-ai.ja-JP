@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 13961eecbb862bf40cf86e892001392c72aae36c
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '221'
 ht-degree: 1%
 ---
 # Salesforceに接続 {#salesforce}
 
-Adobe Coworker Campaignsを使用すると、Salesforce アカウントを次の場所に接続できます。
+Adobe Coworker Campaignsを使用すると、Salesforce アカウントを接続して、リードと連絡先にアクセスできます。
 
 >[!PREREQUISITES]
 >
@@ -52,7 +52,7 @@ Adobe Coworker Campaignsを使用すると、Salesforce アカウントを次の
 
    ![](./assets/salesforce-4.png)
 
-接続後、Salesforceがコネクターリストに表示され、もう一度何を実行しますか？
+接続後、Salesforceはコネクターリストに表示され、Salesforceから同期するリードまたは連絡先リストをリンクするときに選択できます。
 
 **切断するには：**
 
