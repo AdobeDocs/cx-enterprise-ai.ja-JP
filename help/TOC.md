@@ -6,17 +6,17 @@ description: CX EnterpriseのAI ツールについてご確認ください。 CX
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
+source-git-commit: 6397e3d8e40511dfc261757046b216fa37e4162e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 19%
+source-wordcount: '391'
+ht-degree: 21%
 ---
 
 # CX Enterprise の AI {#experience-cloud-ai}
 
 - [CX Enterprise の AI](home.md)
-- CX EnterpriseのAIについて {#overview}
-  - [CX EnterpriseのAIについて](./overview/overview-ai-cxe.md)
+- CX Enterprise の AI について {#overview}
+  - [CX Enterprise の AI について](./overview/overview-ai-cxe.md)
   - [どのように拡大するのか](./overview/generative-ai.md)
   - [エージェンティック AIについて](./overview/agentic-ai.md)
   - [AI クレジットの使用について](./overview/ai-credit-consumption.md)
@@ -28,7 +28,7 @@ ht-degree: 19%
   - チャット {#chat}
     - [概要](./coworker/chat/overview.md)
     - [UI ガイド](./coworker/chat/ui-guide.md)
-    - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
+    - {hide-from-toc}[遊び場での同僚のチャット ](./coworker/playground-coworker-chat.md)
     - ユースケース {#use-cases}
       - [Adobe Workfrontのユースケース](./coworker/chat/use-cases/overview.md)
       - データインサイト {#data-insights}
@@ -52,9 +52,10 @@ ht-degree: 19%
       - アラート {#alerts}
         - [顧客アラートのスキル](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - ブランドの可視性 {#brand-visibility}
-        - [マーケティングアセットの生成](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [ブランドコンプライアンスのチェック](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [AEM Sites ページの作成](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [AEM Assetsのオンボーディング](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [マーケティングアセットの生成](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - ワークフロー/プランニング {#workflow-and-planning}
         - [デジタルキャンペーンの立ち上げ計画](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - カスタマイズ {#customizations}
@@ -106,14 +107,14 @@ ht-degree: 19%
   - {hide-from-toc}[Adobe CX Coworker Gateway](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP ベータ版](./mcp/beta/rtcdp-mcp.md)
   - 基本を学ぶ {#mcp-get-started}
-    - {hide-from-toc}[CX Coworker Gateway Toolsへのアクセス](./mcp/access.md)
-    - {hide-from-toc}[CX Coworker Gatewayのインストール &#x200B;](./mcp/install.md)
-    - {hide-from-toc}[CX Coworker Gatewayの セッションコンテキストツール &#x200B;](./mcp/context-tools.md)
+    - {hide-from-toc}[CX Coworker Gateway Tools](./mcp/access.md)へのアクセス
+    - {hide-from-toc}[CX Coworker Gatewayのインストール ](./mcp/install.md)
+    - CX Coworker Gatewayの{hide-from-toc}[ セッションコンテキストツール ](./mcp/context-tools.md)
   - 製品ツール {#mcp-product-tools}
-    - {hide-from-toc}[Real-Time CDP ツール &#x200B;](./mcp/rtcdp-mcp.md)
-    - {hide-from-toc}[Experience Platform ツール &#x200B;](./mcp/aep-mcp.md)
-    - {hide-from-toc}[Journey Optimizer ツール &#x200B;](./mcp/ajo-mcp.md)
-    - {hide-from-toc}[Customer Journey Analytics ツール &#x200B;](./mcp/cja-mcp.md)
-    - {hide-from-toc}[Adobe Analytics ツール &#x200B;](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [ターゲット](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Real-Time CDP ツール ](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Experience Platform ツール ](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Journey Optimizer ツール ](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Customer Journey Analytics ツール ](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Adobe Analytics ツール ](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [ターゲット](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
