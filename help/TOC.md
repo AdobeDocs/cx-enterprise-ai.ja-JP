@@ -6,17 +6,17 @@ description: CX EnterpriseのAI ツールについてご確認ください。 CX
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
+source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 19%
+source-wordcount: '396'
+ht-degree: 21%
 ---
 
 # CX Enterprise の AI {#experience-cloud-ai}
 
 - [CX Enterprise の AI](home.md)
-- CX EnterpriseのAIについて {#overview}
-  - [CX EnterpriseのAIについて](./overview/overview-ai-cxe.md)
+- CX Enterprise の AI について {#overview}
+  - [CX Enterprise の AI について](./overview/overview-ai-cxe.md)
   - [どのように拡大するのか](./overview/generative-ai.md)
   - [エージェンティック AIについて](./overview/agentic-ai.md)
   - [AI クレジットの使用について](./overview/ai-credit-consumption.md)
@@ -52,9 +52,10 @@ ht-degree: 19%
       - アラート {#alerts}
         - [顧客アラートのスキル](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - ブランドの可視性 {#brand-visibility}
-        - [マーケティングアセットの生成](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [ブランドコンプライアンスのチェック](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [AEM Sites ページの作成](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [AEM Assetsのオンボーディング](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [マーケティングアセットの生成](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - ワークフロー/プランニング {#workflow-and-planning}
         - [デジタルキャンペーンの立ち上げ計画](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - カスタマイズ {#customizations}
@@ -68,6 +69,7 @@ ht-degree: 19%
       - [統合とは何ですか？](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - プラグイン {#plugins}
       - [プラグインとは何ですか？](./coworker/customizations/plugins/what-are-plugins.md)
+      - [組織のプラグインの管理](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
     - メモリ {#memory}
       - [メモリとは何ですか？](./coworker/customizations/memory/what-is-memory.md)
   - キャンペーン {#campaigns}
