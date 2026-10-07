@@ -10,15 +10,15 @@ jira: PLAT-302857
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1045'
 ht-degree: 0%
 ---
 
 # Adobe Experience PlatformデータをCoworkerで検証
 
-Coworkerには、Experience Platform データセットのデータ品質をチェックするデータ検証スキルが含まれます。 単一の同僚チャット会話を通じて、データセットの統計的およびセマンティック検証の実行、データセットフィールドの分析、データ品質の問題の特定に使用できます。
+Adobe CX Enterprise Coworkerには、Experience Platform データセットのデータ品質をチェックするデータ検証スキルが含まれています。 単一の同僚チャット会話を通じて、データセットの統計的およびセマンティック検証の実行、データセットフィールドの分析、データ品質の問題の特定に使用できます。
 
 データエンジニア、データ管理者、実装エンジニアは、SQL クエリや複雑なスキーマ階層を使用せずに、迅速な品質チェックにデータを使用します。
 
@@ -99,9 +99,9 @@ Coworkerでデータを検証するには、次のものが必要です。
 
 | 列 | 説明 |
 | --- | --- |
-| [!UICONTROL &#x200B; フィールド名] | フィールドの名前。 |
-| [!UICONTROL &#x200B; フィールドパス &#x200B;] | スキーマ内のフィールドのフルパス。 |
-| [!UICONTROL &#x200B; フィールドタイプ &#x200B;] | フィールドのデータタイプ。 |
+| [!UICONTROL  フィールド名] | フィールドの名前。 |
+| [!UICONTROL  フィールドパス ] | スキーマ内のフィールドのフルパス。 |
+| [!UICONTROL  フィールドタイプ ] | フィールドのデータタイプ。 |
 | [!UICONTROL 有効な値] | 検証に合格したサンプル値の割合。 |
 | [!UICONTROL 個別の値] | サンプリングされた値のうち、異なる値の割合。 |
 | [!UICONTROL Null値] | サンプルされた値のうち、nullの割合です。 |
@@ -119,7 +119,7 @@ Coworkerでデータを検証するには、次のものが必要です。
 
 データセットを検証すると、1つのフィールドに1行のテーブルに結果が表示されます。 自分の名前を付けたフィールドは、指定したフィールドと同じように表示されます。
 
-![&#x200B; ユーザーがプロンプトで指定したカテゴリ、ブランド、価格フィールドの検証結果を示す「Electronics Sample 1000 Field Validation」というタイトルの共同作業者のチャットテーブル。](../../assets/data-validation-aep/field-validation.png)
+![ ユーザーがプロンプトで指定したカテゴリ、ブランド、価格フィールドの検証結果を示す「Electronics Sample 1000 Field Validation」というタイトルの共同作業者のチャットテーブル。](../../assets/data-validation-aep/field-validation.png)
 
 スキルが選択したフィールドは、自動的に同じように表示されます。
 
@@ -157,4 +157,4 @@ Electronics Sample 1000 データセットで自動的に選択された5つの�
 * [アップグレード時のAdobe AnalyticsからCustomer Journey Analytics データへの検証](./data-validation-aa-cja.md)
 * [Coworkerのデータ検証スキルを使用したCustomer Journey Analytics データの検証](./validate-dataset-quality-for-cja.md)
 * [データの検証（AI アシスタント）](/help/agents/data-validation.md)
-* [Customer Journey Analytics レポートを信頼する：Adobe CX Coworkerでのデータ検証スキル &#x200B;](https://www.youtube.com/watch?v=gCSm_QYSYhk) （ビデオ）
+* [Customer Journey Analytics レポートを信頼する：Adobe CX Enterprise Coworkerでのデータ検証スキル ](https://www.youtube.com/watch?v=gCSm_QYSYhk) （ビデオ）
