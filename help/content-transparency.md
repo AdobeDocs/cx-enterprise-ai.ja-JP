@@ -1,20 +1,20 @@
 ---
-title: 生成AI コンテンツの透明性
-description: Adobeが、Adobe CX Enterpriseのアプリケーション全体で、生成AIが生成し、生成AIが編集したコンテンツにC2PA メタデータを自動的に添付する方法をご確認ください。
+title: 生成 AI コンテンツの透明性
+description: Adobeが、Adobe CX Enterpriseのアプリケーション全体で、生成AIが生成し、生成AIが編集したコンテンツに、C2PA メタデータを自動的に添付する方法をご確認ください。
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+    internal-label: AI Tools
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 32faffcdcaedc9ae601e601ad92d58b48743af66
+    internal-label: Generative AI
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: 1743
+source-wordcount: '1738'
 ht-degree: 2%
-
 ---
 
+# 生成 AI コンテンツの透明性
 
-# 生成AI コンテンツの透明性
-
-2026年8月を通して、Adobeでは、C2PA メタデータサポートをAdobe Creative Cloud、Adobe Document Cloud、Adobe Firefly、Adobe CX Enterprise アプリケーションに徐々に導入しています。
+2026年8月を通して、Adobeでは、C2PA メタデータサポートをAdobe Creative Cloud、Adobe Document Cloud、Adobe Firefly、およびAdobe CX Enterprise アプリケーションに徐々に展開しています。
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Adobeは、ツールプロバイダーとして、Adobeテクノロジー（Adob
 
 ## 現状
 
-2026年8月にリリースされるAdobeでは、Adobe Creative Cloud、Adobe Document Cloud、Adobe Firefly、Adobe CX Enterprise アプリケーションをまたいでC2PA メタデータサポートが導入されます。
+2026年8月にリリースされるAdobeでは、Adobe Creative Cloud、Adobe Document Cloud、Adobe Firefly、Adobe CX Enterprise アプリケーションでC2PA メタデータのサポートが導入されます。
 
 このリリースには次のものが含まれます。
 
@@ -64,7 +64,7 @@ Adobeは、コンテンツがAdobe アプリケーションを離れた後に、
 
 状況によっては、特定の地域では、企業はGenAIが生成またはGenAIが編集したコンテンツを目に見える形で特定することを選択する、または特定する必要がある場合があります。
 
-Adobeでは、Adobe アプリケーションでサポートされている既存の透かし機能の使用に関する[&#x200B; ガイダンス &#x200B;](https://helpx.adobe.com/jp/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)を提供しています。 目に見える透かしが必要かどうかは、組織のビジネス要件と、コンテンツが公開される地域で適用される法律や規制によって異なります。
+Adobeでは、Adobe アプリケーションでサポートされている既存の透かし機能の使用に関する[ ガイダンス ](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)を提供しています。 目に見える透かしが必要かどうかは、組織のビジネス要件と、コンテンツが公開される地域で適用される法律や規制によって異なります。
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Adobeでは、Adobe アプリケーションでサポートされている既存
 
 ## 可用性とリリース
 
-これらの機能は、サポート対象のAdobe CX Enterprise ワークフローをまたいで&#x200B;**2026年8月**&#x200B;を通じてロールアウトされます。
+これらの機能は、サポートされているAdobe CX Enterprise ワークフローをまたいで&#x200B;**2026年8月**&#x200B;にロールアウトされます。
 
 >[!NOTE]
 >
@@ -86,13 +86,13 @@ C2PA メタデータは、サポートされているGenAI生成およびGenAI�
 
 ### 透かしガイダンス
 
-Adobeでは、表示ラベルを選択または適用する必要がある企業に対して、サポートされているAdobe アプリケーションで使用できる既存の透かし機能を使用する方法について説明する[&#x200B; ドキュメント &#x200B;](https://helpx.adobe.com/jp/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)を提供しています。
+Adobeでは、表示ラベルを選択または適用する必要がある企業に対して、サポートされているAdobe アプリケーションで使用できる既存の透かし機能を使用する方法について説明する[ ドキュメント ](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)を提供しています。
 
 ## Adobe CX Enterpriseでサポートされているアプリケーション {#supported-applications}
 
-以下のAdobe アプリケーションおよびサービスは、特定のCX Enterprise アプリケーション内の対象コンテンツにC2PA メタデータが添付される方法とタイミングに関する追加情報を提供します。
+以下のAdobe アプリケーションおよびサービスでは、特定のCX Enterprise アプリケーション内の対象コンテンツにC2PA メタデータが添付される方法とタイミングに関する追加情報を提供します。
 
-ただし、該当する場合、サポートされているアセットがAdobe ワークフローを通過する際に、すべてのAdobe CX Enterprise アプリケーションは既存のC2PA メタデータを保持し続けます。 これにより、Content supply chain全体で来歴情報の整合性を維持することができます。
+ただし、該当する場合は、サポートされているアセットがAdobe ワークフローを通過しても、すべてのAdobe CX Enterprise アプリケーションは既存のC2PA メタデータを保持し続けます。 これにより、Content supply chain全体で来歴情報の整合性を維持することができます。
 
 >[!NOTE]
 >
@@ -100,42 +100,42 @@ Adobeでは、表示ラベルを選択または適用する必要がある企業
 
 | アプリケーション/ソリューション | リリースノート/ガイダンス |
 |---|---|
-| Adobe Advertising Cloud | [ドキュメント](https://experienceleague.adobe.com/ja/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
-| Adobe Experience Manager（AEM） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
-| コンテンツの生成（Adobe Journey Optimizer / Adobe Campaignの機能） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
-| Adobe Journey Optimizer B2B Ultimate | [ドキュメント](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2B Prime （別名Adobe Marketo Optimizer） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2C | [ドキュメント](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
-| Adobe Campaign | [ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
-| Adobe Commerce | [ドキュメント](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
-| パフォーマンスマーケティング用の GenStudio | [ドキュメント](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
-| Adobe Marketo Engage | [ドキュメント](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
-| Adobe Workfront | [ドキュメント](https://experienceleague.adobe.com/ja/docs/workfront/using/documents/c2pa-metadata-overview) |
-| CX Enterprise Coworker Campaigns （旧HALO） | [ドキュメント](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
+| Adobe Advertising Cloud | [ドキュメント](https://experienceleague.adobe.com/en/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
+| Adobe Experience Manager（AEM） | [ドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
+| コンテンツの生成（Adobe Journey Optimizer / Adobe Campaignの機能） | [ドキュメント](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
+| Adobe Journey Optimizer B2B Ultimate | [ドキュメント](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2B Prime （別名Adobe Marketo Optimizer） | [ドキュメント](https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2C | [ドキュメント](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
+| Adobe Campaign | [ドキュメント](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
+| Adobe Commerce | [ドキュメント](https://experienceleague.adobe.com/en/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
+| パフォーマンスマーケティング用の GenStudio | [ドキュメント](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
+| Adobe Marketo Engage | [ドキュメント](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
+| Adobe Workfront | [ドキュメント](https://experienceleague.adobe.com/en/docs/workfront/using/documents/c2pa-metadata-overview) |
+| CX Enterprise Coworker Campaigns （旧HALO） | [ドキュメント](https://experienceleague.adobe.com/en/docs/coworker/content/campaigns/c2pa-metadata) |
 
 ## 関連リンク
 
-* [表示される透かしガイド](https://helpx.adobe.com/jp/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
+* [表示される透かしガイド](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
 * [Adobe Inspect](https://contentauthenticity.adobe.com/inspect)
-* [Adobe GenAI ラベリングコンプライアンス施策の概要](https://helpx.adobe.com/jp/creative-cloud/apps/generative-ai/ai-content-labeling-faq.html)
+* [Adobe GenAI ラベリングコンプライアンス施策の概要](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-labeling-faq.html)
 
 ## よくある質問
 
 **C2PA メタデータを編集または作成した生成AI コンテンツに適用するAdobe アプリはどれですか？**
 
-サポート対象のAdobe CX エンタープライズアプリケーションは、適格なGenAI生成コンテンツおよびGenAI編集コンテンツにC2PA メタデータを自動的に添付します。 Adobe CX Enterprise アプリケーションについて詳しくは、[&#x200B; サポート対象アプリケーション &#x200B;](#supported-applications)の節を参照してください。
+サポート対象のAdobe CX Enterpriseアプリケーションでは、適格なGenAI生成コンテンツおよびGenAI編集コンテンツにC2PA メタデータが自動的に添付されます。 Adobe CX Enterprise アプリケーションについて詳しくは、[ サポートされているアプリケーション ](#supported-applications)の節を参照してください。
 
 **AdobeがC2PA メタデータを追加するコンテンツの種類は？**
 
-大まかに言って、画像、音声、動画、文書、テキストは範囲に含まれます。 ただし、各アプリケーションが異なる製品やコンテンツタイプでC2PA メタデータをどのようにサポートしているかについては、[&#x200B; サポートされているアプリケーション &#x200B;](#supported-applications) セクションのドキュメントを参照してください。
+大まかに言って、画像、音声、動画、文書、テキストは範囲に含まれます。 ただし、各アプリケーションが異なる製品やコンテンツタイプでC2PA メタデータをどのようにサポートしているかについては、[ サポートされているアプリケーション ](#supported-applications) セクションのドキュメントを参照してください。
 
 **Adobe CXのどのアプリケーションが、編集および公開中にC2PA メタデータを保持しますか？**
 
-あらゆるAdobe CX エンタープライズアプリケーションは、互換性のあるAdobeワークフローを介してコンテンツが移動する際に、C2PA メタデータを保持するように設計されています。 Adobe アプリケーション以外の保存は、外部プラットフォームがC2PA メタデータをサポートしているかどうかによって異なります。
+あらゆるAdobe CX Enterpriseアプリケーションは、互換性のあるAdobeワークフローを介してコンテンツを移動する際に、C2PA メタデータを保持するように設計されています。 Adobe アプリケーション以外の保存は、外部プラットフォームがC2PA メタデータをサポートしているかどうかによって異なります。
 
 **複数のGenAI生成画像を1つの画像に結合するとどうなりますか？**
 
-生成されるC2PA メタデータは、使用されるアプリケーションとワークフローによって異なります。 Adobeでは、サポートされている場合、編集プロセス全体を通じて来歴情報が保持されます。 各アプリケーションのワークフロー固有の動作に関するドキュメントについては、[&#x200B; サポートされているアプリケーション &#x200B;](#supported-applications-across-adobe-cx-enterprise)の節を参照してください。
+生成されるC2PA メタデータは、使用されるアプリケーションとワークフローによって異なります。 Adobeでは、サポートされている場合、編集プロセス全体を通じて来歴情報が保持されます。 各アプリケーションのワークフロー固有の動作に関するドキュメントについては、[ サポートされているアプリケーション ](#supported-applications-across-adobe-cx-enterprise)の節を参照してください。
 
 **AdobeとAdobe以外のアプリケーションから生成AIで生成された画像を組み合わせると、どうなりますか？**
 

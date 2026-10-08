@@ -1,9 +1,9 @@
 ---
 title: AI アシスタントでデータを検証する
 description: AI アシスタントでAgent Orchestratorを活用したデータ検証を使用して、データセットに対して統計的および意味的な検証を実行する方法を説明します。
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1616'
 ht-degree: 0%
 ---
 # AI アシスタントでデータを検証する
@@ -24,7 +24,7 @@ AI アシスタントでデータを検証する方法について詳しくは�
 
 >[!NOTE]
 >
->データ検証は、従業員のスキルとしても利用できます。 [Experience Platform データを共同作業者と検証する](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md)を参照してください。
+>データ検証は、従業員のスキルとしても利用できます。 [Experience Platform データを共同作業者と検証する](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep)を参照してください。
 
 ## ユースケース
 
@@ -40,7 +40,7 @@ Adobe CX Enterpriseの&#x200B;**AI アシスタント**&#x200B;を使用して�
 
 ### 検証を開始
 
-![&#x200B; データセット検証リクエスト、Experience Platform環境セレクター、送信制御を示すプロンプトフィールドを含むAI アシスタントのホーム。](./assets/validation/home.png)
+![ データセット検証リクエスト、Experience Platform環境セレクター、送信制御を示すプロンプトフィールドを含むAI アシスタントのホーム。](./assets/validation/home.png)
 
 左側のナビゲーションで、**[!UICONTROL AI アシスタント]**&#x200B;を選択します。 次に、環境セレクターを使用し、データセットが存在するExperience Platformの組織またはサンドボックスを選択します（例：**[!UICONTROL Experience Platform - Prod]**）。 プロンプトフィールドに検証リクエストを入力します（例えば、データセットを名前で検証するように依頼します）。 プロンプトを送信するには、**[!UICONTROL 送信]**&#x200B;を選択します。
 
@@ -71,13 +71,13 @@ Agent Orchestratorが実行を完了するまでの短い時間を設けます�
 
 ### フォローアップに関連する提案の使用
 
-![&#x200B; プロンプトフィールドの上に関連する提案チップがあり、データセット上の特定のフィールドを検証するために1つの提案が選択されています。](./assets/validation/related-suggestion.png)
+![ プロンプトフィールドの上に関連する提案チップがあり、データセット上の特定のフィールドを検証するために1つの提案が選択されています。](./assets/validation/related-suggestion.png)
 
 回答の後、会話の下にある&#x200B;**[!UICONTROL 関連する提案]**&#x200B;を見つけます。 候補を選択して（例えば、同じデータセットの特定のフィールドを検証して）、プロンプトフィールドに読み込みます。 必要に応じてテキストを調整し、環境を確認してから、**[!UICONTROL 送信]**&#x200B;を選択してフォローアップを実行します。
 
 ### フィールドレベルでの検証
 
-![&#x200B; グラフ表示の1つのフィールドの検証結果カード。有効なドーナツチャートと展開された表示アクションを表示します。](./assets/validation/single-field.png)
+![ グラフ表示の1つのフィールドの検証結果カード。有効なドーナツチャートと展開された表示アクションを表示します。](./assets/validation/single-field.png)
 
 フィールドレベル **[!UICONTROL 検証結果]** カードを開きます（例えば、1つのフィールドを検証した後）。 テーブルの代わりに視覚的な概要を表示する場合は、ビューコントロールを使用して、**グラフ** （または別のビュー）に切り替えます。 この手順では、オプションで&#x200B;**[!UICONTROL プロパティ]**&#x200B;を選択して、フィールドの詳細を表示できます。
 

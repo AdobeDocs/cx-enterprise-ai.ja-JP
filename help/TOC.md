@@ -6,9 +6,9 @@ description: CX EnterpriseのAI ツールについてご確認ください。 CX
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '222'
 ht-degree: 22%
 ---
 
@@ -23,69 +23,6 @@ ht-degree: 22%
   - [Agentic AI モニタリングダッシュボード](./overview/monitoring.md)
   - [エージェント型ツール](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)
   - [生成 AI コンテンツの透明性](content-transparency.md)
-- CX Enterprise Coworker ガイド {#coworker}
-  - [同僚の概要](./coworker/overview.md)
-  - チャット {#chat}
-    - [概要](./coworker/chat/overview.md)
-    - [UI ガイド](./coworker/chat/ui-guide.md)
-    - {hide-from-toc}[遊び場での同僚のチャット &#x200B;](./coworker/playground-coworker-chat.md)
-    - ユースケース {#use-cases}
-      - [Adobe Workfrontのユースケース](./coworker/chat/use-cases/overview.md)
-      - データインサイト {#data-insights}
-        - {hide-from-toc}[概要](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
-        - {hide-from-toc}[概要](./coworker/chat/use-cases/data-insights/analytics-overview.md)
-        - [基本を学ぶ](./coworker/chat/use-cases/data-insights/analytics-chat.md)
-        - [トレンドと根本原因を探る](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
-        - [アップグレード時にAAからCJA データを検証する](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
-        - [CJA レポート用のデータセット品質の検証](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
-        - [Experience Platform データの検証](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
-      - データ管理 {#data-management}
-        - [データレイクの管理](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
-      - オーディエンス {#audiences}
-        - [プラットフォームの健全性を評価し、オーディエンスを構築する](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
-      - ジャーニー {#journeys}
-        - [自然言語を使用したジャーニーの作成](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
-      - ロイヤルティ {#loyalty}
-        - [ロイヤルティに関する課題を作成し、インサイトを獲得](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
-      - 最適化 {#optimization}
-        - [Target アクティビティの起動](./coworker/chat/use-cases/optimization/target.md)
-      - サンドボックスツール {#sandbox-tooling}
-        - [エージェント型スキルのサンドボックスツール](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
-      - アラート {#alerts}
-        - [顧客アラートのスキル](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
-      - ブランドの可視性 {#brand-visibility}
-        - [ブランドコンプライアンスのチェック](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
-        - [AEM Sites ページの作成](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
-        - [AEM Assetsのオンボーディング](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
-        - [マーケティングアセットの生成](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
-      - ワークフロー/プランニング {#workflow-and-planning}
-        - [デジタルキャンペーンの立ち上げ計画](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-  - カスタマイズ {#customizations}
-    - [概要](./coworker/customizations/overview.md)
-    - スキル {#skills}
-      - [スキルとは？](./coworker/customizations/skills/what-are-skills.md)
-      - [最初のスキルを作成](./coworker/customizations/skills/create-your-first-skill.md)
-      - [高品質なゲートスキルの構築と実行](./coworker/customizations/skills/run-a-quality-gate-skill.md)
-      - [スキルの管理と繰り返し](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
-    - 統合 {#integrations}
-      - [統合とは何ですか？](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
-    - プラグイン {#plugins}
-      - [プラグインとは何ですか？](./coworker/customizations/plugins/what-are-plugins.md)
-      - [組織のプラグインの管理](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
-    - メモリ {#memory}
-      - [メモリとは何ですか？](./coworker/customizations/memory/what-is-memory.md)
-  - キャンペーン {#campaigns}
-    - {hide-from-toc}[新しいチーム エクスペリエンス &#x200B;](./coworker/campaigns/new-teams-experience.md)
-    - [概要](./coworker/campaigns/overview.md)
-    - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
-    - [キャンペーンの立ち上げと管理](./coworker/campaigns/launch-manage-campaign.md)
-    - [ユースケース](./coworker/campaigns/use-cases.md)
-    - [プロンプトのベストプラクティス](./coworker/campaigns/prompting-best-practices.md)
-    - [C2PA メタデータ](./coworker/campaigns/c2pa-metadata.md)
-    - コネクタ {#connectors}
-      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
-    - [リリースノート](./coworker/campaigns/release-notes.md)
 - AI アシスタントガイド {#ai-assistant}
   - [AI アシスタント UI ガイド](./ai-assistant/ai-assistant-ui.md)
   - [プロンプトライブラリ](./ai-assistant/prompt-library.md)
@@ -103,7 +40,7 @@ ht-degree: 22%
   - [SQL データの準備](./agents/sql-data-prep.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Notifications エージェント](./agents/notifications.md)
-  - [共同作業者の体験版](./agents/trial.md)
+  - [共同作業者トライアル](./agents/trial.md)
   - [データの検証](./agents/data-validation.md)
   - Data Engineering {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
@@ -111,14 +48,14 @@ ht-degree: 22%
   - {hide-from-toc}[Adobe CX Coworker Gateway](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP ベータ版](./mcp/beta/rtcdp-mcp.md)
   - 基本を学ぶ {#mcp-get-started}
-    - {hide-from-toc}[CX Coworker Gateway Toolsへのアクセス](./mcp/access.md)
-    - {hide-from-toc}[CX Coworker Gatewayのインストール &#x200B;](./mcp/install.md)
-    - {hide-from-toc}[CX Coworker Gatewayの セッションコンテキストツール &#x200B;](./mcp/context-tools.md)
+    - {hide-from-toc}[CX Coworker Gateway Tools](./mcp/access.md)へのアクセス
+    - {hide-from-toc}[CX Coworker Gatewayのインストール ](./mcp/install.md)
+    - CX Coworker Gatewayの{hide-from-toc}[ セッションコンテキストツール ](./mcp/context-tools.md)
   - 製品ツール {#mcp-product-tools}
-    - {hide-from-toc}[Real-Time CDP ツール &#x200B;](./mcp/rtcdp-mcp.md)
-    - {hide-from-toc}[Experience Platform ツール &#x200B;](./mcp/aep-mcp.md)
-    - {hide-from-toc}[Journey Optimizer ツール &#x200B;](./mcp/ajo-mcp.md)
-    - {hide-from-toc}[Customer Journey Analytics ツール &#x200B;](./mcp/cja-mcp.md)
-    - {hide-from-toc}[Adobe Analytics ツール &#x200B;](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [ターゲット](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Real-Time CDP ツール ](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Experience Platform ツール ](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Journey Optimizer ツール ](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Customer Journey Analytics ツール ](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Adobe Analytics ツール ](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [ターゲット](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)

@@ -2,9 +2,9 @@
 title: CX Coworker GatewayのExperience Platform Tools
 description: CX Coworker Gatewayを通じて使用できるAdobe Experience Platform ツールについて説明します。
 hide: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1955'
 ht-degree: 6%
 ---
 
@@ -48,7 +48,7 @@ Adobe Experience Platform製品ツールを使用して、MCP対応クライア�
 
 ### search_audit
 
-**リソース：**&#x200B;監査クエリ ・監査イベント
+**リソース：**監査クエリ ・監査イベント
 **ステータス：** アクティブ
 
 Experience Platform サービス全体のユーザーアクティビティのタイムスタンプ付きレコードを一覧表示します。 アクションタイプ、ユーザーの電子メール、アセット情報、イベントステータスを返します。 `asset_type`と`action`を使用して結果を絞り込みます。 時間範囲が指定されていない場合は、デフォルトで過去7日間になります。 過去90日間の過去1000件のレコードとイベントに限定されます。
@@ -84,7 +84,7 @@ Experience Platform カタログサービスの統合ディスパッチツール
 | パラメーター | 必須 | 説明 |
 | --- | --- | --- |
 | `entity_type` | ○ | `dataset` または `batch` |
-| `operation` | ○ | `list`, `get`, `list_last`, `list_files`, `get_meta_files`. 有効なコンボ：データセット→リスト、取得、5つすべて→バッチ |
+| `operation` | はい | `list`, `get`, `list_last`, `list_files`, `get_meta_files`. 有効なコンボ：データセット→リスト、取得、5つすべて→バッチ |
 | `resource_id` | × | データセットまたはバッチ ID: `dataset/get`、`batch/get`、`batch/list_files`、`batch/get_meta_files`に必要 |
 | `query_params.limit` | × | 1 ページあたりの最大結果（最大100）。 すべてのリスト操作に適用 |
 | `query_params.start` | × | ページネーションのオフセット すべてのリスト操作に適用 |
@@ -131,8 +131,8 @@ Experience Platform データ取り込みに失敗したバッチからファイ
 | パラメーター | 必須 | 説明 |
 | --- | --- | --- |
 | `entity_type` | ○ | `failed_batch` – 失敗した取り込みバッチからのファイルのリスト |
-| `operation` | ○ | `list_failed` — サポートされている操作は1つだけです |
-| `resource_id` | ○ | 失敗したバッチのバッチ ID |
+| `operation` | はい | `list_failed` — サポートされている操作は1つだけです |
+| `resource_id` | はい | 失敗したバッチのバッチ ID |
 | `query_params.start` | × | ページング開始インデックス （例：`1`） |
 | `query_params.limit` | × | ページあたりの結果の数（例：`10`） |
 | `query_params.path` | × | ファイル名の完全なフィルター（例：`profiles.csv`） |
@@ -152,8 +152,8 @@ Experience Platform データ取り込みに失敗したバッチからファイ
 | パラメーター | 必須 | 説明 |
 | --- | --- | --- |
 | `entity_type` | ○ | `dataset` または `batch` |
-| `operation` | ○ | `get`, `get_size`, `list_failed`. `list_failed`は`batch` エンティティ型のみをサポートしています |
-| `resource_id` | ○ | データセット IDまたはバッチ ID。 `list_failed`の場合：スコープを設定するためのデータセット IDが失敗しました |
+| `operation` | はい | `get`, `get_size`, `list_failed`. `list_failed`は`batch` エンティティ型のみをサポートしています |
+| `resource_id` | はい | データセット IDまたはバッチ ID。 `list_failed`の場合：スコープを設定するためのデータセット IDが失敗しました |
 | `query_params.created_after` | × | 時間ウィンドウの開始。 Unix タイムスタンプ （ミリ秒） |
 | `query_params.created_before` | × | 時間ウィンドウの終了。 Unix タイムスタンプ （ミリ秒） |
 | `query_params.limit` | × | 1 ページあたりの最大結果（最大100） |
@@ -173,7 +173,7 @@ Policy Service APIに対して、データ使用ラベル、ポリシー、マ�
 | パラメーター | 必須 | 説明 |
 | --- | --- | --- |
 | `entity_type` | ○ | `label`、`policy`または`marketing_action` |
-| `operation` | ○ | `list`、`get`、`list_enabled` （ポリシーのみ）、`evaluate` （marketing_actionのみ）。 `list_enabled`には範囲が必要ありません |
+| `operation` | はい | `list`、`get`、`list_enabled` （ポリシーのみ）、`evaluate` （marketing_actionのみ）。 `list_enabled`には範囲が必要ありません |
 | `scope` | × | `core` （Adobe定義）または`custom` （組織定義）です。 `list`、`get`、`evaluate`には必須です。`list_enabled`には使用されません |
 | `resource_id` | × | ラベル名、ポリシーID、またはマーケティングアクション名。 `get`および`evaluate`に必要 |
 | `query_params.dule_labels` | × | コンマ区切りのラベル （例：`C1,C3`）。 `marketing_action/evaluate`には必須です。`policy/list`にはオプションのフィルターがあります |
@@ -198,7 +198,7 @@ Query Serviceのリソース向けの統合ツール。 アドホッククエリ
 | パラメーター | 必須 | 説明 |
 | --- | --- | --- |
 | `entity_type` | ○ | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
-| `operation` | ○ | `list`, `get`, `get_connection_params`, `list_by_u...` |
+| `operation` | はい | `list`, `get`, `get_connection_params`, `list_by_u...` |
 
 ### execute_observability_metrics_query
 
@@ -214,8 +214,8 @@ Query Serviceのリソース向けの統合ツール。 アドホッククエリ
 | パラメーター | 必須 | 説明 |
 | --- | --- | --- |
 | `metrics` | ○ | 指標スペックの配列。 それぞれに`name` （完全修飾指標名）、`aggregator` （`sum`、`avg`、`min`、`max`、`count`、`last`、`p50`、`p95`、`p99`、ヒストグラムのバリアント、または`absent`）、オプション `filters`、およびオプション `downsample`が含まれます |
-| `start` | ○ | ウィンドウ開始、ISO 8601 （例：`2026-01-15T00:00:00.000Z`）。 `end`より前である必要があります。 最大ウィンドウ：31日 |
-| `end` | ○ | ウィンドウエンド、ISO 8601。 `start`以降である必要があります |
+| `start` | はい | ウィンドウ開始、ISO 8601 （例：`2026-01-15T00:00:00.000Z`）。 `end`より前である必要があります。 最大ウィンドウ：31日 |
+| `end` | はい | ウィンドウエンド、ISO 8601。 `start`以降である必要があります |
 | `granularity` | × | 時間バケット サイズ：`MINUTE`、`FIVE_MINUTE`、`TEN_MINUTE`、`FIFTEEN_MINUTE`、`THIRTY_MINUTE`、`HOUR`、`FOUR_HOUR`、`TWELVE_HOUR`、`DAY`、`TWO_DAY`、`WEEK`、`MONTH`または`ALL` （ウィンドウを1つの集計に折りたたむ）。 サーバーが選択することを許可しない |
 | `scope` | × | `sandbox` （既定値）は、現在のサンドボックスをクエリします。 `org`は、組織内のすべてのサンドボックスをクエリし、すべての指標に`groupBy` フィルターを推奨します |
 
@@ -235,8 +235,8 @@ Query Serviceのリソース向けの統合ツール。 アドホッククエリ
 | パラメーター | 必須 | 説明 |
 | --- | --- | --- |
 | `metrics` | ○ | データ漏洩スペックの配列。 それぞれに`name` （完全修飾メトリック名）とオプションの`filters`が含まれます |
-| `start` | ○ | ウィンドウ開始、ISO 8601。 `end`より前である必要があります。 最大ウィンドウ：31日 |
-| `end` | ○ | ウィンドウエンド、ISO 8601 |
+| `start` | はい | ウィンドウ開始、ISO 8601。 `end`より前である必要があります。 最大ウィンドウ：31日 |
+| `end` | はい | ウィンドウエンド、ISO 8601 |
 | `granularity` | × | タイムバケットのサイズ、`ALL`を除く`execute_observability_metrics_query`と同じ値。 各バケットは、ベースラインに対して個別に評価されます |
 | `scope` | × | `sandbox` （デフォルト）または`org`。 サンドボックスフィルターを使用しない`org`では、指標ごとに`groupBy: true`を含むフィルターを少なくとも1つ含めることで、組織全体で折りたたまれるのではなく、そのディメンションで結果が分割されます |
 
@@ -248,14 +248,14 @@ Query Serviceのリソース向けの統合ツール。 アドホッククエリ
 
 ### search_sandbox_health_assessment
 
-**リソース：**&#x200B;実行と操作・ ヘルスチェック評価
+**リソース：**実行と操作・ ヘルスチェック評価
 **ステータス：** アクティブ
 
 現在のサンドボックスの最新の「実行」および「操作」ヘルスチェック評価結果を取得します。 スキーマやID、セグメンテーション、取り込み、プロファイルなど、サポートされているあらゆるカテゴリをまたいで結果を返します。 別のルックアップを使用せずに根本原因を特定するために、各結果には、失敗したチェックの背後にある影響を受けるアセットが含まれます。 公開された人間が読み取れる名前を持つチェックのみが返されます。 すべての操作は読み取り専用です。
 
 >[!NOTE]
 >
->このツールは、評価結果のみを取得します。 フラグ付きの問題を修正するには、[!DNL Experience Platform] UIのヘルスチェックの詳細パネルを使用します。 [&#x200B; ヘルスチェック &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/run-and-operate/health-checks)を参照してください。 サポートされているヘルスチェックの自動修復ガイダンスは、[CX Coworker Chat](../coworker/chat/overview.md)のスキルとして利用できます。
+>このツールは、評価結果のみを取得します。 フラグ付きの問題を修正するには、[!DNL Experience Platform] UIのヘルスチェックの詳細パネルを使用します。 [ ヘルスチェック ](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks)を参照してください。 サポートされているヘルスチェックの自動修復ガイダンスは、[CX Coworker Chat](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)のスキルとして利用できます。
 
 **機能：**&#x200B;現在のサンドボックスのすべてのヘルスチェック結果を一覧表示し、1つの名前付きチェックの結果を取得します
 
