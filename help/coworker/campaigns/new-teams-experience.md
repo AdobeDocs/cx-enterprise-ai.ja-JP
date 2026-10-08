@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
+source-git-commit: 1b3d66150211994ffefcbf53a5c16585e93b09a5
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '220'
 ht-degree: 0%
 ---
-# 新しいチームの体験 {#new-teams-experience}
+# 近日リリース予定：チーム間でキャンペーンを可視化するデフォルトのワークスペース {#new-teams-experience}
 
-## アクションが必要になる場合があります。新しいTeams エクスペリエンスが10月15日にリリースされます
+## アクションが必要になる場合があります。新しいTeams エクスペリエンスが2026年10月15日（PT）にリリースされます
 
 ### 何が変化し、どのような影響があるのでしょうか？
 
@@ -32,4 +32,10 @@ PDTの10月14日午後10時からPDTの午前6時16分まで、最初のチー�
 * **キャンペーン**：各キャンペーンをPDFまたはWord ファイルとして書き出すには、キャンペーンの右上隅にあるダウンロードアイコンを使用します。
 * **電子メール**：電子メールエディターの書き出しアイコンを使用して、HTMLとして電子メールをダウンロードします。
 
-よくある？ coworkerca@adobe.comまでご連絡ください。
+**チュートリアルについては、以下のビデオをご覧ください**
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504225/?learn=on&enablevpops)
+
+### よくある質問と？
+
+coworkerca@adobe.comまでご連絡ください。
