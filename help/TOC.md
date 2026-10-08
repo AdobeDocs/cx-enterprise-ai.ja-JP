@@ -48,14 +48,14 @@ ht-degree: 22%
   - {hide-from-toc}[Adobe CX Coworker Gateway](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP ベータ版](./mcp/beta/rtcdp-mcp.md)
   - 基本を学ぶ {#mcp-get-started}
-    - {hide-from-toc}[CX Coworker Gateway Tools](./mcp/access.md)へのアクセス
-    - {hide-from-toc}[CX Coworker Gatewayのインストール ](./mcp/install.md)
-    - CX Coworker Gatewayの{hide-from-toc}[ セッションコンテキストツール ](./mcp/context-tools.md)
+    - {hide-from-toc}[CX Coworker Gateway Toolsへのアクセス](./mcp/access.md)
+    - {hide-from-toc}[CX Coworker Gatewayのインストール &#x200B;](./mcp/install.md)
+    - {hide-from-toc}[CX Coworker Gatewayの セッションコンテキストツール &#x200B;](./mcp/context-tools.md)
   - 製品ツール {#mcp-product-tools}
-    - {hide-from-toc}[Real-Time CDP ツール ](./mcp/rtcdp-mcp.md)
-    - {hide-from-toc}[Experience Platform ツール ](./mcp/aep-mcp.md)
-    - {hide-from-toc}[Journey Optimizer ツール ](./mcp/ajo-mcp.md)
-    - {hide-from-toc}[Customer Journey Analytics ツール ](./mcp/cja-mcp.md)
-    - {hide-from-toc}[Adobe Analytics ツール ](./mcp/analytics-mcp.md)
+    - {hide-from-toc}[Real-Time CDP ツール &#x200B;](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Experience Platform ツール &#x200B;](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Journey Optimizer ツール &#x200B;](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Customer Journey Analytics ツール &#x200B;](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Adobe Analytics ツール &#x200B;](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [ターゲット](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
