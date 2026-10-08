@@ -24,7 +24,7 @@ AI アシスタントでデータを検証する方法について詳しくは�
 
 >[!NOTE]
 >
->データ検証は、従業員のスキルとしても利用できます。 [Experience Platform データを共同作業者と検証する](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep)を参照してください。
+>データ検証は、従業員のスキルとしても利用できます。 [Experience Platform データを共同作業者と検証する](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep)を参照してください。
 
 ## ユースケース
 
