@@ -8,16 +8,16 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '628'
 ht-degree: 0%
 ---
 # [!DNL Coworker]のデータ検証スキルでCustomer Journey Analytics データを検証します
 
 Adobe Customer Journey Analytics（CJA）では、データ品質は正確なレポートの基盤となります。 指標、ダッシュボード、セグメント、カスタマージャーニーを構築する前に、基盤となるAdobe Experience Platform（AEP）データが信頼できるかどうかを把握することが重要です。
 
-このビデオでは、クエリを記述したり、データを手動で調べたりすることなく、Coworker **の** データ検証スキルを使用して、Customer Journey Analyticsの実装を強化するデータセットの品質をすばやく評価する方法について説明します。
+このビデオでは、Adobe CX Enterprise Coworker **の** データ検証スキルを使用して、クエリを記述したり、データを手動で調べたりすることなく、Customer Journey Analytics実装を強化するデータセットの品質をすばやく評価する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3503520/?captions=jpn&learn=on&enablevpops)
 

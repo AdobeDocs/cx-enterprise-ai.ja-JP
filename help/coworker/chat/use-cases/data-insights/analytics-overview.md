@@ -6,9 +6,9 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: e153ef2cff7d9140726ebebf6a1869eca6ee3bed
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2354'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,9 @@ Adobe CX Enterprise Coworker Chatなら、自然言語を使ってAdobe Adobeの
 
 Coworker Chatは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できます。 Coworker Chatは、Customer Journey AnalyticsのデータビューやAdobe Analyticsレポートスイートからデータにアクセスし、そのデータを探索して自然言語プロンプトへの回答を得ることができます。
 
-Coworker Chatで作成したビジュアライゼーションは、いつでも手動で開くことができます。
+Coworker チャットでビジュアライゼーションを作成する場合は、Analysis Workspaceでいつでも開いて、より手動制御を行うことができます。
+
+次の情報では、Coworker Chatでのデータの分析方法の概要を示します。
 
 ## 同僚チャットで分析を開始
 

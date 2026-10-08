@@ -6,10 +6,10 @@ description: CX EnterpriseのAI ツールについてご確認ください。 CX
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
+source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 21%
+source-wordcount: '400'
+ht-degree: 22%
 ---
 
 # CX Enterprise の AI {#experience-cloud-ai}
@@ -32,7 +32,9 @@ ht-degree: 21%
     - ユースケース {#use-cases}
       - [Adobe Workfrontのユースケース](./coworker/chat/use-cases/overview.md)
       - データインサイト {#data-insights}
-        - [CJAデータの分析](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - {hide-from-toc}[概要](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
+        - {hide-from-toc}[概要](./coworker/chat/use-cases/data-insights/analytics-overview.md)
+        - [基本を学ぶ](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [トレンドと根本原因を探る](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [アップグレード時にAAからCJA データを検証する](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [CJA レポート用のデータセット品質の検証](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
@@ -73,6 +75,7 @@ ht-degree: 21%
     - メモリ {#memory}
       - [メモリとは何ですか？](./coworker/customizations/memory/what-is-memory.md)
   - キャンペーン {#campaigns}
+    - {hide-from-toc}[新しいチーム エクスペリエンス &#x200B;](./coworker/campaigns/new-teams-experience.md)
     - [概要](./coworker/campaigns/overview.md)
     - [メールキャンペーンの作成](./coworker/campaigns/create-an-email-campaign.md)
     - [キャンペーンの立ち上げと管理](./coworker/campaigns/launch-manage-campaign.md)

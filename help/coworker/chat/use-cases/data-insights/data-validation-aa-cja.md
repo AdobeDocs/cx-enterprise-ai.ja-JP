@@ -5,27 +5,27 @@ feature: AI Tools
 role: User
 level: Intermediate
 doc-type: Feature Video
-duration: 
+duration:
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22083
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: 1527
+source-wordcount: '1530'
 ht-degree: 0%
-
 ---
-
 # Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする際に、Coworkerでデータを検証する
 
 >[!NOTE]
 > 
 >このページの手順は、以前のすべてのアップグレード手順を完了した後にのみ実行します。 推奨されるアップグレード手順（ほとんどの組織で推奨）に従うか、Customer Journey Analytics アップグレードガイドで組織に応じて動的に生成される手順に従うことができます。 <ul><li>**推奨されるアップグレード手順** （ほとんどの組織で推奨）<p>Adobe Customer Journey Analyticsを導入するための一連のステップ。</p><p>詳しくは、[Adobe AnalyticsからCustomer Journey Analyticsへのアップグレード &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)を参照してください。</p></li><li>**Customer Journey Analytics アップグレードガイド** （組織の特定のニーズに合わせたカスタム手順）<p>組織と独自の状況に合わせてカスタマイズされたアップグレード手順を動的に生成する新しいアップグレードガイドを利用できます。</p><p>Customer Journey Analyticsからガイドにアクセスするには、「**[!UICONTROL Workspace]**」タブを選択し、左側のパネルで「**[!UICONTROL Customer Journey Analyticsにアップグレード]**」を選択します。 画面の指示に従います。</p></li></ul>
 
-Coworkerには、Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする際にデータを検証できる検証スキルが含まれています。 データ検証は、1回の会話で完了します。
+Adobe CX Enterprise Coworkerには、Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする際にデータを検証できる検証スキルが含まれています。 データ検証は、1回の会話で完了します。
 
 このスキルは自動的に比較されます：
 
@@ -156,7 +156,7 @@ Coworkerには、Adobe AnalyticsからCustomer Journey Analyticsにアップグ�
 
    「差異」列と「ステータス」列では、次のスケールが使用されます。
 
-   | 平方偏差 | ステータス | 意味 |
+   | 分散 | ステータス | 意味 |
    |---------|----------|----------|
    | 3%未満 | ![緑のチェックマーク &#x200B;](../../assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL 合格] | データを適切に活用。 操作は必要ありません。 |
    | 3%～10% | ![黄色の警告トライアングル &#x200B;](../../assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL &#x200B; フラグ &#x200B;] | 違いを監視し、それが継続または悪化するかどうかを調べます。 |
