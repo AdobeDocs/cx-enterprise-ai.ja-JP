@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 1b3d66150211994ffefcbf53a5c16585e93b09a5
+source-git-commit: 2656c4673ad5dd9f960904898fb5b8a274410eda
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '218'
 ht-degree: 0%
 ---
 # 近日リリース予定：チーム間でキャンペーンを可視化するデフォルトのワークスペース {#new-teams-experience}
@@ -36,6 +36,6 @@ PDTの10月14日午後10時からPDTの午前6時16分まで、最初のチー�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3504225/?learn=on&enablevpops)
 
-### よくある質問と？
+## よくある質問と？
 
-coworkerca@adobe.comまでご連絡ください。
+<coworkerca@adobe.com>までご連絡ください。
