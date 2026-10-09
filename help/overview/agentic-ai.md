@@ -13,9 +13,9 @@ exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
-source-git-commit: 76356e79bb8608a65c3140c9990a5a4fcbc76a0e
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1132'
 ht-degree: 9%
 ---
 # Adobe CX EnterpriseのAgentic AIについて
@@ -68,7 +68,7 @@ AI ファーストのアプリケーションは、生成AIまたはエージェ
 
 | エージェント名 | 機能 | サポートされているアプリケーション |
 |---|----------|----------|
-| [CX Enterprise Coworker](../coworker/overview.md) | エージェンティックなチームメイトとして機能する：自然言語の目標からマルチステップの作業を計画し、Adobeと接続されたシステムをまたいで実行し、結果を検証し、完成した作業を承認のために返すことで、手作業の調整を減らすことができます。 | <ul><li>CX Enterprise Coworker （チャット）</li><li>CX Enterprise Coworker（キャンペーン）</li></ul> |
+| [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/coworker/content/home) | エージェンティックなチームメイトとして機能する：自然言語の目標からマルチステップの作業を計画し、Adobeと接続されたシステムをまたいで実行し、結果を検証し、完成した作業を承認のために返すことで、手作業の調整を減らすことができます。 | <ul><li>CX Enterprise Coworker （チャット）</li><li>CX Enterprise Coworker（キャンペーン）</li></ul> |
 | [Experimentation Agent](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | インサイトを自動化、分析、合成することで、手作業のプロセスを削減しながら、一元化されたワークスペースから、インパクトの大きい実験や成長機会をすばやく特定することができます。 | <ul><li>AJO Experimentation Accelerator</li></ul> |
 | [LLM最適化エージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/llm-optimizer/using/home) | AIを活用した検索環境における可視性、正確性、影響力を強化し、AIが生成した回答のブランドプレゼンスに関するインサイトを提供し、規範的なコンテンツレコメンデーションを提供し、最適化の修正を自動化します。 | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/ja/docs/experience-manager-sites-optimizer/content/home) | web サイトの機能強化を自動的に検出して展開し、ビジネス効果を最大化します。 生成AIと複数の監視テクノロジーを使用すれば、サイトトラフィックの獲得やエンゲージメントなどを向上できます | <ul><li>AEM Sites Optimizer</li></ul> |

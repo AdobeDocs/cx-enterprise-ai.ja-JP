@@ -1,6 +1,6 @@
 ---
-title: CX エンタープライズアプリケーションにおける生成AI
-description: CX エンタープライズアプリケーションで、AIを活用した生成AI機能をどこで活用できるか、概要ページをご覧ください。
+title: CX Enterpriseアプリケーションで利用できる生成AI
+description: CX Enterpriseアプリケーションで、AIを活用した生成AI機能をどこで活用できるか、その概要をご確認ください。
 solution: Experience Cloud
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
@@ -13,44 +13,66 @@ autotag-review: '2026-05-11T23:21:25.443Z'
 TQID: 'https://experienceleague.adobe.com/c6o7NcoqRE6juwlyq-SbBk43i9JXNsi6UhXHJOPfPNE'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+    internal-label: AI Tools
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+    internal-label: Content production
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdf395ef366771780ee549385fa5ed6aaa6bd873
+    internal-label: Privacy
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: 3388
-ht-degree: 13%
-
+source-wordcount: '3412'
+ht-degree: 12%
 ---
+# CX Enterpriseの生成AIについて
 
-# CX エンタープライズ版の生成AIについて
-
-CX Enterpriseの生成AI （genAI）は、クリエイティブや認知に関する作業を自動化し、生産性を向上させるのに役立ちます。 このページでは、[!DNL CX Enterprise]個のアプリケーションが生成AIをサポートしている場所を理解するのに役立ちます。 これらの機能について詳しくは、リンクを参照してください。
+CX Enterpriseのジェネレーティブ AI （ジェネレーティブ AI）は、クリエイティブやコグニティブな作業を自動化し、生産性を向上させるのに役立ちます。 このページでは、[!DNL CX Enterprise]個のアプリケーションが生成AIをサポートしている場所を理解するのに役立ちます。 これらの機能について詳しくは、リンクを参照してください。
 
 >[!IMPORTANT]
 >
@@ -70,29 +92,29 @@ CX Enterpriseの生成AI （genAI）は、クリエイティブや認知に関�
 
 [!UICONTROL AI アシスタント &#x200B;]は、多くのCX Enterprise アプリケーションでサポートされている会話型の生成AI ツールです。 使用しているアプリケーションに応じて、_製品知識_&#x200B;と&#x200B;_運用上のインサイト_&#x200B;を素早く得るために使用します。
 
-* **製品知識：**&#x200B;製品知識とは、Experience LeagueのCX Enterprise製品ドキュメントに基づく概念とトピックを指します。 例えば、[目標ベースのプロンプト &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home)を使用すると、Experience Platformについて素早く学習できます。 Experience Leagueからの回答はすべて検証可能で、リンクとともに引用されています。
+* **製品情報：**&#x200B;製品情報とは、Experience LeagueのCX Enterprise製品ドキュメントに基づいたコンセプトとトピックを指します。 例えば、[目標ベースのプロンプト &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home)を使用すると、Experience Platformについて素早く学習できます。 Experience Leagueからの回答はすべて検証可能で、リンクとともに引用されています。
 
 * **運用上のインサイト：**&#x200B;例えば、Experience Platformの[運用上のインサイト &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/questions#objects-questions)は、メタデータオブジェクト（属性、オーディエンス、データフロー、データセットなど）に関して生成された応答を参照します。 [!UICONTROL AI アシスタント &#x200B;]を使用すると、数時間または数日かかっていた作業を数秒で完了できます。
 
 >[!NOTE]
 >
->多くのCX エンタープライズ版アプリケーションでは、機能名として&#x200B;_AI アシスタント_&#x200B;を使用しています（以下を参照）。 ただし、この機能は、使用している特定のアプリケーションの情報のみを引き出します。 たとえば、AEMのAI アシスタントは、AEMの活用に役立つ関連情報を提供します。
+>多くのCX Enterprise アプリケーションでは、_AI アシスタント_&#x200B;を機能名として使用しています（以下を参照）。 ただし、この機能は、使用している特定のアプリケーションの情報のみを引き出します。 たとえば、AEMのAI アシスタントは、AEMの活用に役立つ関連情報を提供します。
 
 [!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/landing" tooltip="AI アシスタントを見る"}
 
 [!BADGE &#x200B; プライバシー、セキュリティ、ガバナンス &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/privacy" tooltip="Adobeの生成AI"}
 
-## CX Enterprise Coworkerとは何ですか？
+## CX Enterprise Coworkerとは？
 
 [!DNL CX Enterprise Coworker]は、顧客体験とマーケティングのワークフローを自動化するAIを活用したチームメイトです。 Adobe Workfrontなら、エージェンティックエンジンとして、データ、インテリジェンス、コラボレーション、エージェンティックスキルの実行を、企業のコンテキスト、ガバナンス、人間による監視が組み込まれているので、タスクを調整する代わりに成果に集中することができます。
 
 Coworkerは、次の方法で利用できます。
 
-* **[チャット](../coworker/chat/overview.md)**：自然言語で目標を記述し、同僚が作業を計画し、Adobeと接続されたシステム全体で実行し、結果を検証し、完成した作業を承認のために返す会話型インターフェイス。
+* **[チャット &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/overview)**：自然言語で目標を記述し、同僚が作業を計画し、Adobeと接続されたシステム全体で実行し、結果を検証し、完成した作業を承認のために返す会話型インターフェイス。
 
-* **[キャンペーン](../coworker/campaigns/overview.md)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。
+* **[キャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/campaigns/overview)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。
 
-[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview" tooltip="さらに詳しく"}
+[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/coworker/content/home" tooltip="CX Enterprise Coworkerを見る"}
 
 ## サポートされている生成AI機能は何ですか？
 
@@ -102,7 +124,7 @@ Coworkerは、次の方法で利用できます。
 
 | **製品名** | **生成AIの主な機能** | **Fireflyの互換性** |
 | ------------------ | ------------------------- | ------------------- |
-| [CX Enterprise Coworker](../coworker/overview.md) | 生成AIは、次の地域で利用できます。 <ul><li>**[チャット](../coworker/chat/overview.md)**：自然言語で目標を記述し、生成AIが作業を計画し、Adobeと接続されたシステム全体で実行し、結果を検証し、完成した作業を承認のために返す会話型インターフェイス。</li><li>**[キャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/campaigns/overview)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。 GenAIは、キャンペーン計画の生成、ジャーニーの構築、パーソナライズされたコンテンツの作成を繰り返し行い、改善します。</li></ul> | × |
+| [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/coworker/content/home) | 生成AIは、次の地域で利用できます。 <ul><li>**[チャット &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/overview)**：自然言語で目標を記述し、生成AIが作業を計画し、Adobeと接続されたシステム全体で実行し、結果を検証し、完成した作業を承認のために返す会話型インターフェイス。</li><li>**[キャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/campaigns/overview)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。 GenAIは、キャンペーン計画の生成、ジャーニーの構築、パーソナライズされたコンテンツの作成を繰り返し行い、改善します。</li></ul> | × |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) | 生成AIを利用して、パーソナライズされたブランドに即したコンテンツを作成。 | ○ |
 | [Adobe Experience Manager as a Cloud Service （AEM CS） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | 生成AIは、次の地域で利用できます。 <ul><li>**AEM Sites**&#x200B;でバリエーションを生成（[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)）</li><li>**Sites Optimizer**&#x200B;の生成AI （[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)）</li><li>**Content Hub**&#x200B;の[AEM Assets](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en)および[&#x200B; スマートタグ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags)</li></ul> AI アシスタント： <ul><li>Experience Hubの概要ページ</li><li>Edge 配信サービス</li><li>サイト</li><li>アセット</li><li>フォーム</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | ○ |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI アシスタント： <ul><li>Experience Hubの概要ページ</li><li>Edge 配信サービス</li><li>サイト</li><li>アセット</li><li>フォーム</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | ○ |
@@ -111,7 +133,7 @@ Coworkerは、次の方法で利用できます。
 | [Adobe Experience Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/landing) | 製品知識と運用インサイトのためのAI アシスタント。 | × |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/ai-assistant) | 製品情報と運用上のインサイトについては[!DNL AI Assistant]を参照してください。 | × |
 | | _AJO Prime_&#x200B;および&#x200B;_Ultimate_&#x200B;では、テキストと画像に対するプロアクティブなコンテンツのバリエーションの提案を行うために[Content generation](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en)を提供しています。 | ○ |
-| [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | 製品知識のためのAI アシスタント： | × |
+| [Adobe Journey Optimizer B2B Edition](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | 製品知識のためのAI アシスタント： | × |
 | [[!DNL Campaign]  マネージドクラウドサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/ai-assistant/generative-gs) | コンテンツアクセラレーター用のAI アシスタントは、メール、SMS、プッシュ通知などのチャネルをまたいで、マーケティング目標にもとづいて、パーソナライズされた、魅力的で効果的なコンテンツを自動的に生成します。 | ○ |
 | **[!DNL Customer Journey Analytics]** | GenAIは、次の場面で使用されます。<ul><li> [&#x200B; インテリジェントなキャプション &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：最も頻繁に使用されるWorkspace ビジュアライゼーションに関するインサイト。</li><li>[Content Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): アセットメタデータを自動的に割り当てます。</li></ul> AI アシスタント：<ul><li>[製品ナレッジ &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[製品サポートエージェント &#x200B;](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | × |
 | [Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) | Experience Leagueの製品ナレッジ用[!DNL AI Assistant]。 また、運用に関するインサイトも提供します。 | × |
@@ -119,7 +141,7 @@ Coworkerは、次の方法で利用できます。
 | [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/introduction/assistant-ai/ai-assistant) | 製品知識のためのAI アシスタント： | × |
 | [Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | アプリ内の情報や提案にAI アシスタントを活用します。 | ○ |
 
-**注：** [!DNL Experience Platform Agents]については、CX Enterprise[&#128279;](agentic-ai.md)のAI エージェントに記載されています。
+**注：** [!DNL Experience Platform Agents]については、CX Enterpriseの[AI エージェント &#x200B;](agentic-ai.md)で説明しています。
 
 ## CX Enterpriseで生成AIを使用するにはどうすればよいですか？
 
@@ -275,7 +297,7 @@ AJO _Prime_&#x200B;および&#x200B;_Ultimate_&#x200B;では、[content generati
 
 +++詳細
 
-Journey Optimizer B2B editionでは、[!UICONTROL AI アシスタント &#x200B;]を利用して、製品情報の収集を支援します。
+Journey Optimizer B2B Editionでは、[!UICONTROL AI アシスタント &#x200B;]を使用して、製品情報の収集を支援します。
 
 入力例：
 
@@ -390,7 +412,7 @@ Marketoは、GenStudio for Performance Marketingや
 
 +++詳細
 
-[!DNL Workfront]の[!UICONTROL AI アシスタント &#x200B;]は、アプリ内の情報と提案を提供することで、作業を完了するのに役立ちます。 以下を行うことができます。
+[!DNL Workfront]の[!UICONTROL AI アシスタント &#x200B;]は、アプリ内の情報と提案を提供することで、作業を完了するのに役立ちます。 実行できる操作は、次のとおりです。
 
 * オブジェクトの概要を取得して、オブジェクトの意図や詳細を大まかに把握できます。
 * 質問し、[!UICONTROL AI アシスタント &#x200B;]がExperience Leagueに関する回答を見つけます。

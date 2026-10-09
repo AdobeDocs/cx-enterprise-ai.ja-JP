@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
+source-git-commit: 29be6d986ce52cd14e4b1829d6558a4c981c8f9a
 workflow-type: tm+mt
-source-wordcount: '7086'
+source-wordcount: '7168'
 ht-degree: 6%
 ---
 # Adobe Workfrontのユースケース {#use-cases}
@@ -52,6 +52,7 @@ ht-degree: 6%
 | 使用例 | 説明 | スキル | アプリケーション | サンプルプロンプト |
 | --- | --- | --- | --- | --- |
 | Cloud Manager パイプラインの管理 | ログ、アーティファクト、変数、設定など、AEM Cloud Manager パイプラインを作成、実行、モニタリングします | `cloud-manager-pipeline-management` | Adobe Experience Manager（AEM） | 「プログラム 12345のパイプラインのリスト」 <br><br> 「最新のパイプラインのステータスは？」 |
+| 失敗したCloud Manager パイプラインのトラブルシューティング | 失敗したAEM Cloud Manager パイプラインの実行を分析し、失敗した理由を簡単な言葉で説明します。 フルスタックパイプライン（デプロイとコード品質）、Web階層設定パイプライン、および無効なCDN設定によるデプロイメントエラーなどの設定パイプラインをサポートします | 専用のCloud Manager パイプライントラブルシューティングエージェントとして実装されます。 | Adobe Experience Manager（AEM） | 「失敗したパイプラインのトラブルシューティング」 <br><br> 「プログラム &lt; プログラム名>&quot;<br><br>&quot;プログラム &lt; プログラム名>の&lt; パイプライン名>の失敗した最新の実行を分析する&quot;の失敗したパイプラインを一覧表示する |
 | Cloud Manager環境の管理 | RDE、環境変数、ログ、バックアップなどのAEM Cloud Manager環境を作成、設定、管理します | `cloud-manager-environment-management` | Adobe Experience Manager（AEM） | &quot;プログラム 12345の環境を一覧表示&quot;<br><br>&quot;RDEをリセット&quot; |
 | Cloud Manager プログラムの管理 | パイプラインと環境を含むAEM Cloud Manager プログラムの一覧表示、検査、削除 | `cloud-manager-program-management` | Adobe Experience Manager（AEM） | 「自分のCloud Manager プログラムを一覧表示」 <br><br> 「プログラム 12345の詳細を表示」 |
 | AEM リリースアップデートスケジュールの管理 | 自動メンテナンス用に毎日のサイレントアワーとアップデート不要の期間を設定し、Adobeのグローバルコードフリーズウィンドウを表示します | `cloud-manager-release-management` | Adobe Experience Manager（AEM） | 「現在の休眠時間枠は何ですか？」 <br><br> 「12月20日から1月2日までの更新料無料の期間をスケジュールする」 |

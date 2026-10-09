@@ -1,35 +1,40 @@
 ---
-title: CX Enterprise Collaborker体験版
-description: CX Enterprise Coworkerの無償体験版についてご確認ください。
+title: CX Enterprise Coworker体験版
+description: CX Enterprise Coworkerの無償体験版について説明します。
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+    internal-label: Customer experience
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: 1433
-ht-degree: 1%
-
+source-wordcount: '1429'
+ht-degree: 0%
 ---
-
-# CX Enterprise Collaborker体験版
+# CX Enterprise Coworker体験版
 
 >[!AVAILABILITY]
 >
->特定の対象となるCX Enterpriseのお客様は、購入を確定する前に、使用制限のある体験版にアクセスして、Adobeのエージェンティック AI製品の価値を自分の環境で体験することができます。
+>一部の対象となるCX Enterpriseのお客様は、購入を約束する前に、Adobeのエージェンティック AI製品の価値を自分の環境で体験するための使用制限のある体験版にアクセスできます。
 
 Adobeの裁量により、体験版のお客様は、AI アシスタントの会話体験の進化である&#x200B;**同僚チャット**&#x200B;にアクセスできます。 Coworker Chatなら、自然言語を使ってCXO製品のタスクを自動化し、柔軟なプランニング、カスタマイズ可能なスキル、インテリジェントな実行によってアイデアをすばやくアクションに結び付けることができます。
 
 対象となるすべてのお客様は、AI アシスタントおよびAdobe Experience Platform AgentsからCoworker Chatにローリングベースで移行されます。 また、一部のお客様は、Coworker Chatが有効になるまで、AI アシスタントおよびExperience Platform Agentsへのアクセスを保持する場合があります。 Coworker Campaignsはこの体験版の対象外です。
 
-**AI アシスタント**: Agent Orchestratorを活用したフルページの没入感のある会話型インターフェイスで、製品をまたいで機能し、有効なCX Enterprise製品を使用して実務担当者が生成AIとエージェント型AIの機能を活用できるようにします。 詳しくは、[AI アシスタント UI ガイド &#x200B;](../ai-assistant/ai-assistant-ui.md)を参照してください。
+**AI アシスタント**: Agent Orchestratorを活用したフルページの没入感のある会話型インターフェイスで、製品をまたいで機能し、有効なCX Enterprise製品を使用する実務担当者は生成AIとエージェント型AIの機能を活用できます。 詳しくは、[AI アシスタント UI ガイド &#x200B;](../ai-assistant/ai-assistant-ui.md)を参照してください。
 
 **Adobe Experience Platform Agents**：顧客体験の領域カテゴリ全体で共通のジョブを提供するスキルを持つ、専用AI エージェント。 エージェントを活用することで、エクスペリエンスをより迅速かつ効果的に構築、提供する能力を拡大し、次のレベルの生産性と効率性を引き出すことができます。 各CX Enterprise アプリケーションで利用できるエージェントについては、[CX EnterpriseのAgentic AI](../overview/agentic-ai.md)に関するドキュメントをご覧ください。
 
@@ -40,7 +45,7 @@ Adobeの裁量により、体験版のお客様は、AI アシスタントの会
 対象となるお客様には、以下に使用する最大10,000個のAI クレジットの最初の1回限りの使用権限が付与されます。
 
 - 同僚チャット：同僚チャットに入力された入力。 導入期間が限られている場合、入力は1入力あたり25件のAI クレジットの割合でAI クレジットを使用します。 この料金は期間限定で、変更される場合があります。
-- Experience Platform Agents: [AI クレジット消費量テーブル &#x200B;](../overview/ai-credit-consumption.md)に記載されているExperience Platform Agentsを使用して実行されたジョブの組み合わせ（CX Enterprise アプリケーションへの既存のライセンスに応じて）。
+- Experience Platform Agents: [AI クレジット消費表](../overview/ai-credit-consumption.md)に記載されているExperience Platform Agents （CX Enterprise アプリケーションへの既存のライセンスに応じて）を使用して実行されるジョブの組み合わせ。
 
 Adobe Experience Platform UIのライセンス使用状況ダッシュボードを使用して、AI クレジットを追跡できます。 詳しくは、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/dashboards/guides/license-usage)を参照してください。
 
@@ -56,7 +61,7 @@ Adobe Experience Platform UIのライセンス使用状況ダッシュボード�
 
 ### 同僚とのチャット
 
-対象となるお客様のユーザーは、体験版の一環としてCoworker Chatにデフォルトでアクセスできるため、操作は必要ありません。 Coworker Chatは、ユーザーのガイダンスと監視の下で動作し、組織の既存の製品レベルのアクセス制御を尊重します。 利用者が実行できるアクションは、その組織の基盤となるCX エンタープライズ製品内ですでに許可されているアクションのみです。
+対象となるお客様のユーザーは、体験版の一環としてCoworker Chatにデフォルトでアクセスできるため、操作は必要ありません。 Coworker Chatは、ユーザーのガイダンスと監視の下で動作し、組織の既存の製品レベルのアクセス制御を尊重します。 利用者がアクションを実行できるのは、組織の基盤となるCX Enterprise製品内で既に実行が許可されているアクションのみです。
 
 ユーザーは、CX Enterpriseの上部ヘッダーのアプリケーションセレクターからCoworkerを選択してアクセスできます。
 
@@ -68,9 +73,9 @@ Coworker Chatに移行していないお客様：
 
 ### Agent OrchestratorのAI アシスタントを利用して、Experience Platform Agentsにアクセスできます
 
-対象となる顧客のユーザーは、体験版の一部としてAI アシスタントとエージェントにデフォルトでアクセスできるため、操作は必要ありません。 Experience Platform Agentsは、ユーザー入力と監視によって導かれます。 また、エージェントは事前に定義された製品レベルのアクセス制御を尊重するため、ユーザーは該当するCX Enterprise製品内で権限を持つジョブのみを実行したり、アクションを実行したりできます。
+対象となる顧客のユーザーは、体験版の一部としてAI アシスタントとエージェントにデフォルトでアクセスできるため、操作は必要ありません。 Experience Platform Agentsは、ユーザー入力と監視によって導かれます。 また、エージェントは事前に定義された製品レベルのアクセス制御を尊重するため、ユーザーは該当する基本CX Enterprise製品内で権限を持つジョブのみを実行したり、アクションを実行したりできます。
 
-アクセスできたら、Adobe CX Enterpriseのホームページに移動して、AI アシスタントを使い始めます。 [検出プロンプト &#x200B;](../ai-assistant/ai-assistant-ui.md#discovery-prompts)を使用して、プロンプトおよび一般的なワークフローの候補を表示できます。 この機能は、AI アシスタントによるオンボーディングの高速化に役立ちます。 さらに、様々なエージェントで使用できる様々なプロンプトについては、[&#x200B; プロンプトライブラリ &#x200B;](../ai-assistant/prompt-library.md)を参照してください。 詳しくは、[AI アシスタント UI ガイド &#x200B;](../ai-assistant/ai-assistant-ui.md)を参照してください。
+アクセスできたら、Adobe CX Enterpriseのホームページに移動して、AI アシスタントの利用を開始します。 [検出プロンプト &#x200B;](../ai-assistant/ai-assistant-ui.md#discovery-prompts)を使用して、プロンプトおよび一般的なワークフローの候補を表示できます。 この機能は、AI アシスタントによるオンボーディングの高速化に役立ちます。 さらに、様々なエージェントで使用できる様々なプロンプトについては、[&#x200B; プロンプトライブラリ &#x200B;](../ai-assistant/prompt-library.md)を参照してください。 詳しくは、[AI アシスタント UI ガイド &#x200B;](../ai-assistant/ai-assistant-ui.md)を参照してください。
 
 お客様がこれらのエージェント機能へのアクセスをオプトアウトし、体験版アクセスを無効にする場合は、[cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com)にリクエストを送信してください。
 
@@ -78,7 +83,7 @@ Coworker Chatに移行していないお客様：
 
 Workfront、Agent Orchestrator、AI アシスタントの詳細については、次のガイドを参照してください。
 
-- [Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [同僚ガイド](https://experienceleague.adobe.com/ja/docs/coworker/content/home)
 - [Agent Orchestratorの概要](agent-orchestrator.md)
 - [AI アシスタント UI ガイド](../ai-assistant/ai-assistant-ui.md)
 - [AI アシスタントプロンプトライブラリ](../ai-assistant/prompt-library.md)
@@ -94,11 +99,11 @@ Agentic利用制限トライアルでは、対象となるお客様はCoworker C
 
 ### この体験版にはどのエージェントが含まれていますか？
 
-体験版に含まれるエージェントの完全なリストについては、[Agentic AI in CX Enterprise](../overview/agentic-ai.md)に関するガイドをご覧ください。
+体験版に含まれるエージェントの完全なリストについては、[CX EnterpriseのAgentic AIに関するガイド &#x200B;](../overview/agentic-ai.md)を参照してください。
 
 ### 誰がこのトライアルに参加できますか？
 
-Adobeが適切なサポートを提供できるように、一部の対象となるAdobe CX Enterpriseのお客様に体験版を段階的に展開しています。 ご興味のある方は、Adobe アカウントチームまでお問い合わせください。
+Adobeが適切なサポートを提供できるように、一部の対象Adobe CX Enterpriseのお客様に体験版を段階的に展開しています。 ご興味のある方は、Adobe アカウントチームまでお問い合わせください。
 
 ### AI クレジットを取得し、そのAI クレジットを使用するとどうなりますか？
 

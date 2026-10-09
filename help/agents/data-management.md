@@ -1,9 +1,9 @@
 ---
 title: Data Management Agent for Adobe Experience Platform
 description: CX CoworkerのData Management Agentを使用して、Adobe Experience Platform データセットを検索および分析し、データレイクの保持ポリシーを管理する方法について説明します。
-source-git-commit: 40f144c7a06592c78dccc6c17f19554b62f667c9
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1036'
 ht-degree: 3%
 ---
 # Data Management エージェント
@@ -50,7 +50,7 @@ Experience Event データセットを検索して分析し、データレイク
 - 使用するデータセットと保持アクションに必要なAdobe Experience Platform権限。 Data Management Agentは、既存のExperience Platform権限を使用し、追加のアクセス権を付与しません。 Adobe Experience Platformの権限と役割の仕組みについては、[&#x200B; アクセス制御の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home)を参照してください。
 - CX CoworkerにインストールされたAdobe CXO プラグイン。
 
-プラグインのインストール手順については、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)を参照してください。
+プラグインのインストール手順については、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/ui-guide)を参照してください。
 
 ## Data Management Agentの使用 {#use-the-data-management-agent}
 
@@ -62,13 +62,13 @@ Experience Event データセットを検索して分析し、データレイク
 
 Data Management Agentを使用するには：
 
-1. **[!UICONTROL CX Coworker]**&#x200B;に移動します。 アクセスの詳細については、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)を参照してください。
+1. **[!UICONTROL CX Coworker]**&#x200B;に移動します。 アクセスの詳細については、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/ui-guide)を参照してください。
 1. 達成したい目標を記述した要求を入力します。
 1. 結果を確認し、フォローアップの質問をもとに調査を継続します。
 
 リクエストでデータレイクの保持ポリシーが変更された場合、Data Management Agentは提案された影響を示し、変更を適用する前に確認を必要とします。
 
-データセットの特定、使用状況と保持の影響の分析、データレイク保持ポリシーの管理のためのエンドツーエンドのワークフローについては、[&#x200B; データレイク保持の管理](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md)を参照してください。
+データセットの特定、使用状況と保持の影響の分析、データレイク保持ポリシーの管理のためのエンドツーエンドのワークフローについては、[&#x200B; データレイク保持の管理](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention)を参照してください。
 
 ## Data Management Agentの仕組み {#how-the-data-management-agent-works}
 
@@ -80,6 +80,6 @@ Data Management Agentは、データレイクの保持ポリシーの適切な�
 
 ## 次の手順 {#next-steps}
 
-Experience Event データセットでデータレイクの保持を検索、分析、管理する各スキルの使用方法については、[&#x200B; データレイクの保持の管理](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md)を参照してください。
+Experience Event データセットでデータレイクの保持を検索、分析、管理する各スキルの使用方法については、[&#x200B; データレイクの保持の管理](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention)を参照してください。
 
 保持の動作や設定など、Adobe Experience Platformでのデータレイク保持ポリシーの動作について詳しくは、[Experience Event データセット保持（TTL）ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)を参照してください。

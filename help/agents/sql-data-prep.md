@@ -1,9 +1,9 @@
 ---
 title: 同僚でのSQL データの準備
 description: CoworkerのSQL データ準備を使用して、SQL クエリを生成、最適化、トラブルシューティング、スケジュールする方法を説明します。
-source-git-commit: dff76b520c013554276e72a3e19b5d56c16af5fa
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1126'
 ht-degree: 3%
 ---
 # 同僚でのSQL データの準備
@@ -29,7 +29,7 @@ CoworkerでSQL データ準備を使用する前に、次のことを確認し�
 
 CoworkerがSQLを生成または更新した後、会話を続行して結果をプレビューしたり、クエリを調整したり、保存したり、繰り返し実行のためにスケジュールしたりできます。
 
-Coworker インターフェイスの使用に関するガイダンスについては、[Coworker UI ガイド &#x200B;](../coworker/chat/ui-guide.md)を参照してください。
+Coworker インターフェイスの使用に関するガイダンスについては、[Coworker UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/ui-guide)を参照してください。
 
 ## サポートされている機能 {#supported-capabilities}
 

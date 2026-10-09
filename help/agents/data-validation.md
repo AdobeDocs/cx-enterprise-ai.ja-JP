@@ -1,9 +1,9 @@
 ---
 title: AI アシスタントでデータを検証する
 description: AI アシスタントでAgent Orchestratorを活用したデータ検証を使用して、データセットに対して統計的および意味的な検証を実行する方法を説明します。
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1616'
 ht-degree: 0%
 ---
 # AI アシスタントでデータを検証する
@@ -24,7 +24,7 @@ AI アシスタントでデータを検証する方法について詳しくは�
 
 >[!NOTE]
 >
->データ検証は、従業員のスキルとしても利用できます。 [Experience Platform データを共同作業者と検証する](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md)を参照してください。
+>データ検証は、従業員のスキルとしても利用できます。 [Experience Platform データを共同作業者と検証する](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep)を参照してください。
 
 ## ユースケース
 
