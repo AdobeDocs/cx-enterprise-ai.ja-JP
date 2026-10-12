@@ -11,10 +11,7 @@ jira: KT-22080
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -24,4 +21,4 @@ ht-degree: 0%
 
 通常、オーディエンス、ジャーニー、データセット、宛先がどのように接続しているかを監査することは、手作業による時間のかかる作業です。 このビデオでは、CoworkerがAdobe Experience Platform（AEP）環境の全体像を生成し、業界のベストプラクティスに照らしてベンチマークテストを実施し、その結果を活用して新しいオーディエンスを構築する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496868/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496848/?learn=on&enablevpops)

@@ -1,18 +1,15 @@
 ---
-description: Adobe Workfrontの対話型インターフェイスを利用して、Adobe Adobeと連携したシステムをまたいで、数分で顧客体験の作業を計画、実行、完了できる方法をご確認ください。
-title: Adobe CX エンタープライズチャットの概要
+description: Coworker チャットで対話型インターフェイスを使用して、アドビと接続されたシステムをまたいでカスタマーエクスペリエンスの作業を数分で計画、実行、完了する方法について説明します。
+title: Adobe CX Enterprise Coworker チャットの概要
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 741
-ht-degree: 1%
-
+source-wordcount: '741'
+ht-degree: 4%
 ---
-
-# Adobe CX エンタープライズチャットの概要 {#overview}
+# Adobe CX Enterprise Coworker チャットの概要 {#overview}
 
 同僚とのチャットは、顧客体験を実現するための会話型インターフェイスです。 目標を平易な言葉で説明し（例：「春のヨガプロモーションのオーディエンスを作成する」、または「このオーディエンスが先週縮小した理由を教えてください」）、Coworker Chatが作業を計画し、Adobeと接続されたシステムをまたいで実行し、結果を検証し、完成した作業を承認のために返します。
 
@@ -43,7 +40,7 @@ AI アシスタントとAdobe Experience Platform Agent Orchestratorをすでに
 >
 >エクスペリエンスが完成したら、インターフェイスのスクリーンショットが追加されます。
 
-## 互換性のあるCX エンタープライズアプリケーション
+## 互換性のあるCX Enterprise アプリケーション
 
 次のCX Enterprise アプリケーションは、Coworker Chatと互換性があります。
 
@@ -55,7 +52,7 @@ AI アシスタントとAdobe Experience Platform Agent Orchestratorをすでに
 * Workfront
 * Marketo Engage
 * _Real-Time CDP B2B edition（近日リリース予定）_
-* _Adobe Journey Optimizer B2B edition（近日リリース予定）_
+* _Adobe Journey Optimizer B2B Edition（近日リリース予定）_
 * _Customer Journey Analytics B2B edition（近日リリース予定）_
 
 ## 構成要素
@@ -63,11 +60,11 @@ AI アシスタントとAdobe Experience Platform Agent Orchestratorをすでに
 Coworker ChatはCoworkerのビルディングブロックを活用しています。 現在、次の構成要素が利用可能です。
 
 * **エンタープライズ ハーネス：**&#x200B;目標を完了した作業に変換するエンジン。 継続的な自己修正ループ（理由、スキルの選択、実行、検証、繰り返し）を実行し、エラーから回復し、ジョブが実行されるまで並行して作業します。
-* 各タスクを適切に実行するために、プレーンなMarkdownで&#x200B;**スキル：**&#x200B;の再利用可能なプレイブック。 Coworker Chatには、今日の最も一般的な顧客体験タスクに対応するスキルが搭載されており、今後の目標は、あらゆるAdobe CX Enterprise アプリケーションをまたいで作業をカバーすることです。
+* 各タスクを適切に実行するために、プレーンなMarkdownで&#x200B;**スキル：**&#x200B;の再利用可能なプレイブック。 Coworker Chatには、今日の最も一般的な顧客体験タスクに対応するスキルが搭載されており、今後の目標は、あらゆるAdobe CX Enterpriseアプリケーションをまたいで作業をカバーすることです。
 * **MCP コネクタ：**&#x200B;は、すぐに使えるコネクタと独自のコネクタを使用して、Adobeおよびサードパーティシステム全体でアクションを実行するためのアクセスを管理します。
 * **ガバナンス：**&#x200B;の承認ゲート、Adobe組織から継承された権限、アクションの実行前に実行されるチェック、完全な監査証跡。
 * **メモリ：**&#x200B;同僚チャットは、組織全体のルールから個人の好みに至るまで、セッション全体でユーザーの好み、決定、修正を学習します。ユーザーが作業を進めば進めるほど、よりシャープになります。
 
 ## ビデオの概要
 
->[!VIDEO](https://video.tv.adobe.com/v/3495968?captions=jpn&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}

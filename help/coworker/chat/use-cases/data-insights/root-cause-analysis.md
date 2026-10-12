@@ -11,10 +11,7 @@ jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -26,4 +23,4 @@ ht-degree: 0%
  
 アナリストやマーケターは、自然言語を使うことで、データに関する質問、視覚化された結果の取得、有意義なトレンドの特定、パフォーマンスを促進する要因の発見などを、すべて1回の会話で行うことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496852/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)

@@ -4,10 +4,7 @@ title: プロンプト作成のベストプラクティス
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: d037ab69c5d03cba18dcfcdd8745c8f331765214
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 23%
@@ -137,7 +134,7 @@ AIが関連性の高いコンテンツを生成できるように、コンテキ
 <table style="table-layout: fixed; border-collapse: collapse; border: 0;">
 <thead>
 <tr style="border: 0;background-color: #FFFFFF;">
-<th>業界</th>
+<th>業種</th>
 <th>プロンプトの例</th>
 </tr>
 </thead>
@@ -179,4 +176,4 @@ AIが関連性の高いコンテンツを生成できるように、コンテキ
 
 >[!MORELIKETHIS]
 >
->同僚キャンペーンの[&#x200B; プロンプトパターン &#x200B;](use-cases.md)を参照します。
+>同僚キャンペーンの[ プロンプトパターン ](use-cases.md)を参照します。
