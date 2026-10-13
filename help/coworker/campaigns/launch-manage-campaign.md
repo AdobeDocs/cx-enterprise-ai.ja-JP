@@ -4,10 +4,7 @@ title: キャンペーンの立ち上げと管理
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 2%
@@ -75,7 +72,7 @@ ht-degree: 2%
 
 | フィールド | 説明 | 必須？ |
 | --- | --- | --- |
-| スケジュールモード | 「今すぐ」、「スケジュールを1回」または「繰り返し」の選択 | ○ |
+| スケジュールモード | 「今すぐ」、「スケジュールを1回」または「繰り返し」の選択 | はい |
 | 開始日 | キャンペーンが開始される日時（1回のスケジュール モード） | はい、スケジュールは1回です |
 | 頻度 | 日単位、週単位、月単位（定期モード） | はい、繰り返し |
 | 開始時間 | 定期的なキャンペーンが送信される時間帯 | はい、繰り返し |

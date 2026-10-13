@@ -3,32 +3,43 @@ description: Customer Journey AnalyticsのData Insights Agentを使用して、�
 title: Data Insights Agentでデータを視覚化
 role: User, Admin
 solution: Customer Journey Analytics
-TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
+TQID: 'https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+    internal-label: Analytics dashboards
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+    internal-label: Data management
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 2686
+source-wordcount: '2686'
 ht-degree: 4%
-
 ---
-
 # Data Insights Agentでデータを視覚化
 
 >[!AVAILABILITY]
@@ -123,7 +134,7 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
 
 1. [experience.adobe.com](https://experience.adobe.com/)に移動し、Adobe IDでログインします。
 
-2. CX Enterprise Homeから&#x200B;**Customer Journey Analytics**&#x200B;を選択します。
+2. CX Enterprise ホームから&#x200B;**Customer Journey Analytics**&#x200B;を選択します。
 
 3. プロジェクトページの上部にあるバナーで「**[!UICONTROL 空のプロジェクト]**」を選択して、新しい空のプロジェクトを開きます。
 
@@ -189,9 +200,9 @@ Data Insights Agentを使用してAnalysis Workspaceでデータ中心の質問�
 
 ![ドーナツ](/help/agents/assets/cja-agent/ai-asst-result3.png)
 
-## 顧客体験向けアプリケーションからのData Insights Agentへのアクセス
+## CX EnterpriseアプリケーションからのData Insights Agentへのアクセス
 
-Adobe Experience Platform Agent Orchestratorを使用すると、Adobe Journey OptimizerやReal-Time CDPなど、複数のAdobe CX エンタープライズアプリケーションでData Insights Agentの機能にアクセスできます。
+Adobe Experience Platform Agent Orchestratorを使用すると、Adobe Journey OptimizerやReal-Time CDPなど、複数のAdobe CX Enterprise アプリケーションでData Insights Agentの機能にアクセスできます。
 
 Agent Orchestratorを利用すれば、顧客のリクエストを解釈し、必要な専門エージェントを特定して、適切な対応を提供できます。 マルチターンのインタラクションをまたいでコンテキストを追跡できるため、以前のクエリをもとに自然に構築することができます。
 
@@ -201,7 +212,7 @@ Agent Orchestratorを利用すれば、顧客のリクエストを解釈し、�
 
 次に、一般的なプロンプトの例と、そのプロンプトに対してData Insights Agentが応答するために使用するビジュアライゼーションを示します。
 
-| プロンプト例 | 期待されるビジュアライゼーション |
+| プロンプトの例 | 期待されるビジュアライゼーション |
 | --- | --- |
 | [か月]に利益を表示 | 折れ線グラフ<p>デフォルトで特定の時間範囲内のトレンドまたは指標を要求すると、行のビジュアライゼーションが返されます。 |
 | [か月]のトレンド注文 | 折れ線グラフ |

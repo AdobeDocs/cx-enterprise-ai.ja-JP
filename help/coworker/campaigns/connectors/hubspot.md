@@ -3,15 +3,12 @@ description: HubSpot アカウントをCoworker Campaignsにサービスキー�
 title: HubSpotへの接続
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 258
+source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 # HubSpotへの接続 {#hubspot}
 
 Adobe Coworker Campaignsを使用すると、HubSpot アカウントを接続して連絡先リストを取得できます。
