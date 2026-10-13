@@ -4,10 +4,10 @@ description: Adobe CX Enterprise Coworkerについて学びましょう。組織
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
+source-git-commit: f7d9c1051261eecf2abe76849b70df57cb561696
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 15%
+source-wordcount: '951'
+ht-degree: 17%
 ---
 # CX Enterprise Coworkerの概要 {#overview}
 
@@ -23,16 +23,16 @@ Coworker Chatなら、自然言語を使ってAdobe Adobeのプロダクトタ�
 
 <!--
 CARDS
-* https://experienceleague.adobe.com/ja/playlists/coworker-get-started-with-chat
+* https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat
    {title = Get started with CX Enterprise Coworker Chat}
    {description = Learn the value of CX Enterprise Coworker Chat and start executing use cases.}
    {cta = Watch}
-   {image = https://video.tv.adobe.com/v/3498568?captions=jpn&format=jpeg}    
-*  https://experienceleague.adobe.com/ja/playlists/coworker-customize-chat
+   {image = https://video.tv.adobe.com/v/3498558?format=jpeg}    
+*  https://experienceleague.adobe.com/en/playlists/coworker-customize-chat
     {title = Customize CX Enterprise Coworker Chat}
     {description = Learn how Coworker can be customized with reusable skills, enterprise integrations, plugins, and memory to deliver context-aware, personalized, and business-specific AI experiences that fits how your team works.}
     {cta = Watch}
-    {image = https://video.tv.adobe.com/v/3502333?captions=jpn&format=jpeg}
+    {image = https://video.tv.adobe.com/v/3502323?format=jpeg}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -40,8 +40,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/ja/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chatの基本を学ぶ" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498568?captions=jpn&format=jpeg" alt="CX Enterprise Coworker Chatの基本を学ぶ"
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chatの基本を学ぶ" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="CX Enterprise Coworker Chatの基本を学ぶ"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -49,11 +49,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/ja/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker Chatの基本を学ぶ">CX Enterprise Coworker チャットの基本を学ぶ</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker Chatの基本を学ぶ">CX Enterprise Coworker チャットの基本を学ぶ</a>
                     </p>
                     <p class="is-size-6">CX Enterprise Coworker Chatの価値を学び、ユースケースを始めましょう。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/ja/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">視聴</span>
                 </a>
             </div>
@@ -63,8 +63,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/ja/playlists/coworker-customize-chat" title="CX Enterprise Coworker チャットのカスタマイズ" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502333?captions=jpn&format=jpeg" alt="CX Enterprise Coworker チャットのカスタマイズ"
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="CX Enterprise Coworker チャットのカスタマイズ" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502323?format=jpeg" alt="CX Enterprise Coworker チャットのカスタマイズ"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -72,11 +72,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/ja/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker チャットのカスタマイズ">CX Enterprise Coworker チャットのカスタマイズ </a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker チャットのカスタマイズ">CX Enterprise Coworker チャットのカスタマイズ </a>
                     </p>
                     <p class="is-size-6">再利用可能なスキル、エンタープライズ統合、プラグイン、メモリなどを使用して、チームの作業方法に合わせて同僚をカスタマイズし、コンテキストに応じてパーソナライズされたビジネスに特化したAI体験を提供する方法をご確認ください。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/ja/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">視聴</span>
                 </a>
             </div>
@@ -95,9 +95,13 @@ CARDS
   {title = Transforming CX Workflows with Adobe CX Enterprise Coworker}
   {description = Explore real-world use cases that demonstrate how organizations can put Coworker to work to uncover insights, create audiences, optimize journeys, and deliver customer experiences faster and more efficiently.}
   {cta = Watch}
-*  https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008
+* https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26
   {title = Audience and Journey B2C capabilities in Coworker}
   {description = See how Coworker can execute end-to-end workflows for customer experience orchestration, increasing productivity and simplifying otherwise technical or complex tasks.}
+  {cta = Watch}
+* https://engage.adobe.com/ExpLeagueLive-261021.html?cid=cwkr-ovw-20261021
+  {title = Harness the next frontier of agentic intelligence with CX Analytics in Coworker}
+  {description = See how Coworker helps analysts surface net-new intelligence from the data they already have, accelerate time-to-insight, and turn analysis into business outcomes.}
   {cta = Register}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -107,7 +111,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" title="Adobe CX Enterprise CoworkerでCX ワークフローを変革" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/exl-live-20260924.png" alt="Adobe CX Enterprise CoworkerでCX ワークフローを変革"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3503884/?format=jpeg&nocache=1791910908082" alt="Adobe CX Enterprise CoworkerでCX ワークフローを変革"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -129,8 +133,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" title="Adobe WorkfrontのオーディエンスおよびジャーニーB2C機能" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/exl-live-20261008.png" alt="Adobe WorkfrontのオーディエンスおよびジャーニーB2C機能"
+                    <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" title="Adobe WorkfrontのオーディエンスおよびジャーニーB2C機能" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504278/?format=jpeg&nocache=1791910908126" alt="Adobe WorkfrontのオーディエンスおよびジャーニーB2C機能"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -138,11 +142,34 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" target="_blank" rel="referrer" title="Adobe WorkfrontのオーディエンスおよびジャーニーB2C機能">同僚</a>のオーディエンスおよびジャーニー B2C機能
+                        <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" title="Adobe WorkfrontのオーディエンスおよびジャーニーB2C機能">同僚</a>のオーディエンスおよびジャーニー B2C機能
                     </p>
                     <p class="is-size-6">Coworkerが、顧客体験のオーケストレーションのためにエンドツーエンドのワークフローを実行する方法を紹介します。これにより、生産性を向上させ、技術的または複雑なタスクを簡素化できます。</p>
                 </div>
-                <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">視聴</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Harness the next frontier of agentic intelligence with CX Analytics in Coworker">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://engage.adobe.com/ExpLeagueLive-261021.html?cid=cwkr-ovw-20261021" title="CX Analyticsを活用して、エージェンシーインテリジェンスの次のフロンティアを実現" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="/assets/SiteConfig/21998-dx-Commercial-Social-Share-Image-Marketo.jpg" alt="CX Analyticsを活用して、エージェンシーインテリジェンスの次のフロンティアを実現"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://engage.adobe.com/ExpLeagueLive-261021.html?cid=cwkr-ovw-20261021" target="_blank" rel="referrer" title="CX Analyticsを活用して、エージェンシーインテリジェンスの次のフロンティアを実現">Adobe CX Analyticsを利用して、エージェンシーインテリジェンスの次のフロンティアを実現</a>
+                    </p>
+                    <p class="is-size-6">アナリストは、Adobe Workfrontを利用することで、既存のデータから最新のインサイトを入手し、insight化までの時間を短縮して、分析の成果を向上できます。その方法をご覧ください。</p>
+                </div>
+                <a href="https://engage.adobe.com/ExpLeagueLive-261021.html?cid=cwkr-ovw-20261021" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">登録</span>
                 </a>
             </div>
