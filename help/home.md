@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6908bfda861a96b10950728a9f83263335f707ea
+source-git-commit: 5810a7f782eaca7c34dda14a1eea12b435329c38
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 2%
+source-wordcount: '809'
+ht-degree: 5%
 ---
 # CX ENTERPRISE製品のAI
 
-このガイドでは、Adobe CX EnterpriseのAI能力：生成AI、CX Enterprise Coworker、AI アシスタント、Agent Orchestrator、MCPについて説明します。
+このガイドでは、Adobe CX EnterpriseのAI能力：生成AI、CX Enterprise Coworker、AI アシスタント、Agent Orchestratorについて説明します。
 
 ## AI機能の概要
 
@@ -88,21 +88,23 @@ Coworkerは、顧客体験とマーケティングのワークフローを自動
 
 エージェントの完全なリスト、各アプリケーションがサポートするアプリケーション、および適格要件については、[CX EnterpriseのAgentic AI](./overview/agentic-ai.md)を参照してください。
 
+<!--
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md)は、CX Enterpriseの統合モデル コンテキスト プロトコル （MCP） エンドポイントです。 [!DNL Claude]、[!DNL ChatGPT]、[!DNL Cursor]などのMCP互換クライアントを、組織が使用できる製品ツールへの単一の管理接続として提供します。
+[Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use:
 
 - [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
 - [Experience Platform tools](./mcp/aep-mcp.md)
 - [Journey Optimizer tools](./mcp/ajo-mcp.md)
 - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
 - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-- [Workfront MCP サーバーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)に記載されている[!DNL Workfront] ツール
-- [Target MCP サーバーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp)に記載されている[!DNL Target]個のツール
+- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] tools, documented in the [Target MCP server guide](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp)
 
-CX Coworker Gatewayを初めて使用する場合 [CX Coworker Gateway tools](./mcp/access.md)および[CX Coworker Gatewayのインストール &#x200B;](./mcp/install.md)を参照して、接続を取得してください。 接続したら、[&#x200B; セッションコンテキストツール &#x200B;](./mcp/context-tools.md)を使用して、製品ツールを呼び出す前に、アクティブな組織、サンドボックス、データビューを設定します。
+New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
 
-これらのツールを使用する前に、アクセス要件とプライバシーとセキュリティに関する考慮事項については、[開始する前](./overview/overview-ai-cxe.md#before-you-begin)を参照してください。
+Before you use any of these tools, see [Before you begin](./overview/overview-ai-cxe.md#before-you-begin) for access requirements and privacy and security considerations.
+-->
 
 ## ベストプラクティス
 
