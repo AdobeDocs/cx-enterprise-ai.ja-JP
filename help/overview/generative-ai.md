@@ -427,7 +427,7 @@ Marketoは、GenStudio for Performance Marketingや
 
 +++詳細
 
-* [Trust Centerの責任あるAI リソース &#x200B;](https://www.adobe.com/trust/responsible-ai.html)<!-- * [Customer AI Propensity Scoring Model Card](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai) -->
+* [Trust Centerの責任あるAI リソース &#x200B;](https://www.adobe.com/jp/trust/responsible-ai.html)<!-- * [Customer AI Propensity Scoring Model Card](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai) -->
 
 +++
 
