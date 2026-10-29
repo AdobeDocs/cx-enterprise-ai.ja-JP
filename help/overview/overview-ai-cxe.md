@@ -1,11 +1,11 @@
 ---
-title: CX エンタープライズにおけるAIについて
+title: CX Enterprise の AI について
 description: CX Enterpriseのさまざまなアプリケーションで生成AIとAgentic AIがどのように利用できるかを解説します。まずは、アクセス、プライバシー、セキュリティ要件を確認しましょう。
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
@@ -16,12 +16,12 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fccf9111460413fe5b89229564a682827152b1ab
+source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 3%
+source-wordcount: '483'
+ht-degree: 6%
 ---
-# CX エンタープライズにおけるAIについて
+# CX Enterprise の AI について
 
 Adobe CX Enterpriseのアプリケーションでは、AIを次の2つの補完的な方法で利用します。コンテンツの作成や回答の取得を直接指示する&#x200B;**生成AI**&#x200B;と、マルチステップの作業を計画および実行する&#x200B;**エージェント型AI**&#x200B;が、お客様の監視下で実行されます。 次のトピックでは、CX Enterpriseで利用できるAIの種類を大まかに説明します。
 
