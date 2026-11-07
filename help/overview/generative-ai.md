@@ -135,7 +135,7 @@ Coworkerは、次の方法で利用できます。
 | | _AJO Prime_&#x200B;および&#x200B;_Ultimate_&#x200B;では、テキストと画像に対するプロアクティブなコンテンツのバリエーションの提案を行うために[Content generation](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en)を提供しています。 | ○ |
 | [Adobe Journey Optimizer B2B Edition](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | 製品知識のためのAI アシスタント： | × |
 | [[!DNL Campaign]  マネージドクラウドサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/ai-assistant/generative-gs) | コンテンツアクセラレーター用のAI アシスタントは、メール、SMS、プッシュ通知などのチャネルをまたいで、マーケティング目標にもとづいて、パーソナライズされた、魅力的で効果的なコンテンツを自動的に生成します。 | ○ |
-| **[!DNL Customer Journey Analytics]** | GenAIは、次の場面で使用されます。<ul><li> [&#x200B; インテリジェントなキャプション &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：最も頻繁に使用されるWorkspace ビジュアライゼーションに関するインサイト。</li><li>[Content Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): アセットメタデータを自動的に割り当てます。</li></ul> AI アシスタント：<ul><li>[製品ナレッジ &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[製品サポートエージェント &#x200B;](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | × |
+| **[!DNL Customer Journey Analytics]** | GenAIは、次の場面で使用されます。<ul><li> [&#x200B; インテリジェントなキャプション &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：最も頻繁に使用されるWorkspace ビジュアライゼーションに関するインサイト。</li><li>[Content Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): アセットメタデータを自動的に割り当てます。</li></ul> AI アシスタント：<ul><li>[製品ナレッジ &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[製品サポートエージェント &#x200B;](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | × |
 | [Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home) | Experience Leagueの製品ナレッジ用[!DNL AI Assistant]。 また、運用に関するインサイトも提供します。 | × |
 | **[!DNL Marketo]** | 生成AIは、電子メール Designer（Fireflyあり）、[Dynamic Chat](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en)、[&#x200B; インタラクティブウェビナー](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en)で利用できます。<br> MARKETO ENGAGE [電子メール Designer](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant)のAI アシスタント | ○ |
 | [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/introduction/assistant-ai/ai-assistant) | 製品知識のためのAI アシスタント： | × |
@@ -315,7 +315,7 @@ Journey Optimizer B2B Editionでは、[!UICONTROL AI アシスタント &#x200B;
 
 Customer Journey Analyticsでは、生成AIまたはAI アシスタントを次の方法で使用できます。
 
-* 製品知識については、[AI アシスタント &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)を利用できます。
+* 製品知識については、[AI アシスタント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)を利用できます。
 * 最も頻繁に使用されるWorkspace ビジュアライゼーションの重要なインサイトを自然言語で提供する[&#x200B; インテリジェント キャプション &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)。
 * [Content Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/content-analytics/report/report#template)を使用すると、すべてのアセットメタデータを自動的に割り当てることができます。
 
@@ -327,7 +327,7 @@ Experience Leagueの製品情報をご覧ください。 初めての方は、Cu
 
 経験豊富なユーザーは、高度なユースケースを経験したり、タスクを迅速に実行するための戦略を学んだりできます。 コンセプトの理解、課題のトラブルシューティング、情報の検索をすばやく実行できます。
 
-[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="CJAのAI アシスタントについてさらに詳しく"}
+[!BADGE 詳細情報]{type=Informative url="https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="CJAのAI アシスタントについてさらに詳しく"}
 
 **インテリジェントなキャプション**
 
