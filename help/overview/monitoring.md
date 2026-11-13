@@ -22,21 +22,24 @@ subfeature_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: aba8260fc0aa8e2df892a985704ae56d4fc62b9a
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '1024'
 ht-degree: 2%
-
 ---
-
 # Agentic AI モニタリングダッシュボード
 
 エージェント型AI [!UICONTROL 監視] ダッシュボードは、センターオブエクセレンス （COE） メンバーおよびその他のガバナンス関係者に、エージェント型AIの使用と導入に関する可視性を提供します。 7日間または30日間のトレンドを表示して、[!DNL AI Assistant]またはその他のサーフェス（[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)など）を使用して[!DNL Experience Platform Agents]とインタラクションするユーザーとそのユーザーが受け取る値を確認します。 これらのビューを組み合わせることで、エージェントの導入を仮定ではなくデータで導くことができます。
+
+>[!IMPORTANT]
+>
+>このダッシュボードの指標は、[!DNL Coworker]の使用状況を反映していません。 [!DNL Coworker]監視ダッシュボードは開発中で、使用可能になったときに文書化されます。
 
 **対象**
 
 * 現在、少なくとも1つのExperience Platform ネイティブアプリケーション（Customer Journey Analytics、Journey Optimizer、Real-Time CDP）のライセンスを持つアカウントは、このダッシュボードにアクセスできます
 * Experimentation Accelerator、LLM Optimizer、Sites Optimizerなどの[AI ファースト アプリケーション &#x200B;](agentic-ai.md#ai-first-cx-enterprise-applications)の使用状況と導入状況に関する指標は、このダッシュボードには含まれません。
+* [!DNL Coworker] ダッシュボードは近日公開予定です。
 
 [!UICONTROL 監視] ダッシュボードには、次のビューが含まれます。
 
@@ -47,13 +50,13 @@ ht-degree: 2%
 | **フィードバック** | レスポンスの質とユーザー満足度に関するシグナル |
 | **AI クレジット** | クレジット消費の動向と残高バランス |
 
-Adobe CX Enterprise[&#128279;](agentic-ai.md)の[Agentic AI ドキュメントには、既存のCX Enterprise アプリ &#x200B;](agentic-ai.md#existing-apps-table)のAI エージェントの使用状況モニタリングの対象範囲のエージェントが一覧表示されています。
+Adobe CX Enterprise[&#128279;](agentic-ai.md)の[Agentic AI ドキュメントには、既存のCX Enterprise アプリケーション &#x200B;](agentic-ai.md#existing-apps-table) テーブルのAI エージェントで使用状況を監視するスコープ内のエージェントが一覧表示されます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491869?captions=jpn&learn=on)
 
 ## ダッシュボード権限の有効化 {#permissions}
 
-承認済みの各ユーザーの製品プロファイルまたは役割を更新して、[!DNL Adobe Experience Platform]でのダッシュボードへのアクセス権を付与します。 [!UICONTROL 監視]機能は、権限が有効になった後、CX エンタープライズ ホームページのユーザーに表示されます。
+承認済みの各ユーザーの製品プロファイルまたは役割を更新して、[!DNL Adobe Experience Platform]でのダッシュボードへのアクセス権を付与します。 [!UICONTROL 監視]機能は、権限が有効になった後、CX Enterprise ホームページのユーザーに表示されます。
 
 >[!IMPORTANT]
 >
