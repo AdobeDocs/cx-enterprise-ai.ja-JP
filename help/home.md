@@ -25,23 +25,18 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
+source-git-commit: 9dab42a742d258dd7d3dea3ae555a6f8b3ecac9b
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 5%
+source-wordcount: '800'
+ht-degree: 4%
 ---
 # CX ENTERPRISE製品のAI
 
-このガイドでは、Adobe CX EnterpriseのAI能力：生成AI、CX Enterprise Coworker、AI アシスタント、Agent Orchestratorについて説明します。
+このガイドでは、Adobe CX Enterprise全体で利用できるAI機能であるCoworker、AI Assistant、Agent OrchestratorとExperience Platform Agentsについて解説します。 以下の概要から、これらの機能がどのように関連しているかを理解し、リンクに従ってアクセスを設定し、使用状況を監視し、各機能を最大限に活用します。
 
-## AI機能の概要
-
-CX Enterpriseのどこで、どのようにAIが使用されているかについては、こちらをご覧ください。
-
-- [Coworker](https://experienceleague.adobe.com/ja/docs/coworker/content/home)は、担当者を第一に考えたチームメイトで、完了した顧客体験とマーケティング業務を計画、実行、検証し、承認のために返します。
 - [生成AIについて](./overview/generative-ai.md)は、生成AIとAI アシスタントをサポートしているCX Enterprise アプリケーションと、それらの比較方法について説明します。
 - [&#x200B; エージェンティック AIについて](./overview/agentic-ai.md)は、既存のCX Enterprise アプリケーションとAI ファースト アプリケーションの両方でエージェンティック AIがどのように機能するかを説明し、それぞれに使用可能なエージェントを一覧表示します。
-- [AI モニタリング &#x200B;](./overview/monitoring.md)では、エージェントの導入、使用状況、フィードバック、AI クレジット消費を追跡するダッシュボードについて説明します。
+- [AI モニタリング &#x200B;](./overview/monitoring.md)では、エージェントの導入、使用状況、フィードバック、AI クレジット消費を追跡するAI アシスタント ダッシュボードについて説明します。
 - [AI クレジットの消費](./overview/ai-credit-consumption.md)は、エージェント ジョブがAI クレジットを消費する方法を、エージェントとジョブのタイプ別の推定消費率で説明します。
 - [生成AI コンテンツの透明性](./content-transparency.md)は、Adobeが自動的にC2PA メタデータをCX Enterprise アプリケーション全体の生成AI生成および生成AI編集コンテンツに添付する方法を説明します。
 - [CX Enterprise エージェンティック ツール &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-agentic-tools/using/overview)では、CX Enterprise エージェントを拡張するエージェンティック スキルとツールについて説明します（ビデオ チュートリアル）。
@@ -53,7 +48,7 @@ Coworkerは、顧客体験とマーケティングのワークフローを自動
 チームメンバーは次の通りです。
 
 - **[同僚チャット &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/overview)**: データを探索し、オーディエンスとジャーニーを検証し、CX Enterprise アプリケーション全体でマルチステップのタスクを完了するための会話型インターフェイス。
-- **[同僚キャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/campaigns/overview)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。 組み込みのテンプレート、ベストプラクティス、プロンプトガイダンスを利用して、小規模なアジャイルチームが施策を迅速に立ち上げるのを支援します。 [Adobe for Business](https://business.adobe.com/jp/products/cx-enterprise-coworker/teams.html)の詳細をご覧ください。
+- **[チーム向け同僚](https://experienceleague.adobe.com/ja/docs/coworker/content/campaigns/overview)**: キャンペーンの概要、オーディエンスの作成、コンテンツ生成、ジャーニー設計、プルーフを単一の会話体験に統合するAI ネイティブのアプリケーションです。 組み込みのテンプレート、ベストプラクティス、プロンプトガイダンスを利用して、小規模なアジャイルチームが施策を迅速に立ち上げるのを支援します。 [Adobe for Business](https://business.adobe.com/jp/products/cx-enterprise-coworker/teams.html)の詳細をご覧ください。
 - **同僚プロジェクト** （近日リリース予定）: エンドツーエンドの顧客体験オーケストレーションワークフローを自動化し、チームがタスク、承認、実行を調整して、戦略から納品までの成果を促進するための統合ワークスペースです。 プロジェクトのドキュメントは近日公開予定です。
 
 適格な顧客は、AI アシスタントやExperience Platform AgentsからCoworker Chatへ徐々に移行しています。

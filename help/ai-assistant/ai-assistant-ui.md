@@ -17,18 +17,18 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+source-git-commit: 88ac5904cbf810a32d3cfde06c8ab18ae5f53746
 workflow-type: tm+mt
-source-wordcount: 2162
+source-wordcount: '2219'
 ht-degree: 3%
-
 ---
-
 # AI アシスタント
+
+このドキュメントは、AI アシスタント（次世代）に適用されます。 AI アシスタント （従来）について詳しくは、Adobe Experience Platform ドキュメントの[AI アシスタント UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home)を参照してください。
 
 >[!IMPORTANT]
 >
->このドキュメントは、AI アシスタント（次世代）に適用されます。 AI アシスタント （従来）について詳しくは、Adobe Experience Platform ドキュメントの[AI アシスタント UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home)を参照してください。
+>Adobe CX Enterprise Coworkerは、AI アシスタントの進化を強力にサポートし、ユーザーの作業を迅速化するのに役立ちます。 Coworkerは、チームが現在AI アシスタントを活用しているあらゆるものを取り入れて拡張することで、ルーチンワークの自動化、生産性の向上、よりスマートでインサイトに満ちた意思決定の促進を支援します。 [学習を増やす](https://business.adobe.com/jp/products/cx-enterprise-coworker.html)。
 
 AI アシスタント（レガシー）とAI アシスタント（次世代）の比較については、次の表を参照してください。
 
@@ -37,7 +37,7 @@ AI アシスタント（レガシー）とAI アシスタント（次世代）�
 | ユーザーエクスペリエンス | AI アシスタント（レガシー）は、右側のパネルでのみ使用できます。 | AI アシスタント（次世代）は、右側のパネルと没入型のフルスクリーン体験の両方で利用できます。 |
 | 機能の範囲 | AI アシスタント（レガシー）は、製品知識と運用インサイトの両方に活用できます。 | AI アシスタント（次世代）は、製品知識、運用インサイト、高度なエージェント型スキル、マルチステップのタスク実行などに使用できます。 |
 | プラットフォームアーキテクチャ | AI アシスタント（レガシー）は、Agent Orchestratorスタック上に構築されていません。 | [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/agents/agent-orchestrator)が提供するAI アシスタント （次世代）は、機能をまたいで拡張性と高度な連携を可能にします。 |
-| 適用範囲 | AI アシスタント（レガシー）は、アプリケーション固有の実装です。 | Adobe CX Enterpriseのあらゆるアプリケーションで、AI アシスタントを利用して、統合されたAI アシスタント体験を実現できます。 |
+| 適用範囲 | AI アシスタント（レガシー）は、アプリケーション固有の実装です。 | AI アシスタント（次世代）を利用すれば、あらゆるAdobe CX Enterpriseアプリケーションをまたいで、統合されたAI アシスタント体験を実現できます。 |
 | アクセスと権限のモデル | アプリケーション範囲のアクセスモデルを個々の製品境界に合わせて調整。 | 利用者は誰でも、AI アシスタント（次世代）と関連するExperience Platformエージェントにアクセスできます。 **メモ**: <ul><li>**Adobe Experience Manager**：管理者は、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を通じてAI アシスタント （Next-Gen）にアクセスする権限を付与する必要があります。</li><li>**Customer Journey Analytics**：管理者は、[Customer Journey Analytics アクセス制御](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/access-control?lang=en)を通じてAI アシスタントにアクセスする権限を付与する必要があります。 これにより、製品知識やデータインサイトにもとづいた質問が可能になります。 |
 
 AI アシスタントは、Adobe Experience Platformベースのアプリケーションの生産性を向上させ、作業を再定義する、インテリジェントな会話型の生成AI ツールです。 AI アシスタントを使用して、Adobe Experience Platform Agentsやその他のAI機能にアクセスできます。
@@ -52,15 +52,15 @@ AI アシスタントの活用方法について、アドビのガイドでご�
 
 AI アシスタントにアクセスする方法はいくつかあります。
 
-CX エンタープライズ版のホームインターフェイスで、左側のナビゲーションから&#x200B;**[!UICONTROL AI アシスタント]**&#x200B;を選択して、AI アシスタントのフルスクリーンビューを起動します。
+CX Enterpriseのホームインターフェイスで、左側のナビゲーションから「**[!UICONTROL AI アシスタント]**」を選択して、AI アシスタントのフルスクリーンビューを起動します。
 
 +++選択して表示
 
-![左側のナビゲーションでAI アシスタント アイコンが選択されたCX エンタープライズ ホーム。](./assets/ai-assistant/from-experience-cloud.png)
+![左側のナビゲーションでAI アシスタントアイコンが選択されたCX Enterprise ホーム。](./assets/ai-assistant/from-experience-cloud.png)
 
 +++
 
-また、Experience Platform、Adobe Journey Optimizer、Customer Journey AnalyticsなどのCX Enterprise アプリケーションのホームページから、AI アシスタントを起動することもできます。 製品ホームページに移動し、上部ヘッダーから&#x200B;**AI アシスタントアイコン**&#x200B;を選択して、右側のパネルでAI アシスタントチャットパネルを起動します。
+また、Experience Platform、Adobe Journey Optimizer、Customer Journey AnalyticsなどのCX Enterprise アプリケーションのホームページからAI アシスタントを起動することもできます。 製品ホームページに移動し、上部ヘッダーから&#x200B;**AI アシスタントアイコン**&#x200B;を選択して、右側のパネルでAI アシスタントチャットパネルを起動します。
 
 +++選択して表示
 
@@ -224,7 +224,7 @@ AI アシスタントのコンテキスト設定機能を使用して、AI ア�
 
 | 情報ソース | 説明 | 例 |
 | --- | --- | --- |
-| アプリ | クエリに関連するCX エンタープライズ アプリケーション。 | Experience Platform、Journey Optimizer、Customer Journey Analyticsなど。 |
+| アプリ | クエリに関連するCX Enterprise アプリケーション。 | Experience Platform、Journey Optimizer、Customer Journey Analyticsなど。 |
 | サンドボックス | クエリに関連するデータセットまたは情報を含むサンドボックス。 | 製品（VA7）、開発。 |
 | Dataview | Customer Journey AnalyticsでAI アシスタントを使用する場合、データビュー設定はData Insights Agentが次のことを理解するのに役立ちます。 <ul><li>クエリするデータセット</li><li>利用可能なデータコンポーネント</li><li>データに対する回答を構造化する方法</li><li>Analysis Workspaceで作成するビジュアライゼーション</li></ul> | |
 
