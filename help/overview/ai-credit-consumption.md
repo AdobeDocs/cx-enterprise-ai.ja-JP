@@ -38,7 +38,7 @@ _AI クレジット_&#x200B;は、アクションまたはジョブの実行を�
 
 | 機能 | 説明 | サポートされているアプリケーション | AI クレジット |
 | --- | --- | --- | --- |
-| [ ブランドに応じたメタデータ ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | ブランドに即したカスタムメタデータの生成 | Adobe Experience Manager [!DNL Assets] | AI クレジット：1 （メタデータ生成10個あたり） |
+| [&#x200B; ブランドに応じたメタデータ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | ブランドに即したカスタムメタデータの生成 | Adobe Experience Manager [!DNL Assets] | AI クレジット：1 （メタデータ生成10個あたり） |
 | Digital Rights Management | 使用権限の抽出と管理 | Adobe Experience Manager [!DNL Assets] | 6 AI クレジット（処理された文書ごとに） |
 
 ### AEP Agentsのクレジット率
@@ -53,7 +53,7 @@ AIによるクレジットの使用状況は、実行されるジョブの複雑
 * 複雑な（多くの場合マルチステップ）タスクでは、より多くのクレジットが消費されます
 * 高度な推論、検証、マルチエージェントの調整、または統合を伴うタスクは、より多くのクレジットを消費します
 
-ライセンス済みのAEP アプリケーションで使用可能なCX Enterprise Agentsとagent ジョブを確認するには、[CX Enterprise Agentic AI機能カタログ ](https://agentic-capability-explorer.entapp.adproto.com/)を参照してください。
+ライセンス済みのAEP アプリケーションで使用可能なCX Enterprise Agentsとagent ジョブを確認するには、[CX Enterprise Agentic AI機能カタログ &#x200B;](https://agentic-capability-explorer.entapp.adproto.com/)を参照してください。
 
 #### エージェントの予測ジョブのクレジット率
 
