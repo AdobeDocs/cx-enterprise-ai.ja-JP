@@ -3,10 +3,9 @@ audience: user
 user-guide-title: CX Enterprise の AI
 user-guide-description: 実用的なドキュメント、実装ガイダンス、参考資料を通じて、AI アシスタント、同僚、エージェント、MCPの構築、設定、統合、拡張の方法を学びましょう。
 description: CX EnterpriseのAI ツールについてご確認ください。 CX EnterpriseのAIを利用して、製品知識を向上させ、運用上のインサイトを得ることができます。
-solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
+source-git-commit: e37384909f970135bf01575808b27d0283b6e951
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 22%

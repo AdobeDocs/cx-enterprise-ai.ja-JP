@@ -1,25 +1,24 @@
 ---
 title: AI クレジット消費
-description: CX エンタープライズアプリケーションでのAI クレジットの消費について説明します。
+description: CX Enterprise アプリケーションでのAI クレジットの使用について説明します。
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
+last-substantial-update: 2026-19-2026
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
-source-git-commit: 28e8b218e0923c9e463cce763a182b56a660d275
+source-git-commit: 47f06af825995d14691816ff1fc3e5592ffd6250
 workflow-type: tm+mt
-source-wordcount: 967
-ht-degree: 5%
-
+source-wordcount: '1033'
+ht-degree: 6%
 ---
-
 # AI クレジットの消費
 
-CX エンタープライズアプリケーションでのAI クレジットの消費について説明します。
+CX Enterprise アプリケーションでのAI クレジットの使用について説明します。
 
 ## AI クレジット
 
@@ -28,17 +27,25 @@ _AI クレジット_&#x200B;は、アクションまたはジョブの実行を�
 ## AI クレジットを使用する対象サービス
 
 * [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [CX EnterpriseのAI機能](#cx-enterprise-ai-capabilities)
 * [AEP Agents](#aep-agents-credit-rate)
 
 ### CX Enterprise Coworkerのクレジット率
 
 導入期間が限られている場合、同僚の入力は、1入力あたり25個のAI クレジットの割合でAI クレジットを使用します。 この料金は期間限定で利用でき、変更される場合があります。
 
+### CX EnterpriseのAI機能
+
+| 機能 | 説明 | サポートされているアプリケーション | AI クレジット |
+| --- | --- | --- | --- |
+| [&#x200B; ブランドに応じたメタデータ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | ブランドに即したカスタムメタデータの生成 | Adobe Experience Manager [!DNL Assets] | AI クレジット：1 （メタデータ生成10個あたり） |
+| Digital Rights Management | 使用権限の抽出と管理 | Adobe Experience Manager [!DNL Assets] | 6 AI クレジット（処理された文書ごとに） |
+
 ### AEP Agentsのクレジット率
 
 _エージェントジョブ_&#x200B;は、お客様からの指示に従って、AEP エージェントが特定の結果を得るために実行する一連のタスクとアクションです。
 
-AI アシスタントによる自然言語プロンプトを使用し、エージェントに特定のジョブの実行を依頼できます。 これらのデータに基づいて、Agent Orchestratorは適切な担当者を調整し、関連するCX Enterprise アプリケーション内の各ステップを実行します。
+AI アシスタントによる自然言語プロンプトを使用し、エージェントに特定のジョブの実行を依頼できます。 これらの入力にもとづいて、Agent Orchestratorは適切な担当者を調整し、関連するCX Enterpriseアプリケーション内で各ステップを実行します。
 
 AIによるクレジットの使用状況は、実行されるジョブの複雑さと価値によって異なります。
 
@@ -46,7 +53,7 @@ AIによるクレジットの使用状況は、実行されるジョブの複雑
 * 複雑な（多くの場合マルチステップ）タスクでは、より多くのクレジットが消費されます
 * 高度な推論、検証、マルチエージェントの調整、または統合を伴うタスクは、より多くのクレジットを消費します
 
-ライセンス済みのCX Enterprise アプリケーションで使用可能なAEP AgentsとAgent ジョブを確認するには、[CX Enterprise Agentic AI機能カタログ &#x200B;](https://agentic-capability-explorer.entapp.adproto.com/)を参照してください。
+ライセンス済みのAEP アプリケーションで使用可能なCX Enterprise Agentsとagent ジョブを確認するには、[CX Enterprise Agentic AI機能カタログ &#x200B;](https://agentic-capability-explorer.entapp.adproto.com/)を参照してください。
 
 #### エージェントの予測ジョブのクレジット率
 
@@ -74,6 +81,6 @@ AIによるクレジットの使用状況は、実行されるジョブの複雑
 
 ## このトピックの詳細ヘルプ
 
-* [CX エンタープライズにおける生成AI](generative-ai.md)
+* [CX Enterpriseの生成AI](generative-ai.md)
 * [CX Enterprise のエージェント型 AI](agentic-ai.md)
 * [Adobe Experience Platform Agents利用制限トライアル](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
