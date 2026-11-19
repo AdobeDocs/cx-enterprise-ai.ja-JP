@@ -38,7 +38,7 @@ _AI クレジット_&#x200B;は、アクションまたはジョブの実行を�
 
 | 機能 | 説明 | サポートされているアプリケーション | AI クレジット |
 | --- | --- | --- | --- |
-| [&#x200B; ブランドに応じたメタデータ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | ブランドに即したカスタムメタデータの生成 | Adobe Experience Manager [!DNL Assets] | AI クレジット：1 （メタデータ生成10個あたり） |
+| [&#x200B; ブランドに応じたメタデータ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | ブランドに即したカスタムメタデータの生成 | Adobe Experience Manager [!DNL Assets] | AI クレジット：1 （メタデータ生成10個あたり） |
 | Digital Rights Management | 使用権限の抽出と管理 | Adobe Experience Manager [!DNL Assets] | 6 AI クレジット（処理された文書ごとに） |
 
 ### AEP Agentsのクレジット率
